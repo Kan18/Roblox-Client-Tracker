@@ -611,7 +611,7 @@ qtnribbon4.dll
 ReflectionMetadata.xml
 bfb063d2c2079914e99e00f46c27cf06
 RobloxStudioBeta.exe
-fc655851df8b08eb1724b623bc68d045
+6ce7eefc66ea37a59daa91aa6bec0a23
 RobloxStudioRibbon.xml
 b94e6387ba50f1d63e64d924ed9bd453
 d3dcompiler_46.dll

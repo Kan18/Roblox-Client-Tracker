@@ -1208,6 +1208,7 @@ AuthenticationError
 AuthenticationHelper
 AuthenticationRequired
 Authenticator
+Authenticode
 AuthGOST01
 AuthGOST12
 AuthoredHipHeight
@@ -6361,7 +6362,6 @@ Corporation\Roblox
 Corporation\Roblox\FilteredExceptionCrash
 Corporation0
 Corporation1
-Corporation100.
 Corporation1402
 CorrodedMetal
 CorrodedMetal.png
@@ -10979,6 +10979,9 @@ GlobalMemoryStatusEx
 GlobalSettings
 GlobalSettings_13.xml
 GlobalShadows
+GlobalSign
+GlobalSign0
+GlobalSign1
 GlobalThrottleFirstBackoffMilliseconds
 GlobalThrottleMaxBackoffMilliseconds
 GlobalThrottleThreshold
@@ -14462,7 +14465,7 @@ NETSCAPE_SPKI
 NETSCAPE_SPKI_b64_decode
 NETSCAPE_SPKI_b64_encode
 NETSCAPE2.0
-Network1B0
+Network100.
 NetworkAccessManager
 NetworkAudit
 NetworkAuditEn2
@@ -15039,7 +15042,6 @@ OrderFunction
 OrderFunctionMenu
 OrFirstTier
 Organization
-Organization1
 OrganizationDomain
 OrganizationName
 Organizations
