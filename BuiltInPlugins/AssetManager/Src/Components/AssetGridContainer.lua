@@ -78,7 +78,7 @@ function AssetGridContainer:init()
                 ClassName = "Folder",
                 Screen = screen,
             }
-            props.dispatchOnAssetRightClick(props.API:get(), placesFolder, props.Localization, props.Plugin:get())
+            props.dispatchOnAssetRightClick(props.Analytics, props.API:get(), placesFolder, props.Localization, props.Plugin:get())
         end
     end
 
@@ -314,6 +314,7 @@ function AssetGridContainer:render()
 end
 
 ContextServices.mapToProps(AssetGridContainer,{
+    Analytics = ContextServices.Analytics,
     API = ContextServices.API,
     Localization = ContextServices.Localization,
     Plugin = ContextServices.Plugin,
@@ -341,8 +342,8 @@ local function mapDispatchToProps(dispatch)
         dispatchLoadAllAliases = function(apiImpl, assetType)
             dispatch(LoadAllAliases(apiImpl, assetType))
         end,
-        dispatchOnAssetRightClick = function(apiImpl, assetData, localization, plugin)
-            dispatch(OnAssetRightClick(apiImpl, assetData, localization, plugin))
+        dispatchOnAssetRightClick = function(analytics, apiImpl, assetData, localization, plugin)
+            dispatch(OnAssetRightClick(analytics, apiImpl, assetData, localization, plugin))
         end,
         dispatchOnScreenChange = function(apiImpl, screen)
             dispatch(OnScreenChange(apiImpl, screen))

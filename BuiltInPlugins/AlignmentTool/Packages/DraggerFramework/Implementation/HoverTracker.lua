@@ -7,7 +7,6 @@ local SelectionHelper = require(DraggerFramework.Utility.SelectionHelper)
 local SelectionWrapper = require(DraggerFramework.Utility.SelectionWrapper)
 
 local getFFlagDraggerRefactor = require(DraggerFramework.Flags.getFFlagDraggerRefactor)
-local getFFlagStudioServiceHoverInstance = require(DraggerFramework.Flags.getFFlagStudioServiceHoverInstance)
 
 if getFFlagDraggerRefactor() then
 	StudioService = nil
@@ -59,22 +58,20 @@ function HoverTracker:update(derivedWorldState, draggerContext)
 		end
 	end
 
-	if getFFlagStudioServiceHoverInstance() then
-		-- If you're hovering a handle, you're trying to start a drag, so
-		-- we don't want the additional visual clutter of any hoverInstance
-		-- related information getting in the way in that case.
-		if getFFlagDraggerRefactor() then
-			if self._hoverHandleId then
-				draggerContext:setHoverInstance(nil)
-			else
-				draggerContext:setHoverInstance(self._hoverInstance)
-			end
+	-- If you're hovering a handle, you're trying to start a drag, so
+	-- we don't want the additional visual clutter of any hoverInstance
+	-- related information getting in the way in that case.
+	if getFFlagDraggerRefactor() then
+		if self._hoverHandleId then
+			draggerContext:setHoverInstance(nil)
 		else
-			if self._hoverHandleId then
-				StudioService.HoverInstance = nil
-			else
-				StudioService.HoverInstance = self._hoverInstance
-			end
+			draggerContext:setHoverInstance(self._hoverInstance)
+		end
+	else
+		if self._hoverHandleId then
+			StudioService.HoverInstance = nil
+		else
+			StudioService.HoverInstance = self._hoverInstance
 		end
 	end
 
@@ -129,12 +126,10 @@ function HoverTracker:clearHover(draggerContext)
 	self._hoverPosition = nil
 	self._hoverHandleId = nil
 	self._hoverDistance = nil
-	if getFFlagStudioServiceHoverInstance() then
-		if getFFlagDraggerRefactor() then
-			draggerContext:setHoverInstance(nil)
-		else
-			StudioService.HoverInstance = nil
-		end
+	if getFFlagDraggerRefactor() then
+		draggerContext:setHoverInstance(nil)
+	else
+		StudioService.HoverInstance = nil
 	end
 end
 

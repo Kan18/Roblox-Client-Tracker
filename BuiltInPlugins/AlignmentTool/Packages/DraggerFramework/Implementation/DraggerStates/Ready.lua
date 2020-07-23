@@ -20,7 +20,6 @@ local HoverTracker = require(DraggerFramework.Implementation.HoverTracker)
 local StandardCursor = require(DraggerFramework.Utility.StandardCursor)
 
 local getFFlagSelectWeldConstraints = require(DraggerFramework.Flags.getFFlagSelectWeldConstraints)
-local getFFlagStudioServiceHoverInstance = require(DraggerFramework.Flags.getFFlagStudioServiceHoverInstance)
 
 local function areConstraintDetailsShown()
 	return StudioService.ShowConstraintDetails
@@ -51,17 +50,11 @@ function Ready:render(draggerTool)
 
 	local hoverSelectable = self._hoverTracker:getHoverSelectable()
 	if hoverSelectable then
-		if getFFlagStudioServiceHoverInstance() then
-			-- Don't show hover boxes for constraints with visible details, they
-			-- have their own special hover highlighting.
-			local isAttachmentOrConstraint =
-				hoverSelectable:IsA("Attachment") or hoverSelectable:IsA("Constraint")
-			if not areConstraintDetailsShown() or not isAttachmentOrConstraint then
-				elements.HoverBox = Roact.createElement(AnimatedHoverBox, {
-					hoverTarget = hoverSelectable,
-				})
-			end
-		else
+		-- Don't show hover boxes for constraints with visible details, they
+		-- have their own special hover highlighting.
+		local isAttachmentOrConstraint =
+			hoverSelectable:IsA("Attachment") or hoverSelectable:IsA("Constraint")
+		if not areConstraintDetailsShown() or not isAttachmentOrConstraint then
 			elements.HoverBox = Roact.createElement(AnimatedHoverBox, {
 				hoverTarget = hoverSelectable,
 			})
