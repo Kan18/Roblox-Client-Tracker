@@ -55,13 +55,6 @@ LargePill.validateProps = t.strictInterface({
 	backgroundColor = t.optional(t.Color3),
 	-- Callback function when the Pill is clicked
 	onActivated = t.callback,
-
-	-- optional parameters for RoactGamepad
-	NextSelectionLeft = t.optional(t.table),
-	NextSelectionRight = t.optional(t.table),
-	NextSelectionUp = t.optional(t.table),
-	NextSelectionDown = t.optional(t.table),
-	[Roact.Ref] = t.optional(t.table),
 })
 
 LargePill.defaultProps = {
@@ -115,11 +108,6 @@ function LargePill:render()
 				contentStateColorMap = contentColors,
 				onStateChanged = self.onStateChanged,
 				LayoutOrder = self.props.layoutOrder,
-				NextSelectionLeft = self.props.NextSelectionLeft,
-				NextSelectionRight = self.props.NextSelectionRight,
-				NextSelectionUp = self.props.NextSelectionUp,
-				NextSelectionDown = self.props.NextSelectionDown,
-				[Roact.Ref] = self.props[Roact.Ref],
 			}, {
 				UIListLayout = Roact.createElement("UIListLayout", {
 					FillDirection = Enum.FillDirection.Horizontal,

@@ -13,7 +13,6 @@ local Cryo = require(Packages.Cryo)
 local Interactable = require(Core.Control.Interactable)
 
 local ControlState = require(Core.Control.Enum.ControlState)
-local getContentStyle = require(script.Parent.getContentStyle)
 
 local withStyle = require(UIBlox.Core.Style.withStyle)
 local ImageSetComponent = require(Core.ImageSet.ImageSetComponent)
@@ -27,6 +26,42 @@ local validateImage = require(Core.ImageSet.Validator.validateImage)
 local CONTENT_PADDING = 5
 
 local GenericButton = Roact.PureComponent:extend("GenericButton")
+
+local function getButtonStyle(contentMap, controlState, style)
+
+	local buttonThemeClass = contentMap[controlState]
+		or contentMap[ControlState.Default]
+
+	local buttonStyle = {
+		Color = style.Theme[buttonThemeClass].Color,
+		Transparency = style.Theme[buttonThemeClass].Transparency,
+	}
+
+	--Based on the design specs, the disabled and pressed state is 0.5 * alpha value
+	if controlState == ControlState.Disabled or
+		controlState == ControlState.Pressed then
+			buttonStyle.Transparency = 0.5 * buttonStyle.Transparency + 0.5
+	end
+	return buttonStyle
+end
+
+local function getContentStyle(contentMap, controlState, style)
+
+	local contentThemeClass = contentMap[controlState]
+		or contentMap[ControlState.Default]
+
+	local contentStyle = {
+		Color = style.Theme[contentThemeClass].Color,
+		Transparency = style.Theme[contentThemeClass].Transparency,
+	}
+
+	--Based on the design specs, the disabled and pressed state is 0.5 * alpha value
+	if controlState == ControlState.Disabled or
+		controlState == ControlState.Pressed then
+			contentStyle.Transparency = 0.5 * contentStyle.Transparency + 0.5
+	end
+	return contentStyle
+end
 
 function GenericButton:init()
 	self.state = {
@@ -79,7 +114,7 @@ local validateProps = t.interface({
 	--The activated callback for the button
 	onActivated = t.callback,
 
-	--The state change callback for the button
+	--THe state change callback for the button
 	onStateChanged = t.optional(t.callback),
 
 	--A Boolean value that determines whether user events are ignored and sink input
@@ -123,7 +158,7 @@ function GenericButton:render()
 			isDisabled = true
 		end
 
-		local buttonStyle = getContentStyle(buttonStateColorMap, currentState, style)
+		local buttonStyle = getButtonStyle(buttonStateColorMap, currentState, style)
 		local textStyle = text and getContentStyle(textStateColorMap, currentState, style)
 		local iconStyle = icon and getContentStyle(iconStateColorMap, currentState, style)
 		local buttonImage = self.props.buttonImage

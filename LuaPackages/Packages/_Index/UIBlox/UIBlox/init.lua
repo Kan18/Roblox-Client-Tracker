@@ -41,12 +41,6 @@ local function initializeLibrary()
 			withStyle = require(script.Core.Style.withStyle),
 		}),
 
-		Text = strict({
-			ExpandableText = strict({
-				GetCanExpand = require(script.Core.Text.ExpandableText.ExpandableTextUtils).getCanExpand
-			}),
-		}),
-
 		InfiniteScroller = strict(require(Packages.InfiniteScroller)),
 	})
 
@@ -54,7 +48,6 @@ local function initializeLibrary()
 		ImageSet = strict({
 			Images = require(script.App.ImageSet.Images),
 			getIconSize = require(script.App.ImageSet.getIconSize),
-			getIconSizeUDim2 = require(script.App.ImageSet.getIconSizeUDim2),
 			Enum = strict({
 				IconSize = require(script.App.ImageSet.Enum.IconSize)
 			}),
@@ -62,11 +55,6 @@ local function initializeLibrary()
 
 		Accordion = strict({
 			AccordionView = require(script.App.Accordion.AccordionView),
-		}),
-
-		Bar = strict({
-			HeaderBar = require(script.App.Bar.HeaderBar),
-			RootHeaderBar = require(script.App.Bar.RootHeaderBar),
 		}),
 
 		Button = strict({
@@ -78,7 +66,6 @@ local function initializeLibrary()
 			SecondaryButton = require(script.App.Button.SecondaryButton),
 			AlertButton = require(script.App.Button.AlertButton),
 			ButtonStack = require(script.App.Button.ButtonStack),
-			TextButton = require(script.App.Button.TextButton),
 		}),
 
 		Cell = strict({
