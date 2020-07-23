@@ -34677,23 +34677,6 @@
         {
             "Members": [
                 {
-                    "Category": "Appearance",
-                    "MemberType": "Property",
-                    "Name": "LevelOfDetail",
-                    "Security": {
-                        "Read": "PluginSecurity",
-                        "Write": "PluginSecurity"
-                    },
-                    "Serialization": {
-                        "CanLoad": true,
-                        "CanSave": true
-                    },
-                    "ValueType": {
-                        "Category": "Enum",
-                        "Name": "ModelLevelOfDetail"
-                    }
-                },
-                {
                     "Category": "Data",
                     "MemberType": "Property",
                     "Name": "PrimaryPart",
@@ -35062,10 +35045,7 @@
                         "Category": "Group",
                         "Name": "Tuple"
                     },
-                    "Security": "None",
-                    "Tags": [
-                        "Deprecated"
-                    ]
+                    "Security": "None"
                 },
                 {
                     "MemberType": "Function",
@@ -35106,10 +35086,7 @@
                         "Category": "Group",
                         "Name": "Tuple"
                     },
-                    "Security": "None",
-                    "Tags": [
-                        "Deprecated"
-                    ]
+                    "Security": "None"
                 },
                 {
                     "MemberType": "Function",
@@ -35142,10 +35119,7 @@
                         "Category": "Group",
                         "Name": "Tuple"
                     },
-                    "Security": "None",
-                    "Tags": [
-                        "Deprecated"
-                    ]
+                    "Security": "None"
                 },
                 {
                     "MemberType": "Function",
@@ -51170,23 +51144,6 @@
                     }
                 },
                 {
-                    "Category": "Output",
-                    "MemberType": "Property",
-                    "Name": "Maximum Table Depth",
-                    "Security": {
-                        "Read": "None",
-                        "Write": "None"
-                    },
-                    "Serialization": {
-                        "CanLoad": true,
-                        "CanSave": true
-                    },
-                    "ValueType": {
-                        "Category": "Primitive",
-                        "Name": "int"
-                    }
-                },
-                {
                     "Category": "Script Editor Colors",
                     "MemberType": "Property",
                     "Name": "Number Color",
@@ -53335,26 +53292,6 @@
                     "ValueType": {
                         "Category": "Primitive",
                         "Name": "bool"
-                    }
-                },
-                {
-                    "Category": "Data",
-                    "MemberType": "Property",
-                    "Name": "ChildOrder",
-                    "Security": {
-                        "Read": "RobloxScriptSecurity",
-                        "Write": "RobloxScriptSecurity"
-                    },
-                    "Serialization": {
-                        "CanLoad": false,
-                        "CanSave": false
-                    },
-                    "Tags": [
-                        "Hidden"
-                    ],
-                    "ValueType": {
-                        "Category": "Primitive",
-                        "Name": "int"
                     }
                 },
                 {
@@ -65441,23 +65378,6 @@
         {
             "Items": [
                 {
-                    "Name": "Automatic",
-                    "Value": 0
-                },
-                {
-                    "Name": "StreamingMesh",
-                    "Value": 1
-                },
-                {
-                    "Name": "Disabled",
-                    "Value": 2
-                }
-            ],
-            "Name": "ModelLevelOfDetail"
-        },
-        {
-            "Items": [
-                {
                     "Name": "Alt",
                     "Value": 2
                 },
@@ -67397,12 +67317,8 @@
                     "Value": 2
                 },
                 {
-                    "Name": "TeleportPartyAsync",
+                    "Name": "TeleportToPartyAsync",
                     "Value": 3
-                },
-                {
-                    "Name": "TeleportUnknown",
-                    "Value": 4
                 }
             ],
             "Name": "TeleportMethod"

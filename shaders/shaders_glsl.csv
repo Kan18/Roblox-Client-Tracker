@@ -41,8 +41,6 @@ DefaultForceFieldHQFS,Fragment
 DefaultForceFieldSHQFS,Fragment
 DefaultGlassHQFS,Fragment
 DefaultGlassSuperHQFS,Fragment
-DefaultModelLodFS,Fragment
-DefaultModelLodVS,Vertex
 DefaultNeonFS,Fragment
 DefaultNeonHQFS,Fragment
 DefaultNeonHQInGuiFS,Fragment
@@ -142,8 +140,6 @@ ImageProcessLQNeonBlurBloomFS,Fragment
 ImageProcessLQNeonBlurBloomLinearFS,Fragment
 ImageProcessLQNeonBlurFS,Fragment
 ImageProcessLQNeonFS,Fragment
-ImGuiFS,Fragment
-ImGuiVS,Vertex
 LightGridPointSplatFS,Fragment
 LightGridPointSplatVS,Vertex
 LinearizeDepthFS,Fragment
