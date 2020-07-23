@@ -9,12 +9,10 @@ local GuiService = game:GetService("GuiService")
 local VRService = game:GetService("VRService")
 local Players = game:GetService("Players")
 local ABTestService = game:GetService("ABTestService")
-local RunService = game:GetService("RunService")
 
 local RobloxGui = game:GetService("CoreGui"):WaitForChild("RobloxGui")
 local CoreGuiModules = RobloxGui:WaitForChild("Modules")
 
-local Roact = require(CorePackages.Roact)
 local PolicyService = require(CoreGuiModules:WaitForChild("Common"):WaitForChild("PolicyService"))
 local initify = require(CorePackages.initify)
 
@@ -22,7 +20,8 @@ local initify = require(CorePackages.initify)
 local FFlagConnectionScriptEnabled = settings():GetFFlag("ConnectionScriptEnabled")
 local FFlagLuaInviteModalEnabled = settings():GetFFlag("LuaInviteModalEnabledV384")
 
-local FFlagUseRoactGlobalConfigInCoreScripts = require(RobloxGui.Modules.Flags.FFlagUseRoactGlobalConfigInCoreScripts)
+local FFlagUseRoactPlayerList = settings():GetFFlag("UseRoactPlayerList3")
+
 local FFlagConnectErrorHandlerInLoadingScript = require(RobloxGui.Modules.Flags.FFlagConnectErrorHandlerInLoadingScript)
 
 local isNewGamepadMenuEnabled = require(RobloxGui.Modules.Flags.isNewGamepadMenuEnabled)
@@ -46,15 +45,6 @@ local localPlayer = Players.LocalPlayer
 while not localPlayer do
 	Players:GetPropertyChangedSignal("LocalPlayer"):Wait()
 	localPlayer = Players.LocalPlayer
-end
-
--- Since prop validation can be expensive in certain scenarios, you can enable
--- this flag locally to validate props to Roact components.
-if FFlagUseRoactGlobalConfigInCoreScripts and RunService:IsStudio() then
-	Roact.setGlobalConfig({
-		propValidation = true,
-		elementTracing = true,
-	})
 end
 
 ABTestService:InitializeForUserId(localPlayer.UserId)
@@ -113,7 +103,11 @@ end
 
 -- Chat script
 coroutine.wrap(safeRequire)(RobloxGui.Modules.ChatSelector)
-coroutine.wrap(safeRequire)(RobloxGui.Modules.PlayerList.PlayerListManager)
+if FFlagUseRoactPlayerList then
+	coroutine.wrap(safeRequire)(RobloxGui.Modules.PlayerList.PlayerListManager)
+else
+	coroutine.wrap(safeRequire)(RobloxGui.Modules.PlayerlistModule)
+end
 
 -- Purchase Prompt Script
 coroutine.wrap(function()

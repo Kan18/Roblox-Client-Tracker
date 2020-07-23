@@ -59,7 +59,6 @@ function MainView:render()
 
 	local enabled = props.alignEnabled
 	local updateAlignment = props.updateAlignment
-	local analytics = props.Analytics
 	local localization = props.Localization
 	local theme = props.Theme:get("Plugin")
 	local layoutOrderIterator = LayoutOrderIterator.new()
@@ -116,7 +115,7 @@ function MainView:render()
 				Text = localization:getText("MainView", "AlignButton"),
 				OnClick = function()
 					if enabled then
-						updateAlignment(analytics)
+						updateAlignment()
 					end
 				end,
 			}),
@@ -172,7 +171,6 @@ ContextServices.mapToProps(MainView, {
 	Localization = ContextServices.Localization,
 	Plugin = ContextServices.Plugin,
 	Theme = ContextServices.Theme,
-	Analytics = ContextServices.Analytics,
 })
 
 local function mapStateToProps(state, _)
@@ -191,8 +189,8 @@ local function mapDispatchToProps(dispatch)
 			dispatch(UpdateAlignEnabled())
 		end,
 
-		updateAlignment = function(analytics)
-			dispatch(UpdateAlignment(analytics))
+		updateAlignment = function()
+			dispatch(UpdateAlignment())
 		end,
 
 		setAlignableObjects = function(objects)

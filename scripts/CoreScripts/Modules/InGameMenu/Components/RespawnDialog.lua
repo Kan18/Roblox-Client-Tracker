@@ -16,6 +16,8 @@ local ConfirmationDialog = require(script.Parent.ConfirmationDialog)
 local SendAnalytics = require(InGameMenu.Utility.SendAnalytics)
 local Constants = require(InGameMenu.Resources.Constants)
 
+local FFlagAllowReturnToConfirmRespawnCharacter = game:DefineFastFlag("AllowReturnToConfirmRespawnCharacter", false)
+
 local function RespawnDialog(props)
 	return withLocalization({
 		titleText = "CoreScripts.InGameMenu.RespawnCharacterDialogTitle",
@@ -30,7 +32,7 @@ local function RespawnDialog(props)
 			confirmText = localized.confirmText,
 			cancelText = localized.cancelText,
 
-			bindReturnToConfirm = true,
+			bindReturnToConfirm = FFlagAllowReturnToConfirmRespawnCharacter,
 
 			onCancel = props.onCancel,
 			onConfirm = props.onConfirm,
@@ -46,11 +48,7 @@ end, function(dispatch)
 	return {
 		onCancel = function()
 			dispatch(SetRespawning(false))
-			SendAnalytics(
-				Constants.AnalyticsInGameMenuName,
-				Constants.AnalyticsRespawnCharacterName,
-				{confirmed = Constants.AnalyticsCancelledName}
-			)
+			SendAnalytics(Constants.AnalyticsInGameMenuName, Constants.AnalyticsRespawnCharacterName, {confirmed = Constants.AnalyticsCancelledName})
 		end,
 		onConfirm = function()
 			dispatch(RespawnPlayer)

@@ -22,7 +22,15 @@ local AvatarMenuModules = CoreGuiModules:WaitForChild("AvatarContextMenu")
 local ContextMenuUtil = require(AvatarMenuModules:WaitForChild("ContextMenuUtil"))
 local ThemeHandler = require(AvatarMenuModules.ThemeHandler)
 
-local BlockingUtility = require(CoreGuiModules.BlockingUtility)
+local FFlagUseRoactPlayerList = settings():GetFFlag("UseRoactPlayerList3")
+
+local BlockingUtility
+if FFlagUseRoactPlayerList then
+	BlockingUtility = require(CoreGuiModules.BlockingUtility)
+else
+	local PlayerDropDownModule = require(CoreGuiModules:WaitForChild("PlayerDropDown"))
+	BlockingUtility = PlayerDropDownModule:CreateBlockingUtility()
+end
 
 -- VARIABLES
 

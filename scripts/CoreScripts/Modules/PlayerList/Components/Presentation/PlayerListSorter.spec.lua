@@ -72,7 +72,6 @@ return function()
 				}, {
 					PlayerListSorter = Roact.createElement(PlayerListSorter, {
 						screenSizeY = 1000,
-						entrySize = 200,
 					}),
 				})
 			})

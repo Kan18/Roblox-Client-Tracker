@@ -19,6 +19,7 @@
 			when the main window is not active
 ]]
 local FFlagAssetManagerLuaCleanup1 = settings():GetFFlag("AssetManagerLuaCleanup1")
+local FFlagMakePluginsActivatableInScripts = game:DefineFastFlag("MakePluginsActivatableInScripts", false)
 
 local Framework = script.Parent.Parent
 local Roact = require(Framework.Parent.Roact)
@@ -42,7 +43,9 @@ function PluginButton:createButton()
 
 	self.button = toolbar:CreateButton(title, tooltip, icon)
 
-	self.button.ClickableWhenViewportHidden = (props.ClickableWhenViewportHidden == nil) and true or props.ClickableWhenViewportHidden
+	if FFlagMakePluginsActivatableInScripts then
+		self.button.ClickableWhenViewportHidden = props.ClickableWhenViewportHidden == nil and true or props.ClickableWhenViewportHidden
+	end
 
 	self.button.Click:Connect(onClick)
 end

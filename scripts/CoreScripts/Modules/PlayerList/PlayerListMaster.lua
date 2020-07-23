@@ -44,13 +44,6 @@ end
 
 local XPRIVILEGE_COMMUNICATION_VOICE_INGAME = 205
 
-local function isSmallTouchScreen()
-	if _G.__TESTEZ_RUNNING_TEST__ then
-		return false
-	end
-	return SettingsUtil.IsSmallTouchScreen()
-end
-
 local PlayerListMaster = {}
 PlayerListMaster.__index = PlayerListMaster
 
@@ -76,7 +69,7 @@ function PlayerListMaster.new()
 		self.store:dispatch(SetPlayerListEnabled(false))
 	end
 
-	self.store:dispatch(SetSmallTouchDevice(isSmallTouchScreen()))
+	self.store:dispatch(SetSmallTouchDevice(SettingsUtil.IsSmallTouchScreen()))
 	self.store:dispatch(SetTenFootInterface(TenFootInterface:IsEnabled()))
 	if TenFootInterface:IsEnabled() then
 		coroutine.wrap(function()
@@ -108,7 +101,7 @@ function PlayerListMaster.new()
 		LayoutValuesProvider = Roact.createElement(LayoutValuesProvider, {
 			layoutValues = CreateLayoutValues(
 				TenFootInterface:IsEnabled(),
-				isSmallTouchScreen()
+				SettingsUtil.IsSmallTouchScreen()
 			)
 		}, {
 			ThemeProvider = Roact.createElement(UIBlox.Style.Provider, {

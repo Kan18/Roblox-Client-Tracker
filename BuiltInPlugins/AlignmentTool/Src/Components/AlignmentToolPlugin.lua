@@ -20,7 +20,6 @@ local UpdateActiveInstanceHighlight = require(Plugin.Src.Thunks.UpdateActiveInst
 local MainView = require(Plugin.Src.Components.MainView)
 
 local getEngineFeatureActiveInstanceHighlight = require(Plugin.Src.Flags.getEngineFeatureActiveInstanceHighlight)
-local getFFlagAlignToolAnalytics = require(Plugin.Src.Flags.getFFlagAlignToolAnalytics)
 
 local TOOLBAR_BUTTON_ICON = "rbxasset://textures/AlignTool/AlignTool.png"
 local INITIAL_WINDOW_SIZE = Vector2.new(300, 220)
@@ -29,34 +28,17 @@ local MINIMUM_WINDOW_SIZE = Vector2.new(150, 200)
 local AlignmentToolPlugin = Roact.PureComponent:extend("AlignmentToolPlugin")
 
 function AlignmentToolPlugin:init()
-	if getFFlagAlignToolAnalytics() then
-		self._hasOpenedThisSession = false
-	end
-
 	self.toggleState = function()
-		if getFFlagAlignToolAnalytics() then
-			local enabled = not self.props.toolEnabled
-			self.setToolEnabled(enabled)
-		else
-			local props = self.props
-			props.setToolEnabled(not props.toolEnabled)
-		end
+		local props = self.props
+		props.setToolEnabled(not props.toolEnabled)
 	end
 
 	self.onClose = function()
-		if getFFlagAlignToolAnalytics() then
-			self.setToolEnabled(false)
-		else
-			self.props.setToolEnabled(false)
-		end
+		self.props.setToolEnabled(false)
 	end
 
 	self.onRestore = function(enabled)
-		if getFFlagAlignToolAnalytics() then
-			self.setToolEnabled(enabled)
-		else
-			self.props.setToolEnabled(enabled)
-		end
+		self.props.setToolEnabled(enabled)
 	end
 
 	self.renderButtons = function(toolbar)
@@ -75,24 +57,6 @@ function AlignmentToolPlugin:init()
 				OnClick = self.toggleState,
 			})
 		}
-	end
-
-	if getFFlagAlignToolAnalytics() then
-		self.setToolEnabled = function(enabled)
-			local props = self.props
-
-			props.setToolEnabled(enabled)
-
-			if enabled then
-				props.Analytics:report("alignToolOpen")
-				if not self._hasOpenedThisSession then
-					props.Analytics:report("alignToolImpression")
-					self._hasOpenedThisSession = true
-				end
-			else
-				props.Analytics:report("alignToolClose")
-			end
-		end
 	end
 end
 
@@ -126,7 +90,6 @@ end
 
 ContextServices.mapToProps(AlignmentToolPlugin, {
 	Localization = ContextServices.Localization,
-	Analytics = ContextServices.Analytics,
 })
 
 local function mapStateToProps(state, _)

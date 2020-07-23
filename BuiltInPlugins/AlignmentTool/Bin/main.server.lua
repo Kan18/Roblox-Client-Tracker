@@ -8,7 +8,6 @@ end
 local Roact = require(Plugin.Packages.Roact)
 local Rodux = require(Plugin.Packages.Rodux)
 local ContextServices = require(Plugin.Packages.Framework.ContextServices)
-local Analytics = ContextServices.Analytics
 local Localization = ContextServices.Localization
 local Mouse = ContextServices.Mouse
 local Store = ContextServices.Store
@@ -18,7 +17,6 @@ local AlignmentToolPlugin = require(Plugin.Src.Components.AlignmentToolPlugin)
 
 local MainReducer = require(Plugin.Src.Reducers.MainReducer)
 local MakeTheme = require(Plugin.Src.Resources.MakeTheme)
-local analyticsHandlers = require(Plugin.Src.Resources.AnalyticsHandlers)
 
 local EnglishStringsTable = Plugin.Src.Resources.Localization.EnglishStrings
 local TranslatedStringsTable = Plugin.Src.Resources.Localization.TranslatedStrings
@@ -47,7 +45,6 @@ local function main()
 		MakeTheme(),
 		Mouse.new(plugin:GetMouse()),
 		Store.new(store),
-		Analytics.new(analyticsHandlers),
 	}, {
 		AlignTool = Roact.createElement(AlignmentToolPlugin),
 	})

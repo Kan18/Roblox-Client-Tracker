@@ -29,7 +29,6 @@ return function()
 				style = appStyle,
 			}, {
 				TeamEntry = Roact.createElement(TeamEntry, {
-					entrySize = 50,
 					layoutOrder = 0,
 					leaderstats = {},
 					gameStats = {},
@@ -48,7 +47,6 @@ return function()
 				style = appStyle,
 			}, {
 				TeamEntry = Roact.createElement(TeamEntry, {
-					entrySize = 150,
 					layoutOrder = 0,
 					leaderstats = {},
 					gameStats = {},

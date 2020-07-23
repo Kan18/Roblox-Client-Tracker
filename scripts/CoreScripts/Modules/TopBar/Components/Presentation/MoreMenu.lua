@@ -27,11 +27,12 @@ local TenFootInterface = require(RobloxGui.Modules.TenFootInterface)
 local EmotesMenuMaster = require(RobloxGui.Modules.EmotesMenu.EmotesMenuMaster)
 local BackpackModule = require(RobloxGui.Modules.BackpackScript)
 local ChatSelector = require(RobloxGui.Modules.ChatSelector)
-local PlayerListMaster = require(RobloxGui.Modules.PlayerList.PlayerListManager)
 
 local EmotesConstants = require(RobloxGui.Modules.EmotesMenu.Constants)
 
 local RobloxTranslator = require(RobloxGui.Modules.RobloxTranslator)
+
+local FFlagUseRoactPlayerList = settings():GetFFlag("UseRoactPlayerList3")
 
 local MORE_BUTTON_SIZE = 32
 local ICON_SIZE = 24
@@ -95,7 +96,14 @@ function MoreMenu:render()
 			text = RobloxTranslator:FormatByKey("CoreScripts.TopBar.Leaderboard"),
 			keyCodeLabel = isUsingKeyBoard and Enum.KeyCode.Tab or nil,
 			onActivated = function()
-				PlayerListMaster:SetVisibility(not PlayerListMaster:GetSetVisible())
+				if FFlagUseRoactPlayerList then
+					--TODO: Move to top of script when removing FFlagUseRoactPlayerList
+					local PlayerListMaster = require(RobloxGui.Modules.PlayerList.PlayerListManager)
+					PlayerListMaster:SetVisibility(not PlayerListMaster:GetSetVisible())
+				else
+					local PlayerlistModule = require(RobloxGui.Modules.PlayerlistModule)
+					PlayerlistModule.ToggleVisibility()
+				end
 				self.props.setMoreMenuOpen(false)
 			end,
 		})
@@ -189,6 +197,7 @@ function MoreMenu:render()
 
 				onDismiss = function()
 					self.props.setMoreMenuOpen(false)
+					local PlayerListMaster = require(RobloxGui.Modules.PlayerList.PlayerListManager)
 					PlayerListMaster:SetMinimized(false)
 				end,
 			}),
@@ -220,7 +229,14 @@ end
 
 function MoreMenu:didUpdate(prevProps, prevState)
 	if self.props.moreMenuOpen ~= prevProps.moreMenuOpen then
-		PlayerListMaster:SetMinimized(self.props.moreMenuOpen)
+		if FFlagUseRoactPlayerList then
+			--TODO: Move to top of script when removing FFlagUseRoactPlayerList
+			local PlayerListMaster = require(RobloxGui.Modules.PlayerList.PlayerListManager)
+			PlayerListMaster:SetMinimized(self.props.moreMenuOpen)
+		else
+			local PlayerlistModule = require(RobloxGui.Modules.PlayerlistModule)
+			PlayerlistModule:HideTemp("TopBar", self.props.moreMenuOpen)
+		end
 
 		self:updateActionBound()
 

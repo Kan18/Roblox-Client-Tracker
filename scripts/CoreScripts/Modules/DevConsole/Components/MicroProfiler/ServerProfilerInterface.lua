@@ -37,18 +37,18 @@ function ServerProfilerInteraface:init()
 	end
 
 	self.onFocusLostFrameRate = function(rbx, enterPressed, inputThatCausedFocusLoss)
-		GameSettings.RCCProfilerRecordFrameRate = rbx.Text
-		-- the gamesetting value will handle value limits and valid text, 
-		-- therefore we need to reset the textbox Text the correct value after
-		-- GameSettings has updated it.
+		if enterPressed then
+			GameSettings.RCCProfilerRecordFrameRate = rbx.Text
+		end
+
 		rbx.Text = GameSettings.RCCProfilerRecordFrameRate
 	end
 
 	self.onFocusLostTimeFrame = function(rbx, enterPressed, inputThatCausedFocusLoss)
-		GameSettings.RCCProfilerRecordTimeFrame = rbx.Text
-		-- the gamesetting value will handle value limits and valid text, 
-		-- therefore we need to reset the textbox Text the correct value after
-		-- GameSettings has updated it.
+		if enterPressed then
+			GameSettings.RCCProfilerRecordTimeFrame = rbx.Text
+		end
+
 		rbx.Text = GameSettings.RCCProfilerRecordTimeFrame
 	end
 

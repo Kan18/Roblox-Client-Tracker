@@ -15,10 +15,11 @@ local SetEmotesEnabled = require(TopBar.Actions.SetEmotesEnabled)
 
 local EventConnection = require(TopBar.Parent.Common.EventConnection)
 
+local FFlagUseRoactPlayerList = settings():GetFFlag("UseRoactPlayerList3")
+
 local RobloxGui = CoreGui:WaitForChild("RobloxGui")
 local BackpackModule = require(RobloxGui.Modules.BackpackScript)
 local EmotesMenuMaster = require(RobloxGui.Modules.EmotesMenu.EmotesMenuMaster)
-local PlayerListMaster = require(RobloxGui.Modules.PlayerList.PlayerListManager)
 
 local OpenUIConnector = Roact.PureComponent:extend("OpenUIConnector")
 
@@ -31,7 +32,14 @@ OpenUIConnector.validateProps = t.strictInterface({
 })
 
 function OpenUIConnector:didMount()
-	self.props.setLeaderboardOpen(PlayerListMaster:GetSetVisible())
+	if FFlagUseRoactPlayerList then
+		-- TODO: Move this to the top of the script when removing FFlagUseRoactPlayerList
+		local PlayerListMaster = require(RobloxGui.Modules.PlayerList.PlayerListManager)
+		self.props.setLeaderboardOpen(PlayerListMaster:GetSetVisible())
+	else
+		local PlayerlistModule = require(RobloxGui.Modules.PlayerlistModule)
+		self.props.setLeaderboardOpen(PlayerlistModule.IsOpen())
+	end
 
 	self.props.setBackpackOpen(BackpackModule.IsOpen)
 	self.props.setEmotesOpen(EmotesMenuMaster:isOpen())
@@ -39,7 +47,14 @@ function OpenUIConnector:didMount()
 end
 
 function OpenUIConnector:render()
-	local leaderboardEvent = PlayerListMaster:GetSetVisibleChangedEvent()
+	local leaderboardEvent
+	if FFlagUseRoactPlayerList then
+		local PlayerListMaster = require(RobloxGui.Modules.PlayerList.PlayerListManager)
+		leaderboardEvent = PlayerListMaster:GetSetVisibleChangedEvent()
+	else
+		local PlayerlistModule = require(RobloxGui.Modules.PlayerlistModule)
+		leaderboardEvent = PlayerlistModule.IsOpenChangedEvent
+	end
 
 	return Roact.createFragment({
 		LeaderboardOpenChangedConnection = Roact.createElement(EventConnection, {

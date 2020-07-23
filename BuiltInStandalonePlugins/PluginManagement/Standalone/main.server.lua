@@ -69,10 +69,7 @@ local function main()
 
 	-- start preloading data
 	if FFlagPluginManagementAllowLotsOfPlugins2 then
-		spawn(function()
-			wait()
-			globals.store:dispatch(RefreshPlugins(globals.api, MarketplaceService))
-		end)
+		globals.store:dispatch(RefreshPlugins(globals.api, MarketplaceService))
 	end
 
 	local mgmtWindow = Roact.createElement(ManagementApp, {

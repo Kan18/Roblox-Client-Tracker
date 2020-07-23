@@ -27,6 +27,7 @@ local RobloxGui = CoreGui:WaitForChild("RobloxGui")
 local TenFootInterface = require(RobloxGui.Modules.TenFootInterface)
 local isNewInGameMenuEnabled = require(RobloxGui.Modules.isNewInGameMenuEnabled)
 
+local FFlagFixTopBarOverLoadingScreen = require(RobloxGui.Modules.Flags.FFlagFixTopBarOverLoadingScreen)
 local isNewGamepadMenuEnabled = require(RobloxGui.Modules.Flags.isNewGamepadMenuEnabled)
 
 local CLOSE_MENU_ICON_SIZE = 30
@@ -54,7 +55,7 @@ function TopBarApp:render()
 		IgnoreGuiInset = true,
 		ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
 		AutoLocalize = false,
-		DisplayOrder = 6,
+		DisplayOrder = FFlagFixTopBarOverLoadingScreen and 6 or nil,
 
 		[Roact.Change.AbsoluteSize] = function(rbx)
 			self.props.setScreenSize(rbx.AbsoluteSize)

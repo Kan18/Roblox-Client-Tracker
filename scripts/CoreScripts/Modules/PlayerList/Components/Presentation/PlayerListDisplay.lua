@@ -1,6 +1,7 @@
 local CorePackages = game:GetService("CorePackages")
 local GuiService = game:GetService("GuiService")
 local UserInputService = game:GetService("UserInputService")
+local CoreGui = game:GetService("CoreGui")
 
 local Roact = require(CorePackages.Roact)
 local RoactRodux = require(CorePackages.RoactRodux)
@@ -22,12 +23,17 @@ local TitleBar = require(script.Parent.TitleBar)
 
 local PlayerList = Components.Parent
 
+local RobloxGui = CoreGui:WaitForChild("RobloxGui")
+
 local FAKE_NEUTRAL_TEAM = require(PlayerList.GetFakeNeutralTeam)
 
 local MOTOR_OPTIONS = {
     dampingRatio = 1,
     frequency = 4,
 }
+
+local FFlagPlayerListFixContextMenuFlashing
+	= require(RobloxGui.Modules.Flags.FFlagPlayerListFixContextMenuFlashing)
 
 local PlayerListDisplay = Roact.PureComponent:extend("PlayerListDisplay")
 
@@ -61,8 +67,8 @@ PlayerListDisplay.validateProps = t.strictInterface({
 
 	playerIconInfo = t.map(t.integer, t.strictInterface({
 		isPlaceOwner = t.boolean,
-		avatarIcon = t.optional(t.table),
-		specialGroupIcon = t.optional(t.table),
+		avatarIcon = t.optional(t.string),
+		specialGroupIcon = t.optional(t.string),
 	})),
 
 	playerRelationship = t.map(t.integer, t.strictInterface({
@@ -294,7 +300,10 @@ function PlayerListDisplay:render()
 					return defaultTransparency + (delta * value)
 				end)
 
-				local dropDownContentsVisible = self.state.contentsVisible
+				local dropDownContentsVisible = nil
+				if FFlagPlayerListFixContextMenuFlashing then
+					dropDownContentsVisible = self.state.contentsVisible
+				end
 
 				return Roact.createElement("Frame", {
 					Position = layoutValues.PlayerScrollListPosition,
@@ -353,7 +362,8 @@ function PlayerListDisplay:render()
 
 							[Roact.Change.AbsolutePosition] = self.absolutePositionChanged,
 						}, {
-							PlayerDropDown = Roact.createElement(PlayerDropDown, {
+							PlayerDropDown = (FFlagPlayerListFixContextMenuFlashing or self.state.contentsVisible)
+								and Roact.createElement(PlayerDropDown, {
 								contentsVisible = dropDownContentsVisible,
 								selectedPlayer = self.props.dropDownPlayer,
 								positionY = absDropDownPosition,

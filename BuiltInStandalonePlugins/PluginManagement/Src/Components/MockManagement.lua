@@ -27,7 +27,7 @@ local FlagsList = Flags.new({
 		"EnablePluginPermissionsPage2",
 		"StudioPermissionsServiceEnabled",
 	},
-	FFlagPluginManagementRemoveUILibrary = "PluginManagementRemoveUILibrary2",
+	FFlagPluginManagementRemoveUILibrary = "PluginManagementRemoveUILibrary",
 })
 local MockManagement = Roact.PureComponent:extend("MockManagement")
 

@@ -19,8 +19,8 @@ PlayerIcon.validateProps = t.strictInterface({
 
 	playerIconInfo = t.strictInterface({
 		isPlaceOwner = t.boolean,
-		avatarIcon = t.optional(t.table),
-		specialGroupIcon = t.optional(t.table),
+		avatarIcon = t.optional(t.string),
+		specialGroupIcon = t.optional(t.string),
 	}),
 
 	playerRelationship = t.strictInterface({
