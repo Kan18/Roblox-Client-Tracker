@@ -35633,26 +35633,6 @@
                 {
                     "Category": "Behavior",
                     "MemberType": "Property",
-                    "Name": "SkinnedMeshEnabled",
-                    "Security": {
-                        "Read": "None",
-                        "Write": "None"
-                    },
-                    "Serialization": {
-                        "CanLoad": true,
-                        "CanSave": true
-                    },
-                    "Tags": [
-                        "NotScriptable"
-                    ],
-                    "ValueType": {
-                        "Category": "Enum",
-                        "Name": "SkinnedMeshAllowType"
-                    }
-                },
-                {
-                    "Category": "Behavior",
-                    "MemberType": "Property",
                     "Name": "StreamingEnabled",
                     "Security": {
                         "Read": "None",
@@ -66577,23 +66557,6 @@
                 }
             ],
             "Name": "SizeConstraint"
-        },
-        {
-            "Items": [
-                {
-                    "Name": "Default",
-                    "Value": 0
-                },
-                {
-                    "Name": "Disabled",
-                    "Value": 2
-                },
-                {
-                    "Name": "Enabled",
-                    "Value": 1
-                }
-            ],
-            "Name": "SkinnedMeshAllowType"
         },
         {
             "Items": [

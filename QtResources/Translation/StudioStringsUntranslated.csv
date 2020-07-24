@@ -106,6 +106,8 @@ Studio.App.BetaFeatures.SaveToCloudV2Title,,New Games in the Cloud,New Games in 
 Studio.App.BetaFeatures.SelectFeaturesToActivate,,Select beta features to activate,Select beta features to activate
 Studio.App.BetaFeatures.SetInstanceDefaultsWindowDescription,,Set a Part or Script to be the default for future inserted instances of a Part or Script.,Set a Part or Script to be the default for future inserted instances of a Part or Script.
 Studio.App.BetaFeatures.SetInstanceDefaultsWindowTitle,,Set Instance as Default,Set Instance as Default
+Studio.App.BetaFeatures.SkinnedMeshDescription,,"Enables import, display and animation of skinned meshes.","Enables import, display and animation of skinned meshes."
+Studio.App.BetaFeatures.SkinnedMeshTitle,,Skinned Meshes,Skinned Meshes
 Studio.App.BetaFeatures.SomethingChangedPrompt,,Would you like to restart Studio now?,Would you like to restart Studio now?
 Studio.App.BetaFeatures.SupportPluginDebuggingDescription,,Set `Plugin Debugging Enabled` to true and you can debug local plugins under the PluginDebugService in Explorer,Set `Plugin Debugging Enabled` to true and you can debug local plugins under the PluginDebugService in Explorer
 Studio.App.BetaFeatures.SupportPluginDebuggingTitle,,Plugin Debugging,Plugin Debugging

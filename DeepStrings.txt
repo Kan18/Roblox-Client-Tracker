@@ -679,6 +679,7 @@ Animation3
 AnimationActive
 AnimationController
 AnimationDuration
+AnimationEditorMicroboneSupport
 AnimationEnabled
 AnimationFinished
 AnimationFrame
@@ -988,6 +989,7 @@ ATAUAVAWLcT
 AtEndChanged
 Atildesmall
 AtlAxWinLic140
+AtlddxaexMUW
 AtlThunk_AllocateData
 AtlThunk_DataToCode
 AtlThunk_FreeData
@@ -3947,7 +3949,6 @@ AW4SequenceMatch
 AW4SG_OBJECT_TYPE
 AW4SizeConstraint
 AW4SizingMode
-AW4SkinnedMeshAllowType
 AW4SocketError
 AW4SocketState
 AW4SortOrder
@@ -4061,6 +4062,7 @@ AXW4UiMessageType
 AXW4UserCFrame
 AXW4UserInputType
 AXW4VRTouchpad
+AYUZk1jyk7TKK4x9yS0VIaS5SJZlIFkB1u6jjCSulfarRzHVv78O7TSQ4O5w1N
 BA447F42A91111E2B410EF351327957B
 BA886F11E18561866242201959
 BAA3C620681180838E23F0DC6224
@@ -4176,7 +4178,6 @@ BatchThumbnailResultsSizeCap
 BatchThumbnailRetryQuickWaitMs
 BatchThumbnailRetrySlowWaitMs
 BatchViewUpdate
-BAu0ETuOHd1MAYv08
 BB0BF11E395B6E5DB6211F344
 BB11E2B957D88B167DEF15
 BB285C520681180838E23F0DC6224
@@ -4647,6 +4648,7 @@ ButtonStyle
 ButtonText
 BuyDeveloperProduct
 BuyDeveloperProduct_AutoAccepted
+BUZvIwnSlGIcurX4
 BvBvBvBvBvBvBvBv
 BVCoordinateFrame
 BVQItemSelection
@@ -4668,7 +4670,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.442.0.409033
+ByVersion_0.442.0.409067
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -7198,7 +7200,6 @@ DB33D6AAF011E38B9D871882A8E559
 DB33D7AAF011E38B9D871882A8E559
 DBD856014A660
 DBSAES_ASM
-DcfYGEIGAnCaEGRtKGJyBFlX
 Dconst_iterator
 DD11E2898E9FB8E4A9E79B
 DD4669DB402E11E3A29DA4266180AE0C
@@ -7978,7 +7979,6 @@ DigestAlgorithm_init_bio
 DigestedData_do_final
 DigitalSignature
 DilleniaUPC
-DIlt7eSCYNduT7wnOa
 Dimensions
 DimmedText
 Direct3D11
@@ -8443,6 +8443,7 @@ EAB0886F11E18561866242201959
 Eacutesmall
 EAEIESEUEaEwE
 EagerBulkExecution
+EANOPYPqurfeAzgg8g4FjGk9qL
 EarAccessory
 EARLY_EXPORTER_SECRET
 EarlyOutOnHttpRequestSendDuringShutdown
@@ -8897,6 +8898,7 @@ EnableScriptCollabByDefaultOnLoad
 EnableScriptCollabOnLoad
 EnableScriptCollabVersionHistoryOnLoad
 EnableSetInstanceDefaults
+EnableSkinnedMeshBeta
 EnableStudioProfiler
 EnableStudioServiceGetUserId
 EnableStudioServiceOpenBrowser
@@ -9316,7 +9318,6 @@ ExtraSelectionStore
 ExtrudedPartInstance
 EXtSoftware
 EyeAccessory
-EZ080LBiMDpCM
 F_ObjectHasComponents
 F`JXKXWJYB[Cd
 FA6256811994CD24F935527E2
@@ -9382,7 +9383,6 @@ FB64AAAED11E38B9D871882A8E559
 FB6CE584711E29A3DBD856014A660
 FB6CF584711E29A3DBD856014A660
 FB8E4A9E79B
-FBd7Dz5d7wB2hG4NdxS7GF
 FbPnXNTBBz2CM47ldc6zPnp04Gg1Ch1zQNrS9Q0fLcTp94XeqG0DjA42Iq0M3ZDg
 FbxAMatrix
 FbxAnimation
@@ -9744,8 +9744,8 @@ FixUpCoCFS
 FixUsingGameIdInsteadOfJobId
 FixWeldConstraintTeamCreateReplication
 FixZeroNormalInDecompositeGeometry
+Fjb9UKULsTeNskODGcTAW
 FJFTF^FhFrF
-FkxymenziCvS0X04SmD48ZdmrIvVXM7GnL81yzjDGKVIQq4HiI1DlCoLdAnL
 FlagCaptured
 FlagCreated
 FlagCursor.png
@@ -11283,11 +11283,11 @@ GuiTrackInsertionOrder
 GuiVertices
 GunCursor.png
 GunWaitCursor.png
-GVCHq4qEb6iRLQW
 GvEphfEUiHHoD6hYFI4xWGpAnIHcklKQCxrf46kAhDGeZnqIgeGszlGdWafunGE8
 GVKUTS[BXIWH\KbHi
 GXGfGkGpGuG
 GxI9Gpu2E2
+GxJmSivL6Lq0r3
 GyroscopeEnabled
 H_Key_dn.png
 H_NAEBVQString
@@ -11916,6 +11916,7 @@ IgnoreLocaleInJoinScriptData
 IgnoreSSLErros
 IgnoreWater
 Igravesmall
+Igv1jAVJc1KlOrXJ7
 IIAEBVInstanceIdentifier
 IID_IAMDirectSound
 IID_IAMLine21Decoder
@@ -12599,7 +12600,6 @@ JavaScriptCallback
 Jba5qWkYU5nARYZm1gQVP
 Jcircumflex
 JDJNJXJbJlJvJ
-JG5v9oflWStDe1tdtzWWOGL
 JHJRJ\JfJpJxJ
 JHW4MembershipType
 JIIIIIIIKI
@@ -12611,6 +12611,7 @@ JIRA_RIDE_785
 JJJBBB\\\xx
 JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
 JKLMNOPQRSTU
+JnOUuO3ErCRIDwDQnRfKpaEw8o
 JoinBlobInvalidateCountThresholdPercent
 JoinBlobInvalidateThresholdPercent
 JoinCommand
@@ -12761,6 +12762,7 @@ KillPtClicked
 KKKKKKKKKK
 KKKKKKKKKKKK
 KKKKKKKKKKKKKKKKKKKKKK
+KMPpVVKM0srh5p
 KnownHeaders
 KnownPrefixIndex
 KodchiangUPC
@@ -13336,6 +13338,7 @@ LowQMaterialFS
 LowQMaterialWangFallbackFS
 LowQMaterialWangFS
 LowResolution
+LqU9Mula1ZAs5I6nR2iazcLGIeOls0ElX0
 Lslashsmall
 LSPManager
 LSPObservable
@@ -13467,6 +13470,7 @@ LuauUseClassesForRobloxApi
 LuauWatchdog
 LuaWebService
 LVvuOx39]O
+LX9NS9x0DN0LZOm6gN7wC1n5QpoBRlCJfK4q07OZrVKw5yIkNsvsCAwEAAQ
 M_NVWeakFunctionRef
 MacGamepadUseGCController
 MachineAddress
@@ -14103,7 +14107,6 @@ MethodQuery
 Metrics.width
 MetricsSets
 MetricType
-MGQZhn8OHM7b9uck55R
 MHapV7R8MxA953
 MicroProfile
 MicroProfileFlip
@@ -14120,7 +14123,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEA0DZYRkvYryF6MEAnrHafEIoN1I6kpeuOIocO1niXVAkRbVl2atdO
+MIICCgKCAgEAw
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14705,7 +14708,6 @@ NextSelectionUp
 NextSpawnLocation
 NextTabPage
 NfXf`fhfzf
-NGv2sed4AM
 NHVVariant
 NinjaMask.mesh
 NNNNNNNNNNNNNNNNNNNNNN
@@ -14914,7 +14916,6 @@ OccludeAll
 OccupancyDebugFS
 Ocircumflex
 Ocircumflexsmall
-Ocorescripts
 OCSP_basic_add1_status
 OCSP_basic_sign
 OCSP_basic_sign_ctx
@@ -16188,6 +16189,7 @@ PersistentEditor
 PersistentFifoComboBox
 PerThreadTimer
 PerThreadTimerTotal
+PGo0vc3yaAKsfHurSFBdlZmnTaHTQIlXwYqAvlW
 PGSAlign2AxesCorrectionDamping
 PGSAlign2AxesPStageFrictionConstant
 PGSAlign2AxesVStageFrictionConstant
@@ -17624,7 +17626,6 @@ QFutureInterface
 QFutureInterfaceBase
 QFutureWatcher
 QFutureWatcherBase
-Qg8ZSo9Utxi2j96VPE6qt2zGnF
 QGenericArgument
 QGenericReturnArgument
 QGraphicsDropShadowEffect
@@ -17939,6 +17940,7 @@ QWheelEvent
 QWidgetAction
 QWidgetPluginGui
 QWidgetWindow
+QYsDDmspwOtXsg
 RadialBlurFS
 RagdollBallSocketConstraint
 RagdollDefaultTimerTenthSecond
@@ -18194,7 +18196,6 @@ RCCUpdateBroadphaseDtAverage
 RCCUpdateBroadphaseDtAverage_Datacenter_
 RccUse64BitAppearanceId
 RcpReferenceTime
-RCqFNchRJHLg5Nj86I7bF8ppzF71uMdUKO7ZGWsmECAwEAAQ
 ReachActorChest
 ReachActorChestRotation
 ReachActorHead
@@ -19329,6 +19330,7 @@ RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS_mgf1
 RSAPrivateKey
 RSAPublicKey
+Rt3TnhpoRx3qHlwNuUEim8ji7M3dmHvXCbp7HWf1FMqCcTyWgnhR
 RTDynamicCast
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -20435,8 +20437,6 @@ SizeToTwoAction
 SizingMode
 SkateboardController
 SkateboardPlatform
-SkinnedMeshAllowType
-SkinnedMeshEnabled
 SkinningIsland
 SkinningIslands
 SkinningIslandsForModel
@@ -21193,6 +21193,8 @@ Studio.App.BetaFeatures.SaveToCloudV2Title
 Studio.App.BetaFeatures.SelectFeaturesToActivate
 Studio.App.BetaFeatures.SetInstanceDefaultsWindowDescription
 Studio.App.BetaFeatures.SetInstanceDefaultsWindowTitle
+Studio.App.BetaFeatures.SkinnedMeshDescription
+Studio.App.BetaFeatures.SkinnedMeshTitle
 Studio.App.BetaFeatures.SomethingChangedPrompt
 Studio.App.BetaFeatures.SupportPluginDebuggingDescription
 Studio.App.BetaFeatures.SupportPluginDebuggingTitle
@@ -23225,6 +23227,9 @@ StudioShortcutDuringGameDefaultFalse
 StudioShowCursorWhenSwitchingScripts
 StudioShowDotsForScriptEditors
 StudioShowPrivacyPolicyLink
+StudioSkinnedMeshBeta
+StudioSkinnedMeshBetaRoleSet
+StudioSkinnedMeshBetaUrl
 StudioStartPlaySolo
 StudioStartPlaySolo.End.Failure
 StudioStartPlaySolo.End.Success
@@ -24747,6 +24752,7 @@ TwoStepVerificationRequestAuth
 TwoStepVerificationRequired
 TwoStepVerificationStartingOver
 TwoStepVerificationWidgetShown
+TxsXAhQMQgQK8LYKlXawKMPYT6jU7n0H
 TxtArray.length
 TxtArray[j]
 TXtComment
@@ -25010,7 +25016,6 @@ UITransformedLitVS
 UITransformedVS
 UIViewportFrameCollectFrames
 UIViewportFrameWorkspace
-UJHlMbqO3LclvJL5ebsRZxuJ4efAAUdTc9vR2im3ddZKaf2T6K8cN1
 ULinkedScriptLoadData
 ULoadedImage
 ULuaCallbacks
@@ -25628,6 +25633,7 @@ VAnimationTrack
 VAppConfiguration
 VAppStorage
 VAppStorageService
+VAqZRU449RvrMVjsLY0w6m9jJ6JGjJ4Kd3YNcqDpTWL4Utc7qkbB28huA9nzZbVB
 VArcHandles
 VArchiveGameRequest
 VarFileInfo\Translation
@@ -26389,7 +26395,6 @@ VObjectValue
 VogpHgQ70F57MdFiBApyJwNSBk
 VoiceChatService
 VoidStoredMemberFunctionPointerCall2
-VOIFxfRaHZ6Izc4JUDAiiFJAU5KDDT5YtRafJ
 Vollbeding
 VOnPublishDialogController
 Voption_description
@@ -26923,7 +26928,6 @@ WEIGHT_NAME
 WeightCurrent
 WeightTarget
 WeightVector
-Wek5WuQZLbf8Ojnx9Ta
 WeldConstraint
 WeldConstraintAction
 WeldConstraintAdornHighlightedPartSize
@@ -27116,7 +27120,6 @@ WM_ATLGETHOST
 WMCreateProfileManager
 WMCreateSyncReader
 Wmvcore.dll
-WMZP5nNGaozlLC
 WoodPlanks
 WordWrapMode
 WorkersNeeded
@@ -27171,6 +27174,7 @@ WriteReference
 WriteSelection
 WriteVoxels
 WrongVersion
+Ws0Yyb6HvlY
 WS2_32.dll
 WSAAddressToStringW
 WSASocketW
@@ -27179,7 +27183,6 @@ WSAStartup
 WSAStringToAddressW
 WTHelperGetProvSignerFromChain
 WTHelperProvDataFromStateData
-WUZYhnMyX72ZKxvhhs7Qx9kq9khQTV
 WWWWWWWWWW
 WWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWW
@@ -27238,7 +27241,6 @@ XInputGetCapabilities
 XInputGetState
 XInputSetState
 Xinvalid_argument
-XjjsT0yjQMxhN
 Xlength_error
 Xout_of_range
 XP6AXAEBUTextFilterResult
@@ -27264,7 +27266,7 @@ XPEAVICHull
 XPEAVQNetworkReply
 XPEAVRobloxScriptDiffDoc
 XQColorDialog
-XqYt4ajAAOBeFuee6Um5LCwEWOaWMUfsa
+XqTkQBPaA1MiaukKBl9Fp9hot47llxz9F
 Xregex_error
 XResolution
 Xtime_get_ticks
@@ -27405,7 +27407,6 @@ YAXW4error_type
 Ycircumflex
 Ydieresissmall
 YDYHYQYTYbYsY
-YeFOy8Q7eOliE9TQOHJC0NZgatJabacj7zHrV7
 YffYZefYDNNDCOO
 YieldEvent
 YieldFuncDesc
@@ -27431,7 +27432,6 @@ ZP6APEAX1PEBX
 ZP6AX1PEAX
 ZPEAVRBXMessageBox
 ZRZZZbZt[.[
-ZTKfDuqPwlGxReyKN5
 ZVspecial_equipped_signal
 ZVTouchedSignal
 ZZZZZZZZZZZZZZZ

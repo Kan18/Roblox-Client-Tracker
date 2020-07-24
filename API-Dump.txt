@@ -1988,7 +1988,6 @@ Class Workspace : WorldRoot [NotCreatable] [Service]
 	Property bool Workspace.FilteringEnabled {✏️PluginSecurity}
 	Property float Workspace.Gravity
 	Property Enum<PhysicsSimulationRate> Workspace.PhysicsSimulationRate  [Hidden] [NotReplicated]
-	Property Enum<SkinnedMeshAllowType> Workspace.SkinnedMeshEnabled  [NotScriptable]
 	Property bool Workspace.StreamingEnabled {✏️PluginSecurity}
 	Property int Workspace.StreamingMinRadius  [NotScriptable]
 	Property Enum<StreamingPauseMode> Workspace.StreamingPauseMode  [NotScriptable]
@@ -4704,10 +4703,6 @@ Enum SizeConstraint
 	EnumItem SizeConstraint.RelativeXY : 0
 	EnumItem SizeConstraint.RelativeXX : 1
 	EnumItem SizeConstraint.RelativeYY : 2
-Enum SkinnedMeshAllowType
-	EnumItem SkinnedMeshAllowType.Default : 0
-	EnumItem SkinnedMeshAllowType.Enabled : 1
-	EnumItem SkinnedMeshAllowType.Disabled : 2
 Enum SortOrder
 	EnumItem SortOrder.Name : 0
 	EnumItem SortOrder.Custom : 1 [Deprecated]
