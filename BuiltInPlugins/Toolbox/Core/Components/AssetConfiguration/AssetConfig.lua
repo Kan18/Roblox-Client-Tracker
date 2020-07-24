@@ -13,7 +13,7 @@ local FFlagShowAssetConfigReasons2 = game:GetFastFlag("ShowAssetConfigReasons2")
 local FFlagEnableNonWhitelistedToggle = game:GetFastFlag("EnableNonWhitelistedToggle")
 local FFlagAssetConfigUseItemConfig = game:GetFastFlag("AssetConfigUseItemConfig")
 local FFlagAssetConfigBlockUntilReadyToEdit = game:DefineFastFlag("AssetConfigBlockUntilReadyToEdit", false)
-local FFlagAssetConfigEnforceNonEmptyDescription = game:DefineFastFlag("AssetConfigEnforceNonEmptyDescription")
+local FFlagAssetConfigEnforceNonEmptyDescription = game:DefineFastFlag("AssetConfigEnforceNonEmptyDescription", false)
 
 local StudioService = game:GetService("StudioService")
 
