@@ -851,6 +851,7 @@ ArrowToolAction
 ArtistIntent
 Ascii_helper
 AScrollWheelDeltaAmount
+AsFxEGVlIe1cldFBj1nB
 ASIdentifierChoice
 ASIdentifierChoice_canonize
 ASIdentifierChoice_is_canonical
@@ -989,7 +990,6 @@ ATAUAVAWLcT
 AtEndChanged
 Atildesmall
 AtlAxWinLic140
-AtlddxaexMUW
 AtlThunk_AllocateData
 AtlThunk_DataToCode
 AtlThunk_FreeData
@@ -1215,7 +1215,6 @@ AuthenticationError
 AuthenticationHelper
 AuthenticationRequired
 Authenticator
-Authenticode
 AuthGOST01
 AuthGOST12
 AuthoredHipHeight
@@ -4062,7 +4061,6 @@ AXW4UiMessageType
 AXW4UserCFrame
 AXW4UserInputType
 AXW4VRTouchpad
-AYUZk1jyk7TKK4x9yS0VIaS5SJZlIFkB1u6jjCSulfarRzHVv78O7TSQ4O5w1N
 BA447F42A91111E2B410EF351327957B
 BA886F11E18561866242201959
 BAA3C620681180838E23F0DC6224
@@ -4414,6 +4412,8 @@ BN_rand_range
 BN_RECP_CTX_new
 BN_STACK_push
 BN_to_felem
+BN7sW2Mpm8
+BnYTC3Xq8KtKF
 BodyAngularVelocity
 BodyBack_Att
 BodyBackAttachment
@@ -4648,7 +4648,6 @@ ButtonStyle
 ButtonText
 BuyDeveloperProduct
 BuyDeveloperProduct_AutoAccepted
-BUZvIwnSlGIcurX4
 BvBvBvBvBvBvBvBv
 BVCoordinateFrame
 BVQItemSelection
@@ -4670,7 +4669,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.442.0.409067
+ByVersion_0.442.0.409108
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -6399,6 +6398,7 @@ Corporation\Roblox
 Corporation\Roblox\FilteredExceptionCrash
 Corporation0
 Corporation1
+Corporation100.
 Corporation1402
 CorrodedMetal
 CorrodedMetal.png
@@ -8443,7 +8443,6 @@ EAB0886F11E18561866242201959
 Eacutesmall
 EAEIESEUEaEwE
 EagerBulkExecution
-EANOPYPqurfeAzgg8g4FjGk9qL
 EarAccessory
 EARLY_EXPORTER_SECRET
 EarlyOutOnHttpRequestSendDuringShutdown
@@ -9318,6 +9317,7 @@ ExtraSelectionStore
 ExtrudedPartInstance
 EXtSoftware
 EyeAccessory
+EZJBfGahXAC
 F_ObjectHasComponents
 F`JXKXWJYB[Cd
 FA6256811994CD24F935527E2
@@ -9744,7 +9744,6 @@ FixUpCoCFS
 FixUsingGameIdInsteadOfJobId
 FixWeldConstraintTeamCreateReplication
 FixZeroNormalInDecompositeGeometry
-Fjb9UKULsTeNskODGcTAW
 FJFTF^FhFrF
 FlagCaptured
 FlagCreated
@@ -11057,9 +11056,6 @@ GlobalMemoryStatusEx
 GlobalSettings
 GlobalSettings_13.xml
 GlobalShadows
-GlobalSign
-GlobalSign0
-GlobalSign1
 GlobalThrottleFirstBackoffMilliseconds
 GlobalThrottleMaxBackoffMilliseconds
 GlobalThrottleThreshold
@@ -11159,6 +11155,7 @@ GridMaterialAction
 GridViewWithHeader
 GridViewWithHeader.pageNumber
 GripForward
+GrmdY696GPCilk
 Group.average
 Group.average.toFixed
 Group.FrameAverage.toFixed
@@ -11287,7 +11284,6 @@ GvEphfEUiHHoD6hYFI4xWGpAnIHcklKQCxrf46kAhDGeZnqIgeGszlGdWafunGE8
 GVKUTS[BXIWH\KbHi
 GXGfGkGpGuG
 GxI9Gpu2E2
-GxJmSivL6Lq0r3
 GyroscopeEnabled
 H_Key_dn.png
 H_NAEBVQString
@@ -11844,6 +11840,7 @@ ICharacterSubject
 Icircumflex
 Icircumflex.a
 Icircumflexsmall
+IckuETj536zL0cXCC48QK7
 ICloudEditConnectionModel
 ICloudEditModel
 IconCameraTrack.png
@@ -11916,7 +11913,7 @@ IgnoreLocaleInJoinScriptData
 IgnoreSSLErros
 IgnoreWater
 Igravesmall
-Igv1jAVJc1KlOrXJ7
+IGRE1cgTVdyFTxz1F55yzb2WVZ7H8zG4M87x5hwZDHN6R70fWMqf7ECAwEAAQ
 IIAEBVInstanceIdentifier
 IID_IAMDirectSound
 IID_IAMLine21Decoder
@@ -12420,6 +12417,7 @@ IPTypeAndDataCenter
 IPublishedGamesStore
 IPV6_V6ONLY
 IPV6RobloxStudioCleanUp1
+Iqp1ZE8f05S
 IRestartController
 IRobloxDoc
 IRobloxDocManager
@@ -12611,7 +12609,6 @@ JIRA_RIDE_785
 JJJBBB\\\xx
 JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
 JKLMNOPQRSTU
-JnOUuO3ErCRIDwDQnRfKpaEw8o
 JoinBlobInvalidateCountThresholdPercent
 JoinBlobInvalidateThresholdPercent
 JoinCommand
@@ -12704,6 +12701,7 @@ K_Key_dn.png
 KaiTi_GB2312
 KAXPEBDHAEAPEAVQChar
 KBytesPerSec
+KCSQ51BFXAdCLsdxYN6hrfq1e4jkA
 KeepAliveTimeout
 KeepPositionOnInsert
 KERNEL32.dll
@@ -12762,7 +12760,6 @@ KillPtClicked
 KKKKKKKKKK
 KKKKKKKKKKKK
 KKKKKKKKKKKKKKKKKKKKKK
-KMPpVVKM0srh5p
 KnownHeaders
 KnownPrefixIndex
 KodchiangUPC
@@ -12937,6 +12934,7 @@ LeafRightUpLegRoll4Mode
 LeafRightUpLegRoll5
 LeafRightUpLegRoll5Mode
 LeafyGrass
+LEAOt6iEOxnfUdFenh6iEwCPdtbkpaCT0WyqJP9szX3k6wYvQVDfdreEqM224v
 LeaveCriticalSection
 LeaveEvent
 LeaveStartingCoreScriptsToPlaceLauncher
@@ -13338,7 +13336,6 @@ LowQMaterialFS
 LowQMaterialWangFallbackFS
 LowQMaterialWangFS
 LowResolution
-LqU9Mula1ZAs5I6nR2iazcLGIeOls0ElX0
 Lslashsmall
 LSPManager
 LSPObservable
@@ -13470,7 +13467,6 @@ LuauUseClassesForRobloxApi
 LuauWatchdog
 LuaWebService
 LVvuOx39]O
-LX9NS9x0DN0LZOm6gN7wC1n5QpoBRlCJfK4q07OZrVKw5yIkNsvsCAwEAAQ
 M_NVWeakFunctionRef
 MacGamepadUseGCController
 MachineAddress
@@ -14107,6 +14103,7 @@ MethodQuery
 Metrics.width
 MetricsSets
 MetricType
+MgLZgoixJoxZXfxYwJ8f
 MHapV7R8MxA953
 MicroProfile
 MicroProfileFlip
@@ -14123,7 +14120,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAw
+MIICCgKCAgEAx56
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14577,7 +14574,7 @@ NETSCAPE_SPKI
 NETSCAPE_SPKI_b64_decode
 NETSCAPE_SPKI_b64_encode
 NETSCAPE2.0
-Network100.
+Network1B0
 NetworkAccessManager
 NetworkAudit
 NetworkAuditEn2
@@ -14792,6 +14789,7 @@ NotScriptable
 NotStartedYet
 NotSupported
 NoVisuallyMovingOnBlindDataModels
+NOXQsNvADkhm6hsMivvW
 NP6A_NAEBV
 NP6A_NAEBVQString
 NP6A_NPEAVInstance
@@ -14852,6 +14850,7 @@ NumTickets
 NVAuthenticationHelper
 Nvb5JjRCUQ
 NVLuaWebService
+NVMpqHjX1xSo7ys
 NvOptimusEnablement
 NVReplicator
 NVRobloxApplicationManager
@@ -14863,6 +14862,7 @@ NVWorkspace
 NW4FileSystemDir
 NW4PenStyle
 NW4UserInputType
+NWLrdli9eF8afR9goBWa
 Oacutesmall
 OAEPEncryptionSET
 OAUTHBEARER
@@ -15151,6 +15151,7 @@ OrderFunction
 OrderFunctionMenu
 OrFirstTier
 Organization
+Organization1
 OrganizationDomain
 OrganizationName
 Organizations
@@ -15535,6 +15536,7 @@ PCertReqData
 PCertResTBS
 PCStudioApp
 PCStudioAppCJV
+PcXb1wEoCq2uOC
 PE_MAX_NB_SUBFR
 PEA_NAEBV2
 PEA_NPEAVQDialog
@@ -16189,7 +16191,6 @@ PersistentEditor
 PersistentFifoComboBox
 PerThreadTimer
 PerThreadTimerTotal
-PGo0vc3yaAKsfHurSFBdlZmnTaHTQIlXwYqAvlW
 PGSAlign2AxesCorrectionDamping
 PGSAlign2AxesPStageFrictionConstant
 PGSAlign2AxesVStageFrictionConstant
@@ -16644,6 +16645,7 @@ PlaySoloVerb
 PlayStockSound
 PLC_PITCH_LAG_MAX
 PLC_PITCH_LAG_MIN
+PlrfMiDlkstjBjFXffwG
 Plugin.rbxm
 PluginAction
 PluginByFilePath
@@ -16862,6 +16864,7 @@ PressStart2P
 PrevConflictButton
 PrevConflictClicked
 PreventDeepTuples
+PreventMeshLODV2WhenFlagOff
 PreventReturnOfElevatedPhysicsFPS
 PreviousAction
 PreviousButton
@@ -17683,6 +17686,7 @@ QNetworkReplyAsQJsonObject
 QNetworkReplyImplPrivate
 QNetworkRequest
 QNPPPPPPPPPPPPPPPPPPPNOP
+Qo5YXx6eoOeuCft
 QObjectData
 QObjectShared
 QOgreWidget
@@ -17940,7 +17944,6 @@ QWheelEvent
 QWidgetAction
 QWidgetPluginGui
 QWidgetWindow
-QYsDDmspwOtXsg
 RadialBlurFS
 RagdollBallSocketConstraint
 RagdollDefaultTimerTenthSecond
@@ -19330,7 +19333,6 @@ RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS_mgf1
 RSAPrivateKey
 RSAPublicKey
-Rt3TnhpoRx3qHlwNuUEim8ji7M3dmHvXCbp7HWf1FMqCcTyWgnhR
 RTDynamicCast
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -19473,6 +19475,7 @@ ScalingModeSelectionChanged
 Scaronsmall
 SceneManager
 SceneUpdater
+SceqWy5MDi1jTSoqvmxfbUPVjZlPYSjcXj
 Schedule_chore
 ScheduleNotification
 SchedulerDutyCycle
@@ -24714,6 +24717,7 @@ TS_TST_INFO_set_time
 TS_TST_INFO_set_tsa
 TS_VERIFY_CTX_new
 TSMk2ThrottleStreamJob
+TsxhkIa7IA92AKd8ngtrMrWerRRGeACQJfO4du9oXy3y20d
 TTTTTTTTTT
 TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
 TTUUEDDsss
@@ -24752,7 +24756,6 @@ TwoStepVerificationRequestAuth
 TwoStepVerificationRequired
 TwoStepVerificationStartingOver
 TwoStepVerificationWidgetShown
-TxsXAhQMQgQK8LYKlXawKMPYT6jU7n0H
 TxtArray.length
 TxtArray[j]
 TXtComment
@@ -25037,6 +25040,7 @@ UnbindAllActions
 UnbindButton
 UnbindCoreAction
 UnbindFromRenderStep
+UNBzgNxyRQGIyW7z8ZlB
 Uncategorized
 Uncollected
 Uncommented
@@ -25588,6 +25592,7 @@ UWindowInputState
 UWindowShowMessageNotification
 UWindowShowMessageRequest
 UWindowShowMessageResponse
+UwRJkQX56SftOTAczvMQ
 V_http_request
 V_http_response
 VABTestEnrollmentsRequest
@@ -25633,7 +25638,6 @@ VAnimationTrack
 VAppConfiguration
 VAppStorage
 VAppStorageService
-VAqZRU449RvrMVjsLY0w6m9jJ6JGjJ4Kd3YNcqDpTWL4Utc7qkbB28huA9nzZbVB
 VArcHandles
 VArchiveGameRequest
 VarFileInfo\Translation
@@ -26897,6 +26901,7 @@ WaterWaveSpeed
 WaypointIdx
 WCharArray
 Wcircumflex
+WctivqoveqOkZNQIEU
 WDU_Mbstatet
 WeakFunctionRef
 WeakThreadRef
@@ -27174,13 +27179,13 @@ WriteReference
 WriteSelection
 WriteVoxels
 WrongVersion
-Ws0Yyb6HvlY
 WS2_32.dll
 WSAAddressToStringW
 WSASocketW
 WSAstartup
 WSAStartup
 WSAStringToAddressW
+WsNVOJpdmgPOzT
 WTHelperGetProvSignerFromChain
 WTHelperProvDataFromStateData
 WWWWWWWWWW
@@ -27241,6 +27246,7 @@ XInputGetCapabilities
 XInputGetState
 XInputSetState
 Xinvalid_argument
+XJk1bSQWnRu2YpPsSfcThnkq0gcIDJQETz6jkTL
 Xlength_error
 Xout_of_range
 XP6AXAEBUTextFilterResult
@@ -27266,7 +27272,6 @@ XPEAVICHull
 XPEAVQNetworkReply
 XPEAVRobloxScriptDiffDoc
 XQColorDialog
-XqTkQBPaA1MiaukKBl9Fp9hot47llxz9F
 Xregex_error
 XResolution
 Xtime_get_ticks
