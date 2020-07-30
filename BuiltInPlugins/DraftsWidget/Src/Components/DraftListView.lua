@@ -2,6 +2,7 @@
     Displays a list of scripts you have checked out. Drafts are loaded from the
     Rodux store
 --]]
+game:DefineFastFlag("DraftWidgetResponsiveCommitButton", false)
 
 local RunService = game:GetService("RunService")
 
@@ -93,10 +94,13 @@ function DraftListView:init()
 
     self.getIndicatorEnabled = function(draft)
         local draftState = self.props.Drafts[draft]
-
         return draftState[DraftState.Committed] == CommitState.Committed
             or draftState[DraftState.Deleted]
             or draftState[DraftState.Outdated]
+    end
+
+    self.getCommitButtonEnabled =  function()
+        return RunService:IsEdit()
     end
 
     self.onDoubleClicked = function(draft)
@@ -206,6 +210,11 @@ function DraftListView:render()
     local showDiscardDialog = pendingDiscards ~= nil
     local noDrafts = next(drafts) == nil
 
+    local commitButtonEnabled = true
+    if game:GetFastFlag("DraftWidgetResponsiveCommitButton") then
+        commitButtonEnabled = self.getCommitButtonEnabled()
+    end
+
     local draftStatusSidebarEnabled = false
     local sortedDraftList = {}
     for draft,_ in pairs(drafts) do
@@ -248,7 +257,7 @@ function DraftListView:render()
                         VerticalAlignment = Enum.VerticalAlignment.Center,
                     }),
                     CommitButton = Roact.createElement(RoundTextButton, {
-                        Active = true,
+                        Active = commitButtonEnabled,
                         Size = UDim2.new(0, GetTextSize(commitButtonText).X+PADDING*2, 1, 0),
                         Style = theme.defaultButton,
                         Name = commitButtonText,

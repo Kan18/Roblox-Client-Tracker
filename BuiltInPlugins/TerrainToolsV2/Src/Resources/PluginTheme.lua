@@ -60,12 +60,18 @@ function Theme.createValues(getColor, c, m)
 	local roundedElementSlice = Rect.new(3, 3, 13, 13)
 
 	local toggleTheme = defineTheme({
-		toggleOnImage = "rbxasset://textures/TerrainTools/import_toggleOn.png",
-		toggleOffImage = "rbxasset://textures/TerrainTools/import_toggleOff.png",
+		toggleOnImage = "rbxasset://textures/RoactStudioWidgets/toggle_on_light.png",
+		toggleOffImage = "rbxasset://textures/RoactStudioWidgets/toggle_off_light.png",
+
+		toggleLockModeOnImage = "rbxasset://textures/RoactStudioWidgets/toggle_on_disable_light.png",
+		toggleLockModeOffImage = "rbxasset://textures/RoactStudioWidgets/toggle_disable_light.png",
 	}, {
 		Dark = {
-			toggleOnImage = "rbxasset://textures/TerrainTools/import_toggleOn_dark.png",
-			toggleOffImage = "rbxasset://textures/TerrainTools/import_toggleOff_dark.png",
+			toggleOnImage = "rbxasset://textures/RoactStudioWidgets/toggle_on_dark.png",
+			toggleOffImage = "rbxasset://textures/RoactStudioWidgets/toggle_off_dark.png",
+
+			toggleLockModeOnImage = "rbxasset://textures/RoactStudioWidgets/toggle_on_disable_dark.png",
+			toggleLockModeOffImage = "rbxasset://textures/RoactStudioWidgets/toggle_disable_dark.png",
 		}
 	})
 

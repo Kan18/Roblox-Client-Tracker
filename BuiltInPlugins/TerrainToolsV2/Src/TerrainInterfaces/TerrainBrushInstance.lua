@@ -4,7 +4,6 @@ local FFlagTerrainToolsReplaceTool = game:GetFastFlag("TerrainToolsReplaceTool")
 game:DefineFastFlag("TerrainToolsBrushUseIsKeyDown", false)
 
 local FFlagTerrainToolsBrushUseIsKeyDown = game:GetFastFlag("TerrainToolsBrushUseIsKeyDown")
-local FFlagTerrainToolsTerrainBrushNotSingleton = game:GetFastFlag("TerrainToolsTerrainBrushNotSingleton")
 
 local Plugin = script.Parent.Parent.Parent
 
@@ -105,7 +104,7 @@ function TerrainBrush.new(options)
 		_mouse = options.mouse,
 
 		_operationSettings = {
-			currentTool = ToolId.None,
+			currentTool = options.tool,
 			brushShape = BrushShape.Sphere,
 
 			cursorSize = Constants.INITIAL_BRUSH_SIZE,
@@ -160,13 +159,8 @@ function TerrainBrush.new(options)
 
 	assert(self._terrain, "TerrainBrush needs a terrain instance")
 	assert(self._mouse, "TerrainBrush needs a mouse instance")
-
-	if FFlagTerrainToolsTerrainBrushNotSingleton then
-		-- TODO: When removing FFlagTerrainToolsTerrainBrushNotSingleton, move this to the structure definition above
-		self._operationSettings.currentTool = options.tool
-		assert(self._operationSettings.currentTool ~= nil and self._operationSettings.currentTool ~= ToolId.None,
-			"TerrainBrush needs a tool passed to constructor")
-	end
+	assert(self._operationSettings.currentTool ~= nil and self._operationSettings.currentTool ~= ToolId.None,
+		"TerrainBrush needs a tool passed to constructor")
 
 	return self
 end
@@ -196,37 +190,12 @@ function TerrainBrush:subscribeToMaterialSelectRequested(...)
 end
 
 function TerrainBrush:updateSettings(newSettings)
-	if FFlagTerrainToolsTerrainBrushNotSingleton then
-		assert(newSettings.currentTool == nil, "Unable to change terrain brush tool")
-		newSettings.currentTool = nil
-	end
+	assert(newSettings.currentTool == nil, "Unable to change terrain brush tool")
+	newSettings.currentTool = nil
 	local settings = Cryo.Dictionary.join(self._operationSettings, newSettings)
 	settings = applyOverrideToSettings(settings)
 	self._operationSettings = settings
 	self:_updateCursor()
-end
-
-function TerrainBrush:startWithTool(newTool)
-	if FFlagTerrainToolsTerrainBrushNotSingleton then
-		warn("TerrainBrush:startWithTool() should not be used when FFlagTerrainToolsTerrainBrushNotSingleton is true")
-	end
-
-	self:updateSettings({
-		currentTool = newTool,
-	})
-
-	if newTool == ToolId.None then
-		self:stop()
-		return
-	end
-
-	if self._isRunning then
-		return
-	end
-	self._isRunning = true
-
-	self:_connectInput()
-	self:_run()
 end
 
 function TerrainBrush:start()

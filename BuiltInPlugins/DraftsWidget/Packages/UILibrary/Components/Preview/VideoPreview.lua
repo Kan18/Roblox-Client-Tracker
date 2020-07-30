@@ -50,11 +50,13 @@ VideoPreview.defaultProps = {
 function VideoPreview:init()
 	self.layoutRef = Roact.createRef()
 	self.videoRef = Roact.createRef()
+	self.videoContainerRef = Roact.createRef()
 
 	self.state = {
 		timeLength = 0,
 		isLoaded = false,
 		showOverlayPlayIcon = true,
+		resolution = Vector2.new(4, 3),
 	}
 
 	self.dispatchMediaPlayingUpdate = function(updateType)
@@ -92,19 +94,30 @@ function VideoPreview:init()
 			self:setState({
 				isLoaded = videoObj.IsLoaded,
 			})
+		elseif property == "Resolution" then
+			self:setState({
+				resolution = videoObj.Resolution,
+			})
+			self.onResize()
 		end
 	end
 
 	self.onResize = function()
 		local currentLayout = self.layoutRef.current
 		local videoFrame = self.videoRef.current
-		if not videoFrame or not currentLayout then
+		local videoContainer = self.videoContainerRef.current
+		if not videoFrame or not currentLayout or not videoContainer then
 			return
 		end
 
-		-- TODO: Get aspect ratio from VideoFrame once it's in the API
-		local aspectRatioX = UDim.new(0, currentLayout.AbsoluteContentSize.Y * 4 / 3)
-		videoFrame.Size = UDim2.new(aspectRatioX, videoFrame.Size.Y)
+		local resolution = self.state.resolution
+		local height = videoContainer.AbsoluteSize.Y
+		local width = height * resolution.X / resolution.Y
+		if (currentLayout.AbsoluteContentSize.X < width) then
+			width = currentLayout.AbsoluteContentSize.X
+			height = width * resolution.Y / resolution.X
+		end
+		videoFrame.Size = UDim2.new(UDim.new(0, width), UDim.new(0, height))
 	end
 
 	self.onSliderInputChanged = function(newValue)
@@ -201,6 +214,7 @@ function VideoPreview:render()
 				Size = UDim2.new(1, 0, 1, -PROGRESS_BAR_TOTAL_HEIGHT - AUDIO_CONTROL_HEIGHT),
 				Text = "",
 
+				[Roact.Ref] = self.videoContainerRef,
 				[Roact.Event.Activated] = self.togglePlay,
 			}, {
 				VideoFrameObj = Roact.createElement("VideoFrame", {

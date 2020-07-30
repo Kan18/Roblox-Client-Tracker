@@ -147,7 +147,7 @@ end
 
 function NetworkingImpl:__requestWithoutCoalesce(options)
 	-- Automatically convert JSON bodies to strings (required by HttpRbxApiService) and set appropriate Content-Type
-	if typeof(options.Body) == "table" then
+	if options.Body ~= nil then
 		options = Cryo.Dictionary.join(options, {
 			Body = HttpService:JSONEncode(options.Body),
 			Headers = Cryo.Dictionary.join({
