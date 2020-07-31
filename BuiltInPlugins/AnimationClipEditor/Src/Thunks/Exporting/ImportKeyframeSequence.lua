@@ -12,10 +12,7 @@ local RigUtils = require(Plugin.Src.Util.RigUtils)
 local LoadAnimationData = require(Plugin.Src.Thunks.LoadAnimationData)
 local SetIsDirty = require(Plugin.Src.Actions.SetIsDirty)
 
-local SetNotification = require(Plugin.Src.Actions.SetNotification)
-
 local UseCustomFPS = require(Plugin.LuaFlags.GetFFlagAnimEditorUseCustomFPS)
-local GetFFlagAddImportFailureToast = require(Plugin.LuaFlags.GetFFlagAddImportFailureToast)
 
 return function(plugin)
 	return function(store)
@@ -28,26 +25,11 @@ return function(plugin)
 		local id = plugin:PromptForExistingAssetId("Animation")
 		if id and tonumber(id) > 0 then
 			local anim
-			if GetFFlagAddImportFailureToast() then
-				local status = pcall(function()
-					anim = KeyframeSequenceProvider:GetKeyframeSequenceById(id, false)
-				end)
-
-				if not status then
-					store:dispatch(SetNotification("InvalidAnimation", true))
-				end
-
-				if not anim then
-					return
-				end
+			if game:GetFastFlag("UseGetKeyframeSequenceIgnoreCache") then
+				anim = KeyframeSequenceProvider:GetKeyframeSequenceById(id, false)
 			else
-				if game:GetFastFlag("UseGetKeyframeSequenceIgnoreCache") then
-					anim = KeyframeSequenceProvider:GetKeyframeSequenceById(id, false)
-				else
-					anim = KeyframeSequenceProvider:GetKeyframeSequenceAsync("rbxassetid://" .. id)
-				end
+				anim = KeyframeSequenceProvider:GetKeyframeSequenceAsync("rbxassetid://" .. id)
 			end
-
 			local newData
 			if UseCustomFPS() then
 				local frameRate = RigUtils.calculateFrameRate(anim)

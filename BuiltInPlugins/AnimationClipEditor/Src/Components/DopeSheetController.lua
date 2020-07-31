@@ -58,7 +58,6 @@ local SetIsPlaying = require(Plugin.Src.Actions.SetIsPlaying)
 
 local GetFFlagEnforceMaxAnimLength = require(Plugin.LuaFlags.GetFFlagEnforceMaxAnimLength)
 local UseCustomFPS = require(Plugin.LuaFlags.GetFFlagAnimEditorUseCustomFPS)
-local GetFFlagAddImportFailureToast = require(Plugin.LuaFlags.GetFFlagAddImportFailureToast)
 
 local DopeSheetController = Roact.Component:extend("DopeSheetController")
 
@@ -488,7 +487,6 @@ function DopeSheetController:render()
 		local loadedAnimName = props.Loaded
 		local savedAnimName = props.Saved
 		local showClippedWarning = GetFFlagEnforceMaxAnimLength() and props.ClippedWarning
-		local showInvalidIdWarning = GetFFlagAddImportFailureToast() and props.InvalidIdWarning
 
 		local size = props.Size
 		local position = props.Position
@@ -696,11 +694,6 @@ function DopeSheetController:render()
 						Text = localization:getText("Toast", "Loaded", loadedAnimName),
 						OnClose = props.CloseLoadedToast,
 					}),
-
-					InvalidId = showInvalidIdWarning and Roact.createElement(NoticeToast, {
-						Text = localization:getText("Toast", "InvalidAnimation"),
-						OnClose = props.CloseInvalidAnimationToast,
-					})
 				})
 			})
 		else
@@ -730,10 +723,6 @@ local function mapStateToProps(state, props)
 
 	if GetFFlagEnforceMaxAnimLength() then
 		stateToProps["ClippedWarning"] = state.Notifications.ClippedWarning
-	end
-
-	if GetFFlagAddImportFailureToast() then
-		stateToProps["InvalidIdWarning"] = state.Notifications.InvalidAnimation
 	end
 
 	return stateToProps
@@ -819,12 +808,6 @@ local function mapDispatchToProps(dispatch)
 	if GetFFlagEnforceMaxAnimLength() then
 		dispatchToProps["CloseClippedToast"] = function()
 			dispatch(SetNotification("ClippedWarning", false))
-		end
-	end
-
-	if GetFFlagAddImportFailureToast() then
-		dispatchToProps["CloseInvalidAnimationToast"] = function()
-			dispatch(SetNotification("InvalidAnimation", false))
 		end
 	end
 

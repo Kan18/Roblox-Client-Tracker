@@ -142,10 +142,9 @@ function TerrainImporter:startImport()
 		AnalyticsService:SendEventDeferred("studio", "Terrain", "ImportTerrain", {
 			userId = StudioService:GetUserId(),
 			regionDims = ("%d,%d,%d)"):format(region.Size.x, region.Size.y, region.Size.z),
+			useColorMap = useColorMap,
 			studioSId = AnalyticsService:GetSessionId(),
 			placeId = game.PlaceId,
-			colorMapUrl = colorUrl,
-			heightMapUrl = heightUrl
 		})
 
 		local status, err = pcall(function()

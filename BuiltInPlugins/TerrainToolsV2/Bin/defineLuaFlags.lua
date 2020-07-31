@@ -2,11 +2,14 @@
 -- If the flags are defined in main, then it's possible for the tests run first
 -- And then error when trying to use flags that aren't yet defined
 
+game:DefineFastFlag("TerrainToolsRefactorAssetIdSelector2", false)
+game:DefineFastFlag("TerrainToolsImportImproveColorMapToggle", false)
+game:DefineFastFlag("TerrainToolsTerrainBrushNotSingleton", false)
+game:DefineFastFlag("TerrainToolsFixMergeEmpty", false)
+game:DefineFastFlag("TerrainToolsFixRegionEditorCleanup", false)
 game:DefineFastFlag("TerrainOpenCloseMetrics", false)
 game:DefineFastFlag("TerrainToolsUseDevFramework", false)
 game:DefineFastFlag("TerrainToolsReplaceTool", false)
-game:DefineFastFlag("TerrainEnableErrorReporting", false)
-game:DefineFastFlag("TerrainToolsReplaceSrcTogglesOff", false)
 
 local function handleFlagDependencies(flag, requiredFlags)
 	if not game:GetFastFlag(flag) then
@@ -21,6 +24,9 @@ end
 
 handleFlagDependencies("TerrainToolsUseDevFramework", {
 	"TerrainToolsConvertPartTool",
+	"TerrainToolsTerrainBrushNotSingleton",
+	"TerrainToolsRefactorAssetIdSelector2",
+	"TerrainToolsImportImproveColorMapToggle",
 })
 
 -- Need to explicitly return something from a module
