@@ -37,18 +37,35 @@ local FFlagGameSettingsOnlyInPublishedGames = game:DefineFastFlag("GameSettingsO
 local MainView = Roact.PureComponent:extend("MainView")
 
 function MainView:init()
-	-- Entries may be false due to flagging instead of a valid page component, so skip them
-	local firstValidPage = nil
-	for i, pageComponent in ipairs(PageManifest) do
-		if pageComponent then
-			firstValidPage = i
-			break
-		end
-	end
-	assert(firstValidPage, "There are no valid pages in PageManifest")
+	local selectedPage
 
+	-- if FirstSelectedId is specified, find page with matching LocalizationId
+	-- otherwise, find first valid page
+	local firstSelectedId = self.props.FirstSelectedId
+	if firstSelectedId and firstSelectedId ~= "" then
+		-- Find page with matching LocalizationId
+		for i, pageComponent in ipairs(PageManifest) do
+			if pageComponent and pageComponent.LocalizationId == firstSelectedId then
+				selectedPage = i
+				break
+			end
+		end
+		assert(selectedPage, "There are no pages in PageManifest with LocalizationId \"" .. firstSelectedId .. "\"")
+	else
+		-- Entries may be false due to flagging instead of a valid page component, so skip them
+		local firstValidPage = nil
+		for i, pageComponent in ipairs(PageManifest) do
+			if pageComponent then
+				firstValidPage = i
+				break
+			end
+		end
+		assert(firstValidPage, "There are no valid pages in PageManifest")
+		selectedPage = firstValidPage
+	end
+	
 	self.state = {
-		Selected = firstValidPage,
+		Selected = selectedPage,
 		PageContentOffset = 0,
 	}
 end

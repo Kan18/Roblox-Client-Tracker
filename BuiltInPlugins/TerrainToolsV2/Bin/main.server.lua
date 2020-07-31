@@ -12,7 +12,6 @@ end
 -- Fast flags
 require(script.Parent.defineLuaFlags)
 local FFlagTerrainToolsConvertPartTool = game:GetFastFlag("TerrainToolsConvertPartTool")
-local FFlagTerrainToolsTerrainBrushNotSingleton = game:GetFastFlag("TerrainToolsTerrainBrushNotSingleton")
 local FFlagTerrainOpenCloseMetrics = game:GetFastFlag("TerrainOpenCloseMetrics")
 
 -- Services
@@ -24,10 +23,6 @@ local Rodux = require(Plugin.Packages.Rodux)
 local UILibrary = require(Plugin.Packages.UILibrary)
 local Manager = require(Plugin.Src.Components.Manager) -- top most ui component
 local PluginActivationController = require(Plugin.Src.Util.PluginActivationController)
-local TerrainBrush
-if not FFlagTerrainToolsTerrainBrushNotSingleton then
-	TerrainBrush = require(Plugin.Src.TerrainInterfaces.TerrainBrushInstance)
-end
 local ToolSelectionListener = require(Plugin.Src.Components.ToolSelectionListener)
 local TerrainImporter = require(Plugin.Src.TerrainInterfaces.TerrainImporterInstance)
 local TerrainGeneration = require(Plugin.Src.TerrainInterfaces.TerrainGenerationInstance)
@@ -86,13 +81,6 @@ local localization = Localization.new({
 
 local terrain = require(Plugin.Src.Util.getTerrain)()
 local pluginActivationController = PluginActivationController.new(plugin)
-local terrainBrush
-if not FFlagTerrainToolsTerrainBrushNotSingleton then
-	terrainBrush = TerrainBrush.new({
-		terrain = terrain,
-		mouse = plugin:GetMouse(),
-	})
-end
 local terrainImporter = TerrainImporter.new({
 	terrain = terrain,
 	localization = localization,
@@ -133,8 +121,6 @@ local function openPluginWindow()
 
 		terrain = terrain,
 		pluginActivationController = pluginActivationController,
-		-- TODO: Remove terrainBrush when removing FFlagTerrainToolsTerrainBrushNotSingleton
-		terrainBrush = terrainBrush,
 		terrainImporter = terrainImporter,
 		terrainGeneration = terrainGeneration,
 		seaLevel = seaLevel,
@@ -192,13 +178,6 @@ local function onPluginUnloading()
 	if pluginActivationController then
 		pluginActivationController:destroy()
 		pluginActivationController = nil
-	end
-
-	if not FFlagTerrainToolsTerrainBrushNotSingleton then
-		if terrainBrush then
-			terrainBrush:destroy()
-			terrainBrush = nil
-		end
 	end
 
 	if terrainImporter then
