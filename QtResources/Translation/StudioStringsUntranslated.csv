@@ -868,8 +868,6 @@ been invited to edit","Games that you have
 been invited to edit"
 Studio.App.MyGamesPage.GroupGames,,Group Games,Group Games
 Studio.App.MyGamesPage.SharedWithMe,,Shared With Me,Shared With Me
-Studio.App.MyWatchTreeWidget.DeleteAll,,Delete All,Delete All
-Studio.App.MyWatchTreeWidget.DeleteWatch,,Delete Watch,Delete Watch
 Studio.App.OSVersionWarning.MacOS109,,Beginning in November 2019 we will be discontinuing support for MacOS 10.9. Please upgrade to MacOS 10.10+ to continue to use Roblox Studio.,Beginning in November 2019 we will be discontinuing support for MacOS 10.9. Please upgrade to MacOS 10.10+ to continue to use Roblox Studio.
 Studio.App.OnPublishDialog.BasicSettings,,Basic Settings,Basic Settings
 Studio.App.OnPublishDialog.Description,,Description:,Description:
@@ -1006,8 +1004,6 @@ Studio.App.Property.DataGCRate,,Data GC Rate,Data GC Rate
 Studio.App.Property.DataModel,,Data Model,Data Model
 Studio.App.Property.DataMtuAdjust,,Data Mtu Adjust,Data Mtu Adjust
 Studio.App.Property.DataSendRate,,Data Send Rate,Data Send Rate
-Studio.App.Property.DebuggerCurrentLineColor,The color of the current line we are stopped on in the debugger.,Debugger Current Line Color,Debugger Current Line Color
-Studio.App.Property.DebuggerErrorLineColor,The color of the line we have stopped on in the debugger because it produced an error.,Debugger Error Line Color,Debugger Error Line Color
 Studio.App.Property.DefaultScriptFileDir,,Default Script File Dir,Default Script File Dir
 Studio.App.Property.DefaultWaitTime,,Default Wait Time,Default Wait Time
 Studio.App.Property.DeprecatedObjectsShown,,Deprecated Objects Shown,Deprecated Objects Shown
@@ -1351,8 +1347,6 @@ Studio.App.RBXMainWindow.CutSelectionToClipboard,,Cut the selection and put it o
 Studio.App.RBXMainWindow.Debugger,,Debugger,Debugger
 Studio.App.RBXMainWindow.DeleteBreakpoint,,Delete Breakpoint,Delete Breakpoint
 Studio.App.RBXMainWindow.DeleteContextDependentBreakpoint,,Delete Contextual Breakpoint,Delete Contextual Breakpoint
-Studio.App.RBXMainWindow.DeleteToStartOfLine,,Delete to start of line,Delete to start of line
-Studio.App.RBXMainWindow.DeleteToStartOfLineToolTip,,Delete to the start of the current line,Delete to the start of the current line
 Studio.App.RBXMainWindow.DiffNext,,Diff Next,Diff Next
 Studio.App.RBXMainWindow.DiffPrevious,,Diff Previous,Diff Previous
 Studio.App.RBXMainWindow.DisableBreakpoint,,Disable Breakpoint,Disable Breakpoint
@@ -1403,7 +1397,6 @@ Studio.App.RBXMainWindow.FormatWholeDocument,,Format whole document,Format whole
 Studio.App.RBXMainWindow.FullScreen,,Full Screen,Full Screen
 Studio.App.RBXMainWindow.Game,,Game,Game
 Studio.App.RBXMainWindow.GameExplorer,,Game Explorer,Game Explorer
-Studio.App.RBXMainWindow.GameSettings,,Game Settings...,Game Settings...
 Studio.App.RBXMainWindow.GetLatestForSelectedPackages,,Get Latest For Selected Packages,Get Latest For Selected Packages
 Studio.App.RBXMainWindow.GetLatestPackage,,Get Latest Package,Get Latest Package
 Studio.App.RBXMainWindow.GlueSurface,,Glue Surface,Glue Surface
@@ -1609,7 +1602,6 @@ Studio.App.RBXMainWindow.StepOut,,Step Out,Step Out
 Studio.App.RBXMainWindow.StepOver,,Step Over,Step Over
 Studio.App.RBXMainWindow.StopsAndReloadsTheDocument,,Stops and reloads the document,Stops and reloads the document
 Studio.App.RBXMainWindow.StoreScriptCloud,,Store this script in the cloud so that you can easily re-use it,Store this script in the cloud so that you can easily re-use it
-Studio.App.RBXMainWindow.StudioSettingsElps,,Studio Settings...,Studio Settings...
 Studio.App.RBXMainWindow.SummaryStats,,Summary Stats,Summary Stats
 Studio.App.RBXMainWindow.SwapAttachments,,Swap Attachments,Swap Attachments
 Studio.App.RBXMainWindow.SwitchBothAttachments,,Swap both attachments on the constraint,Swap both attachments on the constraint
@@ -2246,7 +2238,6 @@ Studio.App.RobloxTeamCreateWidget.TurnOffTeamCreate,,Turn OFF Team Create,Turn O
 Studio.App.RobloxTextOutputWidget.ClearOutput,,Clear Output,Clear Output
 Studio.App.RobloxTextOutputWidget.Context,,Context,Context
 Studio.App.RobloxTextOutputWidget.Copy,,Copy,Copy
-Studio.App.RobloxTextOutputWidget.LuaTableIndicator1,,table: %1,table: %1
 Studio.App.RobloxTextOutputWidget.MaxTableDepthReached,,Max table depth reached,Max table depth reached
 Studio.App.RobloxTextOutputWidget.Message,,Message,Message
 Studio.App.RobloxTextOutputWidget.OpenLink,,Open link,Open link
@@ -2408,7 +2399,6 @@ Studio.App.TeamCreate.ConfirmDisable,,Are you sure you want to turn Team Create 
 Studio.App.TeamCreate.ConfirmLossyDisable,,"Turning off team create may result in loss of work.
 Are you sure ?","Turning off team create may result in loss of work.
 Are you sure ?"
-Studio.App.TeamCreate.ConnectionResult1,,Connection Result: %1,Connection Result: %1
 Studio.App.TeamCreate.EditYourPlaceWithFriends,,"Edit your place with friends, see the updates instantly.","Edit your place with friends, see the updates instantly."
 Studio.App.TeamCreate.EnableTeamCreateEditPlaceTogether,,"Enable Team Create: edit your place together, see updates instantly.","Enable Team Create: edit your place together, see updates instantly."
 Studio.App.TeamCreate.FailedToTurnOnTeamCreate,,Failed to turn on Team Create.,Failed to turn on Team Create.
@@ -2419,7 +2409,6 @@ Studio.App.TeamCreate.LoadingGame,,Loading game,Loading game
 Studio.App.TeamCreate.LogInToEnableTeamCreateOptions,,Log in to enable Team Create options for your place.,Log in to enable Team Create options for your place.
 Studio.App.TeamCreate.MembersOfYourGroupCanWorkTogether,,"Members of your group can work together, see updates instantly. Contact your admin to enable Team Create.","Members of your group can work together, see updates instantly. Contact your admin to enable Team Create."
 Studio.App.TeamCreate.PermissionsMovedMessage1,,"We've moved permissions management to <a href=""%1"">Home &gt; Game Settings &gt; Permissions.</a>","We've moved permissions management to <a href=""%1"">Home &gt; Game Settings &gt; Permissions.</a>"
-Studio.App.TeamCreate.PlaceLauncherRequestStatus1,,Request Status Code: %1,Request Status Code: %1
 Studio.App.TeamCreate.PublishAndEnableteamCreateToBuildTogether,,Publish and enable Team Create to build this place together with your friends.,Publish and enable Team Create to build this place together with your friends.
 Studio.App.TeamCreate.PublishingCurrentPlace,,Publishing current place...,Publishing current place...
 Studio.App.TeamCreate.RemovingThisUserWillPrevent,,Removing this user will prevent them from accessing this Team Create game. Are you sure you want to do this?,Removing this user will prevent them from accessing this Team Create game. Are you sure you want to do this?
@@ -2522,8 +2511,8 @@ Studio.App.VersionHistoryDialog.VersionComparedWithFmt2,,Version %1 compared wit
 Studio.App.VersionHistoryDialog.ViewButtonText,,View,View
 Studio.App.VideoControl.RecordingStarted,,Video recording started,Video recording started
 Studio.App.VideoControl.RecordingStopped,,Video recording stopped,Video recording stopped
-Studio.App.WatchWidget.CopyEntry,Copy Entry in the WatchWidget copies via context menu only the variable info from the column selected and row currently highlighted,Copy Entry,Copy Entry
-Studio.App.WatchWidget.CopyRow,Copy Row in the WatchWidget copies all the variable info via context menu,Copy Row,Copy Row
+Studio.App.WatchTreeWidget.DeleteAll,,Delete All,Delete All
+Studio.App.WatchTreeWidget.DeleteWatch,,Delete Watch,Delete Watch
 Studio.App.WatchWidget.Expression,,Expression,Expression
 Studio.App.WatchWidget.Global,,Global,Global
 Studio.App.WatchWidget.Local,,Local,Local
