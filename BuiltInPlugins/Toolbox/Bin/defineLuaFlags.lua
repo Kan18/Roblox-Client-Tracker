@@ -46,6 +46,7 @@ game:DefineFastFlag("StudioFixGroupCreatorInfo", false)
 game:DefineFastFlag("StudioToolboxFixNewEndpointFilters", false)
 
 game:DefineFastFlag("ToolboxUseDevFrameworkPromise", false)
+game:DefineFastFlag("ToolboxFixAnalyticsBugs", false)
 game:DefineFastFlag("DebugToolboxEnableRoactChecks", false)
 
 return nil

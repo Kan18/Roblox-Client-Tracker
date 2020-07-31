@@ -102,6 +102,7 @@ function TerrainBrush.new(options)
 	local self = setmetatable({
 		_terrain = options.terrain,
 		_mouse = options.mouse,
+		_analytics = options.analytics,
 
 		_operationSettings = {
 			currentTool = options.tool,
@@ -487,12 +488,18 @@ function TerrainBrush:_run()
 				self._mouseClick = false
 
 				if reportClick then
-					AnalyticsService:SendEventDeferred("studio", "Terrain", "UseTerrainTool", {
-						userId = StudioService:GetUserId(),
-						toolName = currentTool,
-						studioSId = AnalyticsService:GetSessionId(),
-						placeId = game.PlaceId,
-					})
+					if FFlagTerrainToolsUseDevFramework then
+						if self._analytics then
+							self._analytics:report("useBrushTool", currentTool)
+						end
+					else
+						AnalyticsService:SendEventDeferred("studio", "Terrain", "UseTerrainTool", {
+							userId = StudioService:GetUserId(),
+							toolName = currentTool,
+							studioSId = AnalyticsService:GetSessionId(),
+							placeId = game.PlaceId,
+						})
+					end
 					reportClick = false
 				end
 

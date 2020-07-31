@@ -4654,6 +4654,7 @@ BuyDeveloperProduct
 BuyDeveloperProduct_AutoAccepted
 BvBvBvBvBvBvBvBv
 BVCoordinateFrame
+BVMVTYUi1yzkMdWI8qzLx
 BVQItemSelection
 BVQVariant
 BVRegion3int16
@@ -10138,6 +10139,8 @@ FXCompositing
 FXCompositingFS
 FXCompositingLinearFS
 FXComposition
+FXrF13dwS8AWc6NplqP6lA0CAwEAAQ
+Fz3IgUzF8FAO8F4nB2OsvRIVNAke
 GainMakeup
 GameAbsenceInWeb.
 GameAction
@@ -11123,6 +11126,7 @@ GLSL.std.450
 Glsles3Mediump1
 GlslesMediump1
 GlueCursor
+GNXuhyuwUuJKO7w0UCSG
 GoldenHashes
 GoodbyeChoiceActive
 GoodbyeChoiceActiveProperty
@@ -11329,6 +11333,7 @@ GuiTargetLifetime
 GuiTextMixin
 GuiTrackInsertionOrder
 GuiVertices
+GUMsGYUHPPN1ZoBvJxxlRz0TNoGp0frz8oOpzI0gFuuR5wp8cQ
 GunCursor.png
 GunWaitCursor.png
 GvEphfEUiHHoD6hYFI4xWGpAnIHcklKQCxrf46kAhDGeZnqIgeGszlGdWafunGE8
@@ -11442,6 +11447,7 @@ HaveActiveUser
 HB_OPTIONS
 HB_SHAPER_LIST
 Hbbbbbbbbbbbbbbbbaaaaaaaaaaaaaaaaaaaaaaaa
+HC1KFNr4wUc5CPakd71X
 Hcircumflex
 HDCacheLock
 HeadColor3
@@ -11490,6 +11496,7 @@ HelpForSelectionAction
 HelpPageLink
 HelpWindow
 HelpWindow.style[
+HG3rwzJkIi
 HHAEBVQModelIndex
 HHHHHAEBVQString
 HHPEAVQObject
@@ -12470,6 +12477,7 @@ IRobloxDoc
 IRobloxDocManager
 IRobloxIDEDoc
 IRobloxMainWindow
+IrS01DZWeaRBdoY2dYl3QHLo
 Is30FpsThrottleEnabled
 IsActivated
 IsActivatedWithExclusiveMouse
@@ -19165,6 +19173,8 @@ RigidBodyLazyUpdating
 RigidityEnabled
 RiseVelocity
 Rj0isQcnqX
+Rkf430QBopa1zeDKVLiUeOrxUOYxvnvn73HTOcQ0qR
+Rl8tNckupo4H5ejrH3TzqR9XsoNNPbuhM5jJbCNtI8Q8w473
 Roact.createElement
 ROBLOSECURITY
 Roblox.Hybrid
@@ -24401,6 +24411,7 @@ TLS_SRP_SHA_WITH_AES_128_CBC_SHA
 TLS_SRP_SHA_WITH_AES_256_CBC_SHA
 TlsGetValue
 TlsSetValue
+TlVLXTIg5gLYHcGHsLRnFzcalksHnAGBMPe31A62zjsPk3pZK0uiEQhHPFWE0brB
 Tmap_traits
 TMxQPxAA13
 ToArtistIntentAssetMigratorEnabled
@@ -24787,6 +24798,8 @@ TutorialId
 TutorialsDockAction
 TutorialWidgetBackground.png
 TVijpW8m8aLsreZebWfEl5y9RFS7x6WZ555Z6MtZy
+TVkQFM6907ZwM58ruzFPEcB024oXoI
+Tw5Pxlx6v9vh0cXlqWd3Ljwe
 TweenEasingDirection
 TweenEasingStyle
 TweenInfo.new
@@ -26859,6 +26872,7 @@ VViewportFrame
 VVirtualBlockParser
 VVirtualInputManager
 VVirtualUser
+Vvmx0jjCNqmuIQi52FYbH2eZcwQ5BXffto8WVj8
 VVRService
 VVVVVVVVVVVVV
 VVVVVVVVVVVVVVVVMMMMMMMMMMMMMMMMMMMMMMMMMMMM
@@ -27307,6 +27321,7 @@ XInputGetCapabilities
 XInputGetState
 XInputSetState
 Xinvalid_argument
+XKBUJMFGhvYVU5qvJvzyb
 Xlength_error
 Xout_of_range
 XP6AXAEBUTextFilterResult
@@ -27488,7 +27503,9 @@ Zdotaccent
 ZgnhKhWhci
 ZhniZzzzZbarAnmrAgneBlryCaveDroeGkerGrjuGuruGgnaHinaHrbeHariHadnKanaKooaLntaLmylMayrOlmaTuleTiahTtbiTopoBiarBsnaCrehCihtErmhKgnoMrmyMmagOrnuRhniScrySaahTiiiYtrsDhtoGlatIdhuBonaHglgTbgaTtrpCbmiLbniLamsOwahSelaTragUiguBtpoCgalGrahKulaToepXolySgnfTilaBxusXookNga
 ZIndexBehavior
+ZirLA1r5MvFL
 ZLcJhLcGhM
+ZnGEAxFVpTqi890o7GGJSAm8ytsDV8eN8o5fR1QVFkx3s6OFUAjMKi
 ZNjlXiODrHUcaGRYt
 ZntaLkerGlryCnmrArbeHbarAcrySaahTaveDgneBuruGrjuGayrOlmaTuleTadnKmylMhniSiahTooaLtbiTrmyMroeGgnaHihtErehCsnaCmagOrnuRrmhKgnoMariHanaKopoBinaHiiiYlatIhtoGtrsDhniZglgTonaHdhuBbgaTbmiLelaTbniLragUwahSamsOtrpCiarBiguBtpoCulaTgalGgnfTolySoepXrahKilaBxusXxnhPgahPoo
 ZoomActive
@@ -27499,6 +27516,7 @@ ZP6APEAX1PEBX
 ZP6AX1PEAX
 ZPEAVRBXMessageBox
 ZRZZZbZt[.[
+ZuZAxpHu0b
 ZVspecial_equipped_signal
 ZVTouchedSignal
 ZY8Ac408tuw9XMfk17pPY04F5Hgf0TiPK

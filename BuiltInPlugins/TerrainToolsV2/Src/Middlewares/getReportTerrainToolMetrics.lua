@@ -11,6 +11,9 @@
 	})
 ]]--
 
+assert(not game:GetFastFlag("TerrainToolsUseDevFramework"),
+	"TerrainTools getReportTerrainToolMetrics.lua should not be used when FFlagTerrainToolsUseDevFramework is on")
+
 local Plugin = script.Parent.Parent.Parent
 
 local Actions = Plugin.Src.Actions

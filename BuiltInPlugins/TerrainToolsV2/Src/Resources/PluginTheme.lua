@@ -1,10 +1,22 @@
-local Plugin = script.parent.parent.parent
+local FFlagTerrainToolsUseDevFramework = game:GetFastFlag("TerrainToolsUseDevFramework")
 
-local UILibrary = require(Plugin.Packages.UILibrary)
-local StudioTheme = UILibrary.Studio.Theme
-local StudioStyle = UILibrary.Studio.Style
-local deepJoin = require(Plugin.Src.Util.deepJoin)
+local Plugin = script.Parent.Parent.Parent
+
 local Cryo = require(Plugin.Packages.Cryo)
+
+local StudioTheme
+local StudioStyle
+if FFlagTerrainToolsUseDevFramework then
+	local UILibraryCompat = Plugin.Src.UILibraryCompat
+	StudioTheme = require(UILibraryCompat.StudioTheme)
+	StudioStyle = require(UILibraryCompat.StudioStyle)
+else
+	local UILibrary = require(Plugin.Packages.UILibrary)
+	StudioTheme = UILibrary.Studio.Theme
+	StudioStyle = UILibrary.Studio.Style
+end
+
+local deepJoin = require(Plugin.Src.Util.deepJoin)
 
 local Theme = {}
 
