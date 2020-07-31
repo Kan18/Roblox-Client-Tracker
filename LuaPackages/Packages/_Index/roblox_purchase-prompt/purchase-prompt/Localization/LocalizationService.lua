@@ -14,8 +14,6 @@ local HARDCODED_CLB_TRANSLATIONS = {
 	["CoreScripts.PurchasePrompt.PurchaseDetails.BalanceFuture"] = [[你在此次交易后的余额将为 {BALANCE_FUTURE} 乐币]],
 }
 
-local GetFFlagProductPercentLocFix = require(Root.Flags.GetFFlagProductPercentLocFix)
-
 local DEBUG_LOCALIZATION = false
 
 --[[
@@ -193,11 +191,7 @@ function LocalizationService.getString(localizationContext, key, params)
 				replacement = value.format(localizationContext)
 			end
 
-			if GetFFlagProductPercentLocFix() then
-				localizedString = string.gsub(localizedString, paramPlaceholder, function() return replacement end)
-			else
-				localizedString = string.gsub(localizedString, paramPlaceholder, replacement)
-			end
+			localizedString = string.gsub(localizedString, paramPlaceholder, replacement)
 		end
 	end
 
