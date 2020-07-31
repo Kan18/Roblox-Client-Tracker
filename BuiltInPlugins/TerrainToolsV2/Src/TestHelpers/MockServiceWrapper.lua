@@ -1,3 +1,6 @@
+assert(not game:GetFastFlag("TerrainToolsUseDevFramework"),
+	"TerrainTools MockServiceWrapper.lua should not be used when FFlagTerrainToolsUseDevFramework is on")
+
 --[[
 	A customizable wrapper for tests that supplies all the required providers for component testing
 ]]

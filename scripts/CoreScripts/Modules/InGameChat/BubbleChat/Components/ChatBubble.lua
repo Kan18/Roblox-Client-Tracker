@@ -23,6 +23,7 @@ ChatBubble.validateProps = t.strictInterface({
 	timeout = t.optional(t.number),
 	maxWidth = t.optional(t.number),
 	LayoutOrder = t.optional(t.number),
+	isRecent = t.optional(t.boolean),
 	isMostRecent = t.optional(t.boolean),
 	theme = t.optional(t.string),
 	TextSize = t.optional(t.number),
@@ -35,14 +36,11 @@ ChatBubble.defaultProps = {
 	TextSize = 16,
 	Font = Enum.Font.Gotham,
 	maxWidth = 300,
+	isRecent = true,
 	isMostRecent = true,
 }
 
 function ChatBubble:init(initialProps)
-	self.state = {
-		isVisible = true,
-	}
-
 	self.width, self.updateWidth = Roact.createBinding(0)
 	self.widthMotor = Otter.createSingleMotor(0)
 	self.widthMotor:onStep(self.updateWidth)
@@ -74,10 +72,6 @@ function ChatBubble:getTextBounds()
 end
 
 function ChatBubble:render()
-	if not self.state.isVisible then
-		return nil
-	end
-
 	local bounds = self:getTextBounds()
 
 	return Roact.createElement("Frame", {
@@ -138,23 +132,48 @@ function ChatBubble:render()
 	})
 end
 
+function ChatBubble:fadeOut()
+	if not self.isFadingOut then
+		self.isFadingOut = true
+
+		self.transparencyMotor:onComplete(function()
+			if self.props.onFadeOut then
+				self.props.onFadeOut()
+			end
+		end)
+
+		self.transparencyMotor:setGoal(Otter.spring(1, SPRING_CONFIG))
+	end
+end
+
+function ChatBubble:didUpdate()
+	if not self.props.isRecent then
+		self:fadeOut()
+	end
+end
+
 function ChatBubble:didMount()
 	self.isMounted = true
+
+	local difftime = os.time() - self.props.message.timestamp
+	local timeout = self.props.timeout - difftime
 	local bounds = self:getTextBounds()
-	local timeout = self.props.timeout - (os.time() - self.props.message.timestamp)
 
 	-- Check to see if lifetime of chat bubble expired
 	if timeout <= 0 then
 		if self.props.onFadeOut then
 			self.props.onFadeOut()
 		end
+
 		return
 	end
 
-	if os.time() - self.props.message.timestamp == 0 then -- Transition for a recently messaged bubble
+	if self.props.isMostRecent then
+		-- Chat bubble spawned for the first time
 		self.updateWidth(bounds.X)
 		self.heightMotor:setGoal(Otter.spring(bounds.Y, SPRING_CONFIG))
-	else -- Transition between distant bubble and chat bubbles
+	else
+		-- Transition between distant bubble and chat bubble
 		self.heightMotor:setGoal(Otter.spring(bounds.Y, SPRING_CONFIG))
 		self.widthMotor:setGoal(Otter.spring(bounds.X, SPRING_CONFIG))
 	end
@@ -163,13 +182,9 @@ function ChatBubble:didMount()
 
 	coroutine.wrap(function()
 		wait(timeout)
+
 		if self.isMounted then
-			self.transparencyMotor:onComplete(function()
-				if self.props.onFadeOut then
-					self.props.onFadeOut()
-				end
-			end)
-			self.transparencyMotor:setGoal(Otter.spring(1, SPRING_CONFIG))
+			self:fadeOut()
 		end
 	end)()
 end

@@ -26,18 +26,8 @@ BubbleChatList.defaultProps = {
 	theme = "Light", -- themes are currently not fully supported
 }
 
-function BubbleChatList:getLastMessages(numElements)
-	local endIndex = #self.props.messageIds
-	-- Need to add 1, because if endIndex = 10, and numElements = 3, this will
-	-- give the indices 7, 8, 9, 10. We only want 8, 9, and 10.
-	local startIndex = endIndex - numElements + 1
-	return Cryo.List.getRange(self.props.messageIds, startIndex, endIndex)
-end
-
 function BubbleChatList:render()
-	local chatSettings = self.props.chatSettings
 	local children = {}
-	local messageIds = self:getLastMessages(chatSettings.MaxBubbles)
 
 	children.Layout = Roact.createElement("UIListLayout", {
 		SortOrder = Enum.SortOrder.LayoutOrder,
@@ -52,20 +42,20 @@ function BubbleChatList:render()
 		PaddingBottom = UDim.new(0, 8),
 	})
 
-	for index, messageId in ipairs(messageIds) do
+	for index, messageId in ipairs(self.props.messageIds) do
 		local message = self.props.messages[messageId]
 
-		-- Ignore the message if it's expired
-		if os.time() - message.timestamp > chatSettings.BubbleDuration then
-			continue
-		end
+		-- Determines if this message is one of the last few that we want to
+		-- render. Any message that is not recent will fade out and be removed.
+		local isRecent = index > #self.props.messageIds - self.props.chatSettings.MaxBubbles
 
 		children["Bubble" .. message.id] = Roact.createElement(ChatBubble, {
 			LayoutOrder = index,
 			message = message,
-			isMostRecent = index == #messageIds,
+			isRecent = isRecent,
+			isMostRecent = index == #self.props.messageIds,
 			theme = self.props.theme,
-			timeout = chatSettings.BubbleDuration,
+			timeout = self.props.chatSettings.BubbleDuration,
 			onFadeOut = function()
 				self.props.removeMessage(message)
 			end

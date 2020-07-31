@@ -1,3 +1,6 @@
+assert(not game:GetFastFlag("TerrainToolsUseDevFramework"),
+	"TerrainTools ServiceWrapper.lua should not be used when FFlagTerrainToolsUseDevFramework is on")
+
 --[[
 	A centralized place for providers, and an entry point for the Roact trees of plugins
 ]]

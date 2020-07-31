@@ -11,6 +11,10 @@ end
 
 -- Fast flags
 require(script.Parent.defineLuaFlags)
+if game:GetFastFlag("TerrainToolsUseDevFramework") then
+	return
+end
+
 local FFlagTerrainToolsConvertPartTool = game:GetFastFlag("TerrainToolsConvertPartTool")
 local FFlagTerrainOpenCloseMetrics = game:GetFastFlag("TerrainOpenCloseMetrics")
 
@@ -38,8 +42,8 @@ local ServiceWrapper = require(Plugin.Src.Components.ServiceWrapper)
 -- data
 local MainReducer = require(Plugin.Src.Reducers.MainReducer)
 
--- middleWare
-local getReportTerrainToolMetrics = require(Plugin.Src.MiddleWare.getReportTerrainToolMetrics)
+-- middleware
+local getReportTerrainToolMetrics = require(Plugin.Src.Middlewares.getReportTerrainToolMetrics)
 
 -- theme
 local PluginTheme = require(Plugin.Src.Resources.PluginTheme)
