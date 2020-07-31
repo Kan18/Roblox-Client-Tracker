@@ -197,7 +197,6 @@ Studio.App.Category.Camera,,Camera,Camera
 Studio.App.Category.Configuration,,Configuration,Configuration
 Studio.App.Category.Data,,Data,Data
 Studio.App.Category.Debug,,Debug,Debug
-Studio.App.Category.DeviceDeployment,,Device Deployment,Device Deployment
 Studio.App.Category.Diagnostics,,Diagnostics,Diagnostics
 Studio.App.Category.Directories,,Directories,Directories
 Studio.App.Category.Display,,Display,Display
@@ -1011,7 +1010,6 @@ Studio.App.Property.DebuggerErrorLineColor,The color of the line we have stopped
 Studio.App.Property.DefaultScriptFileDir,,Default Script File Dir,Default Script File Dir
 Studio.App.Property.DefaultWaitTime,,Default Wait Time,Default Wait Time
 Studio.App.Property.DeprecatedObjectsShown,,Deprecated Objects Shown,Deprecated Objects Shown
-Studio.App.Property.DevicePairingCode,,Device Pairing Code,Device Pairing Code
 Studio.App.Property.DisableAccuratePlaySolo,,Disable Accurate Play Solo,Disable Accurate Play Solo
 Studio.App.Property.DisableCSGv2,,Disable CSGv2,Disable CSGv2
 Studio.App.Property.DragMultiplePartsAsSinglePart,,Drag Multiple Parts As Single Part,Drag Multiple Parts As Single Part
@@ -2374,6 +2372,7 @@ Studio.App.StudioFlagEditor.ExportAsJson,,Export as JSON,Export as JSON
 Studio.App.StudioFlagEditor.ExportSuccess,,Export Success,Export Success
 Studio.App.StudioFlagEditor.ExportSuccess1,,Success! Overrides exported to %1.,Success! Overrides exported to %1.
 Studio.App.StudioFlagEditor.ExportsAllOverrides,,Exports all current overrides to a portable ClientAppSettings.json file.,Exports all current overrides to a portable ClientAppSettings.json file.
+Studio.App.StudioFlagEditor.FileIOError,,Unable to save. Try running RobloxStudio with admin permission.,Unable to save. Try running RobloxStudio with admin permission.
 Studio.App.StudioFlagEditor.FlagEditor,,Flag Editor,Flag Editor
 Studio.App.StudioFlagEditor.FlagsApplied,,Flag Overrides Applied,Flag Overrides Applied
 Studio.App.StudioFlagEditor.FlagsHaveBeenApplied,,"Flag overrides changes have been applied dynamically, studio behavior may be unstable until the next restart.","Flag overrides changes have been applied dynamically, studio behavior may be unstable until the next restart."

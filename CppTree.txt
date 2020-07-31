@@ -545,6 +545,7 @@ RBX
 		CmdRangeFormatting
 		CmdRepeat
 		CmdSelect
+		CmdToggleComment
 		CmdUnfoldAll
 		CmdUnindentSelection
 		GotoLineDialog

@@ -2835,7 +2835,6 @@ Class Studio : Instance [NotCreatable] [Service] [NotReplicated]
 	Property float Studio.Camera Shift Speed
 	Property float Studio.Camera Speed
 	Property bool Studio.Camera Zoom to Mouse Position
-	Property int Studio.Device Pairing Code
 	Property QDir Studio.DefaultScriptFileDir
 	Property QDir Studio.LocalAssetsFolder {✏️RobloxScriptSecurity}
 	Property bool Studio.OverrideCoreScripts {✏️RobloxScriptSecurity}

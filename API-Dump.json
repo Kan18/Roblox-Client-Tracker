@@ -50739,23 +50739,6 @@
                     }
                 },
                 {
-                    "Category": "Device Deployment",
-                    "MemberType": "Property",
-                    "Name": "Device Pairing Code",
-                    "Security": {
-                        "Read": "None",
-                        "Write": "None"
-                    },
-                    "Serialization": {
-                        "CanLoad": true,
-                        "CanSave": true
-                    },
-                    "ValueType": {
-                        "Category": "Primitive",
-                        "Name": "int"
-                    }
-                },
-                {
                     "Category": "Advanced",
                     "MemberType": "Property",
                     "Name": "Disable Accurate Play Solo",
