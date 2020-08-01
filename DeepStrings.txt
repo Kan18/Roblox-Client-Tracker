@@ -253,6 +253,7 @@ Adjustment
 AdjustSpeed
 AdjustTextBoxForKeyboard
 AdjustWeight
+ADL260QV2i08m6yixq9UgfrQxWeqKI0XYpSzkk2syucAofP
 AdminDeveloperConsoleEnabled
 AdminRemoteMicroProfiler
 AdminServerLogs
@@ -4093,6 +4094,7 @@ BackPressureThrottlingEnabled
 BackSurface
 BackSurfaceInput
 BackToLastMarkedLocation
+BackupStreamingFocusLastPlayerPosition
 BadAtomicTypeArgument
 BadAtomicTypeArgumentCount
 BADDSPCONNECTION
@@ -4382,7 +4384,6 @@ BlueValues
 BlurAxisXYZScratch
 BlurEffect
 BlurRadius
-BMP5ETlEEWNCwk27SfgsJvIIkqFiEYYQX0LW4N9tH6t
 BN_BLINDING_convert_ex
 BN_BLINDING_create_param
 BN_BLINDING_invert_ex
@@ -4673,7 +4674,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.443.0.409409
+ByVersion_0.443.0.409426
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -5206,7 +5207,6 @@ Ciphersuites
 CircularList
 Circumflexsmall
 CityBackground.png
-Cjp2lPMHjpaKFxwMums3NP59RhhbuV9
 CJVNotFallbackToEnglishForCoreGuiEnabled
 CJVNotFallbackToEnglishForUGCEnabled
 ClampColor
@@ -6471,7 +6471,6 @@ CountryRegionCode
 CountryRegionCodeReplicate
 CountShifted
 CountWidth
-Cq8u1XUIHE1ubXmSVHiClLCkAS4t960YHGfXew7c
 CrackedLava
 CrashDumpFileName
 CrashEvent
@@ -6794,6 +6793,7 @@ CSObject.Cpu
 CSObject.In
 CSObject.Out
 CSObject.Size
+CSrLklfkoOpYDPcT
 CSwitchCache
 CSwitchCache[ThreadId]
 CSwitchColors
@@ -7483,6 +7483,7 @@ DebugStudioUserAgreementsUsingSimulpong
 DebugTable
 DebugTerrainCustomDeformationParameters
 DebugThumbnailForceFailure
+DebugUseByteCountLimitForPhysicsReplication
 DebugUseCustomSimRadius
 DebugValidateSmoothClusters
 DebugVersionHistoryDialogLocalTestMode
@@ -7698,6 +7699,7 @@ DeltaTimes[SplitIndex]
 DependenciesInfo
 DependentBreakpointInsert
 DependentInsert
+DepR4g1LT5Pr3zZREla49uuw1sLilqIjdc
 DeprecatableBroadcasts
 Deprecated
 DEPRECATED_doCheck
@@ -7962,7 +7964,6 @@ DH_meth_set1_name
 DH_new_by_nid
 DH_new_method
 DHBasedMac
-DHO1CfWrusd
 DHParameters
 DHparams_print_fp
 DhufyEeFO7U33Tv7vk
@@ -8026,7 +8027,6 @@ DigitalSignature
 DilleniaUPC
 Dimensions
 DimmedText
-DiOJLphkvUUYV81cEV
 Direct3D11
 Direct3DCreate9
 Directional
@@ -8437,7 +8437,6 @@ DwmSetWindowAttribute
 DX25519_ASM
 DXCloseDeviceNV
 DXLockObjectsNV
-DXLRyDWeVddsxwaCmh4T1FDIWflo7udTQGO3Y8t
 DXObjectAccessNV
 DXOpenDeviceNV
 DXRegisterObjectNV
@@ -8745,8 +8744,8 @@ EffectBoundings
 EffectiveRetryCount
 EFixFailoverFailure
 EFrontVector
-EGR7OBA1Qd0sXMrsS3lLLCNYMf
 Egravesmall
+EgT3YOZNwFNutwx8HrCiWslqaGlhZnfxwbcqoAm6c
 EHcUgHc]oL
 EHERE\EfEpEzE
 EJJJJJJJJJJJJJJJJJJJJ
@@ -9361,7 +9360,6 @@ ExtraSelectionStore
 ExtrudedPartInstance
 EXtSoftware
 EyeAccessory
-EzYtoHvxAEoU
 F_ObjectHasComponents
 F`JXKXWJYB[Cd
 FA6256811994CD24F935527E2
@@ -9427,6 +9425,7 @@ FB64AAAED11E38B9D871882A8E559
 FB6CE584711E29A3DBD856014A660
 FB6CF584711E29A3DBD856014A660
 FB8E4A9E79B
+FBbLjy9AZQIYaERCkKFUWdibAY3Rm1nX6KQ7
 FbPnXNTBBz2CM47ldc6zPnp04Gg1Ch1zQNrS9Q0fLcTp94XeqG0DjA42Iq0M3ZDg
 FbxAMatrix
 FbxAnimation
@@ -11336,7 +11335,6 @@ GVKUTS[BXIWH\KbHi
 GXGfGkGpGuG
 GxI9Gpu2E2
 GyroscopeEnabled
-GZpBqfRdV5LhsSo0tM
 H_Key_dn.png
 H_NAEBVQString
 H`CeIkHq7v4
@@ -11561,7 +11559,6 @@ HistoryViewMouseX
 HistoryViewMouseY
 HitLocationPartFilterDescendents
 HitsPrecise
-HjPDMiebotqXLbtJJ
 HKEY_CLASSES_ROOT
 HKEY_CURRENT_CONFIG
 HKEY_CURRENT_USER
@@ -12656,7 +12653,6 @@ JIRA_RIDE_785
 JJJBBB\\\xx
 JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
 JKLMNOPQRSTU
-JMIBikjpqFzq7mpGx9be
 JoinBlobInvalidateCountThresholdPercent
 JoinBlobInvalidateThresholdPercent
 JoinCommand
@@ -12728,6 +12724,7 @@ JsonFormat
 JSONObject
 JSONOverflowAbort
 JSONOverflowDepth
+JswF8UnQMWw728bVy1
 JUGroupRolesRequestRecord
 JumpAnimation
 JumpHeight
@@ -12749,6 +12746,7 @@ K\7IxU..UxI7\K
 K_Key_dn.png
 KaiTi_GB2312
 KAXPEBDHAEAPEAVQChar
+KBuPPl5k8q
 KBytesPerSec
 KeepAliveTimeout
 KeepPositionOnInsert
@@ -13516,7 +13514,6 @@ LuauUseClassesForRobloxApi
 LuauWatchdog
 LuaWebService
 LVvuOx39]O
-LwzZ8Z0mzBO0PtrlARzd6V5ZLq
 M_NVWeakFunctionRef
 MacGamepadUseGCController
 MachineAddress
@@ -14153,7 +14150,6 @@ MethodQuery
 Metrics.width
 MetricsSets
 MetricType
-Mh1WgMFUbRZn6LJFoZelw6Y
 MHapV7R8MxA953
 MicroProfile
 MicroProfileFlip
@@ -14170,7 +14166,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEApgmK
+MIICCgKCAgEAu32WUKycFKzZef0U8ksCw0kliK4sqlhsb7n17i1
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14516,7 +14512,6 @@ MultTransposeMatrixf
 MusicalInstruments
 MutexLifetime
 MW4PartMaterial
-MyD5JRa6tZVdTay7ILdVRMyF9dAVm5eNiXuIJOt
 MyModelsAction
 MyWatchTreeWidget
 NAEAVHttpResponse
@@ -14861,6 +14856,7 @@ NSNNNNNWNa
 NSNNNNNWNSNN_NSNSNSNNNNSNWN`N^^N
 NSNNNNNWNWNNN^^N
 NSNNNNNWNZP[\
+NSPWjGZcnM
 Ntildesmall
 NullPassword
 NUMBER_OF_ORDERED_STREAMS
@@ -15338,7 +15334,9 @@ OverrideToMyBranch
 OverwriteMode
 OverwritePublish
 OwnProperty
+OYzhYGFKbOctI
 Ozs8xYCf2Q05p4gHyX
+OzTHd8kHSCdy
 PA^A]A\_^]
 PA^A]A\_^][
 PA_A^A\_^[]
@@ -15350,7 +15348,6 @@ PA_A^A]A\]
 PA_A^A]A\^
 PA_A^A]A\^][
 PA_A^A]A\^][H
-PA_A^A]A\_
 PA_A^A]A\_^
 PA_A^A]A\_^[
 PA_A^A]A\_^]
@@ -16326,6 +16323,8 @@ PhysicsReceiverS2
 PhysicsReplicationRatio
 PhysicsReprocessStudioSignal
 PhysicsSender
+PhysicsSenderByteBudget
+PhysicsSenderMaxBandwidthBps
 PhysicsSenderNoEmptyPackets
 PhysicsSenderRate
 PhysicsSenderS2
@@ -16811,8 +16810,6 @@ PolicyServiceFailure
 PolicyServiceHttpErrorHundredthsPercentage
 PolicyServiceHttpErrorOnRetryHundredthsPercentage
 PolicyServiceHttpResponse
-PolicyServiceLuaApiAdaptiveToHttpResponse
-PolicyServiceStoreHttpResponseToLocalStorage
 PollHttpResponse
 PolygonMode
 PolygonOffset
@@ -17195,6 +17192,7 @@ QAssociativeIterable
 QAssociativeIterableImpl
 QAuthenticator
 QAWNcgRdAzOKj8pi5wAlnsdoumgAtB1J7d
+QB9x1Foq9Ypi8eeaEL2ZvNgjLpHByWiK7s2C72egJi7EUyV
 QBoxLayout
 QButtonGroup
 QByteArray
@@ -19182,7 +19180,6 @@ RobloxBrowser
 RobloxButton
 RobloxButtonDefault
 RobloxChatWidget
-RobloxChineseDomain
 RobloxConnectionChanged
 RobloxConversation
 RobloxCookieEngineMutex
@@ -19335,7 +19332,6 @@ RowsToRemove
 RowStretch
 RowVisibilityChanged
 RPCServers
-RPdRIq2CSQy5VVb6PrXRhK2vjhpQqR7
 RRReceiptFail
 RRReceiptTotal
 RRRRRRRRzzzzzzzzzzzzzzzzzz
@@ -20422,6 +20418,7 @@ SigningScripts
 SignUpClicked
 SilentHangOnShutdown
 Sim_SendIfSim
+SiM6dSMnhDHzDfE0IVbsyquzXgqIBXCl
 SimBulletContactInitilizesConnector
 SimDeprecateConstraintLegacyAngularVelocity
 SimDrawNoCollisionConstraintToolTip
@@ -20621,6 +20618,7 @@ SortOptionName
 SortOptionsLength
 SortOrder.Custom
 SortTypeChanged
+SOU0uoJgtHqCGF5OC3UY4YRT
 SoundAssetsOfInterest
 SoundBuffer
 SoundChannel
@@ -20723,6 +20721,8 @@ SplittingCanceled
 SpreadAngle
 SpringConstraint
 SpringConstraintAction
+Sqgy0SN0yHYLLrzEfiSY5ogr7s
+SqtrI19M15c9neFIECAwEAAQ
 SquishRelay
 SQUIshRobloxReflectionExtensionLibrary
 Src.Thread
@@ -23669,7 +23669,6 @@ TattletaleUseNewWordListFeatures
 TattletaleUseOriginalWordList
 Tcommaaccent
 TCP_NODELAY
-TCqRz4qWuc0tRE3yfDHqckW9GmJ
 TeachingCallouts
 TeamChildOrderExposedTelemetry
 TeamChildOrderProperty
@@ -24543,6 +24542,7 @@ ToPreviousScriptLocation
 ToPropertyChange
 TopSurface
 TopSurfaceInput
+ToqL2TtcJGBq0
 ToReservedServer
 ToRobloxAction
 ToRobloxAsAction
@@ -25375,6 +25375,7 @@ UResponseError
 UResultDetail
 URLConstructionCleanup
 UrlFormattingOption
+URLHasChineseHost
 URLRequest
 URobloxApiGame
 URobloxRegisterSyntaxCategoriesNotification
@@ -25394,7 +25395,6 @@ UseAntiAddictionService
 UseBaseUrlInPlugins
 UseBaseUrlNotHardcodedUrl
 UseBetterNoFragmentSet
-UseBitCountLimit
 UseBlake2BHashInSharedString2
 UseBottomBar
 UseCentralTime
@@ -27004,6 +27004,7 @@ WeldConstraintAdornSize
 WeldConstraintTool
 WeldCursor
 WeldsAction
+Wf59g49OpJ8b
 WGL_3DFX_multisample
 WGL_3DL_stereo_control
 WGL_AMD_gpu_association
@@ -27184,6 +27185,7 @@ WithSHA224
 WithSHA256
 WithSHA384
 WithSHA512
+WKjK6UVseWYqeIFDz96Inrt0QdnCUgLlZhe4nwdB556Ac9v76dMXNXvgc0n9KEE
 WM_ATLGETCONTROL
 WM_ATLGETHOST
 WMCreateProfileManager
@@ -27331,6 +27333,7 @@ XPEAVFileSyncItem
 XPEAVICHull
 XPEAVQNetworkReply
 XPEAVRobloxScriptDiffDoc
+XQ4MiBjhqygs820Y
 XQColorDialog
 Xregex_error
 XResolution
@@ -27469,6 +27472,7 @@ YAXPEAXPEBX1
 YAXPEBVQObject
 YAXVexception_ptr
 YAXW4error_type
+YchcoRsIy7fOLfNuREIhflS1wj
 Ycircumflex
 Ydieresissmall
 YDYHYQYTYbYsY
@@ -27478,9 +27482,7 @@ YieldFuncDesc
 YieldFunction
 YQByteArray
 YResolution
-Ys0XjZY2xzcoK3eq6Rh4EpPr8jcZtW5fFDip3z3z3
 YwBBvY55YvBBwY5
-YYWiW8fk4ivFE7sfHAXTx2xv3cRE5L1JyRGXWBgisrh4
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
 Zcaronsmall
@@ -27499,8 +27501,8 @@ ZP6APEAX1PEBX
 ZP6AX1PEAX
 ZPEAVRBXMessageBox
 ZRZZZbZt[.[
+ZtSMGvKRPbGJStTFrTmlJDbG3g2w8mtjym5q0d
 ZVspecial_equipped_signal
 ZVTouchedSignal
-ZY8Ac408tuw9XMfk17pPY04F5Hgf0TiPK
 ZZZZZZZZZZZZZZZ
 ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
