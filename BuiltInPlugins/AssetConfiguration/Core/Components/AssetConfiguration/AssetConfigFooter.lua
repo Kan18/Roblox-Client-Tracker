@@ -198,7 +198,7 @@ function AssetConfigFooter:render()
 					Style = theme.defaultButton,
 					BorderMatchesBackground = true,
 					Size = UDim2.new(0, BUTTON_WIDTH, 0, BUTTON_HEIGHT),
-					Active = canSave or validateAnimationSucceeded,
+					Active = canSave and (not isDownloadFlow or isDownloadFlow and validateAnimationSucceeded),
 					Name = localizedContent.AssetConfig.Apply,
 					TextSize = Constants.FONT_SIZE_MEDIUM,
 

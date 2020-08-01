@@ -33,6 +33,7 @@ local ContextHelper = require(Util.ContextHelper)
 local ContextGetter = require(Util.ContextGetter)
 local InsertAsset = require(Util.InsertAsset)
 local Analytics = require(Util.Analytics.Analytics)
+local PageInfoHelper = require(Util.PageInfoHelper)
 
 local getUserId = require(Util.getUserId)
 local getNetwork = ContextGetter.getNetwork
@@ -595,7 +596,7 @@ local function mapStateToProps(state, props)
 		categoryIndex =  (not FFlagUseCategoryNameInToolbox) and (FFlagEnableDefaultSortFix and (pageInfo.categoryIndex or 1) or nil),
 		categoryName = FFlagUseCategoryNameInToolbox and (pageInfo.categoryName or Category.DEFAULT.name) or nil,
 		previewModel = previewModel or nil,
-		currentTab =  (not FFlagUseCategoryNameInToolbox) and (pageInfo.currentTab or Category.MARKETPLACE_KEY),
+		currentTab = PageInfoHelper.getCurrentTab(pageInfo),
 		assetVersionId = assetVersionId,
 		canManage = canManage,
 		previewPluginData = assets.previewPluginData,

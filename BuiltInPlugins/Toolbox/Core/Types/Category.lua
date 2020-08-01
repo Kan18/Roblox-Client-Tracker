@@ -6,11 +6,14 @@ local FFlagUseCategoryNameInToolboxFix1 = game:DefineFastFlag("UseCategoryNameIn
 local FFlagEnableDefaultSortFix2 = game:GetFastFlag("EnableDefaultSortFix2")
 local FFlagEnableToolboxVideos = game:GetFastFlag("EnableToolboxVideos")
 local FFlagToolboxUseNewPluginEndpoint = settings():GetFFlag("ToolboxUseNewPluginEndpoint")
+local FFlagToolboxDisableMarketplaceAndRecentsForLuobu = game:GetFastFlag("ToolboxDisableMarketplaceAndRecentsForLuobu")
 
 local Plugin = script.Parent.Parent.Parent
 local DebugFlags = require(Plugin.Core.Util.DebugFlags)
 local AssetConfigUtil = require(Plugin.Core.Util.AssetConfigUtil)
 local Cryo = require(Plugin.Libs.Cryo)
+
+local RobloxAPI = require(Plugin.Libs.Framework).RobloxAPI
 
 local Category = {}
 
@@ -207,7 +210,12 @@ Category.RECENT = {
 	Category.RECENT_VIDEO,
 }
 
-Category.DEFAULT = Category.FREE_MODELS
+Category.DEFAULT = nil
+if FFlagToolboxDisableMarketplaceAndRecentsForLuobu and RobloxAPI:baseURLHasChineseHost() then
+	Category.DEFAULT = Category.MY_MODELS
+else
+	Category.DEFAULT = Category.FREE_MODELS
+end
 
 -- NOTE: When FFlagEnableToolboxVideos is enabled, remember to move the keys directy into the tables for cleaner code!
 if FFlagEnableToolboxVideos then
@@ -294,18 +302,31 @@ if FFlagUseCategoryNameInToolbox then
 
 	Category.CREATIONS = getCreationCategories()
 
-	local tabs = {
-		Category.MARKETPLACE,
-		Category.INVENTORY_WITH_GROUPS,
-		Category.RECENT,
-		Category.CREATIONS,
-	}
-	local tabKeys = {
-		Category.MARKETPLACE_KEY,
-		Category.INVENTORY_KEY,
-		Category.RECENT_KEY,
-		Category.CREATIONS_KEY,
-	}
+	local tabs
+	local tabKeys
+	if FFlagToolboxDisableMarketplaceAndRecentsForLuobu and RobloxAPI:baseURLHasChineseHost() then
+		tabs = {
+			Category.INVENTORY_WITH_GROUPS,
+			Category.CREATIONS,
+		}
+		tabKeys = {
+			Category.INVENTORY_KEY,
+			Category.CREATIONS_KEY,
+		}
+	else
+		tabs = {
+			Category.MARKETPLACE,
+			Category.INVENTORY_WITH_GROUPS,
+			Category.RECENT,
+			Category.CREATIONS,
+		}
+		tabKeys = {
+			Category.MARKETPLACE_KEY,
+			Category.INVENTORY_KEY,
+			Category.RECENT_KEY,
+			Category.CREATIONS_KEY,
+		}
+	end
 
 	for index, tab in ipairs(tabs) do
 		for _, category in ipairs(tab) do

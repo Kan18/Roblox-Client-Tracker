@@ -49,4 +49,6 @@ game:DefineFastFlag("ToolboxUseDevFrameworkPromise", false)
 game:DefineFastFlag("ToolboxFixAnalyticsBugs", false)
 game:DefineFastFlag("DebugToolboxEnableRoactChecks", false)
 
+game:DefineFastFlag("ToolboxDisableMarketplaceAndRecentsForLuobu", false)
+
 return nil
