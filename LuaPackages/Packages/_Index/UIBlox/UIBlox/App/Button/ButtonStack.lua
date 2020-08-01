@@ -113,7 +113,7 @@ function ButtonStack:render()
 					NextSelectionLeft = (not isButtonStacked and colIndex > 1) and self.buttonRefs[colIndex - 1] or nil,
 					NextSelectionRight = (not isButtonStacked and colIndex < #buttons) and self.buttonRefs[colIndex + 1] or nil,
 					inputBindings = {
-						[Enum.KeyCode.ButtonA] = button.props.onActivated,
+						Activated = RoactGamepad.Input.onBegin(Enum.KeyCode.ButtonA, button.props.onActivated),
 					},
 				}
 
