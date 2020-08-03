@@ -50898,6 +50898,23 @@
                 {
                     "Category": "Script Editor",
                     "MemberType": "Property",
+                    "Name": "Format On Paste",
+                    "Security": {
+                        "Read": "None",
+                        "Write": "None"
+                    },
+                    "Serialization": {
+                        "CanLoad": true,
+                        "CanSave": true
+                    },
+                    "ValueType": {
+                        "Category": "Primitive",
+                        "Name": "bool"
+                    }
+                },
+                {
+                    "Category": "Script Editor",
+                    "MemberType": "Property",
                     "Name": "Format On Type",
                     "Security": {
                         "Read": "None",

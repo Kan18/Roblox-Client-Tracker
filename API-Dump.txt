@@ -2866,6 +2866,7 @@ Class Studio : Instance [NotCreatable] [Service] [NotReplicated]
 	Property Enum<AutoIndentRule> Studio.Auto Indent Rule
 	Property bool Studio.Enable Autocomplete
 	Property QFont Studio.Font
+	Property bool Studio.Format On Paste
 	Property bool Studio.Format On Type
 	Property bool Studio.Highlight Current Line
 	Property bool Studio.Indent Using Spaces

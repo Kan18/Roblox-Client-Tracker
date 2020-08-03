@@ -1023,6 +1023,7 @@ Studio.App.Property.ErrorReporting,,Error Reporting,Error Reporting
 Studio.App.Property.ExportMergeByMaterial,,Export Merge By Material,Export Merge By Material
 Studio.App.Property.FindSelectionBackgroundColor,,Find Selection Background Color,Find Selection Background Color
 Studio.App.Property.Font,,Font,Font
+Studio.App.Property.FormatOnPaste,,Format On Paste,Format On Paste
 Studio.App.Property.FormatOnType,,Format On Type,Format On Type
 Studio.App.Property.FrameRateManager,,Frame Rate Manager,Frame Rate Manager
 Studio.App.Property.GfxCard,,Gfx Card,Gfx Card
@@ -1267,6 +1268,7 @@ Studio.App.PropertyTooltip.AutoClosingQuotes,,Automatically insert a closing quo
 Studio.App.PropertyTooltip.AutoIndentRule,,Off: No automatic indentation. Relative: Auto-indent relative to the current line. Absolute: Auto-indent globally.,Off: No automatic indentation. Relative: Auto-indent relative to the current line. Absolute: Auto-indent globally.
 Studio.App.PropertyTooltip.EnableAutocomplete,,Enable code suggestions to show up while typing.,Enable code suggestions to show up while typing.
 Studio.App.PropertyTooltip.Font,,"Change the text font family, typeface, and size.","Change the text font family, typeface, and size."
+Studio.App.PropertyTooltip.FormatOnPaste,,Automatically format the code after pasting.,Automatically format the code after pasting.
 Studio.App.PropertyTooltip.FormatOnType,,Automatically format the code after typing.,Automatically format the code after typing.
 Studio.App.PropertyTooltip.IndentUsingSpaces,,Prefer indent with spaces over tabs. This will affect Auto Indent and pressing Tab behavior.,Prefer indent with spaces over tabs. This will affect Auto Indent and pressing Tab behavior.
 Studio.App.PropertyTooltip.Rulers,,Vertical lines drawn at the specified column numbers. These can be used as a guide to code length limits.,Vertical lines drawn at the specified column numbers. These can be used as a guide to code length limits.
