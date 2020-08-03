@@ -1362,6 +1362,9 @@ Studio.App.RBXMainWindow.DownloadACopyElps,,Download a Copy...,Download a Copy..
 Studio.App.RBXMainWindow.DownloadActiveDocument,,Download a copy of the active document,Download a copy of the active document
 Studio.App.RBXMainWindow.Drafts,,Drafts,Drafts
 Studio.App.RBXMainWindow.Drag,,Drag,Drag
+Studio.App.RBXMainWindow.DraggerModeGeometric,,Geometric,Geometric
+Studio.App.RBXMainWindow.DraggerModeLabel,,Mode:,Mode:
+Studio.App.RBXMainWindow.DraggerModePhysical,,Physical,Physical
 Studio.App.RBXMainWindow.Dropper,,Dropper,Dropper
 Studio.App.RBXMainWindow.Dummy,,dummy,dummy
 Studio.App.RBXMainWindow.Duplicate,,Duplicate,Duplicate

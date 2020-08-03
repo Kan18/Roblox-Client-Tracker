@@ -2105,6 +2105,7 @@ AVDoubleSpinBoxWidget
 AVDownMixPL2
 AVDraftsService
 AVDraftsServiceHost
+AVDraggerModeChangedVerb
 AVDropperTool
 AVDSPCodec
 AVDSPResampler
@@ -4237,7 +4238,6 @@ BeginQuery
 BeginRecording
 BeginTransformFeedback
 BehaviorType
-BEMQU4jiBchFLm8YXxJC4EnPT3YT
 BEnableUsersEndpoint
 Benchmarked
 Benchmarking
@@ -4568,7 +4568,6 @@ BrowserWindow
 BrowserWindowClosed
 BrowserWindowWillNavigate
 BrushStyle
-BSh6VLYQuS1G
 BtnBackground.png
 BtYovqVKoHMDMoDd0u9Mc5CIyRqyu0IGS99A0jeEXRj7aofQ
 BU_Simplex1to4
@@ -4664,7 +4663,6 @@ BVQVariant
 BVRegion3int16
 BVSystemAddress
 BVTextureId
-BvuJd5RbACTysP3AACl2BHl9IKNU8HvOUwNpE6ggQBZRVLLZ6Qio9czJIUM
 BW4AlphaMode
 BW4ModelLevelOfDetail
 BWGradient.png
@@ -4679,7 +4677,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.443.0.409474
+ByVersion_0.443.0.409480
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -4923,7 +4921,6 @@ CAXHW4TimerType
 CAXPEAV123
 CB_JUUserNameResponseHandler
 CB_JW4FriendService_FriendStatus
-CB1D73TTpbeRy0XXCf
 CB271E256811994CD24F935527E2
 CB27CB54AAF011E38B9D871882A8E559
 CB27CB55AAF011E38B9D871882A8E559
@@ -5925,6 +5922,8 @@ CollisionShapeData
 CollisionSoundEnabled
 CollisionSoundVolume
 CollisionToggleMode
+CollisionToggleMode_Geometric
+CollisionToggleMode_Physical
 CollisionType
 CollisionTypeField
 Color3.fromHSV
@@ -5982,6 +5981,7 @@ CombinedSignalChildRemoved
 CombinedSignalProperty
 ComboBoxAction
 ComboBoxActivated
+ComboBoxesByName
 ComboBoxLabel
 ComboBoxLineEdit
 ComboboxSupportEventHandler
@@ -8317,6 +8317,8 @@ DragFaceInstances
 DraggerGridSize
 DraggerMaxMovePercent
 DraggerMaxMoveSteps
+DraggerMode
+DraggerModeChangedVerb
 DraggerSolveConstraints
 DraggerTool
 DraggingV1
@@ -8860,6 +8862,7 @@ EnableBreakpointPropagationBetaFeature
 EnableBubbleChatFromChatService
 EnableCancelInputEvent
 EnableCatelogForAPIService
+EnableClarifiedDraggerBehaviorUI
 EnableClientDeepLink
 EnableContactsApiServiceV2
 EnableConvertTerrainBeta
@@ -11077,6 +11080,7 @@ GfxPartInvalidationLimitToTime2
 GGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GIaW817ikCnsGo5Xp95piqt
 GIM_ShapeRetriever
 GImpactCollisionAlgorithm
 GImpactCompound
@@ -11124,6 +11128,7 @@ GLSL.std.450
 Glsles3Mediump1
 GlslesMediump1
 GlueCursor
+GmWemTBX8fTSboQWOBzdu4r0Ycc4LYKf
 GoldenHashes
 GoodbyeChoiceActive
 GoodbyeChoiceActiveProperty
@@ -11154,6 +11159,7 @@ GoToPreviousScriptLocation
 GoToSourceCodeTB
 GoToVersionFailed
 GpuVariance
+GQtqRZw2aYSJnH3fpBEkRVdrxgXeexgBo2
 GrabCursor.png
 GrabRotateCursor
 GrabRotateCursor.png
@@ -11869,7 +11875,6 @@ HVWeakFunctionRef
 HW4AccessMode
 HW4CaretMode
 HW4CaseSensitivity
-Hw4CsL5b7Adc3XKdLZhrtFgwW9m66KcAYHSguj0B4jM0QKRhJioqP
 HW4EDeformerType
 HW4FillRule
 HW4Initialization
@@ -11881,7 +11886,6 @@ HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdna
 HWYGOTH.ttf
 HybridEvent
 HyIyPyVy]y^yey
-HzNkoqaG32y8Owsagad6CPW8RETza9ARCY5qYAmIODmpYl6Dc0vOcENwirW6dMV
 Iacutesmall
 IAutocompleter
 IBusyStateModel
@@ -11956,6 +11960,7 @@ IFindListener
 IfLastDocInLastAppInstance
 IfPurchased
 IGameIconsStore
+IGehzcXB1uWvyF9Qycf88
 IgnoreGuiInset
 IgnoreIA5StringSyntax
 IgnoreLocaleInJoinScriptData
@@ -12454,6 +12459,7 @@ InvokePreloadCallbackFromDMJob
 InvokeServer
 InWithTheNew
 IObjectWithSiteImpl
+IOUr2gz48AwIqfi4bl62i
 IPAddrBlocks
 IPAddressChoice
 IPAddressFamily
@@ -12466,7 +12472,6 @@ IPTypeAndDataCenter
 IPublishedGamesStore
 IPV6_V6ONLY
 IPV6RobloxStudioCleanUp1
-IqXb4ahRtvlZmL8AlFYLWnaV7bIoFp4kVYs
 IRestartController
 IRobloxDoc
 IRobloxDocManager
@@ -12740,7 +12745,7 @@ JumpScaresP2
 JumpToIndex
 JustEndedBusy
 JUUserNameResponseHandler
-JUvD1Gh2EYLZstALSOZPFz
+JVzFE0teup02cAmhQw7cMoMQRzz935865dKpYzqttmLkOfhAXGnQP
 JW4AppInstallType
 JW4FriendService_FriendStatus
 JW4HttpRequestResult
@@ -12804,7 +12809,7 @@ KeywordFilterType
 KfaO3j5BbG6ijHHxFy22YNNJwxKTT
 KfE9k0uDfE9k
 KFKPKXK`KhK
-KhK2F5Bqul1lgHl7o3b1W3mzIxPh6T6jgfgYcV
+KFsoK5Fh3xI4RoK9jjo8t0z0q97fLICLgKcEXZ9j
 KickByDatacenter_
 KiDszBCYB0gyp03Pc
 KillPtClicked
@@ -12816,7 +12821,7 @@ KnownPrefixIndex
 KodchiangUPC
 KPEAVICHull
 KPEIBX_K_KPEIAU_iobuf
-KqUEmzVhMx
+KqPYWYTiZMTwDS7K6GLGbpRp24M
 KSocialService
 KVScriptContext
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
@@ -13392,6 +13397,7 @@ LSPObservable
 LSPServerTextCache
 LSPWarning
 LSRemoveFilePathUsingRegEx
+LSRfiR6ScpS12GA2jykQBY6F3qbL
 LUA_UNAUTHORIZED_LOG_OUT
 LuaAnalyticsReleasePeriod
 LuaAppABTestGameDetailsPeekView
@@ -13518,7 +13524,6 @@ LuauUseClassesForRobloxApi
 LuauWatchdog
 LuaWebService
 LVvuOx39]O
-Lx3zccfXhK8SfyGBdaTVSSnFkkY
 M_NVWeakFunctionRef
 MacGamepadUseGCController
 MachineAddress
@@ -14170,7 +14175,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEApUSgJCMgJNd
+MIICCgKCAgEA
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14210,7 +14215,6 @@ Miscellaneous
 Mismatched
 MissingCoreScript
 MissingDumpFile
-MKyGu2oBuwDvA5zI0JcLYhmBOUdshAA
 MMW4IkDragCollisionsMode
 MMW4PartMaterial
 MMW4UserInputState
@@ -14996,6 +15000,7 @@ OCSP_SINGLERESP
 OCSPResponse
 OCSPSigning
 OCTETSTRING
+ODbT7BA8taZTrxqDSzHI8Qer1FgBjqMhq5o1qW
 Odieresissmall
 OfA9HPuHfA9H`uAfA9Hpu
 OfAdmissions
@@ -15037,7 +15042,6 @@ OgreWidget
 OgreWidgetForGameState
 OgreWidgetShowEvent
 Oh44\h44\Q
-OhS2bPl0LABNOM1M9QsL66z06FWA8CAwEAAQ
 Ohungarumlaut
 OiCCPPhotoshop
 OldActiveElement
@@ -17172,7 +17176,6 @@ PushPixels
 PVAdornment
 PVInstance
 PVK_header
-PwuSG7KdU3c4sMLBb7j
 PxnhPiraCmahCilaKcpeLicyLidyLkclOgnjRruaSdnuSiiaVtsvAumaBpygEimrAilhPitrPavaJihtKusiLietMbraShkrOrmaSanaLtvaTktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
 PyJlf7IHZQpFHohBe
 QAbstractAnimation
@@ -17192,6 +17195,7 @@ QActionEvent
 QActionGroup
 QActionTriggered
 QAnimationGroup
+QAoGHFzxKN
 QApplication
 QArrayData
 QAssociativeIterable
@@ -19415,7 +19419,6 @@ RunService.Stepped
 RuntimeScriptService
 RuntimeUndoBehavior
 RunUpdateCycle.
-RvGgtMPlMOsVl
 RVideoInternal
 RVideoMemLogging
 RVideoTrace
@@ -19429,6 +19432,7 @@ SA_NAEBVQUrl
 SA_NPEAVQObject
 SA_NPEAVQTranslator
 SA_NPEBUAbstractConverterFunction
+SA0PFNjZtkfrJUIFt3bfghLMvTCS00GHaQJGmNrFmqVJdnhxBeED8JpGJlh4XcTZ
 SafeZoneOffsetsChanged
 SafeZoneOffsetsInputWidget
 SAHAEBVQByteArray
@@ -22915,6 +22919,7 @@ StudioClose.Continue
 StudioClose.End
 StudioClose.Paused
 StudioClose.Start
+StudioCLoseDeletedScriptOnDraftDeletion
 StudioCloudEditController_Dtor_CrashFix
 StudioCloudEditLoadCreatorId
 StudioCollectGPUInfo
@@ -23497,6 +23502,7 @@ SurfaceGui
 SurfaceGuiNonText
 SurfaceGuiSizingMode
 SurfaceJoinToggleMode
+SurfaceJoinToggleMode_Geometric
 SurfaceLight
 SurfaceMenu.png
 SurfacePanel.png
@@ -23551,11 +23557,13 @@ SwitchToFiber
 SwitchWindow
 Sword128.png
 SwordTexture.png
+SWqQLKzdhPaK0i
 SXNET_add_id_asc
 SXNET_add_id_INTEGER
 SXNET_add_id_ulong
 SXNET_get_id_asc
 SXNET_get_id_ulong
+SXoTxZLxa2ABge
 SymantecPKI
 SymbolicLinkForPlace
 SymbolValue
@@ -25280,7 +25288,6 @@ Upartial_date_rule_spec
 UPartyInfo
 UPathUpdateJob
 UpBrickAction
-UpBTWppi98PrMr
 UpButtonPressed
 UpdateAllPackages
 UpdateArbiter
@@ -26974,7 +26981,6 @@ WaterWaveSpeed
 WaypointIdx
 WCharArray
 Wcircumflex
-WDe7jtxeqREkPIN7GLdCBLo0y5Psd2Wj3Fnegyt7
 WDU_Mbstatet
 WeakFunctionRef
 WeakThreadRef
@@ -27010,6 +27016,8 @@ WeldConstraint
 WeldConstraintAction
 WeldConstraintAdornHighlightedPartSize
 WeldConstraintAdornSize
+WeldConstraintRelativeCFrame1
+WeldConstraintRelativeCFrame2
 WeldConstraintTool
 WeldCursor
 WeldsAction
@@ -27197,6 +27205,7 @@ WM_ATLGETCONTROL
 WM_ATLGETHOST
 WMCreateProfileManager
 WMCreateSyncReader
+WmGPHwtmyJma905OBK91bObc
 Wmvcore.dll
 WoodPlanks
 WordWrapMode
@@ -27316,7 +27325,6 @@ XInputGetCapabilities
 XInputGetState
 XInputSetState
 Xinvalid_argument
-XiVi89WG2hB
 Xlength_error
 Xout_of_range
 XP6AXAEBUTextFilterResult
@@ -27341,11 +27349,9 @@ XPEAVFileSyncItem
 XPEAVICHull
 XPEAVQNetworkReply
 XPEAVRobloxScriptDiffDoc
-XPTMHQlpG9JVqKp3tPp5
 XQColorDialog
 Xregex_error
 XResolution
-XRfMNaSCMDllZ6dC9VjYYR
 Xtime_get_ticks
 XUnegotiation_response
 XUNetworkResult
@@ -27484,7 +27490,9 @@ YAXW4error_type
 Ycircumflex
 Ydieresissmall
 YDYHYQYTYbYsY
+YeJTd7j51CZGD35e6wKx2bzQIzcW7rr2Svqn6vvpGM2cQrl
 YffYZefYDNNDCOO
+YH4M8qTmT6Ho5QCpfyLkfMpv26Zt8IVUlolrE1ouka3Hja69DuLyI
 YieldEvent
 YieldFuncDesc
 YieldFunction

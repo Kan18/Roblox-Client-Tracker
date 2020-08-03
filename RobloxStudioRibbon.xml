@@ -71,9 +71,15 @@
         <addaction name="resizeAction" style="textundericon" text="Studio.App.RobloxRibbonMainWindow.Scale"  tooltip="Studio.App.RobloxRibbonMainWindow.ResizeAnObject" icon=":/RibbonBar/images/RibbonIcons/Home/Resize.png" width="32" height="32"/>
         <addaction name="advRotateAction" style="textundericon" text="Studio.App.RBXMainWindow.Rotate" tooltip="Studio.App.RobloxRibbonMainWindow.RotateAnObject" icon=":/RibbonBar/images/RibbonIcons/Home/Rotate.png" width="32" height="32"/>
         <addseparator visible="false"/>
-        <addaction name="toggleCollisionCheckAction" style="textbesideicon" text="Studio.App.RobloxRibbonMainWindow.Collisions" tooltip="Studio.App.RobloxRibbonMainWindow.CheckCollisionsDragging" icon=":/RibbonBar/images/RibbonIcons/Home/Collisions-Enabled-16x16.png" width="16" height="16"/>
-        <addaction name="toggleConstraintCheckAction" style="textbesideicon" text="Studio.App.RobloxRibbonMainWindow.Constraints" tooltip="Studio.App.RobloxRibbonMainWindow.SolveConstraintsWhileDragging" icon=":/RibbonBar/images/RibbonIcons/Physics/constraint-32x32.png" width="16" height="16"/>
-        <addaction name="toggleJointCreationAction" style="textbesideicon" text="Studio.App.RobloxRibbonMainWindow.JoinSurfaces" tooltip="Studio.App.RobloxRibbonMainWindow.JoinSurfacesTooltip"  icon=":/RibbonBar/images/RibbonIcons/Home/Join.png"  width="16" height="16" />
+        <addcombobox name="draggerMode" fflag="EnableClarifiedDraggerBehaviorUI" text="Studio.App.RBXMainWindow.DraggerModeLabel">
+          <comboboxitem text="Studio.App.RBXMainWindow.DraggerModeGeometric" value ="0" defaultvalue="true" />
+          <comboboxitem text="Studio.App.RBXMainWindow.DraggerModePhysical" value="1" />
+        </addcombobox>
+        <addcheckbox name="toggleCollisionCheckAction" text="Studio.App.RobloxRibbonMainWindow.Collisions" fflag="EnableClarifiedDraggerBehaviorUI" />
+        <addcheckbox name="toggleJointCreationAction" text="Studio.App.RobloxRibbonMainWindow.JoinSurfaces" fflag="EnableClarifiedDraggerBehaviorUI" />
+        <addaction name="toggleCollisionCheckAction"  fflag="!EnableClarifiedDraggerBehaviorUI" style="textbesideicon" text="Studio.App.RobloxRibbonMainWindow.Collisions" tooltip="Studio.App.RobloxRibbonMainWindow.CheckCollisionsDragging" icon=":/RibbonBar/images/RibbonIcons/Home/Collisions-Enabled-16x16.png" width="16" height="16"/>
+        <addaction name="toggleConstraintCheckAction"  fflag="!EnableClarifiedDraggerBehaviorUI" style="textbesideicon" text="Studio.App.RobloxRibbonMainWindow.Constraints" tooltip="Studio.App.RobloxRibbonMainWindow.SolveConstraintsWhileDragging" icon=":/RibbonBar/images/RibbonIcons/Physics/constraint-32x32.png" width="16" height="16"/>
+        <addaction name="toggleJointCreationAction"  fflag="!EnableClarifiedDraggerBehaviorUI" style="textbesideicon" text="Studio.App.RobloxRibbonMainWindow.JoinSurfaces" tooltip="Studio.App.RobloxRibbonMainWindow.JoinSurfacesTooltip"  icon=":/RibbonBar/images/RibbonIcons/Home/Join.png"  width="16" height="16" />
       </Group>
       <Group name="Terrain" text="Studio.App.RobloxRibbonMainWindow.Terrain">
           <addaction name="toggleTerrainToolsDockAction"
@@ -122,7 +128,7 @@
           <addaction name="ms_Slate" style="textbesideicon" text="Studio.App.Materials.Slate" value="Slate" icon=":/RibbonBar/images/Studio Ribbon Icons/slate.png" width="32" height="32"/>
           <addaction name="ms_Sand" style="textbesideicon" text="Studio.App.Materials.Sand" value="Sand" icon=":/RibbonBar/images/Studio Ribbon Icons/sand.png" width="32" height="32"/>
           <addaction name="ms_SmoothPlastic" style="textbesideicon" text="Studio.App.Materials.SmoothPlastic" value="SmoothPlastic" icon=":/RibbonBar/images/Studio Ribbon Icons/smoothPlastic.png" width="32" height="32"/>
-		  <addaction name="ms_Wood" style="textbesideicon"  text="Studio.App.Materials.Wood" value="Wood" icon=":/RibbonBar/images/Studio Ribbon Icons/wood.png" width="32" height="32"/>
+          <addaction name="ms_Wood" style="textbesideicon"  text="Studio.App.Materials.Wood" value="Wood" icon=":/RibbonBar/images/Studio Ribbon Icons/wood.png" width="32" height="32"/>
           <addaction name="ms_WoodPlanks" style="textbesideicon"  text="Studio.App.RobloxRibbonMainWindow.WoodPlanks" value="WoodPlanks" icon=":/RibbonBar/images/Studio Ribbon Icons/woodplanks.png" width="32" height="32"/>
 		</MenuPopupButton>
         <ColorPicker name="actionColorSelector" style="textundericon" ischeckable="true" type="color" text="Studio.App.RobloxRibbonMainWindow.Color" icon=":/RibbonBar/images/RibbonIcons/Home/Color.png" tooltip="Studio.App.RobloxRibbonMainWindow.SelectColorAndApplyToParts" width="32" height="32"/>
@@ -170,9 +176,15 @@
         <addaction name="advRotateAction" style="textundericon" text="Studio.App.RBXMainWindow.Rotate" tooltip="Studio.App.RobloxRibbonMainWindow.RotateAnObject" icon=":/RibbonBar/images/RibbonIcons/Home/Rotate.png" width="32" height="32" />
         <addaction name="Transform" instancename="Transform" style="textundericon" text="Studio.App.RobloxRibbonMainWindow.Transform" tooltip="Studio.App.RobloxRibbonMainWindow.PreciselyManipulateAnObject" type="plugin" icon=":/RibbonBar/images/RibbonIcons/Home/Plane.png" width="32" height="32" />
         <addseparator visible="false"/>
-        <addaction name="toggleCollisionCheckAction" style="textbesideicon" text="Studio.App.RobloxRibbonMainWindow.Collisions" tooltip="Studio.App.RobloxRibbonMainWindow.CheckCollisionsDragging" icon=":/RibbonBar/images/RibbonIcons/Home/Collisions-Enabled-16x16.png" width="16" height="16"/>
-        <addaction name="toggleConstraintCheckAction" style="textbesideicon" text="Studio.App.RobloxRibbonMainWindow.Constraints" tooltip="Studio.App.RobloxRibbonMainWindow.SolveConstraintsWhileDragging" icon=":/RibbonBar/images/RibbonIcons/Physics/constraint-32x32.png" width="16" height="16"/>
-        <addaction name="toggleJointCreationAction" style="textbesideicon" text="Studio.App.RobloxRibbonMainWindow.JoinSurfaces" tooltip="Studio.App.RobloxRibbonMainWindow.JoinSurfacesTooltip" icon=":/RibbonBar/images/RibbonIcons/Home/Join.png"  width="16" height="16" />
+        <addcombobox name="draggerMode" fflag="EnableClarifiedDraggerBehaviorUI" text="Studio.App.RBXMainWindow.DraggerModeLabel">
+          <comboboxitem text="Studio.App.RBXMainWindow.DraggerModeGeometric" value ="0" defaultvalue="true" />
+          <comboboxitem text="Studio.App.RBXMainWindow.DraggerModePhysical" value="1" />
+        </addcombobox>
+        <addcheckbox name="toggleCollisionCheckAction" text="Studio.App.RobloxRibbonMainWindow.Collisions" fflag="EnableClarifiedDraggerBehaviorUI" />
+        <addcheckbox name="toggleJointCreationAction" text="Studio.App.RobloxRibbonMainWindow.JoinSurfaces" fflag="EnableClarifiedDraggerBehaviorUI" />
+        <addaction name="toggleCollisionCheckAction"  fflag="!EnableClarifiedDraggerBehaviorUI" style="textbesideicon" text="Studio.App.RobloxRibbonMainWindow.Collisions" tooltip="Studio.App.RobloxRibbonMainWindow.CheckCollisionsDragging" icon=":/RibbonBar/images/RibbonIcons/Home/Collisions-Enabled-16x16.png" width="16" height="16"/>
+        <addaction name="toggleConstraintCheckAction"  fflag="!EnableClarifiedDraggerBehaviorUI" style="textbesideicon" text="Studio.App.RobloxRibbonMainWindow.Constraints" tooltip="Studio.App.RobloxRibbonMainWindow.SolveConstraintsWhileDragging" icon=":/RibbonBar/images/RibbonIcons/Physics/constraint-32x32.png" width="16" height="16"/>
+        <addaction name="toggleJointCreationAction"  fflag="!EnableClarifiedDraggerBehaviorUI" style="textbesideicon" text="Studio.App.RobloxRibbonMainWindow.JoinSurfaces" tooltip="Studio.App.RobloxRibbonMainWindow.JoinSurfacesTooltip"  icon=":/RibbonBar/images/RibbonIcons/Home/Join.png"  width="16" height="16" />
       </Group>
       <Group name="Snap to Grid" text="Studio.App.RobloxRibbonMainWindow.SnapToGrid" controlsCentering="true">
         <addcheckbox tooltip="Studio.App.RobloxRibbonMainWindow.TogglesRotateSnap" name="disableRotateGridAction" text="Studio.App.RBXMainWindow.Rotate" checked="true"/>
