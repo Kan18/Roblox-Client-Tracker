@@ -2350,7 +2350,7 @@ Studio.App.VideoControl.RecordingStopped,,,Video recording stopped,Video recordi
 Studio.App.ManageEmulationDeviceDialog.CloneDevice,,,Clone Device,Clone Device,기기 복제,,复制设备
 Studio.App.RBXMainWindow.ResumesExection,,,Resumes execution after pausing,Resumes execution after pausing,일시 정지 후 실행 재개,,暂停后继续执行
 Studio.App.RBXMainWindow.SaveAndReloadPlugin,,,Save and Reload Plugin,Save and Reload Plugin,플러그인 저장 및 다시 불러오기,,保存并重新加载插件
-Studio.App.RBXMainWindow.SaveAndReloadPluginTooltip,,,Save Plugin back to disk. Stop plugin exection. Reload from disk.,Save Plugin back to disk. Stop plugin exection. Reload from disk.,플러그인을 디스크에 다시 저장하세요. 플러그인 실행을 중지하세요. 디스크에서 다시 불러오세요.,,将插件保存回硬盘。停止插件执行。重新从硬盘载入。
+Studio.App.RBXMainWindow.SaveAndReloadPluginTooltip,,,Save Plugin back to disk. Stop plugin execution. Reload from disk.,Save Plugin back to disk. Stop plugin execution. Reload from disk.,플러그인을 디스크에 다시 저장하세요. 플러그인 실행을 중지하세요. 디스크에서 다시 불러오세요.,,将插件保存回硬盘。停止插件执行。重新从硬盘载入。
 Studio.App.RobloxRibbonMainWindow.ViewAssetManager,,,View Asset Manager,View Asset Manager,애셋 관리자 보기,,查看资源管理器
 Studio.App.RobloxStudioVerbs.DirtyPublishWarning1,,,There are uncommitted script changes that will not be published with the place. Do you want to publish anyway? <a href=%1>Learn more</a>,There are uncommitted script changes that will not be published with the place. Do you want to publish anyway? <a href=%1>Learn more</a>,"커밋되지 않은 스크립트 변경 사항이 있으며, 플레이스와 함께 게시할 수 없습니다. 그래도 게시할까요? <a href=%1>더 알아보기</a>",,存在未提交的脚本更改，将不会随场景共同发布。确定继续发布吗？<a href=%1>了解更多</a>
 Studio.App.RobloxStudioVerbs.PublishConfirm,,,Publish,Publish,게시,,发布

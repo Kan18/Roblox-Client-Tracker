@@ -1552,8 +1552,10 @@ Studio.App.RBXMainWindow.RotateTool,,Rotate Tool,Rotate Tool
 Studio.App.RBXMainWindow.Run,,Run,Run
 Studio.App.RBXMainWindow.SaveActiveDocumentToRoblox,,Save Active Document to Roblox,Save Active Document to Roblox
 Studio.App.RBXMainWindow.SaveActiveDocumentToRobloxAs,,Save Active Document to Roblox As,Save Active Document to Roblox As
+Studio.App.RBXMainWindow.SaveAndReloadAllPlugins,,Save and Reload All Plugins in Debugger,Save and Reload All Plugins in Debugger
+Studio.App.RBXMainWindow.SaveAndReloadAllPluginsTooltip,,Save all plugins in debugger back to disk. Stop execution of those plugins. Reload them from disk.,Save all plugins in debugger back to disk. Stop execution of those plugins. Reload them from disk.
 Studio.App.RBXMainWindow.SaveAndReloadPlugin,,Save and Reload Plugin,Save and Reload Plugin
-Studio.App.RBXMainWindow.SaveAndReloadPluginTooltip,,Save Plugin back to disk. Stop plugin exection. Reload from disk.,Save Plugin back to disk. Stop plugin exection. Reload from disk.
+Studio.App.RBXMainWindow.SaveAndReloadPluginTooltip,,Save plugin back to disk. Stop plugin execution. Reload from disk.,Save plugin back to disk. Stop plugin execution. Reload from disk.
 Studio.App.RBXMainWindow.SaveAsCSVElps,,Save as CSV...,Save as CSV...
 Studio.App.RBXMainWindow.SaveAsElps,,Save As...,Save As...
 Studio.App.RBXMainWindow.SaveAsLocalPluginElps,,Save as Local Plugin...,Save as Local Plugin...

@@ -639,6 +639,7 @@ AndInsertBreakpointAtLine
 AndModifier
 AndMoveNext
 AndPrefixStringValue
+AndReloadAllDebuggablePluginsAction
 AndReloadDebuggablePluginAction
 Android.Authentication.LuaLoginAndSignup4
 AndroidBackButtonPressed
@@ -729,7 +730,6 @@ AntiAddictionReport401ToLua
 AntiReplay
 AntiSpamSpamLimit
 AnyWayYouHashItOut4
-AoJaaqzkO4VTQvWO4AcdM21hJhx24PgKZ
 APEAU_iobuf
 ApiGamesChanged
 ApiKeyResult
@@ -3301,7 +3301,9 @@ AVSafeIntException
 AVSafeZoneOffsetsInputWidget
 AVSampleSoftware
 AVSandboxLocalCache
+AVSaveAndReloadAllDebuggablePluginsVerb
 AVSaveAndReloadDebuggablePluginVerb
+AVSaveAndReloadPluginVerbHelper
 AVSavePlaceToRobloxAsVerb
 AVSavePlaceToRobloxVerb
 AVSceneUpdater
@@ -4483,6 +4485,7 @@ BPuVfD9B`uOfD9BpuH
 BQByteArray
 BQJsonValueRef
 BQPersistentModelIndex
+BqtBe0gXvliTdKCtMtp63FOVpZXtTIr2uumjhXTnv6DclImQa
 BranchIcon
 BreakGroup
 BreakJoints
@@ -4674,7 +4677,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.443.0.409462
+ByVersion_0.443.0.409470
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -4976,7 +4979,6 @@ CellOrientation
 CellPadding
 CellsAreCubes
 CellWidget
-CemB9CuoiJbqPYK8b0qrWHdNmVQ2LNSSn0
 CenterButtons
 CenterDialogType
 CenterDialogTypes
@@ -5208,7 +5210,6 @@ Ciphersuites
 CircularList
 Circumflexsmall
 CityBackground.png
-CJ0QyJgXpapqu2r9gOn3tKnCbjZIQV6IycTYtuUs331JGqdAzrb6R8
 CJVNotFallbackToEnglishForCoreGuiEnabled
 CJVNotFallbackToEnglishForUGCEnabled
 ClampColor
@@ -7510,7 +7511,6 @@ DebugVideoStreamFixedSizeImage
 DebugVisualizationImprovements
 DebugVisualizerTrackRotationPredictions
 DebugWireframe
-DEC1FgUd05pjZMDYhW350uQq0
 DecalTexture
 DecControl.API_sampleRate
 DecControl.internalSampleRate
@@ -7968,7 +7968,6 @@ DHBasedMac
 DHParameters
 DHparams_print_fp
 DhufyEeFO7U33Tv7vk
-DHXDOMlVYVAj4EUEGz3ECAwEAAQ
 Diagnostic
 Diagnostics
 DiagnosticsDockAction
@@ -9131,6 +9130,7 @@ EThrottleType
 EucrosiaUPC
 EulerAnglesXYZ
 EulerAnglesYXZ
+EUmW31USBmvU5pwd0aRVeUBvwCaxdHWr9PqqhyRi
 EvaluateGlobalTransform
 Event.button
 Event.clientX
@@ -10137,6 +10137,7 @@ FXCompositing
 FXCompositingFS
 FXCompositingLinearFS
 FXComposition
+FYT62ptSETpPSQgU
 GainMakeup
 GameAbsenceInWeb.
 GameAction
@@ -11332,7 +11333,6 @@ GunCursor.png
 GunWaitCursor.png
 GvEphfEUiHHoD6hYFI4xWGpAnIHcklKQCxrf46kAhDGeZnqIgeGszlGdWafunGE8
 GVKUTS[BXIWH\KbHi
-GX4dm8zdyKLHMPTtwvIl9c1pXY7Fl4B1XFBVN8H
 GXGfGkGpGuG
 GxI9Gpu2E2
 GyroscopeEnabled
@@ -12653,9 +12653,7 @@ JIRA_RIDE_711_V2
 JIRA_RIDE_785
 JJJBBB\\\xx
 JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
-JjSk5tgEuemLX5i
 JKLMNOPQRSTU
-JN63rfEEozD
 JoinBlobInvalidateCountThresholdPercent
 JoinBlobInvalidateThresholdPercent
 JoinCommand
@@ -12716,6 +12714,7 @@ JointStepParallelBatchSize
 JointTime_TextureCooldown
 JointToolHelpDialogVerb
 JPEBUSG_INDEX_TRIANGLE
+JqgLVVMYrZerm5HqghEsYVoiTXTA
 JSON.parse
 JSON.stringify
 JSON_Parser
@@ -12744,13 +12743,11 @@ JW4HttpRequestResult
 JW4InfoType
 JW4TextFilterContext
 JW4ThumbnailType
-JxPZuSi12DjUwdPdnYkXFk
 K\7IxU..UxI7\K
 K_Key_dn.png
 KaiTi_GB2312
 KAXPEBDHAEAPEAVQChar
 KBytesPerSec
-KDEwQo9d92O
 KeepAliveTimeout
 KeepPositionOnInsert
 KERNEL32.dll
@@ -12809,7 +12806,6 @@ KillPtClicked
 KKKKKKKKKK
 KKKKKKKKKKKK
 KKKKKKKKKKKKKKKKKKKKKK
-KMSVrPqS56nbWxPIBFCpRN8mffwP2sdUNYHIPm72ODbQPc4BMACFqx99ep5
 KnownHeaders
 KnownPrefixIndex
 KodchiangUPC
@@ -12885,7 +12881,6 @@ LayoutNode
 LayoutOrder
 LayoutRichTextFaster2
 LazySubmitTask
-LBU5thIpDgbWsnd51G89eY7xNRz9KsihMBJaWWMcHpinhQFZsWOV9ksZp
 LC_MESSAGES
 LCMapStringW
 LDLBuildProgramTimeReportRate
@@ -13511,8 +13506,6 @@ LuauParserNoFatArrow
 LuauParserWarnOnFatArrow
 LuauRecursionLimit
 LuauResolveModulesWithBfs
-LuauStringPack
-LuauStringPackTypes
 LuauTypeInferRecursionLimit
 LuauTypeInferTypePackLoopLimit
 LuauUseClassesForRobloxApi
@@ -14170,7 +14163,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAuXgkMiqxqTUNZ3hdmXzeWFwGeuMUIz0KieYcfkCvBAVSvPo5E3xu
+MIICCgKCAgEAuswWABlRId3aTs1cn2Mzzkzh
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14761,6 +14754,8 @@ NextTabPage
 NfXf`fhfzf
 NHVVariant
 NinjaMask.mesh
+NMuzUIHRU8tNM10vehACRko1zEIOZE7KOCmicgzxwQh7NliJgsCAwEAAQ
+NMyhIs3k4RlR6YNNN5OXerLJgCp6nHZI1OZWM53MvuzIZcZ
 NNNNNNNNNNNNNNNNNNNNNN
 NNNNNNNSSSSSSSSSSSSSSSSSSSSSS
 NNW4SizeMode
@@ -15337,6 +15332,7 @@ OverrideStarterScript
 OverrideToMyBranch
 OverwriteMode
 OverwritePublish
+OWHKwn6aUs1UlsEGRpGTKN7fAdXIX8KfRg4uQamD6o
 OwnProperty
 Ozs8xYCf2Q05p4gHyX
 PA^A]A\_^]
@@ -17733,7 +17729,6 @@ QNPPPPPPPPPPPPPPPPPPPNOP
 QObjectData
 QObjectShared
 QOgreWidget
-QOQs74GnpX9de6
 QPaintDevice
 QPainterPath
 QParallelAnimationGroup
@@ -19416,8 +19411,6 @@ RunUpdateCycle.
 RVideoInternal
 RVideoMemLogging
 RVideoTrace
-Rww6fjWqCbDWy9PjlJ67VUj3D
-RXF9Gf2Dgk3Repok8F9yUUzp1
 RxRlReport
 S_Key_dn.png
 SA_KPEAPEBV123
@@ -19454,6 +19447,7 @@ SATAUAVAWH
 Satisfiable
 Saturation
 SaveAction
+SaveAndReloadAllDebuggablePluginsVerb
 SaveAndReloadDebuggablePluginVerb
 SaveAsAction
 SaveAsComplete
@@ -20479,6 +20473,7 @@ SizeToFourAction
 SizeToSixteenAction
 SizeToTwoAction
 SizingMode
+SJjWo5gYra5tCWRRwQJlPSNvJmdsKEN0H64HkAx
 SkateboardController
 SkateboardPlatform
 SkinningIsland
@@ -20729,6 +20724,7 @@ SpringConstraint
 SpringConstraintAction
 SquishRelay
 SQUIshRobloxReflectionExtensionLibrary
+SQYRNVNw3UPdQfVBSpRs4kEF
 Src.Thread
 Src.YBegin
 SrcPlaceId
@@ -22135,6 +22131,8 @@ Studio.App.RBXMainWindow.RotateTool
 Studio.App.RBXMainWindow.Run
 Studio.App.RBXMainWindow.SaveActiveDocumentToRoblox
 Studio.App.RBXMainWindow.SaveActiveDocumentToRobloxAs
+Studio.App.RBXMainWindow.SaveAndReloadAllPlugins
+Studio.App.RBXMainWindow.SaveAndReloadAllPluginsTooltip
 Studio.App.RBXMainWindow.SaveAndReloadPlugin
 Studio.App.RBXMainWindow.SaveAndReloadPluginTooltip
 Studio.App.RBXMainWindow.SaveAsCSVElps
@@ -23188,7 +23186,6 @@ StudioProfiler_HangFalseAlert_Time
 StudioProfilerFlushPeriodSec
 StudioProfilerHangThresholdSec
 StudioPropagateBreakpoints
-StudioProperCheckExtensionInSaveAndReloadPlugin
 StudioPublishLuaWorkflow
 StudioPublishMediatorFailedConnection2
 StudioPublishPlace
@@ -24406,6 +24403,7 @@ TlsGetValue
 TlsSetValue
 Tmap_traits
 TMxQPxAA13
+TNjnvHqdQ9ZgKwFwnTto4TNx6Yfj4VwgoRmsPlnhm7u
 ToArtistIntentAssetMigratorEnabled
 ToastNotification
 ToastNotification.qml
@@ -26124,6 +26122,7 @@ VFMODPlaybackChannelGroup
 VFMODPlaybackDSP
 VForceField
 VFormFactorPart
+VFosnjBja2
 VFramebufferD3D11
 VFramebufferD3D9
 VFramebufferGL
@@ -26966,6 +26965,7 @@ WaterTransparency
 WaterViscosityDragFudgeFactor
 WaterWaveSize
 WaterWaveSpeed
+WAuzHdKQMSqaPat4EtBp0khGp10H6Xb7NJlkyM97nhF8y3Wf5PbW2
 WaypointIdx
 WCharArray
 Wcircumflex
@@ -27338,7 +27338,6 @@ XQColorDialog
 Xregex_error
 XResolution
 Xtime_get_ticks
-XtyGuExzO4suoOdYVAzqEY32xit2fzhbARPAA5obIel5FtnkPH1JWHfUsfYilRk
 XUnegotiation_response
 XUNetworkResult
 XvAAuY44YuAAvX4
@@ -27477,7 +27476,6 @@ Ycircumflex
 Ydieresissmall
 YDYHYQYTYbYsY
 YffYZefYDNNDCOO
-YHwkMm86gzzid
 YieldEvent
 YieldFuncDesc
 YieldFunction
