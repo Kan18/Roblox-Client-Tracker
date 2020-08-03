@@ -51,6 +51,8 @@ local FFlagGroupEditDevConsoleButton = settings():GetFFlag("GroupEditDevConsoleB
 local FFlagMicroProfilerSessionAnalytics = settings():GetFFlag("MicroProfilerSessionAnalytics")
 local FFlagCollectAnalyticsForSystemMenu = settings():GetFFlag("CollectAnalyticsForSystemMenu")
 
+local GetFFlagFullscreenAnalytics = require(RobloxGui.Modules.Flags.GetFFlagFullscreenAnalytics)
+
 local MICROPROFILER_SETTINGS_PRESSED = "MicroprofilerSettingsPressed"
 
 local MOVEMENT_MODE_DEFAULT_STRING = UserInputService.TouchEnabled and "Default (Dynamic Thumbstick)" or "Default (Keyboard)"
@@ -204,6 +206,12 @@ local function Initialize()
 					if this.FullscreenEnabler:GetSelectedIndex() ~= 2 then
 						this.FullscreenEnabler:SetSelectionIndex(2)
 					end
+				end
+
+				if GetFFlagFullscreenAnalytics() then
+					AnalyticsService:SetRBXEventStream(Constants.AnalyticsTargetName, Constants.AnalyticsInGameMenuName, Constants.AnalyticsFullscreenModeName, {
+						enabled = isFullScreen,
+					})
 				end
 			end
 		)
