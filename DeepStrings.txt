@@ -4237,6 +4237,7 @@ BeginQuery
 BeginRecording
 BeginTransformFeedback
 BehaviorType
+BEMQU4jiBchFLm8YXxJC4EnPT3YT
 BEnableUsersEndpoint
 Benchmarked
 Benchmarking
@@ -4485,7 +4486,6 @@ BPuVfD9B`uOfD9BpuH
 BQByteArray
 BQJsonValueRef
 BQPersistentModelIndex
-BqtBe0gXvliTdKCtMtp63FOVpZXtTIr2uumjhXTnv6DclImQa
 BranchIcon
 BreakGroup
 BreakJoints
@@ -4568,6 +4568,7 @@ BrowserWindow
 BrowserWindowClosed
 BrowserWindowWillNavigate
 BrushStyle
+BSh6VLYQuS1G
 BtnBackground.png
 BtYovqVKoHMDMoDd0u9Mc5CIyRqyu0IGS99A0jeEXRj7aofQ
 BU_Simplex1to4
@@ -4663,6 +4664,7 @@ BVQVariant
 BVRegion3int16
 BVSystemAddress
 BVTextureId
+BvuJd5RbACTysP3AACl2BHl9IKNU8HvOUwNpE6ggQBZRVLLZ6Qio9czJIUM
 BW4AlphaMode
 BW4ModelLevelOfDetail
 BWGradient.png
@@ -4677,7 +4679,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.443.0.409470
+ByVersion_0.443.0.409474
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -4921,6 +4923,7 @@ CAXHW4TimerType
 CAXPEAV123
 CB_JUUserNameResponseHandler
 CB_JW4FriendService_FriendStatus
+CB1D73TTpbeRy0XXCf
 CB271E256811994CD24F935527E2
 CB27CB54AAF011E38B9D871882A8E559
 CB27CB55AAF011E38B9D871882A8E559
@@ -9130,7 +9133,6 @@ EThrottleType
 EucrosiaUPC
 EulerAnglesXYZ
 EulerAnglesYXZ
-EUmW31USBmvU5pwd0aRVeUBvwCaxdHWr9PqqhyRi
 EvaluateGlobalTransform
 Event.button
 Event.clientX
@@ -10137,7 +10139,6 @@ FXCompositing
 FXCompositingFS
 FXCompositingLinearFS
 FXComposition
-FYT62ptSETpPSQgU
 GainMakeup
 GameAbsenceInWeb.
 GameAction
@@ -11868,6 +11869,7 @@ HVWeakFunctionRef
 HW4AccessMode
 HW4CaretMode
 HW4CaseSensitivity
+Hw4CsL5b7Adc3XKdLZhrtFgwW9m66KcAYHSguj0B4jM0QKRhJioqP
 HW4EDeformerType
 HW4FillRule
 HW4Initialization
@@ -11879,6 +11881,7 @@ HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdna
 HWYGOTH.ttf
 HybridEvent
 HyIyPyVy]y^yey
+HzNkoqaG32y8Owsagad6CPW8RETza9ARCY5qYAmIODmpYl6Dc0vOcENwirW6dMV
 Iacutesmall
 IAutocompleter
 IBusyStateModel
@@ -12463,6 +12466,7 @@ IPTypeAndDataCenter
 IPublishedGamesStore
 IPV6_V6ONLY
 IPV6RobloxStudioCleanUp1
+IqXb4ahRtvlZmL8AlFYLWnaV7bIoFp4kVYs
 IRestartController
 IRobloxDoc
 IRobloxDocManager
@@ -12714,7 +12718,6 @@ JointStepParallelBatchSize
 JointTime_TextureCooldown
 JointToolHelpDialogVerb
 JPEBUSG_INDEX_TRIANGLE
-JqgLVVMYrZerm5HqghEsYVoiTXTA
 JSON.parse
 JSON.stringify
 JSON_Parser
@@ -12737,6 +12740,7 @@ JumpScaresP2
 JumpToIndex
 JustEndedBusy
 JUUserNameResponseHandler
+JUvD1Gh2EYLZstALSOZPFz
 JW4AppInstallType
 JW4FriendService_FriendStatus
 JW4HttpRequestResult
@@ -12800,6 +12804,7 @@ KeywordFilterType
 KfaO3j5BbG6ijHHxFy22YNNJwxKTT
 KfE9k0uDfE9k
 KFKPKXK`KhK
+KhK2F5Bqul1lgHl7o3b1W3mzIxPh6T6jgfgYcV
 KickByDatacenter_
 KiDszBCYB0gyp03Pc
 KillPtClicked
@@ -12811,6 +12816,7 @@ KnownPrefixIndex
 KodchiangUPC
 KPEAVICHull
 KPEIBX_K_KPEIAU_iobuf
+KqUEmzVhMx
 KSocialService
 KVScriptContext
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
@@ -13512,6 +13518,7 @@ LuauUseClassesForRobloxApi
 LuauWatchdog
 LuaWebService
 LVvuOx39]O
+Lx3zccfXhK8SfyGBdaTVSSnFkkY
 M_NVWeakFunctionRef
 MacGamepadUseGCController
 MachineAddress
@@ -14163,7 +14170,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAuswWABlRId3aTs1cn2Mzzkzh
+MIICCgKCAgEApUSgJCMgJNd
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14203,6 +14210,7 @@ Miscellaneous
 Mismatched
 MissingCoreScript
 MissingDumpFile
+MKyGu2oBuwDvA5zI0JcLYhmBOUdshAA
 MMW4IkDragCollisionsMode
 MMW4PartMaterial
 MMW4UserInputState
@@ -14754,8 +14762,6 @@ NextTabPage
 NfXf`fhfzf
 NHVVariant
 NinjaMask.mesh
-NMuzUIHRU8tNM10vehACRko1zEIOZE7KOCmicgzxwQh7NliJgsCAwEAAQ
-NMyhIs3k4RlR6YNNN5OXerLJgCp6nHZI1OZWM53MvuzIZcZ
 NNNNNNNNNNNNNNNNNNNNNN
 NNNNNNNSSSSSSSSSSSSSSSSSSSSSS
 NNW4SizeMode
@@ -15031,6 +15037,7 @@ OgreWidget
 OgreWidgetForGameState
 OgreWidgetShowEvent
 Oh44\h44\Q
+OhS2bPl0LABNOM1M9QsL66z06FWA8CAwEAAQ
 Ohungarumlaut
 OiCCPPhotoshop
 OldActiveElement
@@ -15332,7 +15339,6 @@ OverrideStarterScript
 OverrideToMyBranch
 OverwriteMode
 OverwritePublish
-OWHKwn6aUs1UlsEGRpGTKN7fAdXIX8KfRg4uQamD6o
 OwnProperty
 Ozs8xYCf2Q05p4gHyX
 PA^A]A\_^]
@@ -17166,6 +17172,7 @@ PushPixels
 PVAdornment
 PVInstance
 PVK_header
+PwuSG7KdU3c4sMLBb7j
 PxnhPiraCmahCilaKcpeLicyLidyLkclOgnjRruaSdnuSiiaVtsvAumaBpygEimrAilhPitrPavaJihtKusiLietMbraShkrOrmaSanaLtvaTktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
 PyJlf7IHZQpFHohBe
 QAbstractAnimation
@@ -19408,6 +19415,7 @@ RunService.Stepped
 RuntimeScriptService
 RuntimeUndoBehavior
 RunUpdateCycle.
+RvGgtMPlMOsVl
 RVideoInternal
 RVideoMemLogging
 RVideoTrace
@@ -20473,7 +20481,6 @@ SizeToFourAction
 SizeToSixteenAction
 SizeToTwoAction
 SizingMode
-SJjWo5gYra5tCWRRwQJlPSNvJmdsKEN0H64HkAx
 SkateboardController
 SkateboardPlatform
 SkinningIsland
@@ -20724,7 +20731,6 @@ SpringConstraint
 SpringConstraintAction
 SquishRelay
 SQUIshRobloxReflectionExtensionLibrary
-SQYRNVNw3UPdQfVBSpRs4kEF
 Src.Thread
 Src.YBegin
 SrcPlaceId
@@ -23957,6 +23963,7 @@ TextureMode
 TextureName
 TexturePack
 TexturePackComponent
+TexturePackGImageFixes
 TexturePackPreview
 TexturePacksBetaFeatureRoleSet
 TexturePacksBetaFeatureUrl
@@ -24403,7 +24410,6 @@ TlsGetValue
 TlsSetValue
 Tmap_traits
 TMxQPxAA13
-TNjnvHqdQ9ZgKwFwnTto4TNx6Yfj4VwgoRmsPlnhm7u
 ToArtistIntentAssetMigratorEnabled
 ToastNotification
 ToastNotification.qml
@@ -25274,6 +25280,7 @@ Upartial_date_rule_spec
 UPartyInfo
 UPathUpdateJob
 UpBrickAction
+UpBTWppi98PrMr
 UpButtonPressed
 UpdateAllPackages
 UpdateArbiter
@@ -26122,7 +26129,6 @@ VFMODPlaybackChannelGroup
 VFMODPlaybackDSP
 VForceField
 VFormFactorPart
-VFosnjBja2
 VFramebufferD3D11
 VFramebufferD3D9
 VFramebufferGL
@@ -26965,10 +26971,10 @@ WaterTransparency
 WaterViscosityDragFudgeFactor
 WaterWaveSize
 WaterWaveSpeed
-WAuzHdKQMSqaPat4EtBp0khGp10H6Xb7NJlkyM97nhF8y3Wf5PbW2
 WaypointIdx
 WCharArray
 Wcircumflex
+WDe7jtxeqREkPIN7GLdCBLo0y5Psd2Wj3Fnegyt7
 WDU_Mbstatet
 WeakFunctionRef
 WeakThreadRef
@@ -27310,6 +27316,7 @@ XInputGetCapabilities
 XInputGetState
 XInputSetState
 Xinvalid_argument
+XiVi89WG2hB
 Xlength_error
 Xout_of_range
 XP6AXAEBUTextFilterResult
@@ -27334,9 +27341,11 @@ XPEAVFileSyncItem
 XPEAVICHull
 XPEAVQNetworkReply
 XPEAVRobloxScriptDiffDoc
+XPTMHQlpG9JVqKp3tPp5
 XQColorDialog
 Xregex_error
 XResolution
+XRfMNaSCMDllZ6dC9VjYYR
 Xtime_get_ticks
 XUnegotiation_response
 XUNetworkResult
