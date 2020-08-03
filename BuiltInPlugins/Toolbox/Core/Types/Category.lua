@@ -6,6 +6,7 @@ local FFlagUseCategoryNameInToolboxFix1 = game:DefineFastFlag("UseCategoryNameIn
 local FFlagEnableDefaultSortFix2 = game:GetFastFlag("EnableDefaultSortFix2")
 local FFlagEnableToolboxVideos = game:GetFastFlag("EnableToolboxVideos")
 local FFlagToolboxUseNewPluginEndpoint = settings():GetFFlag("ToolboxUseNewPluginEndpoint")
+local FFlagFixGroupPackagesCategoryInToolbox = game:DefineFastFlag("FixGroupPackagesCategoryInToolbox", false)
 local FFlagToolboxDisableMarketplaceAndRecentsForLuobu = game:GetFastFlag("ToolboxDisableMarketplaceAndRecentsForLuobu")
 
 local Plugin = script.Parent.Parent.Parent
@@ -439,7 +440,8 @@ else
 			local assetTypeCheck = checkBounds(index) and Category.INVENTORY_WITH_GROUPS[index].assetType == Category.AssetType.PACKAGE
 			return categoryCheck and assetTypeCheck
 		else
-			return checkBounds(index) and currentTab == Category.MARKETPLACE_KEY and
+			local categoryKey = FFlagFixGroupPackagesCategoryInToolbox and Category.INVENTORY_KEY or Category.MARKETPLACE_KEY
+			return checkBounds(index) and currentTab == categoryKey and
 				Category.INVENTORY_WITH_GROUPS[index].assetType == Category.AssetType.PACKAGE
 		end
 	end

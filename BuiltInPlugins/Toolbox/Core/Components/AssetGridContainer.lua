@@ -18,6 +18,7 @@ local FFlagToolboxFixDuplicateAssetInsertions = game:DefineFastFlag("ToolboxFixD
 local FFlagEnableSearchedWithoutInsertionAnalytic = game:GetFastFlag("EnableSearchedWithoutInsertionAnalytic")
 local FFlagUseCategoryNameInToolbox = game:GetFastFlag("UseCategoryNameInToolbox")
 local FFlagEnableDefaultSortFix2 = game:GetFastFlag("EnableDefaultSortFix2")
+local FFlagFixGroupPackagesCategoryInToolbox = game:GetFastFlag("FixGroupPackagesCategoryInToolbox")
 local FFlagToolboxFixAnalyticsBugs = game:GetFastFlag("ToolboxFixAnalyticsBugs")
 
 local Plugin = script.Parent.Parent.Parent
@@ -348,7 +349,7 @@ function AssetGridContainer:render()
 				if FFlagEnableDefaultSortFix2 then
 					isPackages = Category.categoryIsPackage(categoryIndex, currentTab)
 				else
-					isPackages = Category.categoryIsPackage(categoryIndex, categoryIsPackage)
+					isPackages = Category.categoryIsPackage(categoryIndex, FFlagFixGroupPackagesCategoryInToolbox and currentTab or categoryIsPackage)
 				end
 			end
 
