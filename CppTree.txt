@@ -531,6 +531,7 @@ RBX
 	ScriptEditor
 	{
 		CmdConfig
+		CmdDeleteToStartOfLine
 		CmdDocumentFormatting
 		CmdFoldAll
 		CmdFoldToggle
@@ -539,12 +540,14 @@ RBX
 		CmdInsertText
 		CmdMoveLinesDown
 		CmdMoveLinesUp
+		CmdNewlineAbove
+		CmdNewlineBelow
 		CmdRangeFormatting
 		CmdRepeat
 		CmdSelect
+		CmdToggleComment
 		CmdUnfoldAll
 		CmdUnindentSelection
-		ColorPreviewWidget
 		GotoLineDialog
 		QtLanguageClient
 		ScriptEditorCmdBase
@@ -1216,6 +1219,7 @@ RBX
 	Service
 	ServiceInstance
 	ServiceProvider
+	SessionizedEventIngest
 	SessionManager
 	SessionNode
 	SessionService
@@ -1258,6 +1262,7 @@ RBX
 	SpotLight
 	StandalonePluginScripts
 	StandardEventIngest
+	StandardEventIngest_DEPRECATED
 	StandardPages
 	StarterCharacterScripts
 	StarterGear

@@ -30394,20 +30394,6 @@
                         }
                     ],
                     "Security": "None"
-                },
-                {
-                    "MemberType": "Event",
-                    "Name": "ConnectionRejected",
-                    "Parameters": [
-                        {
-                            "Name": "peer",
-                            "Type": {
-                                "Category": "Primitive",
-                                "Name": "string"
-                            }
-                        }
-                    ],
-                    "Security": "None"
                 }
             ],
             "MemoryCategory": "Instances",
@@ -35710,27 +35696,6 @@
                 {
                     "Category": "Behavior",
                     "MemberType": "Property",
-                    "Name": "TemporaryLegacyPhysicsSolverOverride",
-                    "Security": {
-                        "Read": "None",
-                        "Write": "None"
-                    },
-                    "Serialization": {
-                        "CanLoad": false,
-                        "CanSave": false
-                    },
-                    "Tags": [
-                        "NotReplicated",
-                        "NotScriptable"
-                    ],
-                    "ValueType": {
-                        "Category": "Primitive",
-                        "Name": "bool"
-                    }
-                },
-                {
-                    "Category": "Behavior",
-                    "MemberType": "Property",
                     "Name": "Terrain",
                     "Security": {
                         "Read": "None",
@@ -40474,7 +40439,7 @@
                         "Category": "Class",
                         "Name": "Instance"
                     },
-                    "Security": "RobloxScriptSecurity",
+                    "Security": "None",
                     "Tags": [
                         "Yields"
                     ]
@@ -40495,7 +40460,7 @@
                         "Category": "Class",
                         "Name": "Instance"
                     },
-                    "Security": "RobloxScriptSecurity",
+                    "Security": "None",
                     "Tags": [
                         "Yields"
                     ]
@@ -50470,23 +50435,6 @@
                 {
                     "Category": "Script Editor",
                     "MemberType": "Property",
-                    "Name": "Auto Indent",
-                    "Security": {
-                        "Read": "None",
-                        "Write": "None"
-                    },
-                    "Serialization": {
-                        "CanLoad": true,
-                        "CanSave": true
-                    },
-                    "ValueType": {
-                        "Category": "Primitive",
-                        "Name": "bool"
-                    }
-                },
-                {
-                    "Category": "Script Editor",
-                    "MemberType": "Property",
                     "Name": "Auto Indent Rule",
                     "Security": {
                         "Read": "None",
@@ -50709,6 +50657,40 @@
                     "Category": "Script Editor Colors",
                     "MemberType": "Property",
                     "Name": "Current Line Highlight Color",
+                    "Security": {
+                        "Read": "None",
+                        "Write": "None"
+                    },
+                    "Serialization": {
+                        "CanLoad": true,
+                        "CanSave": true
+                    },
+                    "ValueType": {
+                        "Category": "DataType",
+                        "Name": "Color3"
+                    }
+                },
+                {
+                    "Category": "Script Editor Colors",
+                    "MemberType": "Property",
+                    "Name": "Debugger Current Line Color",
+                    "Security": {
+                        "Read": "None",
+                        "Write": "None"
+                    },
+                    "Serialization": {
+                        "CanLoad": true,
+                        "CanSave": true
+                    },
+                    "ValueType": {
+                        "Category": "DataType",
+                        "Name": "Color3"
+                    }
+                },
+                {
+                    "Category": "Script Editor Colors",
+                    "MemberType": "Property",
+                    "Name": "Debugger Error Line Color",
                     "Security": {
                         "Read": "None",
                         "Write": "None"
@@ -52916,6 +52898,20 @@
                         },
                         {
                             "Name": "name",
+                            "Type": {
+                                "Category": "Primitive",
+                                "Name": "string"
+                            }
+                        }
+                    ],
+                    "Security": "RobloxScriptSecurity"
+                },
+                {
+                    "MemberType": "Event",
+                    "Name": "OnOpenGameSettings",
+                    "Parameters": [
+                        {
+                            "Name": "pageIdentifier",
                             "Type": {
                                 "Category": "Primitive",
                                 "Name": "string"
