@@ -11,7 +11,6 @@ function Element.new(argument)
 	elseif type(argument) == "table" and argument.__type == "XPath" then
 		self.path = argument
 	elseif type(argument) == "userdata" then
-		self.path = XPath.new(argument)
 		self.rbxInstance = argument
 	else
 		error("invalid parameter for element")
@@ -83,11 +82,7 @@ function Element:waitForRbxInstance(timeout, delay)
 	end
 
 	if self.rbxInstance and not self.anchor then
-		if pcall(function() local size = self.rbxInstance.AbsoluteSize end) then
-			self.anchor = self.rbxInstance.AbsoluteSize/2
-		else
-			self.anchor = nil
-		end
+		self.anchor = self.rbxInstance.AbsoluteSize/2
 	end
 
 	return self.rbxInstance

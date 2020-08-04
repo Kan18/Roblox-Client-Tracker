@@ -67,7 +67,6 @@ function GenericTextLabel:render()
 		end
 
 		local newProps = Cryo.Dictionary.join(self.props, {
-			[Roact.Children] = Cryo.None,
 			fluidSizing = Cryo.None,
 			fontStyle = Cryo.None,
 			colorStyle = Cryo.None,
@@ -78,17 +77,17 @@ function GenericTextLabel:render()
 			TextSize = fontSizeMax,
 			TextColor3 = textColor,
 			TextTransparency = textTransparency,
-			TextWrapped = self.props.TextWrapped == nil and true or self.props.TextWrapped,
+			TextWrapped = true,
 			TextScaled = isFluidSizing,
 			BackgroundTransparency = 1,
 		})
 
-		return Roact.createElement("TextLabel", newProps, Cryo.Dictionary.join({
+		return Roact.createElement("TextLabel", newProps, {
 			UITextSizeConstraint = isFluidSizing and Roact.createElement("UITextSizeConstraint", {
 				MaxTextSize = fontSizeMax,
 				MinTextSize = fontSizeMin,
 			} or nil)
-		}, self.props[Roact.Children] or {}))
+		})
 	end)
 end
 

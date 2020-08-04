@@ -5,7 +5,7 @@ Roact.setGlobalConfig({
 	propValidation = true,
 })
 
-local SCREEN_SIZE = Vector2.new(800, 800)
+local SCREEN_SIZE = Vector2.new(800, 480)
 
 return {
 	name = "Scroller",

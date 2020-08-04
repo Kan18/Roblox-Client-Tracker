@@ -548,7 +548,7 @@ return function(config)
 							route,
 							-- don't change index for these action types
 							action.type == NavigationActions.SetParams or
-							action.type == NavigationActions.CompleteTransition
+							action.type == StackActions.CompleteTransition
 						)
 					end
 				end

@@ -67,7 +67,7 @@ end
 -- Key functions
 
 function Key:__tostring()
-	return self.pool.class .. "_" .. string.format("%02d", tostring(self.index))
+	return self.pool.class .. "_" .. tostring(self.index)
 end
 
 -- Return this key to the pool it came from. Whatever previously held this key should not keep the reference after

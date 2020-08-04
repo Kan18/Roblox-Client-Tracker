@@ -214,10 +214,6 @@ function Scroller:render()
 end
 
 function Scroller:shouldUpdate(nextProps, nextState)
-	if not self.alive then
-		return false
-	end
-
 	debugPrint("shouldUpdate")
 
 	-- Check for state and props changes in the same way PureComponent would,
@@ -263,10 +259,6 @@ function Scroller:shouldUpdate(nextProps, nextState)
 end
 
 function Scroller:willUpdate(nextProps, nextState)
-	if not self.alive then
-		return
-	end
-
 	debugPrint("willUpdate")
 
 	if not nextState.ready then
@@ -315,10 +307,6 @@ function Scroller:willUpdate(nextProps, nextState)
 end
 
 function Scroller:didUpdate(previousProps, previousState)
-	if not self.alive then
-		return
-	end
-
 	debugPrint("didUpdate")
 
 	if Cryo.isEmpty(self.props.itemList) then
@@ -462,19 +450,15 @@ function Scroller.getDerivedStateFromProps(nextProps, lastState)
 		debugPrint("  Leading index moved to", leadIndex)
 	end
 
-	-- Make sure the resulting indices are in the right order.
-	local minIndex = math.min(anchorIndex, leadIndex, trailIndex)
-	local maxIndex = math.max(anchorIndex, leadIndex, trailIndex)
-
-	local trailID = nextProps.identifier(nextProps.itemList[minIndex])
+	local trailID = nextProps.identifier(nextProps.itemList[trailIndex])
 	local anchorID = nextProps.identifier(nextProps.itemList[anchorIndex])
-	local leadID = nextProps.identifier(nextProps.itemList[maxIndex])
+	local leadID = nextProps.identifier(nextProps.itemList[leadIndex])
 
 	return {
 		listSize = listSize,
-		trail = {index=minIndex, id=trailID},
+		trail = {index=trailIndex, id=trailID},
 		anchor = {index=anchorIndex, id=anchorID},
-		lead = {index=maxIndex, id=leadID},
+		lead = {index=leadIndex, id=leadID},
 	}
 end
 
@@ -603,6 +587,7 @@ function Scroller:init()
 				end
 			end)()
 		else
+			self:moveToAnchor()
 			self:setState({})  -- Force a rerender.
 		end
 	end
@@ -614,6 +599,8 @@ function Scroller:init()
 			debugPrint("  Skipping onContentResize")
 			return
 		end
+
+		self:moveToAnchor()
 		self:setState({})  -- Force a rerender.
 	end
 
@@ -640,12 +627,12 @@ function Scroller:init()
 	end
 
 	-- This will get updated shortly, but one render will happen before state.ready is set
-	self:setState({
+	self.state = {
 		ready = false,
 		lastFocusLock = nil,
 		padding = 0,
 		size = 0,
-	})
+	}
 end
 
 function Scroller:willUnmount()

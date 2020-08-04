@@ -22,22 +22,22 @@ RootHeaderBar.validateProps = t.strictInterface({
 
 	-- A function that returns a Roact Component, used for customizing buttons on the right side of the bar
 	renderRight = t.optional(t.callback),
-	backgroundTransparency = t.optional(t.number),
 })
 
+-- default values are taken from Abstract
 RootHeaderBar.defaultProps = {
-	barHeight = 64,
+	barHeight = 32,
 	renderRight = function()
 		return nil
 	end,
 }
 
 function RootHeaderBar:init()
-	self:setState({
-		margin = 0,
-	})
+	self.state = {
+		margin = 0
+	}
 
-	self.setPageMargin = function(rbx)
+	self.onResize = function(rbx)
 		local margin = getPageMargin(rbx.AbsoluteSize.X)
 		self:setState({
 			margin = margin
@@ -51,33 +51,34 @@ function RootHeaderBar:render()
 		local font = style.Font
 
 		return Roact.createElement("Frame", {
-			BackgroundTransparency = 1,
-			Size = UDim2.new(1, 0, 0, self.props.barHeight),
-			[Roact.Change.AbsoluteSize] = self.setPageMargin,
+			Size = UDim2.new(1, 0, 1, 0),
+			[Roact.Change.AbsoluteSize] = self.onResize,
 		}, {
 			ThreeSectionBar = Roact.createElement(ThreeSectionBar, {
-				BackgroundTransparency = self.props.backgroundTransparency or theme.BackgroundDefault.Transparency,
-				BackgroundColor3 = theme.BackgroundDefault.Color,
+				BackgroundTransparency = theme.BackgroundUIContrast.Transparency,
+				BackgroundColor3 = theme.BackgroundUIContrast.Color,
 
 				barHeight = self.props.barHeight,
-				contentPaddingRight = UDim.new(0, 0),
-
 				marginLeft = self.state.margin,
-				marginRight = self.state.margin,
-
-				renderRight = self.props.renderRight,
-				renderLeft = function(props)
+				renderCenter = function()
 					return Roact.createFragment({
+						Padding = Roact.createElement("UIPadding", {
+							PaddingLeft = UDim.new(0, self.state.margin),
+						}),
 						Text = Roact.createElement(GenericTextLabel, {
-							fluidSizing = true,
+							Size = UDim2.new(1, 0, 0, 32),
 							Text = self.props.title,
 							TextTruncate = Enum.TextTruncate.AtEnd,
 							TextXAlignment = Enum.TextXAlignment.Left,
-							fontStyle = font.Title,
+							fontStyle = font.Header1,
 							colorStyle = theme.TextEmphasis,
-						}, props[Roact.Children])
+						})
 					})
 				end,
+
+				marginRight = self.state.margin,
+				contentPaddingRight = UDim.new(0, 12),
+				renderRight = self.props.renderRight,
 			})
 		})
 	end)
