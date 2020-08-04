@@ -1959,6 +1959,8 @@ Studio.App.RobloxRibbonMainWindow.Block,,Block,Block
 Studio.App.RobloxRibbonMainWindow.Brick,,Brick,Brick
 Studio.App.RobloxRibbonMainWindow.CheckCollisionsDragging,,Check for collisions when dragging,Check for collisions when dragging
 Studio.App.RobloxRibbonMainWindow.Cleanup,,Cleanup,Cleanup
+Studio.App.RobloxRibbonMainWindow.ClearPivot,,Clear Pivot,Clear Pivot
+Studio.App.RobloxRibbonMainWindow.ClearPivotTooltip,,Clear the pivot for the selected object,Clear the pivot for the selected object
 Studio.App.RobloxRibbonMainWindow.ClickOnPartsToLockUnlock,,Click on parts to lock/unlock,Click on parts to lock/unlock
 Studio.App.RobloxRibbonMainWindow.ClientsAndServers,,Clients and Servers,Clients and Servers
 Studio.App.RobloxRibbonMainWindow.Clipboard,,Clipboard,Clipboard
@@ -2009,6 +2011,8 @@ Studio.App.RobloxRibbonMainWindow.DisplayGridMaterialOnParts,,Display grid mater
 Studio.App.RobloxRibbonMainWindow.DrawConstraintsAttWeldsTop,,"Draw constraints, attachments and welds on top","Draw constraints, attachments and welds on top"
 Studio.App.RobloxRibbonMainWindow.DrawOnTop,,Draw On Top,Draw On Top
 Studio.App.RobloxRibbonMainWindow.EditCollisionGroups,,Edit collision groups,Edit collision groups
+Studio.App.RobloxRibbonMainWindow.EditPivot,,Edit Pivot,Edit Pivot
+Studio.App.RobloxRibbonMainWindow.EditPivotTooltip,,Edit the point around which the selected object rotates and translates,Edit the point around which the selected object rotates and translates
 Studio.App.RobloxRibbonMainWindow.Effects,,Effects,Effects
 Studio.App.RobloxRibbonMainWindow.Emulation,,Emulation,Emulation
 Studio.App.RobloxRibbonMainWindow.Emulator,,Emulator,Emulator
@@ -2026,6 +2030,7 @@ Studio.App.RobloxRibbonMainWindow.FusePartsTogether,,Fuse parts together to make
 Studio.App.RobloxRibbonMainWindow.Fwd,,Fwd,Fwd
 Studio.App.RobloxRibbonMainWindow.GameSettings,,Game Settings,Game Settings
 Studio.App.RobloxRibbonMainWindow.Gameplay,,Gameplay,Gameplay
+Studio.App.RobloxRibbonMainWindow.GeometryTab,,Geometry,Geometry
 Studio.App.RobloxRibbonMainWindow.Glue,,Glue,Glue
 Studio.App.RobloxRibbonMainWindow.GoToNextChange,,Go to next change,Go to next change
 Studio.App.RobloxRibbonMainWindow.GoToPreviousChange,,Go to previous change,Go to previous change
@@ -2081,6 +2086,7 @@ Studio.App.RobloxRibbonMainWindow.Part,,Part,Part
 Studio.App.RobloxRibbonMainWindow.Parts,,Parts,Parts
 Studio.App.RobloxRibbonMainWindow.PasteItemInClipboard,,Paste item in clipboard,Paste item in clipboard
 Studio.App.RobloxRibbonMainWindow.Physics,,Physics,Physics
+Studio.App.RobloxRibbonMainWindow.PivotGroup,,Pivot,Pivot
 Studio.App.RobloxRibbonMainWindow.PlaceConstraintAttachment,,Place a constraint or an attachment,Place a constraint or an attachment
 Studio.App.RobloxRibbonMainWindow.PlacePart,,Place part,Place part
 Studio.App.RobloxRibbonMainWindow.PlacePartWorkspace,,Place a part into the workspace,Place a part into the workspace
@@ -2115,6 +2121,16 @@ Studio.App.RobloxRibbonMainWindow.SelectColorAndApplyToParts,,Select color and a
 Studio.App.RobloxRibbonMainWindow.SelectMaterialAndApply,,Select material and apply to parts,Select material and apply to parts
 Studio.App.RobloxRibbonMainWindow.SelectTextElps,,Select text...,Select text...
 Studio.App.RobloxRibbonMainWindow.Service,,Service,Service
+Studio.App.RobloxRibbonMainWindow.SetPivotMenu,,Set pivot to...,Set pivot to...
+Studio.App.RobloxRibbonMainWindow.SetPivotMenuTooltip,,Set the pivot in a specific way,Set the pivot in a specific way
+Studio.App.RobloxRibbonMainWindow.SetPivotToGeometry,,Set to Geometry...,Set to Geometry...
+Studio.App.RobloxRibbonMainWindow.SetPivotToGeometryTooltip,,"Snap the pivot to a face, edge, or vertex","Snap the pivot to a face, edge, or vertex"
+Studio.App.RobloxRibbonMainWindow.SetPivotToModel,,Center on Model,Center on Model
+Studio.App.RobloxRibbonMainWindow.SetPivotToModelTooltip,,Center the pivot on the selected model,Center the pivot on the selected model
+Studio.App.RobloxRibbonMainWindow.SetPivotToPart,,Center on Part...,Center on Part...
+Studio.App.RobloxRibbonMainWindow.SetPivotToPartTooltip,,Center the pivot on the clicked part,Center the pivot on the clicked part
+Studio.App.RobloxRibbonMainWindow.SetPivotToSurface,,Set to Surface...,Set to Surface...
+Studio.App.RobloxRibbonMainWindow.SetPivotToSurfaceTooltip,,Set the pivot to exactly the clicked point,Set the pivot to exactly the clicked point
 Studio.App.RobloxRibbonMainWindow.Settings,,Settings,Settings
 Studio.App.RobloxRibbonMainWindow.Show,,Show,Show
 Studio.App.RobloxRibbonMainWindow.ShowConstraintDetails,,Show constraint details,Show constraint details

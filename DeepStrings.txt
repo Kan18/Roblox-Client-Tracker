@@ -425,8 +425,10 @@ AggrFrames
 Agravesmall
 AHPEAU_iobuf
 AHPEAX1PEAPEAX
+AHtkB4MMOL
 AHW4DataStoreRequestType
 AHW4UserInputType
+AIDE3LAjgQWmN
 Algorithms
 AliasRequestResult
 ALIGN_TYPE
@@ -4677,8 +4679,9 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.443.0.409480
+ByVersion_0.443.0.409485
 ByVersionForPlatform_
+BzuPz2bXukhNLmQy6bNsueanqU61CkRqitkMB9Oy0Mcarfj4jV0tHLnpsULWnR
 C_specific_handler
 CA_NPEAVQObject
 CA2168118C14FDE5E01E7934
@@ -8437,6 +8440,7 @@ Durbanville1
 DVCSRequestData
 DVCSResponseData
 DVPAES_ASM
+Dvs4hmh2orO5n7
 DWebBrowserEvents2
 DwmSetWindowAttribute
 DX25519_ASM
@@ -10119,6 +10123,7 @@ FrontSurface
 FrontSurfaceInput
 FrustumOrdered
 FrustumRenderQueue
+FuCZ2IC7jIwMYt
 FullDisconnect
 FullRenderObjects
 Fullscreen
@@ -11080,7 +11085,6 @@ GfxPartInvalidationLimitToTime2
 GGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGGGGG
-GIaW817ikCnsGo5Xp95piqt
 GIM_ShapeRetriever
 GImpactCollisionAlgorithm
 GImpactCompound
@@ -11128,7 +11132,6 @@ GLSL.std.450
 Glsles3Mediump1
 GlslesMediump1
 GlueCursor
-GmWemTBX8fTSboQWOBzdu4r0Ycc4LYKf
 GoldenHashes
 GoodbyeChoiceActive
 GoodbyeChoiceActiveProperty
@@ -11159,7 +11162,6 @@ GoToPreviousScriptLocation
 GoToSourceCodeTB
 GoToVersionFailed
 GpuVariance
-GQtqRZw2aYSJnH3fpBEkRVdrxgXeexgBo2
 GrabCursor.png
 GrabRotateCursor
 GrabRotateCursor.png
@@ -11884,8 +11886,10 @@ HW4PacketPriority
 HwngSmldAskhBcraMaweNegsOgnaT
 HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdnaNpnmHohcWsrhCkaiDstiKizeY
 HWYGOTH.ttf
+HX47jeOsz4p4j0gpXe98PMQ
 HybridEvent
 HyIyPyVy]y^yey
+HYjjWnSGGukknKx7ckdTgK8o9S0
 Iacutesmall
 IAutocompleter
 IBusyStateModel
@@ -11960,7 +11964,6 @@ IFindListener
 IfLastDocInLastAppInstance
 IfPurchased
 IGameIconsStore
-IGehzcXB1uWvyF9Qycf88
 IgnoreGuiInset
 IgnoreIA5StringSyntax
 IgnoreLocaleInJoinScriptData
@@ -12459,7 +12462,6 @@ InvokePreloadCallbackFromDMJob
 InvokeServer
 InWithTheNew
 IObjectWithSiteImpl
-IOUr2gz48AwIqfi4bl62i
 IPAddrBlocks
 IPAddressChoice
 IPAddressFamily
@@ -12734,6 +12736,7 @@ JsonFormat
 JSONObject
 JSONOverflowAbort
 JSONOverflowDepth
+Jt7fkT2gL6JM
 JUGroupRolesRequestRecord
 JumpAnimation
 JumpHeight
@@ -12745,7 +12748,6 @@ JumpScaresP2
 JumpToIndex
 JustEndedBusy
 JUUserNameResponseHandler
-JVzFE0teup02cAmhQw7cMoMQRzz935865dKpYzqttmLkOfhAXGnQP
 JW4AppInstallType
 JW4FriendService_FriendStatus
 JW4HttpRequestResult
@@ -12809,7 +12811,6 @@ KeywordFilterType
 KfaO3j5BbG6ijHHxFy22YNNJwxKTT
 KfE9k0uDfE9k
 KFKPKXK`KhK
-KFsoK5Fh3xI4RoK9jjo8t0z0q97fLICLgKcEXZ9j
 KickByDatacenter_
 KiDszBCYB0gyp03Pc
 KillPtClicked
@@ -12821,7 +12822,6 @@ KnownPrefixIndex
 KodchiangUPC
 KPEAVICHull
 KPEIBX_K_KPEIAU_iobuf
-KqPYWYTiZMTwDS7K6GLGbpRp24M
 KSocialService
 KVScriptContext
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
@@ -13397,7 +13397,6 @@ LSPObservable
 LSPServerTextCache
 LSPWarning
 LSRemoveFilePathUsingRegEx
-LSRfiR6ScpS12GA2jykQBY6F3qbL
 LUA_UNAUTHORIZED_LOG_OUT
 LuaAnalyticsReleasePeriod
 LuaAppABTestGameDetailsPeekView
@@ -14175,7 +14174,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEA
+MIICCgKCAgEAvWeLZMC4reYLqgD29j1pk2PQGQPxkw71rW0JGQ1gLCfU7mLR499k
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14218,6 +14217,7 @@ MissingDumpFile
 MMW4IkDragCollisionsMode
 MMW4PartMaterial
 MMW4UserInputState
+Mn6SJmBZcxlMW4KjAnGqtUsCknvcFD3IQ8kOdaxfrgEBzhGPUnRDd7L088oak
 MobileWebsite
 MockAndroidBackButtonPressed
 MockGestureGenerator
@@ -14520,6 +14520,7 @@ MultTransposeMatrixd
 MultTransposeMatrixf
 MusicalInstruments
 MutexLifetime
+MvY3ccbGWgsZHO9hYLxMUCXB8NIu
 MW4PartMaterial
 MyModelsAction
 MyWatchTreeWidget
@@ -14604,6 +14605,7 @@ NavigationServiceTimingAnalytics
 NavigationServiceWorker
 NavigationType
 NavMeshTiles
+Nbz2ugpRNvURaZQavysg
 NCONF_dump_bio
 NCONF_dump_fp
 NCONF_get_number_e
@@ -14741,6 +14743,7 @@ NewPDAltitudeWeakPushFinalDepressPercent
 NewPDSteepSlopeSlidingWithGravityPercent
 NewPlaceInternal
 NewRejoinMessage
+NewRelayDefinition
 NewRunningBaseAltitudeD
 NewRunningBaseAltitudeP
 NewRunningBaseGravityReductionFactorHundredth
@@ -14865,6 +14868,7 @@ NSNNNNNWNa
 NSNNNNNWNSNN_NSNSNSNNNNSNWN`N^^N
 NSNNNNNWNWNNN^^N
 NSNNNNNWNZP[\
+NsOKRwpqKUl6DeR9a6mxsWG
 Ntildesmall
 NullPassword
 NUMBER_OF_ORDERED_STREAMS
@@ -14919,6 +14923,7 @@ NVWorkspace
 NW4FileSystemDir
 NW4PenStyle
 NW4UserInputType
+NxKbio4UAsHpbwjLxO
 Oacutesmall
 OAEPEncryptionSET
 OAUTHBEARER
@@ -15000,7 +15005,7 @@ OCSP_SINGLERESP
 OCSPResponse
 OCSPSigning
 OCTETSTRING
-ODbT7BA8taZTrxqDSzHI8Qer1FgBjqMhq5o1qW
+Odhex5VvAJggFSjE4uKV8c
 Odieresissmall
 OfA9HPuHfA9H`uAfA9Hpu
 OfAdmissions
@@ -15198,6 +15203,7 @@ OptionsMenu
 OptionState
 OPUS_ARCHMASK
 OpusCustomMode
+OQMMOdCZ8xE
 OrCharacter
 OrCreateFileSyncItemClient
 OrderArray
@@ -16379,6 +16385,14 @@ PInitResData
 PirateHat.mesh
 PitchShiftSoundEffect
 PIUnsignedTBE
+PivotEditor.rbxm
+PivotEditor.rbxm_Pivot
+PivotEditor.rbxm_Pivot_ClearPivot
+PivotEditor.rbxm_Pivot_EditPivot
+PivotEditor.rbxm_Pivot_SetGeometry
+PivotEditor.rbxm_Pivot_SetModel
+PivotEditor.rbxm_Pivot_SetPart
+PivotEditor.rbxm_Pivot_SetSurface
 PivotsInDepthFirstOrder
 PIXEL_SIZE
 PixelColor
@@ -17195,7 +17209,6 @@ QActionEvent
 QActionGroup
 QActionTriggered
 QAnimationGroup
-QAoGHFzxKN
 QApplication
 QArrayData
 QAssociativeIterable
@@ -19432,7 +19445,6 @@ SA_NAEBVQUrl
 SA_NPEAVQObject
 SA_NPEAVQTranslator
 SA_NPEBUAbstractConverterFunction
-SA0PFNjZtkfrJUIFt3bfghLMvTCS00GHaQJGmNrFmqVJdnhxBeED8JpGJlh4XcTZ
 SafeZoneOffsetsChanged
 SafeZoneOffsetsInputWidget
 SAHAEBVQByteArray
@@ -23349,6 +23361,7 @@ StudioToolboxEnablePlaceIDInAnalytics
 StudioToolboxInsertAssetCategoryAnalytics
 StudioToolboxPluginPurchaseFlow
 StudioToSChangeDate
+StudioToStringSelfArgument
 StudioTrackDeadRobloxIDEDocsThrottleEvents
 StudioTranslateSettingsTooltips
 StudioTranslator
@@ -23557,13 +23570,11 @@ SwitchToFiber
 SwitchWindow
 Sword128.png
 SwordTexture.png
-SWqQLKzdhPaK0i
 SXNET_add_id_asc
 SXNET_add_id_INTEGER
 SXNET_add_id_ulong
 SXNET_get_id_asc
 SXNET_get_id_ulong
-SXoTxZLxa2ABge
 SymantecPKI
 SymbolicLinkForPlace
 SymbolValue
@@ -26883,6 +26894,7 @@ VWaitScriptSlot
 VWATAUAVAW
 VWATAUAVAWD
 VWATAUAVAWH
+VWClVcGuWL4IpsMlY7vrO2kMVBrLyw5cMjQpNxz
 VWeakFunctionRef
 VWeakThreadRef
 VWebSocket
@@ -27205,7 +27217,6 @@ WM_ATLGETCONTROL
 WM_ATLGETHOST
 WMCreateProfileManager
 WMCreateSyncReader
-WmGPHwtmyJma905OBK91bObc
 Wmvcore.dll
 WoodPlanks
 WordWrapMode
@@ -27267,6 +27278,8 @@ WSAStartup
 WSAStringToAddressW
 WTHelperGetProvSignerFromChain
 WTHelperProvDataFromStateData
+Wvevv5VQZ6uFhE
+WVp9bKP6MihSOTdqlJMFVz2e6kSlCE2M
 WWWWWWWWWW
 WWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWW
@@ -27352,6 +27365,7 @@ XPEAVRobloxScriptDiffDoc
 XQColorDialog
 Xregex_error
 XResolution
+XtBLG41lBNoF0kcPGVDgygET1I
 Xtime_get_ticks
 XUnegotiation_response
 XUNetworkResult
@@ -27490,9 +27504,8 @@ YAXW4error_type
 Ycircumflex
 Ydieresissmall
 YDYHYQYTYbYsY
-YeJTd7j51CZGD35e6wKx2bzQIzcW7rr2Svqn6vvpGM2cQrl
 YffYZefYDNNDCOO
-YH4M8qTmT6Ho5QCpfyLkfMpv26Zt8IVUlolrE1ouka3Hja69DuLyI
+YgLqmUn9k9qbA7diXzPf3VhbMq01yKJ5TjoDYcX
 YieldEvent
 YieldFuncDesc
 YieldFunction
@@ -27517,6 +27530,7 @@ ZP6APEAX1PEBX
 ZP6AX1PEAX
 ZPEAVRBXMessageBox
 ZRZZZbZt[.[
+ZUDLQ1oFo4nqB5ky
 ZVspecial_equipped_signal
 ZVTouchedSignal
 ZZZZZZZZZZZZZZZ
