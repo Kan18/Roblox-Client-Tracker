@@ -4,7 +4,8 @@ game:DefineFastFlag("TerrainToolsRaycastUpdate", false)
 local FFlagTerrainToolsUseDevFramework = game:GetFastFlag("TerrainToolsUseDevFramework")
 local FFlagTerrainToolsReplaceTool = game:GetFastFlag("TerrainToolsReplaceTool")
 local FFlagTerrainToolsBrushUseIsKeyDown = game:GetFastFlag("TerrainToolsBrushUseIsKeyDown")
-local FFlagTerrainToolsTerrainBrushNotSingleton = game:GetFastFlag("TerrainToolsTerrainBrushNotSingleton")
+
+local FFlagTerrainToolsRaycastUpdate = game:GetFastFlag("TerrainToolsRaycastUpdate")
 
 local FFlagTerrainToolsRaycastUpdate = game:GetFastFlag("TerrainToolsRaycastUpdate")
 
@@ -105,9 +106,10 @@ function TerrainBrush.new(options)
 	local self = setmetatable({
 		_terrain = options.terrain,
 		_mouse = options.mouse,
+		_analytics = options.analytics,
 
 		_operationSettings = {
-			currentTool = ToolId.None,
+			currentTool = options.tool,
 			brushShape = BrushShape.Sphere,
 
 			cursorSize = Constants.INITIAL_BRUSH_SIZE,
@@ -199,37 +201,12 @@ function TerrainBrush:subscribeToMaterialSelectRequested(...)
 end
 
 function TerrainBrush:updateSettings(newSettings)
-	if FFlagTerrainToolsTerrainBrushNotSingleton then
-		assert(newSettings.currentTool == nil, "Unable to change terrain brush tool")
-		newSettings.currentTool = nil
-	end
+	assert(newSettings.currentTool == nil, "Unable to change terrain brush tool")
+	newSettings.currentTool = nil
 	local settings = Cryo.Dictionary.join(self._operationSettings, newSettings)
 	settings = applyOverrideToSettings(settings)
 	self._operationSettings = settings
 	self:_updateCursor()
-end
-
-function TerrainBrush:startWithTool(newTool)
-	if FFlagTerrainToolsTerrainBrushNotSingleton then
-		warn("TerrainBrush:startWithTool() should not be used when FFlagTerrainToolsTerrainBrushNotSingleton is true")
-	end
-
-	self:updateSettings({
-		currentTool = newTool,
-	})
-
-	if newTool == ToolId.None then
-		self:stop()
-		return
-	end
-
-	if self._isRunning then
-		return
-	end
-	self._isRunning = true
-
-	self:_connectInput()
-	self:_run()
 end
 
 function TerrainBrush:start()
@@ -540,12 +517,18 @@ function TerrainBrush:_run()
 				self._mouseClick = false
 
 				if reportClick then
-					AnalyticsService:SendEventDeferred("studio", "Terrain", "UseTerrainTool", {
-						userId = StudioService:GetUserId(),
-						toolName = currentTool,
-						studioSId = AnalyticsService:GetSessionId(),
-						placeId = game.PlaceId,
-					})
+					if FFlagTerrainToolsUseDevFramework then
+						if self._analytics then
+							self._analytics:report("useBrushTool", currentTool)
+						end
+					else
+						AnalyticsService:SendEventDeferred("studio", "Terrain", "UseTerrainTool", {
+							userId = StudioService:GetUserId(),
+							toolName = currentTool,
+							studioSId = AnalyticsService:GetSessionId(),
+							placeId = game.PlaceId,
+						})
+					end
 					reportClick = false
 				end
 

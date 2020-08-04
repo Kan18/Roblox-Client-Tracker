@@ -1,3 +1,9 @@
+-- TODO: Remove this file when removing FFlagTerrainToolsUseDevFramework
+if game:GetFastFlag("TerrainToolsUseDevFramework") then
+	return function()
+	end
+end
+
 local Plugin = script.Parent.Parent.Parent
 
 local Packages = Plugin.Packages
