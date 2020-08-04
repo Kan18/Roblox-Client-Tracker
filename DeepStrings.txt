@@ -56,7 +56,6 @@ AACD1071711311E49439FC2A3D50B6A6
 AACD1072711311E49439FC2A3D50B6A6
 AACompromise
 Aacutesmall
-AADkel33NJDqcQjUeLwCpnX6yPpcIOk6lz1Zrv6lnGri2oOafwL8AxsCAwEAAQ
 AAEAVios_base
 AAEB11E38B9D871882A8E559
 AAEC11E38B9D871882A8E559
@@ -393,7 +392,6 @@ AEFA3AAED11E38B9D871882A8E559
 AesSettingsCipherMode
 AF1224888D11E18561866242201959
 Affiliation
-AfRTGHVRXIUhwhd
 AfterBufferedHandling
 AfterDisconnectChecks
 AfterInsert
@@ -915,6 +913,7 @@ ASN1_UTCTIME_adj
 ASN1_UTF8STRING
 ASN1_verify
 ASN1_VISIBLESTRING
+AsPdvFenhuGHQ
 AspectRatio
 AspectRatioMode
 AspectRatioType
@@ -2755,6 +2754,7 @@ AVMRURobloxApiGameStoreBase
 AVmultiple_occurrences
 AVMultipleDocumentInterfaceInstance
 AVMultiSelectDialog
+Avmy9qqIj9QfxB1NCnxHGDypjd7DrI5jC
 AVMyNumPunct
 AVMyWatchTreeWidget
 AVNavigationContext
@@ -4254,7 +4254,6 @@ BetterEmoji2
 BF11E395B6E5DB6211F344
 BF5757DAAEA11E38B9D871882A8E559
 BF5757EAAEA11E38B9D871882A8E559
-Bf84SWpcEmakSPJrnkq
 BF9701C11E3B075CBAD925AA50F
 BFA701C11E3B075CBAD925AA50F
 BFB1B25E9A
@@ -4681,7 +4680,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.443.0.409513
+ByVersion_0.443.0.409516
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -8642,7 +8641,6 @@ ECDSA_verify
 EchoSoundEffect
 Ecircumflex
 Ecircumflexsmall
-ECMWFCRHycZMCt25oKWy
 EconomyCreatorStatsApiWhitelist
 Econst_iterator
 ECoordSystem
@@ -11133,6 +11131,7 @@ GLSL.std.450
 Glsles3Mediump1
 GlslesMediump1
 GlueCursor
+Glv4IW73D7d8ZiPYpbWClCy5
 GoldenHashes
 GoodbyeChoiceActive
 GoodbyeChoiceActiveProperty
@@ -11361,7 +11360,6 @@ HA_A^A]A\_^
 HA_A^A]A\_^[]
 HA_A^A]A\_^[]H
 HA_A^A]A\_^][
-HAB5TYViTOURQuAJqcf0admRkQHWM9I89GXgr3w
 HACDConcavityMillionth
 HACDMaximumQuickhullReprocessAttempts
 HACDNormalizationDistanceMillionth
@@ -11875,7 +11873,6 @@ HVQRegularExpression
 HVQVariant
 HVSoundService
 HVStringView
-HVVvYyg7Rz1f
 HVWeakFunctionRef
 HW4AccessMode
 HW4CaretMode
@@ -12489,6 +12486,7 @@ ISandboxLocalCache
 IsAnimationAssetUploadEnabled
 IsBaseFont
 IsBestFriendsWith
+IsBUpWDpEweplnQ4Z1p7ex2iUu9V
 IsCategory
 IsCategoryActive
 IsCloudEdit
@@ -12643,6 +12641,7 @@ IVRScreenshots_001
 IVRSettings_002
 IVRSystem_017
 IVRTrackedCamera_003
+IW84XML5o7ad1ZNBCenpx27DbN1sDUaR
 IWebBrowser2
 IWorldStage
 IXMLHTTPRequest2
@@ -12725,7 +12724,6 @@ JointStepMaxParallelTasks
 JointStepParallelBatchSize
 JointTime_TextureCooldown
 JointToolHelpDialogVerb
-JOvzj7mLZOpli
 JPEBUSG_INDEX_TRIANGLE
 JSON.parse
 JSON.stringify
@@ -12760,7 +12758,6 @@ K_Key_dn.png
 KaiTi_GB2312
 KAXPEBDHAEAPEAVQChar
 KBytesPerSec
-KcEdXKhZadbcxG6YTo9V7nS6qNv
 KeepAliveTimeout
 KeepPositionOnInsert
 KERNEL32.dll
@@ -12816,17 +12813,15 @@ KFKPKXK`KhK
 KickByDatacenter_
 KiDszBCYB0gyp03Pc
 KillPtClicked
+KJlY4nrFhWndWOiZ1nC1sbXMZmehHd3bvVfYj5cKmgGL0
 KKKKKKKKKK
 KKKKKKKKKKKK
 KKKKKKKKKKKKKKKKKKKKKK
 KnownHeaders
 KnownPrefixIndex
-KNzu1566IrdYXMvbRNbIB3p2a9VPHbLkPdb
 KodchiangUPC
-KOqITamLNkHssPA8hc4LO4mUQFqLtuveG0EWJtUMj3St3HQSsJSJoF
 KPEAVICHull
 KPEIBX_K_KPEIAU_iobuf
-KqchwEesWa4wvuspo6VPVxtXXKvmN
 KSocialService
 KVScriptContext
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
@@ -13160,7 +13155,6 @@ LiveThreadRef
 LivingRoom
 LLEo6Soxvx2
 LLLLLLLLLLLLLLLL]]]]]]]]]]]]]]]]]]]]
-LmYpB5o5l8frngM6nGT1
 LOAD_CERT_CTRL
 LoadAnimation
 LoadAssetVersion
@@ -14180,7 +14174,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAw0
+MIICCgKCAgEAyl8FAPcmoE3fZQ
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14475,6 +14469,7 @@ Mtx_destroy_in_situ
 Mtx_init_in_situ
 Mtx_trylock
 Mtx_unlock
+MUAr1jj6pKQWncJFJZWK03O42GIE008eWX1noWS
 MULE_BASELINE_OFFSET
 MULE_RELATIVE_COMPOSE
 MultiByteToWideChar
@@ -14526,9 +14521,9 @@ MultTransposeMatrixf
 MusicalInstruments
 MutexLifetime
 MW4PartMaterial
-MWcAlUp0OC9o
 MyModelsAction
 MyWatchTreeWidget
+Na4PnzILtGwlk1geRFg7B2rczK14SJ
 NAEAVHttpResponse
 NAEBUPlaceLauncherRequestInfo
 NAEBVFbxTime
@@ -14927,6 +14922,7 @@ NVWorkspace
 NW4FileSystemDir
 NW4PenStyle
 NW4UserInputType
+NyIYCTuL2IA7iPYxsP2Ec0kiWEq83rPP4F3jb4heKedPxijvKGCvBE5hx9X
 Oacutesmall
 OAEPEncryptionSET
 OAUTHBEARER
@@ -15009,6 +15005,7 @@ OCSPResponse
 OCSPSigning
 OCTETSTRING
 Odieresissmall
+OEvOufBVMN4
 OfA9HPuHfA9H`uAfA9Hpu
 OfAdmissions
 OfApproval
@@ -15059,6 +15056,7 @@ OLEAUT32.dll
 OleInitialize
 OleLockRunning
 OleUninitialize
+OMg4rl683voA
 OnAllScriptErrorsAction
 OnBadgeAwarded
 OnboardingsCompleted
@@ -15255,7 +15253,6 @@ OSSL_STORE_SEARCH_by_alias
 OSSL_STORE_SEARCH_by_issuer_serial
 OSSL_STORE_SEARCH_by_key_fingerprint
 OSSL_STORE_SEARCH_by_name
-OTG3l2wvEVp
 OtherBlues
 OtherDisconnect
 OtherError
@@ -16257,6 +16254,7 @@ PersistentEditor
 PersistentFifoComboBox
 PerThreadTimer
 PerThreadTimerTotal
+PEUpjY0qnYi3v6
 PGSAlign2AxesCorrectionDamping
 PGSAlign2AxesPStageFrictionConstant
 PGSAlign2AxesVStageFrictionConstant
@@ -16782,6 +16780,7 @@ PluginWidgetRelay
 PluginWidgetRelayForPluginGui
 PluginWriteTemp
 PlusButtonPressed
+PMuOPAOX1ck
 POINT_SIZE
 PointBalanceCacheInvalidateTimeMs
 PointDataChanged
@@ -17193,6 +17192,7 @@ PVAdornment
 PVInstance
 PVK_header
 PxnhPiraCmahCilaKcpeLicyLidyLkclOgnjRruaSdnuSiiaVtsvAumaBpygEimrAilhPitrPavaJihtKusiLietMbraShkrOrmaSanaLtvaTktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
+Py7PlJDsSw0ezY6QB6v
 PyJlf7IHZQpFHohBe
 QAbstractAnimation
 QAbstractButton
@@ -17227,12 +17227,10 @@ QCommonStyle
 QCompleter
 QCoreApplication
 QCryptographicHash
-Qd1LD2XBKtRe2F79uqOq
 QDataStream
 QDebuggerClient
 QDesktopServices
 QDesktopWidget
-QDeWOLzKsAsdBf
 QDialogButtonBox
 QDockWidget
 QDomDocument
@@ -17773,7 +17771,6 @@ QQmlEngine
 QQmlImageProviderBase
 QQmlListProperty
 QQmlPrivate
-QQOV2sgIHdz5rTYC5lYCdUS54
 QQQQ4Q5QQQQQQQ6QQQQQQ789
 QQQQQQQQQQ
 QQQQQQQQQQQ
@@ -19364,7 +19361,6 @@ RPCServers
 RRReceiptFail
 RRReceiptTotal
 RRRRRRRRzzzzzzzzzzzzzzzzzz
-RRRtJbZchF
 RSA_check_key
 RSA_check_key_ex
 RSA_meth_dup
@@ -20505,7 +20501,6 @@ SizeToTwoAction
 SizingMode
 SkateboardController
 SkateboardPlatform
-SKaVU07GgFuU2QlW
 SkinningIsland
 SkinningIslands
 SkinningIslandsForModel
@@ -20863,6 +20858,7 @@ SSLKEYLOGFILE
 SslServerName
 SslVerificationFail
 SSSSSSSSRRRRRRRRRRRRRRRRRRR
+SsT5qwewBE755tR5GjoqaeFF2ljankz
 Stabilization
 Stack[StackPos]
 StackArray
@@ -23696,6 +23692,7 @@ TattletaleUseNewWordListFeatures
 TattletaleUseOriginalWordList
 Tcommaaccent
 TCP_NODELAY
+Td0xeL62hRvowybgHW2FvWUm0s
 TeachingCallouts
 TeamChildOrderExposedTelemetry
 TeamChildOrderProperty
@@ -25787,7 +25784,6 @@ VBodyVelocity
 VBoneInstance
 VBoolParser
 VBoxHandleAdornment
-VbpMRbcxwo38DGjbl
 VBrickColor
 Vbroken_promise
 VBrokenAssetResourceController
@@ -26484,6 +26480,7 @@ VNotificationService
 VNumberRange
 VNumberSequence
 VNumberSequenceKeypoint
+VNze3XpudvWS8drIsOGUf7Urp3JNVO3XSrpxkKndSks6pR4ARp
 Voauth2_handler
 VObjectValue
 VogpHgQ70F57MdFiBApyJwNSBk
@@ -26879,6 +26876,7 @@ VVertexLayoutD3D11
 VVertexLayoutD3D9
 VVertexLayoutGL
 VVertexLayoutVulkan
+VVgdrD6F6HROzn8
 VVideoClock
 VVideoFrame
 VVideoParser
@@ -26907,7 +26905,6 @@ VWebSocketCurl
 VWeldConstraint
 Vwin_iocp_io_service
 Vwinhttp_client
-VwO8LqNyMXdRDXqtVrJiX2PNb8oJ2xj6mGHFw4AJo0VpqY7u
 Vwork_io_service_runner
 VWorkspace
 VWorldModel
@@ -27283,7 +27280,6 @@ WTHelperProvDataFromStateData
 WWWWWWWWWW
 WWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWW
-Wzh97ZpP1nZvYKrLMpvl7ZiJoutDwe1JPS1aVS7NlhCwUI
 X_JW4AssetType
 XA^A]A\_][
 XA_A]A\_^[
@@ -27509,6 +27505,7 @@ YieldEvent
 YieldFuncDesc
 YieldFunction
 YQByteArray
+YQptCHITcw4vVWKvk
 YResolution
 YwBBvY55YvBBwY5
 YYYYYYYYYYYYYYYYYYYYYYYYY
