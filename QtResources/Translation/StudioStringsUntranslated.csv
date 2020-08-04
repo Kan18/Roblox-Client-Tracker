@@ -1052,6 +1052,7 @@ Studio.App.Property.MatchingWordBackgroundColor,,Matching Word Background Color,
 Studio.App.Property.MaximumOutputLines,,Maximum Output Lines,Maximum Output Lines
 Studio.App.Property.MaximumTableDepth,,Maximum Table Depth,Maximum Table Depth
 Studio.App.Property.MeshCacheSize,,Mesh Cache Size,Mesh Cache Size
+Studio.App.Property.MeshPartDetailLevel,,Mesh Detail Level,Mesh Detail Level
 Studio.App.Property.NetworkOwnerRate,,Network Owner Rate,Network Owner Rate
 Studio.App.Property.NumberColor,,Number Color,Number Color
 Studio.App.Property.OnlyPlayAudioFromWindowInFocus,,Only Play Audio from Window in Focus,Only Play Audio from Window in Focus
