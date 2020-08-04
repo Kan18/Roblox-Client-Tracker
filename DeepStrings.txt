@@ -618,6 +618,7 @@ AnalyticsServiceMonitoringPeriod
 AnalyticsSessionId
 AnalyticsSessionIdName
 AnalyticsSocketFamily
+ANbBcLnzHjMMTrhAqmDA
 AncestorChanged
 AncestorOf
 AncestorsSentWithoutAllDescendants
@@ -913,7 +914,6 @@ ASN1_UTCTIME_adj
 ASN1_UTF8STRING
 ASN1_verify
 ASN1_VISIBLESTRING
-AsPdvFenhuGHQ
 AspectRatio
 AspectRatioMode
 AspectRatioType
@@ -2034,6 +2034,7 @@ AVDEPRECATED_InsertObjectWidget
 AVDEPRECATED_LinkEnabledPlainTextEdit
 AVDEPRECATED_RobloxOutputPlainTextEdit
 AVDEPRECATED_RobloxTextOutputWidget
+AVDEPRECATED_ScriptSyntaxHighlighter
 AVDepthOfFieldEffect
 AVDescribedBase
 AVDescriptor
@@ -2355,6 +2356,7 @@ AVHapticService
 AVHeartbeatInstance
 AVHeartbeatMonitor
 AVHeartbeatTask
+AVHighlightProvider
 AVHingeAutoJointSurfacePair
 AVHingeConstraint
 AVHingeTool
@@ -2754,7 +2756,6 @@ AVMRURobloxApiGameStoreBase
 AVmultiple_occurrences
 AVMultipleDocumentInterfaceInstance
 AVMultiSelectDialog
-Avmy9qqIj9QfxB1NCnxHGDypjd7DrI5jC
 AVMyNumPunct
 AVMyWatchTreeWidget
 AVNavigationContext
@@ -3329,6 +3330,8 @@ AVScriptEditor
 AVScriptEditorCmdBase
 AVScriptFunctionFilter
 AVScriptFunctionFilterListWidget
+AVScriptHighlightCache
+AVScriptHighlighter
 AVScriptingCmdBase
 AVScriptingCommands
 AVScriptingHostAppServices
@@ -3343,9 +3346,7 @@ AVScriptsCompareHelper
 AVScriptService
 AVScriptSideWidget
 AVScriptsInBatchDialog
-AVScriptSyntaxHighlighter
 AVScriptTextEditor
-AVScriptTextProvider
 AVScriptWebFactory
 AVScrollable
 AVScrollingFrame
@@ -4680,7 +4681,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.443.0.409516
+ByVersion_0.443.0.409520
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -5202,6 +5203,7 @@ ChorusSoundEffect
 Chromecast
 ChunkShapes
 ChunkStitchMask
+Ci2zNE0bPoJH0sxQgnkcdw1sV
 CIDFontName
 CIDFontType
 CIDFontVersion
@@ -7732,6 +7734,7 @@ DEPRECATED_requestVersionDataCallback
 DEPRECATED_restartUpdateTimer
 DEPRECATED_RobloxOutputPlainTextEdit
 DEPRECATED_RobloxTextOutputWidget
+DEPRECATED_ScriptSyntaxHighlighter
 DEPRECATED_ServerConfigCloudEditServerSaveUrl
 DEPRECATED_share.png
 DEPRECATED_showInsertObjectWindow
@@ -8239,6 +8242,7 @@ DOFResolveNearFS
 DomainPolicy
 DominantAxis
 DOMMouseScroll
+DOmsZPfhIf
 DoNotLoadUnverifiedBuiltInPlugins
 DoNotOpenClonedOriginalInEditMode
 DoNotRenderMeshLODByDefault
@@ -10146,6 +10150,7 @@ FXCompositing
 FXCompositingFS
 FXCompositingLinearFS
 FXComposition
+FzZTF8i635k4ficMgObwNJdPOjh6Lr698qW5mZUi
 GainMakeup
 GameAbsenceInWeb.
 GameAction
@@ -11131,7 +11136,6 @@ GLSL.std.450
 Glsles3Mediump1
 GlslesMediump1
 GlueCursor
-Glv4IW73D7d8ZiPYpbWClCy5
 GoldenHashes
 GoodbyeChoiceActive
 GoodbyeChoiceActiveProperty
@@ -11344,6 +11348,7 @@ GvEphfEUiHHoD6hYFI4xWGpAnIHcklKQCxrf46kAhDGeZnqIgeGszlGdWafunGE8
 GVKUTS[BXIWH\KbHi
 GXGfGkGpGuG
 GxI9Gpu2E2
+GYIigZIwiCc
 GyroscopeEnabled
 H_Key_dn.png
 H_NAEBVQString
@@ -12486,7 +12491,6 @@ ISandboxLocalCache
 IsAnimationAssetUploadEnabled
 IsBaseFont
 IsBestFriendsWith
-IsBUpWDpEweplnQ4Z1p7ex2iUu9V
 IsCategory
 IsCategoryActive
 IsCloudEdit
@@ -12585,6 +12589,7 @@ IsVerified
 IsVertexArray
 IsVibrationSupported
 IsVIPDeveloper
+It9rU4CLcClpHWvu2H32ruRPkES
 ITALIC_ANGLE
 ItalicAngle
 Item.forceActiveFocus
@@ -12641,7 +12646,6 @@ IVRScreenshots_001
 IVRSettings_002
 IVRSystem_017
 IVRTrackedCamera_003
-IW84XML5o7ad1ZNBCenpx27DbN1sDUaR
 IWebBrowser2
 IWorldStage
 IXMLHTTPRequest2
@@ -12813,7 +12817,7 @@ KFKPKXK`KhK
 KickByDatacenter_
 KiDszBCYB0gyp03Pc
 KillPtClicked
-KJlY4nrFhWndWOiZ1nC1sbXMZmehHd3bvVfYj5cKmgGL0
+Kk7rLLQ0iRxznrv8ZazkoJ7rZv9roUy1SSjdOoK5Tf9Ou4UCL3bILJfiQ6rQ5t
 KKKKKKKKKK
 KKKKKKKKKKKK
 KKKKKKKKKKKKKKKKKKKKKK
@@ -13517,6 +13521,7 @@ LuauParserNoFatArrow
 LuauParserWarnOnFatArrow
 LuauRecursionLimit
 LuauResolveModulesWithBfs
+LuauScriptTextProvider
 LuauTypeInferRecursionLimit
 LuauTypeInferTypePackLoopLimit
 LuauUseClassesForRobloxApi
@@ -14174,7 +14179,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAyl8FAPcmoE3fZQ
+MIICCgKCAgEAvVhr9TwGtzObMvlQjbidSjvO4tPb
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14469,7 +14474,7 @@ Mtx_destroy_in_situ
 Mtx_init_in_situ
 Mtx_trylock
 Mtx_unlock
-MUAr1jj6pKQWncJFJZWK03O42GIE008eWX1noWS
+MuC02lM8nmHcam3dHex2GOhSU0CAwEAAQ
 MULE_BASELINE_OFFSET
 MULE_RELATIVE_COMPOSE
 MultiByteToWideChar
@@ -14523,7 +14528,6 @@ MutexLifetime
 MW4PartMaterial
 MyModelsAction
 MyWatchTreeWidget
-Na4PnzILtGwlk1geRFg7B2rczK14SJ
 NAEAVHttpResponse
 NAEBUPlaceLauncherRequestInfo
 NAEBVFbxTime
@@ -14613,6 +14617,7 @@ NCONF_get_string
 NCONF_load
 NCONF_load_bio
 NCONF_load_fp
+Nd5AokpH49rYYPKdEpCDvgF66
 NdnuScpeLkclOiiaVruaSilaKgnjRicyLiraCidyLmahCanaLtvaTtsvApygErmaSusiLumaBavaJietMimrAbraSitrPilhPhkrOihtKktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTzzzZssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
 NE9F0uHE9F4uBE9F8u
 NearIntensity
@@ -14922,7 +14927,6 @@ NVWorkspace
 NW4FileSystemDir
 NW4PenStyle
 NW4UserInputType
-NyIYCTuL2IA7iPYxsP2Ec0kiWEq83rPP4F3jb4heKedPxijvKGCvBE5hx9X
 Oacutesmall
 OAEPEncryptionSET
 OAUTHBEARER
@@ -15005,7 +15009,6 @@ OCSPResponse
 OCSPSigning
 OCTETSTRING
 Odieresissmall
-OEvOufBVMN4
 OfA9HPuHfA9H`uAfA9Hpu
 OfAdmissions
 OfApproval
@@ -15056,7 +15059,6 @@ OLEAUT32.dll
 OleInitialize
 OleLockRunning
 OleUninitialize
-OMg4rl683voA
 OnAllScriptErrorsAction
 OnBadgeAwarded
 OnboardingsCompleted
@@ -16254,7 +16256,6 @@ PersistentEditor
 PersistentFifoComboBox
 PerThreadTimer
 PerThreadTimerTotal
-PEUpjY0qnYi3v6
 PGSAlign2AxesCorrectionDamping
 PGSAlign2AxesPStageFrictionConstant
 PGSAlign2AxesVStageFrictionConstant
@@ -16780,7 +16781,7 @@ PluginWidgetRelay
 PluginWidgetRelayForPluginGui
 PluginWriteTemp
 PlusButtonPressed
-PMuOPAOX1ck
+PMrdVdI0aOt
 POINT_SIZE
 PointBalanceCacheInvalidateTimeMs
 PointDataChanged
@@ -17192,7 +17193,6 @@ PVAdornment
 PVInstance
 PVK_header
 PxnhPiraCmahCilaKcpeLicyLidyLkclOgnjRruaSdnuSiiaVtsvAumaBpygEimrAilhPitrPavaJihtKusiLietMbraShkrOrmaSanaLtvaTktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
-Py7PlJDsSw0ezY6QB6v
 PyJlf7IHZQpFHohBe
 QAbstractAnimation
 QAbstractButton
@@ -17239,6 +17239,7 @@ QDoubleSpinBox
 QDoubleValidator
 QDragMoveEvent
 QDropEvent
+QE7LfcRzcAzMvTV1fiWfowkKrTKSwakwkfoMqaqgUoywt66NPN
 QEAA_JAEBVQByteArray
 QEAA_JPEAD_J
 QEAA_JPEB_W_J
@@ -17351,6 +17352,7 @@ QEAAXAEBVQSslConfiguration
 QEAAXAEBVQString
 QEAAXAEBVQStringList
 QEAAXAEBVQSurfaceFormat
+QEAAXAEBVQTextBlock
 QEAAXAEBVQTextBlockFormat
 QEAAXAEBVQTextCharFormat
 QEAAXAEBVQTextCursor
@@ -17730,6 +17732,7 @@ QLocalSocket
 QMainWindow
 QMapDataBase
 QMapNodeBase
+QMBmagyKbbLvB4RD1rBc32GWqORB1t8pv
 QMessageBox
 QMessageLogger
 QMetaMethod
@@ -17789,6 +17792,7 @@ QRegularExpression
 QRegularExpressionMatch
 QRegularExpressionMatchIterator
 QRubberBand
+QrvLAD6HMesof5Dx
 QScopedPointer
 QScopedPointerDeleter
 QScrollArea
@@ -19438,6 +19442,7 @@ RVideoInternal
 RVideoMemLogging
 RVideoTrace
 RxRlReport
+RYG2445lvXxHKjy2ttyu1YVqXdu
 S_Key_dn.png
 SA_KPEAPEBV123
 SA_KPEAPEBVfacet
@@ -19694,11 +19699,9 @@ ScriptStat
 ScriptStopEdit
 ScriptString
 ScriptSubmitChanges
-ScriptSyntaxHighlighter
 ScriptTabAction
 ScriptText
 ScriptTextEditor
-ScriptTextProvider
 ScriptTimeoutLength
 ScriptType
 ScriptVersionsLoaded
@@ -20403,6 +20406,7 @@ SHUseNewComputeLevelUsesOBB
 ShutdownClient
 ShutdownClientAndSave
 ShutdownPolicy
+SIAm9gWKIo2vMv
 SiblingElement
 SigDigest_add1
 SigEd25519
@@ -20858,7 +20862,6 @@ SSLKEYLOGFILE
 SslServerName
 SslVerificationFail
 SSSSSSSSRRRRRRRRRRRRRRRRRRR
-SsT5qwewBE755tR5GjoqaeFF2ljankz
 Stabilization
 Stack[StackPos]
 StackArray
@@ -23692,7 +23695,7 @@ TattletaleUseNewWordListFeatures
 TattletaleUseOriginalWordList
 Tcommaaccent
 TCP_NODELAY
-Td0xeL62hRvowybgHW2FvWUm0s
+TdonYQ6EzRemOhbw4DoTPtTJvP6jYqWeP
 TeachingCallouts
 TeamChildOrderExposedTelemetry
 TeamChildOrderProperty
@@ -24873,6 +24876,7 @@ U_Unforced
 UActionsQuickOpenProviderSharedState
 Uacutesmall
 Uambiguous_result
+UaohI565dKvWJUsUwMpmP7jKf9Ambkn7mwlV8NA42
 Uasio_client
 Uasio_tls_client
 UAssetLoadingData
@@ -25673,6 +25677,7 @@ UWindowShowMessageNotification
 UWindowShowMessageRequest
 UWindowShowMessageResponse
 UXImprovementsFixEscKeyClosing
+UZNE8mniO18IONWC2UHQuehY
 V_http_request
 V_http_response
 VABTestEnrollmentsRequest
@@ -25844,6 +25849,7 @@ VCmdSelect
 VCmdToggleComment
 VCmdUnfoldAll
 VCmdUnindentSelection
+VcngxvAifFFh9mMdHcHtAEN
 VCollectionService
 VColor3uint8
 VColorCorrectionEffect
@@ -26480,7 +26486,6 @@ VNotificationService
 VNumberRange
 VNumberSequence
 VNumberSequenceKeypoint
-VNze3XpudvWS8drIsOGUf7Urp3JNVO3XSrpxkKndSks6pR4ARp
 Voauth2_handler
 VObjectValue
 VogpHgQ70F57MdFiBApyJwNSBk
@@ -26596,6 +26601,7 @@ VR_CONFIG_PATH
 VR_InitInternal
 VR_LOG_PATH
 VR_OVERRIDE
+Vr04e7QqdShp8biYL
 VRakPeerCrypto
 VRakPeerInterface
 Vrange_error
@@ -26876,7 +26882,6 @@ VVertexLayoutD3D11
 VVertexLayoutD3D9
 VVertexLayoutGL
 VVertexLayoutVulkan
-VVgdrD6F6HROzn8
 VVideoClock
 VVideoFrame
 VVideoParser
@@ -27505,13 +27510,13 @@ YieldEvent
 YieldFuncDesc
 YieldFunction
 YQByteArray
-YQptCHITcw4vVWKvk
 YResolution
 YwBBvY55YvBBwY5
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
 Zcaronsmall
 Zdotaccent
+ZG8lCg7b9lGJ1p1cD0o77
 ZgnhKhWhci
 ZhniZzzzZbarAnmrAgneBlryCaveDroeGkerGrjuGuruGgnaHinaHrbeHariHadnKanaKooaLntaLmylMayrOlmaTuleTiahTtbiTopoBiarBsnaCrehCihtErmhKgnoMrmyMmagOrnuRhniScrySaahTiiiYtrsDhtoGlatIdhuBonaHglgTbgaTtrpCbmiLbniLamsOwahSelaTragUiguBtpoCgalGrahKulaToepXolySgnfTilaBxusXookNga
 ZIndexBehavior

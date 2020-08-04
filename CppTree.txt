@@ -549,8 +549,11 @@ RBX
 		CmdUnfoldAll
 		CmdUnindentSelection
 		GotoLineDialog
+		HighlightProvider
 		QtLanguageClient
 		ScriptEditorCmdBase
+		ScriptHighlightCache
+		ScriptHighlighter
 		ScriptingCmdBase
 		ScriptingCommands
 		ScriptingManager
