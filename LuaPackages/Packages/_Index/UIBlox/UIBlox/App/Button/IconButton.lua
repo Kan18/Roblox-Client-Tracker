@@ -11,30 +11,27 @@ local Interactable = require(Core.Control.Interactable)
 
 local ControlState = require(Core.Control.Enum.ControlState)
 local getContentStyle = require(Core.Button.getContentStyle)
-local GetTextSize = require(Core.Text.GetTextSize)
+local getIconSize = require(App.ImageSet.getIconSize)
 local enumerateValidator = require(UIBlox.Utility.enumerateValidator)
+local validateImage = require(Core.ImageSet.Validator.validateImage)
 
 local withStyle = require(Core.Style.withStyle)
-local GenericTextLabel = require(Core.Text.GenericTextLabel.GenericTextLabel)
 local HoverButtonBackground = require(Core.Button.HoverButtonBackground)
+local ImageSetComponent = require(Core.ImageSet.ImageSetComponent)
+local IconSize = require(App.ImageSet.Enum.IconSize)
 
-local VERTICAL_PADDING = 8
-local HORIZONTAL_PADDING = 11
-
-local TextButton = Roact.PureComponent:extend("TextButton")
-TextButton.debugProps = enumerate("debugProps", {
-	"getTextSize",
+local IconButton = Roact.PureComponent:extend("IconButton")
+IconButton.debugProps = enumerate("debugProps", {
 	"controlState",
 })
 
-TextButton.validateProps = t.strictInterface({
+IconButton.validateProps = t.strictInterface({
 	-- The state change callback for the button
 	onStateChanged = t.optional(t.callback),
 
 	-- Is the button visually disabled
 	isDisabled = t.optional(t.boolean),
 
-	fontStyle = t.optional(t.string),
 	colorStyleDefault = t.optional(t.string),
 	colorStyleHover = t.optional(t.string),
 
@@ -46,36 +43,37 @@ TextButton.validateProps = t.strictInterface({
 
 	anchorPoint = t.optional(t.Vector2),
 	layoutOrder = t.optional(t.number),
-	position= t.optional(t.UDim2),
+	position = t.optional(t.UDim2),
 	size = t.optional(t.UDim2),
-	text = t.optional(t.string),
-
-	-- A callback that replaces getTextSize implementation
-	[TextButton.debugProps.getTextSize] = t.optional(t.callback),
+	icon = t.optional(validateImage),
+	iconSize = t.optional(enumerateValidator(IconSize)),
+	iconColor3 = t.optional(t.Color3),
+	iconTransparency = t.optional(t.number),
 
 	-- Override the default controlState
-	[TextButton.debugProps.controlState] = t.optional(enumerateValidator(ControlState)),
+	[IconButton.debugProps.controlState] = t.optional(enumerateValidator(ControlState)),
 })
 
-TextButton.defaultProps = {
+IconButton.defaultProps = {
 	anchorPoint = Vector2.new(0, 0),
 	layoutOrder = 0,
 	position = UDim2.new(0, 0, 0, 0),
-	size = UDim2.fromScale(0, 0),
-	text = "",
+	size = nil,
+	icon = "",
+	iconSize = IconSize.Medium,
 
-	fontStyle = "Header2",
 	colorStyleDefault = "SystemPrimaryDefault",
 	colorStyleHover = "SystemPrimaryDefault",
+	iconColor3 = nil,
+	iconTransparency = nil,
 
 	isDisabled = false,
 	userInteractionEnabled = true,
 
-	[TextButton.debugProps.getTextSize] = GetTextSize,
-	[TextButton.debugProps.controlState] = nil,
+	[IconButton.debugProps.controlState] = nil,
 }
 
-function TextButton:init()
+function IconButton:init()
 	self:setState({
 		controlState = ControlState.Initialize
 	})
@@ -88,29 +86,43 @@ function TextButton:init()
 			self.props.onStateChanged(oldState, newState)
 		end
 	end
+
+	local iconSizeToSizeScale = {
+		[IconSize.Small] = 1,
+		[IconSize.Medium] = 2,
+		[IconSize.Large] = 3,
+		[IconSize.XLarge] = 4,
+		[IconSize.XXLarge] = 5,
+	}
+	self.getSize = function(iconSizeMeasurement)
+		if self.props.size then
+			return self.props.size
+		end
+
+		local iconSize = self.props.iconSize
+		local extents = iconSizeMeasurement + 4 * iconSizeToSizeScale[iconSize]
+		return UDim2.fromOffset(extents, extents)
+	end
 end
 
-function TextButton:render()
+function IconButton:render()
 	return withStyle(function(style)
-		local currentState = self.props[TextButton.debugProps.controlState] or self.state.controlState
+		local iconSizeMeasurement = getIconSize(self.props.iconSize)
+		local size = self.getSize(iconSizeMeasurement)
+		local currentState = self.props[IconButton.debugProps.controlState] or self.state.controlState
 
-		local textStateColorMap = {
+		local iconStateColorMap = {
 			[ControlState.Default] = self.props.colorStyleDefault,
 			[ControlState.Hover] = self.props.colorStyleHover,
 		}
 
-		local textStyle = getContentStyle(textStateColorMap, currentState, style)
-		local fontStyle = style.Font[self.props.fontStyle]
-
-		local fontSize = fontStyle.RelativeSize * style.Font.BaseSize
-		local getTextSize = self.props[TextButton.debugProps.getTextSize]
-		local textWidth = getTextSize(self.props.text, fontSize, fontStyle.Font, Vector2.new(10000, 0)).X
+		local iconStyle = getContentStyle(iconStateColorMap, currentState, style)
 
 		return Roact.createElement(Interactable, {
 			AnchorPoint = self.props.anchorPoint,
 			LayoutOrder = self.props.layoutOrder,
 			Position = self.props.position,
-			Size = self.props.size,
+			Size = size,
 
 			isDisabled = self.props.isDisabled,
 			onStateChanged = self.onStateChanged,
@@ -121,19 +133,20 @@ function TextButton:render()
 			[Roact.Event.Activated] = self.props.onActivated,
 		}, {
 			sizeConstraint = Roact.createElement("UISizeConstraint", {
-				MinSize = Vector2.new(textWidth + VERTICAL_PADDING*2, fontSize + HORIZONTAL_PADDING*2),
+				MinSize = Vector2.new(iconSizeMeasurement, iconSizeMeasurement),
 			}),
-			textLabel = Roact.createElement(GenericTextLabel, {
+			imageLabel = Roact.createElement(ImageSetComponent.Label, {
 				AnchorPoint = Vector2.new(0.5, 0.5),
 				Position = UDim2.fromScale(0.5, 0.5),
+				Size = UDim2.fromOffset(iconSizeMeasurement, iconSizeMeasurement),
 				BackgroundTransparency = 1,
-				Text = self.props.text,
-				fontStyle = fontStyle,
-				colorStyle = textStyle,
+				Image = self.props.icon,
+				ImageColor3 = self.props.iconColor3 or iconStyle.Color,
+				ImageTransparency = self.props.iconTransparency or iconStyle.Transparency,
 			}),
-			background = currentState == ControlState.Hover and Roact.createElement(HoverButtonBackground)
+			background = currentState == ControlState.Hover and Roact.createElement(HoverButtonBackground),
 		})
 	end)
 end
 
-return TextButton
+return IconButton
