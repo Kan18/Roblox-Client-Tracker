@@ -18,8 +18,6 @@ local RbxEntriesToWebEntries = require(Plugin.Src.Util.RbxEntriesToWebEntries)
 local PatchInfo = require(Plugin.Src.Util.PatchInfo)
 local isEmpty = require(Plugin.Src.Util.isEmpty)
 
-local FFlagRequestAssetGenerationAfterSuccess = game:GetFastFlag("RequestAssetGenerationAfterSuccess")
-
 local function makeDispatchErrorMessageFunc(store, localization)
 	return function()
 		store:dispatch(SetIsBusy(false))
@@ -196,11 +194,8 @@ return function(api, localization, analytics, showDialog, isReplace)
 			warn(localization:getText("UploadTable", "PatchCloudTableFailed"))
 			return
 		end
-
-		if not FFlagRequestAssetGenerationAfterSuccess then
-			--4.3 regenerate assets
-			requestGenerateAssets(api, game.GameId)
-		end
+		--4.3 regenerate assets
+		requestGenerateAssets(api, game.GameId)
 
 		-- 5. success
 		store:dispatch(SetIsBusy(false))
@@ -208,9 +203,5 @@ return function(api, localization, analytics, showDialog, isReplace)
 			SetMessage(localization:getText("MessageFrame", "UploadCompletedMessage")))
 		local buttonName = isReplace and "replace" or "update"
 		analytics:reportUploadTable(patchInfo, buttonName)
-
-		if FFlagRequestAssetGenerationAfterSuccess then
-			requestGenerateAssets(api, game.GameId)
-		end
 	end
 end

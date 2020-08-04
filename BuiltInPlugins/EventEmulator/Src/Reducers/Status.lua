@@ -16,7 +16,6 @@ local SetTheme = require(Actions.SetTheme)
 local SetMemStoragePair = require(Actions.SetMemStoragePair)
 local ClearMemStoragePair = require(Actions.ClearMemStoragePair)
 local ClearRBXParameters = require(Actions.ClearRBXParameters)
-local ChangeCurrentEventName = require(Actions.ChangeCurrentEventName)
 
 return Rodux.createReducer({
 	ActiveView = VIEW_ID.RBXEvent,
@@ -29,8 +28,7 @@ return Rodux.createReducer({
 	MemStoragePair = {
 		Key = "ThemeUpdate",
 		Value = "dark",
-	},
-	CurrentEventName = VIEW_ID.RBXEvent,
+	}
 }, {
 	[SetView.name] = function(state, action)
 		return Cryo.Dictionary.join(state, {
@@ -74,9 +72,5 @@ return Rodux.createReducer({
 			}
 		})
 	end,
-	[ChangeCurrentEventName.name] = function (state, action)
-		return Cryo.Dictionary.join(state, {
-			CurrentEventName = action.name,
-		})
-	end
+
 })

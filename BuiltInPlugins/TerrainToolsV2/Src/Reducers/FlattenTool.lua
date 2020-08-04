@@ -21,6 +21,8 @@ local ReducerToolFlatten = Rodux.createReducer({
 	strength = Constants.INITIAL_BRUSH_STRENGTH,
 	flattenMode = FlattenMode.Both,
 	planePositionY = Constants.INITIAL_PLANE_POSITION_Y,
+	-- TODO: Remove planeLock when removing FFlagTerrainToolsFlattenUseBaseBrush
+	planeLock = false,
 	fixedPlane = false,
 	heightPicker = false,
 	snapToGrid = false,
@@ -67,6 +69,14 @@ local ReducerToolFlatten = Rodux.createReducer({
 
 		return Cryo.Dictionary.join(state, {
 			flattenMode = flattenMode,
+		})
+	end,
+	-- TODO: Remove SetPlaneLock when removing FFlagTerrainToolsFlattenUseBaseBrush
+	SetPlaneLock = function(state, action)
+		local planeLock = action.planeLock
+
+		return Cryo.Dictionary.join(state, {
+			planeLock = planeLock,
 		})
 	end,
 	SetFixedPlane = function(state, action)

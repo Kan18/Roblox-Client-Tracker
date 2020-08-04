@@ -24,26 +24,26 @@ local GameSettings = Settings.GameSettings
 -------------- CONSTANTS --------------
 local GRAPHICS_QUALITY_LEVELS = 10
 local GRAPHICS_QUALITY_TO_INT = {
-	["Enum.SavedQualitySetting.Automatic"] = 0,
-	["Enum.SavedQualitySetting.QualityLevel1"] = 1,
-	["Enum.SavedQualitySetting.QualityLevel2"] = 2,
-	["Enum.SavedQualitySetting.QualityLevel3"] = 3,
-	["Enum.SavedQualitySetting.QualityLevel4"] = 4,
-	["Enum.SavedQualitySetting.QualityLevel5"] = 5,
-	["Enum.SavedQualitySetting.QualityLevel6"] = 6,
-	["Enum.SavedQualitySetting.QualityLevel7"] = 7,
-	["Enum.SavedQualitySetting.QualityLevel8"] = 8,
-	["Enum.SavedQualitySetting.QualityLevel9"] = 9,
-	["Enum.SavedQualitySetting.QualityLevel10"] = 10
+  ["Enum.SavedQualitySetting.Automatic"] = 0,
+  ["Enum.SavedQualitySetting.QualityLevel1"] = 1,
+  ["Enum.SavedQualitySetting.QualityLevel2"] = 2,
+  ["Enum.SavedQualitySetting.QualityLevel3"] = 3,
+  ["Enum.SavedQualitySetting.QualityLevel4"] = 4,
+  ["Enum.SavedQualitySetting.QualityLevel5"] = 5,
+  ["Enum.SavedQualitySetting.QualityLevel6"] = 6,
+  ["Enum.SavedQualitySetting.QualityLevel7"] = 7,
+  ["Enum.SavedQualitySetting.QualityLevel8"] = 8,
+  ["Enum.SavedQualitySetting.QualityLevel9"] = 9,
+  ["Enum.SavedQualitySetting.QualityLevel10"] = 10
 }
 local PC_CHANGED_PROPS = {
-	DevComputerMovementMode = true,
-	DevComputerCameraMode = true,
-	DevEnableMouseLock = true
+  DevComputerMovementMode = true,
+  DevComputerCameraMode = true,
+  DevEnableMouseLock = true
 }
 local TOUCH_CHANGED_PROPS = {
-	DevTouchMovementMode = true,
-	DevTouchCameraMode = true
+  DevTouchMovementMode = true,
+  DevTouchCameraMode = true
 }
 local CAMERA_MODE_DEFAULT_STRING = UserInputService.TouchEnabled and "Default (Follow)" or "Default (Classic)"
 
@@ -64,7 +64,7 @@ local MOVEMENT_MODE_DYNAMICTHUMBSTICK_STRING = "Dynamic Thumbstick"
 local utility = require(RobloxGui.Modules.Settings.Utility)
 local Constants
 if FFlagCollectAnalyticsForSystemMenu then
-	Constants = require(RobloxGui:WaitForChild("Modules"):WaitForChild("InGameMenu"):WaitForChild("Resources"):WaitForChild("Constants"))
+  Constants = require(RobloxGui:WaitForChild("Modules"):WaitForChild("InGameMenu"):WaitForChild("Resources"):WaitForChild("Constants"))
 end
 
 ------------ Variables -------------------
@@ -77,10 +77,10 @@ local platform = UserInputService:GetPlatform()
 local PolicyService = require(RobloxGui.Modules.Common.PolicyService)
 
 local UnlSuccess, UnlResult =
-	pcall(
-	function()
-		return settings():GetFFlag("UseNotificationsLocalization")
-	end
+  pcall(
+  function()
+    return settings():GetFFlag("UseNotificationsLocalization")
+  end
 )
 local FFlagUseNotificationsLocalization = UnlSuccess and UnlResult
 game:DefineFastInt("RomarkStartWithGraphicQualityLevel", -1)
@@ -93,46 +93,46 @@ local isMobileClient = (platform == Enum.Platform.IOS) or (platform == Enum.Plat
 local UseMicroProfiler = (isMobileClient or isDesktopClient) and canUseMicroProfiler
 
 local function reportSettingsForAnalytics()
-	if not FFlagCollectAnalyticsForSystemMenu then return end
+  if not FFlagCollectAnalyticsForSystemMenu then return end
 
-	local stringTable = {}
-	if UserInputService.TouchEnabled then
-		stringTable["camera_mode_touch"] = tostring(GameSettings.TouchCameraMovementMode)
-	else
-		stringTable["camera_mode_desktop"] = tostring(GameSettings.ComputerCameraMovementMode)
-	end
+  local stringTable = {}
+  if UserInputService.TouchEnabled then
+    stringTable["camera_mode_touch"] = tostring(GameSettings.TouchCameraMovementMode)
+  else
+    stringTable["camera_mode_desktop"] = tostring(GameSettings.ComputerCameraMovementMode)
+  end
 
-	if UserInputService.TouchEnabled then
-		stringTable["movement_mode_touch"] = tostring(GameSettings.TouchMovementMode)
-	else
-		stringTable["movement_mode_desktop"] = tostring(GameSettings.ComputerMovementMode)
-	end
+  if UserInputService.TouchEnabled then
+    stringTable["movement_mode_touch"] = tostring(GameSettings.TouchMovementMode)
+  else
+    stringTable["movement_mode_desktop"] = tostring(GameSettings.ComputerMovementMode)
+  end
 
-	if UserInputService.MouseEnabled then
-		stringTable["shift_lock_enabled"] = tostring(GameSettings.ControlMode == Enum.ControlMode.MouseLockSwitch)
-	end
+  if UserInputService.MouseEnabled then
+    stringTable["shift_lock_enabled"] = tostring(GameSettings.ControlMode == Enum.ControlMode.MouseLockSwitch)
+  end
 
-	if UserInputService.GamepadEnabled and GameSettings.IsUsingGamepadCameraSensitivity then
-		local sensitivity = GameSettings.GamepadCameraSensitivity
-		local formattedSensitivity = tonumber(string.format("%.2f", sensitivity))
-		stringTable["camera_sensitivity_gamepad"] = tostring(formattedSensitivity)
-	end
-	if UserInputService.MouseEnabled then
-		local sensitivity = GameSettings.MouseSensitivityFirstPerson.X
-		local formattedSensitivity = tonumber(string.format("%.2f", sensitivity))
-		stringTable["camera_sensitivity_mouse"] = tostring(formattedSensitivity)
-	end
+  if UserInputService.GamepadEnabled and GameSettings.IsUsingGamepadCameraSensitivity then
+    local sensitivity = GameSettings.GamepadCameraSensitivity
+    local formattedSensitivity = tonumber(string.format("%.2f", sensitivity))
+    stringTable["camera_sensitivity_gamepad"] = tostring(formattedSensitivity)
+  end
+  if UserInputService.MouseEnabled then
+    local sensitivity = GameSettings.MouseSensitivityFirstPerson.X
+    local formattedSensitivity = tonumber(string.format("%.2f", sensitivity))
+    stringTable["camera_sensitivity_mouse"] = tostring(formattedSensitivity)
+  end
 
-	stringTable["camera_y_inverted"] = tostring(GameSettings.CameraYInverted)
-	stringTable["show_performance_stats"] = tostring(GameSettings.PerformanceStatsVisible)
-	stringTable["volume"] = tostring( math.floor((GameSettings.MasterVolume * 10) + 0.5) )
-	stringTable["gfx_quality_level"] = tostring(settings().Rendering.QualityLevel)
-	stringTable["fullscreen_enabled"] = tostring(GameSettings:InFullScreen())
-	stringTable["microprofiler_enabled"] = tostring(GameSettings.OnScreenProfilerEnabled)
-	stringTable["microprofiler_webserver_enabled"] = tostring(GameSettings.MicroProfilerWebServerEnabled)
+  stringTable["camera_y_inverted"] = tostring(GameSettings.CameraYInverted)
+  stringTable["show_performance_stats"] = tostring(GameSettings.PerformanceStatsVisible)
+  stringTable["volume"] = tostring( math.floor((GameSettings.MasterVolume * 10) + 0.5) )
+  stringTable["gfx_quality_level"] = tostring(settings().Rendering.QualityLevel)
+  stringTable["fullscreen_enabled"] = tostring(GameSettings:InFullScreen())
+  stringTable["microprofiler_enabled"] = tostring(GameSettings.OnScreenProfilerEnabled)
+  stringTable["microprofiler_webserver_enabled"] = tostring(GameSettings.MicroProfilerWebServerEnabled)
 
-	stringTable["universeid"] = tostring(game.GameId)
-	AnalyticsService:SetRBXEventStream(Constants.AnalyticsTargetName, Constants.AnalyticsInGameMenuName, Constants.AnalyticsSettingsChangeName, stringTable)
+  stringTable["universeid"] = tostring(game.GameId)
+  AnalyticsService:SetRBXEventStream(Constants.AnalyticsTargetName, Constants.AnalyticsInGameMenuName, Constants.AnalyticsSettingsChangeName, stringTable)
 end
 
 --------------- FLAGS ----------------
@@ -1371,147 +1371,147 @@ local function Initialize()
 				end
 			end)
 		end
-		else
-			-- Only show option if we are place/group owner
-			if game.CreatorType == Enum.CreatorType.Group then
-				spawn(
-					function()
-						-- spawn since GetRankInGroup is async
-						local success, result =
-							pcall(
-							function()
-								return LocalPlayer:GetRankInGroup(game.CreatorId) == 255
-							end
-						)
-						if success then
-							if result == true then
-								makeDevConsoleOption()
-							end
-						else
-							print("DeveloperConsole: GetRankInGroup failed because", result)
-						end
-					end
-				)
-			elseif LocalPlayer.UserId == game.CreatorId and game.CreatorType == Enum.CreatorType.User then
-				makeDevConsoleOption()
-			end
-		end
-	end
+    else
+      -- Only show option if we are place/group owner
+      if game.CreatorType == Enum.CreatorType.Group then
+        spawn(
+          function()
+            -- spawn since GetRankInGroup is async
+            local success, result =
+              pcall(
+              function()
+                return LocalPlayer:GetRankInGroup(game.CreatorId) == 255
+              end
+            )
+            if success then
+              if result == true then
+                makeDevConsoleOption()
+              end
+            else
+              print("DeveloperConsole: GetRankInGroup failed because", result)
+            end
+          end
+        )
+      elseif LocalPlayer.UserId == game.CreatorId and game.CreatorType == Enum.CreatorType.User then
+        makeDevConsoleOption()
+      end
+    end
+  end
 
-	createCameraModeOptions(
-		not isTenFootInterface and
-			(UserInputService.TouchEnabled or UserInputService.MouseEnabled or UserInputService.KeyboardEnabled)
-	)
+  createCameraModeOptions(
+    not isTenFootInterface and
+      (UserInputService.TouchEnabled or UserInputService.MouseEnabled or UserInputService.KeyboardEnabled)
+  )
 
-	local checkGamepadOptions = function()
-		if GameSettings.IsUsingGamepadCameraSensitivity then
-			createGamepadOptions()
-		else
-			local camerasettingsConn = nil
-			camerasettingsConn =
-				GameSettings:GetPropertyChangedSignal("IsUsingGamepadCameraSensitivity"):connect(
-				function()
-					if GameSettings.IsUsingGamepadCameraSensitivity then
-						if camerasettingsConn then
-							camerasettingsConn:disconnect()
-						end
-						createGamepadOptions()
-					end
-				end
-			)
-		end
-	end
+  local checkGamepadOptions = function()
+    if GameSettings.IsUsingGamepadCameraSensitivity then
+      createGamepadOptions()
+    else
+      local camerasettingsConn = nil
+      camerasettingsConn =
+        GameSettings:GetPropertyChangedSignal("IsUsingGamepadCameraSensitivity"):connect(
+        function()
+          if GameSettings.IsUsingGamepadCameraSensitivity then
+            if camerasettingsConn then
+              camerasettingsConn:disconnect()
+            end
+            createGamepadOptions()
+          end
+        end
+      )
+    end
+  end
 
-	if UserInputService.MouseEnabled then
-		createMouseOptions()
-	else
-		if UserInputService.GamepadEnabled then
-			checkGamepadOptions()
-		else
-			local gamepadConnectedConn = nil
-			gamepadConnectedConn =
-				UserInputService.GamepadConnected:connect(
-				function()
-					if gamepadConnectedConn then
-						gamepadConnectedConn:disconnect()
-					end
-					checkGamepadOptions()
-				end
-			)
-		end
-	end
+  if UserInputService.MouseEnabled then
+    createMouseOptions()
+  else
+    if UserInputService.GamepadEnabled then
+      checkGamepadOptions()
+    else
+      local gamepadConnectedConn = nil
+      gamepadConnectedConn =
+        UserInputService.GamepadConnected:connect(
+        function()
+          if gamepadConnectedConn then
+            gamepadConnectedConn:disconnect()
+          end
+          checkGamepadOptions()
+        end
+      )
+    end
+  end
 
-	if GameSettings.IsUsingCameraYInverted then
-		createCameraInvertedOptions()
-	else
-		local gamesettingsConn = nil
-		gamesettingsConn =
-			GameSettings.Changed:connect(
-			function(prop)
-				if prop == "IsUsingCameraYInverted" then
-					if GameSettings.IsUsingCameraYInverted then
-						gamesettingsConn:disconnect()
-						createCameraInvertedOptions()
-					end
-				end
-			end
-		)
-	end
+  if GameSettings.IsUsingCameraYInverted then
+    createCameraInvertedOptions()
+  else
+    local gamesettingsConn = nil
+    gamesettingsConn =
+      GameSettings.Changed:connect(
+      function(prop)
+        if prop == "IsUsingCameraYInverted" then
+          if GameSettings.IsUsingCameraYInverted then
+            gamesettingsConn:disconnect()
+            createCameraInvertedOptions()
+          end
+        end
+      end
+    )
+  end
 
-	createVolumeOptions()
+  createVolumeOptions()
 
-	-- we disable quality slider on Xbox since it has FRM disabled and forced to max quality level so the slider is useless
-	if platform ~= Enum.Platform.XBoxOne then
-		createGraphicsOptions()
-	end
+  -- we disable quality slider on Xbox since it has FRM disabled and forced to max quality level so the slider is useless
+  if platform ~= Enum.Platform.XBoxOne then
+    createGraphicsOptions()
+  end
 
-	local canShowPerfStats =  not PolicyService:IsSubjectToChinaPolicies()
+  local canShowPerfStats =  not PolicyService:IsSubjectToChinaPolicies()
 
-	if canShowPerfStats then
-		createPerformanceStatsOptions()
-	end
+  if canShowPerfStats then
+    createPerformanceStatsOptions()
+  end
 
-	-- create micro profiler option in the end, so the ip and port can be shown next to the row
-	if UseMicroProfiler then
-		createMicroProfilerOptions()
-	end
+  -- create micro profiler option in the end, so the ip and port can be shown next to the row
+  if UseMicroProfiler then
+    createMicroProfilerOptions()
+  end
 
-	if isTenFootInterface then
-		createOverscanOption()
-	end
+  if isTenFootInterface then
+    createOverscanOption()
+  end
 
-	local canShowDevConsole = not PolicyService:IsSubjectToChinaPolicies()
+  local canShowDevConsole = not PolicyService:IsSubjectToChinaPolicies()
 
-	if canShowDevConsole then
-		-- dev console option only shows for place/group place owners
-		createDeveloperConsoleOption()
-	end
+  if canShowDevConsole then
+    -- dev console option only shows for place/group place owners
+    createDeveloperConsoleOption()
+  end
 
-	allSettingsCreated = true
-	if VRService.VREnabled then
-		onVRSettingsReady()
-	end
+  allSettingsCreated = true
+  if VRService.VREnabled then
+    onVRSettingsReady()
+  end
 
-	------ TAB CUSTOMIZATION -------
-	this.TabHeader.Name = "GameSettingsTab"
-	this.TabHeader.Icon.Image =
-		isTenFootInterface and "rbxasset://textures/ui/Settings/MenuBarIcons/GameSettingsTab@2x.png" or
-		"rbxasset://textures/ui/Settings/MenuBarIcons/GameSettingsTab.png"
+  ------ TAB CUSTOMIZATION -------
+  this.TabHeader.Name = "GameSettingsTab"
+  this.TabHeader.Icon.Image =
+    isTenFootInterface and "rbxasset://textures/ui/Settings/MenuBarIcons/GameSettingsTab@2x.png" or
+    "rbxasset://textures/ui/Settings/MenuBarIcons/GameSettingsTab.png"
 
-	if FFlagUseNotificationsLocalization then
-		this.TabHeader.Title.Text = "Settings"
-	else
-		this.TabHeader.Icon.Title.Text = "Settings"
-	end
+  if FFlagUseNotificationsLocalization then
+    this.TabHeader.Title.Text = "Settings"
+  else
+    this.TabHeader.Icon.Title.Text = "Settings"
+  end
 
-	------ PAGE CUSTOMIZATION -------
-	this.Page.ZIndex = 5
+  ------ PAGE CUSTOMIZATION -------
+  this.Page.ZIndex = 5
 
-	if this.PageListLayout then
-		this.PageListLayout.Padding = UDim.new(0, 0)
-	end
+  if this.PageListLayout then
+    this.PageListLayout.Padding = UDim.new(0, 0)
+  end
 
-	return this
+  return this
 end
 
 ----------- Page Instantiation --------------

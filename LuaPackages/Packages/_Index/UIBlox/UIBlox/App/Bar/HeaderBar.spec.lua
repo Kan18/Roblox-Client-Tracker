@@ -46,8 +46,7 @@ return function()
 			local instance = Roact.mount(element, frame, "Frame")
 			local barFrame = frame:FindFirstChild("barFrame", true)
 			local bar = barFrame:FindFirstChild("bar")
-			local leftFrame = bar:FindFirstChild("leftFrame", true)
-			local margin = leftFrame:FindFirstChild("$margin", true)
+			local margin = bar:FindFirstChild("$margin", true)
 			expect(margin).to.be.ok()
 
 			barFrame.Size = BARSIZE_SMALL
@@ -73,8 +72,7 @@ return function()
 			local instance = Roact.mount(element, frame, "Frame")
 			local barFrame = frame:FindFirstChild("barFrame", true)
 			local bar = barFrame:FindFirstChild("bar")
-			local leftFrame = bar:FindFirstChild("leftFrame", true)
-			local margin = leftFrame:FindFirstChild("$margin", true)
+			local margin = bar:FindFirstChild("$margin", true)
 			expect(margin).to.be.ok()
 
 			barFrame.Size = BARSIZE_MEDIUM
@@ -100,8 +98,7 @@ return function()
 			local instance = Roact.mount(element, frame, "Frame")
 			local barFrame = frame:FindFirstChild("barFrame", true)
 			local bar = barFrame:FindFirstChild("bar")
-			local leftFrame = bar:FindFirstChild("leftFrame", true)
-			local margin = leftFrame:FindFirstChild("$margin", true)
+			local margin = bar:FindFirstChild("$margin", true)
 			expect(margin).to.be.ok()
 
 			barFrame.Size = BARSIZE_LARGE

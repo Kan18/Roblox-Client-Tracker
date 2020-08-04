@@ -1,7 +1,3 @@
-game:DefineFastFlag("TerrainToolsTerrainCylinderOnSizeOne", false)
-
-local FFlagTerrainToolsTerrainCylinderOnSizeOne = game:GetFastFlag("TerrainToolsTerrainCylinderOnSizeOne")
-
 local Plugin = script.Parent.Parent.Parent
 
 local Constants = require(Plugin.Src.Util.Constants)
@@ -70,15 +66,6 @@ local function performOperation(terrain, opSet)
 	assert(terrain ~= nil, "performTerrainBrushOperation requires a terrain instance")
 	assert(tool ~= nil and type(tool) == "string", "performTerrainBrushOperation requires a currentTool parameter")
 
-	local minBounds = Vector3.new(
-		OperationHelper.clampDownToVoxel(centerPoint.x - radius),
-		OperationHelper.clampDownToVoxel(centerPoint.y - (height * 0.5)),
-		OperationHelper.clampDownToVoxel(centerPoint.z - radius))
-	local maxBounds = Vector3.new(
-		OperationHelper.clampUpToVoxel(centerPoint.x + radius),
-		OperationHelper.clampUpToVoxel(centerPoint.y + (height * 0.5)),
-		OperationHelper.clampUpToVoxel(centerPoint.z + radius))
-
 	-- Might be able to do a quick operation through an API call
 	if (tool == ToolId.Add or (tool == ToolId.Subtract and not ignoreWater)) and not autoMaterial then
 		if tool == ToolId.Subtract then
@@ -92,14 +79,6 @@ local function performOperation(terrain, opSet)
 			terrain:FillBlock(CFrame.new(centerPoint), Vector3.new(size, height, size), desiredMaterial)
 			return
 		elseif brushShape == BrushShape.Cylinder then
-			--Cylinder at Base Size 1 does actually add anything into workspace
-			--To combat this we will use a ballfill instead. At this size the user will see no difference
-			if FFlagTerrainToolsTerrainCylinderOnSizeOne then
-				if (maxBounds - minBounds).x <= 2 * Constants.VOXEL_RESOLUTION then
-					terrain:FillBall(centerPoint, radius, desiredMaterial)
-					return
-				end
-			end
 			terrain:FillCylinder(CFrame.new(centerPoint), height, radius, desiredMaterial)
 			return
 		end
@@ -109,6 +88,15 @@ local function performOperation(terrain, opSet)
 	end
 
 	local strength = opSet.strength
+
+	local minBounds = Vector3.new(
+		OperationHelper.clampDownToVoxel(centerPoint.x - radius),
+		OperationHelper.clampDownToVoxel(centerPoint.y - (height * 0.5)),
+		OperationHelper.clampDownToVoxel(centerPoint.z - radius))
+	local maxBounds = Vector3.new(
+		OperationHelper.clampUpToVoxel(centerPoint.x + radius),
+		OperationHelper.clampUpToVoxel(centerPoint.y + (height * 0.5)),
+		OperationHelper.clampUpToVoxel(centerPoint.z + radius))
 
 	local region = Region3.new(minBounds, maxBounds)
 	local readMaterials, readOccupancies = terrain:ReadVoxels(region, Constants.VOXEL_RESOLUTION)

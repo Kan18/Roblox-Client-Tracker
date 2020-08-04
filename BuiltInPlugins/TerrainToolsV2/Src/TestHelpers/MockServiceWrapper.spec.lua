@@ -1,7 +1,5 @@
--- TODO: Remove this file when removing FFlagTerrainToolsUseDevFramework
 -- This test fails under CLI, and will be removed with the dev framework migration
-if game:GetFastFlag("TerrainToolsUseDevFramework")
-	or require(script.Parent.Parent.Parent.Src.Util.DebugFlags).RunningUnderCLI() then
+if require(script.Parent.Parent.Parent.Src.Util.DebugFlags).RunningUnderCLI() then
 	return function()
 	end
 end

@@ -1,14 +1,10 @@
-local FFlagTerrainToolsUseDevFramework = game:GetFastFlag("TerrainToolsUseDevFramework")
-
 local Plugin = script.Parent.Parent.Parent
 
-local UILibrary = not FFlagTerrainToolsUseDevFramework and require(Plugin.Packages.UILibrary) or nil
-local UILibraryCompat = Plugin.Src.UILibraryCompat
-local Localization = FFlagTerrainToolsUseDevFramework
-	and require(UILibraryCompat.Localization)
-	or UILibrary.Studio.Localization
+local UILibrary = require(Plugin.Packages.UILibrary)
+local Localization = UILibrary.Studio.Localization
 
 local TestHelpers = Plugin.Src.TestHelpers
+
 local MockTerrain = require(TestHelpers.MockTerrain)
 
 local PartConverter = require(script.Parent.PartConverter)

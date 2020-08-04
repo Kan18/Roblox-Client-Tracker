@@ -1,8 +1,6 @@
 game:DefineFastFlag("TerrainToolsSmoothToolFixIgnoreWater", false)
-game:DefineFastFlag("TerrainToolsSmoothToolFixErode", false)
 
 local FFlagTerrainToolsSmoothToolFixIgnoreWater = game:GetFastFlag("TerrainToolsSmoothToolFixIgnoreWater")
-local FFlagTerrainToolsSmoothToolFixErode = game:GetFastFlag("TerrainToolsSmoothToolFixErode")
 
 local OperationHelper = require(script.Parent.OperationHelper)
 
@@ -149,13 +147,6 @@ local function smooth(options)
 	local filterSize = options.filterSize
 	local airFillerMaterial = options.airFillerMaterial
 	local ignoreWater = options.ignoreWater
-
-	if FFlagTerrainToolsSmoothToolFixErode then
-		--Needs to be <= 2. The radius = 1 so the brushes real size is 2
-		if sizeX <= 2 or sizeZ <= 2 or sizeY <= 2 then
-			return
-		end
-	end
 
 	if brushOccupancy < 0.5 then
 		return

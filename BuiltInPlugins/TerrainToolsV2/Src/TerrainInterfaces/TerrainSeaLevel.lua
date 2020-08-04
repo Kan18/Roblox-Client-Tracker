@@ -3,11 +3,7 @@ local FFlagTerrainToolsUseDevFramework = game:GetFastFlag("TerrainToolsUseDevFra
 local Plugin = script.Parent.Parent.Parent
 
 local Framework = Plugin.Packages.Framework
-local Roact = require(Plugin.Packages.Roact)
 local UILibrary = not FFlagTerrainToolsUseDevFramework and require(Plugin.Packages.UILibrary) or nil
-
-local ContextItem = FFlagTerrainToolsUseDevFramework and require(Framework.ContextServices.ContextItem) or nil
-local Provider = FFlagTerrainToolsUseDevFramework and require(Framework.ContextServices.Provider) or nil
 
 local FrameworkUtil = FFlagTerrainToolsUseDevFramework and require(Framework.Util) or nil
 local Signal = FFlagTerrainToolsUseDevFramework and FrameworkUtil.Signal or UILibrary.Util.Signal
@@ -18,13 +14,8 @@ local ChangeHistoryService = game:GetService('ChangeHistoryService')
 
 local MAX_VOXELS_PER_SLICE = 4*1024*1024-1
 
-local TerrainSeaLevel
-if FFlagTerrainToolsUseDevFramework then
-	TerrainSeaLevel = ContextItem:extend("TerrainSeaLevel")
-else
-	TerrainSeaLevel = {}
-	TerrainSeaLevel.__index = TerrainSeaLevel
-end
+local TerrainSeaLevel = {}
+TerrainSeaLevel.__index = TerrainSeaLevel
 
 function TerrainSeaLevel.new(options)
 	assert(options and type(options) == "table", "TerrainSeaLevel.new() requires an options table")
@@ -64,18 +55,8 @@ function TerrainSeaLevel.new(options)
 	return self
 end
 
-if FFlagTerrainToolsUseDevFramework then
-	function TerrainSeaLevel:createProvider(root)
-		return Roact.createElement(Provider, {
-			ContextItem = self,
-		}, {root})
-	end
-end
-
 function TerrainSeaLevel:destroy()
-	if FFlagTerrainToolsUseDevFramework then
-		self:cancel()
-	end
+	-- nothing needs to be done
 end
 
 function TerrainSeaLevel:localizedWarn(...)

@@ -5,5 +5,7 @@
 import QtQuick 2.6
 
 Text {
-    textFormat: Text.PlainText
+    textFormat: (typeof FFlagStudioPlainTextLabel != "undefined" && FFlagStudioPlainTextLabel === true) 
+                    ? Text.PlainText 
+                    : Text.AutoText
 }

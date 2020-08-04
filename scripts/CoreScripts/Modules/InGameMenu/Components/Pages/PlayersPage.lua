@@ -32,7 +32,7 @@ local PageNavigationWatcher = require(InGameMenu.Components.PageNavigationWatche
 local Divider = require(InGameMenu.Components.Divider)
 
 -- remove this when removing fflagUseNewPlayerLabelDesign
-local PlayerMoreButton = require(InGameMenu.Components.PlayerMoreButton)
+local MoreButton = require(InGameMenu.Components.MoreButton)
 local MoreActionsMenu = require(InGameMenu.Components.MoreActionsMenu)
 local BarOnTopScrollingFrame = require(InGameMenu.Components.BarOnTopScrollingFrame)
 local Page = require(InGameMenu.Components.Page)
@@ -87,7 +87,7 @@ function PlayersPage:init()
 			})
 		end
 		self.toggleMoreActions = function(userId)
-			local player = Players:GetPlayerByUserId(userId)
+			local player = Players:GetPlayerFromUserId(userId)
 			if self.state.selectedPlayer == player then
 				self:setState({
 					selectedPlayer = Roact.None,
@@ -163,10 +163,9 @@ function PlayersPage:renderListEntries(players)
 			[Roact.Ref] = self.state.selectedPlayer == player and refUpdatedFunction or nil,
 		},{
 			-- remove this when removing fflagUseNewPlayerLabelDesign
-			MoreActions = displayMoreButton and Roact.createElement(PlayerMoreButton, {
+			MoreActions = displayMoreButton and Roact.createElement(MoreButton, {
 				onActivated = toggleMoreActions,
 				LayoutOrder = 1,
-				userId = FFlagLuaMenuPerfImprovements and player.UserId or nil
 			})
 		})
 
