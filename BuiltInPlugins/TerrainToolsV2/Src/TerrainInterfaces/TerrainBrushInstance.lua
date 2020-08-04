@@ -1,9 +1,11 @@
+game:DefineFastFlag("TerrainToolsBrushUseIsKeyDown", false)
+game:DefineFastFlag("TerrainToolsRaycastUpdate", false)
+
 local FFlagTerrainToolsUseDevFramework = game:GetFastFlag("TerrainToolsUseDevFramework")
 local FFlagTerrainToolsReplaceTool = game:GetFastFlag("TerrainToolsReplaceTool")
-
-game:DefineFastFlag("TerrainToolsBrushUseIsKeyDown", false)
-
 local FFlagTerrainToolsBrushUseIsKeyDown = game:GetFastFlag("TerrainToolsBrushUseIsKeyDown")
+
+local FFlagTerrainToolsRaycastUpdate = game:GetFastFlag("TerrainToolsRaycastUpdate")
 
 local Plugin = script.Parent.Parent.Parent
 
@@ -160,8 +162,14 @@ function TerrainBrush.new(options)
 
 	assert(self._terrain, "TerrainBrush needs a terrain instance")
 	assert(self._mouse, "TerrainBrush needs a mouse instance")
+
 	assert(self._operationSettings.currentTool ~= nil and self._operationSettings.currentTool ~= ToolId.None,
 		"TerrainBrush needs a tool passed to constructor")
+
+	if FFlagTerrainToolsRaycastUpdate then
+		self._raycastParams = RaycastParams.new()
+		self._raycastParams.FilterType = Enum.RaycastFilterType.Blacklist
+	end
 
 	return self
 end
@@ -411,9 +419,28 @@ function TerrainBrush:_run()
 		end
 
 		local unitRay = self._mouse.UnitRay.Direction
-		local mouseRay = Ray.new(cameraPos, unitRay * 10000)
-		local rayHit, mainPoint, _, hitMaterial = Workspace:FindPartOnRayWithIgnoreList(mouseRay, ignoreList,
-			false, ignoreWater)
+		local rayHit, mainPoint, _, hitMaterial
+
+		if FFlagTerrainToolsRaycastUpdate then
+			self._raycastParams.FilterDescendantsInstances = ignoreList
+			self._raycastParams.IgnoreWater = ignoreWater
+
+			local raycastResult = Workspace:Raycast(cameraPos, unitRay * 10000, self._raycastParams)
+
+			if raycastResult then
+				rayHit = raycastResult.Instance
+				mainPoint = raycastResult.Position
+				hitMaterial = raycastResult.Material
+			else
+				--raycast returns nil if it does not encounter anything, this will esentially cap the ray and prevent breaking
+				rayHit, hitMaterial = nil, nil
+				mainPoint = cameraPos + unitRay * 10000
+			end
+		else
+			local mouseRay = Ray.new(cameraPos, unitRay * 10000)
+			rayHit, mainPoint, _, hitMaterial = Workspace:FindPartOnRayWithIgnoreList(mouseRay, ignoreList,
+				false, ignoreWater)
+		end
 
 		if currentTool == ToolId.Add then
 			mainPoint = mainPoint - unitRay * 0.05
