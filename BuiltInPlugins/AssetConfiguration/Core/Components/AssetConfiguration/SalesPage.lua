@@ -71,7 +71,9 @@ function SalesPage:render()
 			local onPriceChange = props.onPriceChange
 			local isPriceValid = props.isPriceValid
 
-			self.props.setFieldError(AssetConfigConstants.FIELD_NAMES.Price, not isPriceValid)
+			if game:GetFastFlag("CMSTabErrorIcon") then
+				self.props.setFieldError(AssetConfigConstants.FIELD_NAMES.Price, not isPriceValid)
+			end
 
 			local layoutOrder = props.layoutOrder
 			local canChangeSalesStatus = AssetConfigUtil.isReadyForSale(newAssetStatus)

@@ -98,11 +98,9 @@ end
 local function buildSortedPlayers(primaryStat, players, playerStats)
 	local sortedPlayers = {unpack(players)}
 
-	local displayNameEnabled = isDisplayNameEnabled()
-
 	table.sort(sortedPlayers, function(playerA, playerB)
 		if not primaryStat then
-			if displayNameEnabled then
+			if isDisplayNameEnabled() then
 				return playerA.DisplayName:upper() < playerB.DisplayName:upper()
 			else
 				return playerA.Name:upper() < playerB.Name:upper()
@@ -112,7 +110,7 @@ local function buildSortedPlayers(primaryStat, players, playerStats)
 		local statA = playerStats[playerA.UserId][primaryStat]
 		local statB = playerStats[playerB.UserId][primaryStat]
 		if statA == statB then
-			if displayNameEnabled then
+			if isDisplayNameEnabled() then
 				return playerA.DisplayName:upper() < playerB.DisplayName:upper()
 			else
 				return playerA.Name:upper() < playerB.Name:upper()

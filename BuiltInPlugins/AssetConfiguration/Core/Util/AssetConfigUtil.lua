@@ -106,19 +106,52 @@ function AssetConfigUtil.getImageFormatString()
 	return resultString
 end
 
+local catalogAssetTypes
+local marketplaceAssetTypes
+local marketplaceBuyableAsset
+if not game:GetFastFlag("CMSConsolidateAssetTypeInfo") then
+	catalogAssetTypes = AssetConfigConstants.catalogAssetTypes
+	marketplaceAssetTypes = AssetConfigConstants.marketplaceAssetTypes
+	marketplaceBuyableAsset = AssetConfigConstants.marketplaceBuyableAsset
+end
+
+local function checkData(assetTypeEnum)
+	if DebugFlags.shouldDebugWarnings() then
+		local isAssetTypeBothCatalogAndMarketplace = catalogAssetTypes[assetTypeEnum] and marketplaceAssetTypes[assetTypeEnum]
+		if isAssetTypeBothCatalogAndMarketplace then
+			warn("Lua CMS: " .. tostring(assetTypeEnum) .. " cannot be both a catalog and marketplace asset")
+		end
+	end
+end
+
 function AssetConfigUtil.isCatalogAsset(assetTypeEnum)
-	local info = AssetConfigConstants.ASSET_TYPE_INFO[assetTypeEnum]
-	return info ~= nil and info.isCatalog == true
+	if game:GetFastFlag("CMSConsolidateAssetTypeInfo") then
+		local info = AssetConfigConstants.ASSET_TYPE_INFO[assetTypeEnum]
+		return info ~= nil and info.isCatalog == true
+	else
+		checkData(assetTypeEnum)
+		return catalogAssetTypes[assetTypeEnum] and true or false
+	end
 end
 
 function AssetConfigUtil.isMarketplaceAsset(assetTypeEnum)
-	local info = AssetConfigConstants.ASSET_TYPE_INFO[assetTypeEnum]
-	return info ~= nil and info.isMarketplace == true
+	if game:GetFastFlag("CMSConsolidateAssetTypeInfo") then
+		local info = AssetConfigConstants.ASSET_TYPE_INFO[assetTypeEnum]
+		return info ~= nil and info.isMarketplace == true
+	else
+		checkData(assetTypeEnum)
+		return marketplaceAssetTypes[assetTypeEnum] and true or false
+	end
 end
 
 function AssetConfigUtil.isBuyableMarketplaceAsset(assetTypeEnum)
-	local info = AssetConfigConstants.ASSET_TYPE_INFO[assetTypeEnum]
-	return info ~= nil and info.isMarketplace == true and info.isBuyable == true
+	if game:GetFastFlag("CMSConsolidateAssetTypeInfo") then
+		local info = AssetConfigConstants.ASSET_TYPE_INFO[assetTypeEnum]
+		return info ~= nil and info.isMarketplace == true and info.isBuyable == true
+	else
+		checkData(assetTypeEnum)
+		return marketplaceBuyableAsset[assetTypeEnum] and true or false
+	end
 end
 
 function AssetConfigUtil.getFlowStartScreen(flowType)
@@ -183,10 +216,18 @@ end
 function AssetConfigUtil.getAllowedAssetTypeEnums(allowedAssetTypesForRelease)
 	local result = {}
 	if allowedAssetTypesForRelease then
-		for _, info in ipairs(AssetConfigConstants.ASSET_TYPE_INFO) do
-			if info.isCatalog and info.isUploadable then
-				if allowedAssetTypesForRelease[info.type.Name] ~= nil then
-					result[#result + 1] = info.type
+		if game:GetFastFlag("CMSConsolidateAssetTypeInfo") then
+			for _, info in ipairs(AssetConfigConstants.ASSET_TYPE_INFO) do
+				if info.isCatalog and info.isUploadable then
+					if allowedAssetTypesForRelease[info.type.Name] ~= nil then
+						result[#result + 1] = info.type
+					end
+				end
+			end
+		else
+			for _, assetTypeEnum in pairs(AssetConfigConstants.ASSET_TYPE_LIST) do
+				if allowedAssetTypesForRelease[assetTypeEnum.Name] ~= nil then
+					result[#result + 1] = assetTypeEnum
 				end
 			end
 		end

@@ -24,14 +24,12 @@ local TextInput = require(Components.TextInput)
 
 local Actions = Plugin.Src.Actions
 local SetMemStoragePair = require(Actions.SetMemStoragePair)
-local AddHistoryItem = require(Actions.AddHistoryItem)
 
 local Constants = require(Plugin.Src.Util.Constants)
 local ORDERING = Constants.MEM_STORAGE_ORDER
 local INPUT_PANE_LAYOUT = Constants.INPUT_PANE_LAYOUT
 local ROUTES = Constants.ROUTES.MemStorage
 local OPERATION_SUCCESSFUL = Constants.OPERATION_SUCCESSFUL
-local VIEW_ID = Constants.VIEW_ID.MemStorage
 
 local UI = require(Plugin.Packages.Framework.UI)
 local RadioButtonList = UI.RadioButtonList
@@ -66,7 +64,7 @@ function MemStorageEventView:init()
 	end
 
 	self.OnChange = function (source, textbox)
-		self.props.SetMemStoragePair({
+		self.props.setMemStoragePair({
 			[source] = textbox,
 		})
 	end
@@ -77,13 +75,8 @@ function MemStorageEventView:init()
 	}
 
 	self.onClearClicked = function ()
-		self.props.SetMemStoragePair(empty)
+		self.props.setMemStoragePair(empty)
 	end
-
-	self.onSaveClicked = function ()
-		self.props.AddHistoryItem(self.props.CurrentEventName, self.props.KeyValuePair)
-	end
-
 	self.onSendClicked = function ()
 		local key = self.props.KeyValuePair.Key
 		local value = self.props.KeyValuePair.Value
@@ -159,16 +152,12 @@ return RoactRodux.connect(
 	function(state, props)
 		return {
 			KeyValuePair = state.Status.MemStoragePair,
-			CurrentEventName = state.Status.CurrentEventName,
 		}
 	end,
 	function(dispatch)
 		return {
-			SetMemStoragePair = function (pair)
+			setMemStoragePair = function (pair)
 				dispatch(SetMemStoragePair(pair))
-			end,
-			AddHistoryItem = function (eventName, data)
-				dispatch(AddHistoryItem(VIEW_ID, eventName, data))
 			end
 		}
 	end

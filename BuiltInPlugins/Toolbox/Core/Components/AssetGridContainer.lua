@@ -18,7 +18,6 @@ local FFlagToolboxFixDuplicateAssetInsertions = game:DefineFastFlag("ToolboxFixD
 local FFlagEnableSearchedWithoutInsertionAnalytic = game:GetFastFlag("EnableSearchedWithoutInsertionAnalytic")
 local FFlagUseCategoryNameInToolbox = game:GetFastFlag("UseCategoryNameInToolbox")
 local FFlagEnableDefaultSortFix2 = game:GetFastFlag("EnableDefaultSortFix2")
-local FFlagToolboxFixAnalyticsBugs = game:GetFastFlag("ToolboxFixAnalyticsBugs")
 
 local Plugin = script.Parent.Parent.Parent
 
@@ -123,32 +122,19 @@ function AssetGridContainer:init(props)
 		self.props.onPreviewToggled(true)
 		self:setState({
 			previewAssetData = assetData,
-			openAssetPreviewStartTime = FFlagToolboxFixAnalyticsBugs and tick() or nil,
 		})
 
 		if self.props.isPlaying then
 			self.props.pauseASound()
 		end
-		if FFlagToolboxFixAnalyticsBugs then
-			Analytics.onAssetPreviewSelected(assetData.Asset.Id)
-		end
 	end
 
-	self.closeAssetPreview = function(assetData)
+	self.closeAssetPreview = function()
 		local modal = getModal(self)
 		modal.onAssetPreviewToggled(false)
 		self.props.onPreviewToggled(false)
-
-		if FFlagToolboxFixAnalyticsBugs then
-			local endTime = tick()
-			local startTime = self.state.openAssetPreviewStartTime
-			local deltaMs = (endTime - startTime) * 1000
-			Analytics.onAssetPreviewEnded(assetData.Asset.Id, deltaMs)
-		end
-
 		self:setState({
 			previewAssetData = Roact.None,
-			openAssetPreviewStartTime = FFlagToolboxFixAnalyticsBugs and Roact.None or nil,
 		})
 	end
 

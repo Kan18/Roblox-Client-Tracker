@@ -9,21 +9,16 @@ local Decoration = UI.Decoration
 
 local Components = Plugin.Src.Components
 local InputPane = require(Components.InputPane)
-local RepopulatableHistory = require(Components.RepopulatableHistory)
 
 local EventEmulator = Roact.PureComponent:extend("EventEmulator")
 
 
 function EventEmulator:render()
-	local layout = self.props.Theme:get("Layout")
-
 	return Roact.createElement(Container, {
 		Size = UDim2.new(1, 0, 1, 0),
 		Background = Decoration.Box,
 	},{
-		Layout = Roact.createElement("UIListLayout", layout.Vertical),
-		InputPane = Roact.createElement(InputPane),
-		History = Roact.createElement(RepopulatableHistory)
+		InputPane = Roact.createElement(InputPane)
 	})
 end
 
@@ -31,10 +26,4 @@ ContextServices.mapToProps(EventEmulator, {
 	Theme = ContextServices.Theme,
 })
 
-return RoactRodux.connect(
-	function(state, props)
-		return {
-			ActiveView = state.Status.ActiveView,
-		}
-	end
-)(EventEmulator)
+return EventEmulator

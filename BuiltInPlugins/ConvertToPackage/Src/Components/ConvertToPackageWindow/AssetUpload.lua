@@ -18,7 +18,7 @@ local Constants = require(Util.Constants)
 local Actions = Plugin.Src.Actions
 local SetCurrentScreen = require(Actions.SetCurrentScreen)
 
-local withContext = require(Plugin.Src.ContextServices.withContext)
+local withTheme = require(Plugin.Src.ContextServices.Theming).withTheme
 
 local Components = Plugin.Src.Components
 local LoadingBar = require(Components.ConvertToPackageWindow.LoadingBar)
@@ -33,6 +33,7 @@ local LOADING_BAR_WIDTH = 400
 local LOADING_BAR_HEIGHT = 6
 local LOADING_BAR_Y_POS = 314
 
+local LOADING_TEXT = "Converting"
 local LOADING_TIME = 0.5
 local LOADING_PERCENT = 0.92
 
@@ -45,7 +46,7 @@ function AssetUpload:init(props)
 end
 
 function AssetUpload:render()
-	return withContext(function(localization, theme)
+	return withTheme(function(theme)
 		local props = self.props
 		local assetName = props.assetName
 		return Roact.createElement("Frame", {
@@ -66,7 +67,7 @@ function AssetUpload:render()
 			}),
 
 			LoadingBar = Roact.createElement(LoadingBar, {
-				loadingText = localization:getText("Action", "Converting"),
+				loadingText = LOADING_TEXT,
 				loadingTime = LOADING_TIME,
 				holdPercent = LOADING_PERCENT,
 				Size = UDim2.new(0, LOADING_BAR_WIDTH, 0, LOADING_BAR_HEIGHT),

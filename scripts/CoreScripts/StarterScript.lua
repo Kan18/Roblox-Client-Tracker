@@ -32,7 +32,6 @@ local FFlagLuaInviteModalEnabled = settings():GetFFlag("LuaInviteModalEnabledV38
 
 local FFlagUseRoactGlobalConfigInCoreScripts = require(RobloxGui.Modules.Flags.FFlagUseRoactGlobalConfigInCoreScripts)
 local FFlagConnectErrorHandlerInLoadingScript = require(RobloxGui.Modules.Flags.FFlagConnectErrorHandlerInLoadingScript)
-local GetFFlagRoactBubbleChat = require(RobloxGui.Modules.Common.Flags.GetFFlagRoactBubbleChat)
 
 local isNewGamepadMenuEnabled = require(RobloxGui.Modules.Flags.isNewGamepadMenuEnabled)
 
@@ -123,10 +122,6 @@ end
 -- Chat script
 coroutine.wrap(safeRequire)(RobloxGui.Modules.ChatSelector)
 coroutine.wrap(safeRequire)(RobloxGui.Modules.PlayerList.PlayerListManager)
-
-if GetFFlagRoactBubbleChat() then
-	ScriptContext:AddCoreScriptLocal("CoreScripts/InGameChat", RobloxGui)
-end
 
 -- Purchase Prompt Script
 coroutine.wrap(function()

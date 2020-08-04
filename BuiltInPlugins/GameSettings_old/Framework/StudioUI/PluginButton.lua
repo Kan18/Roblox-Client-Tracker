@@ -19,7 +19,6 @@
 			when the main window is not active
 ]]
 local FFlagAssetManagerLuaCleanup1 = settings():GetFFlag("AssetManagerLuaCleanup1")
-local FFlagSupportOneShotButtons = game:DefineFastFlag("SupportOneShotButtons", false)
 
 local Framework = script.Parent.Parent
 local Roact = require(Framework.Parent.Roact)
@@ -45,22 +44,7 @@ function PluginButton:createButton()
 
 	self.button.ClickableWhenViewportHidden = (props.ClickableWhenViewportHidden == nil) and true or props.ClickableWhenViewportHidden
 
-	if FFlagSupportOneShotButtons then
-		self.button.Click:Connect(function()
-			onClick()
-
-			-- We need to call this here because when the user clicks a button,
-			-- the engine automagically toggles the activate state of the
-			-- button. This call will force the activated state back to what our
-			-- props specify it should be.
-			-- The case where this matters is one-shot action buttons which have
-			-- the active prop hardcoded to false. These should not become
-			-- activated after being clicked.
-			self:updateButton()
-		end)
-	else
-		self.button.Click:Connect(onClick)
-	end
+	self.button.Click:Connect(onClick)
 end
 
 function PluginButton:updateButton()

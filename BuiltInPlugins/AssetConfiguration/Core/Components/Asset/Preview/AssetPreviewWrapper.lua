@@ -69,12 +69,11 @@ local PurchaseStatus = require(Plugin.Core.Types.PurchaseStatus)
 local AssetPreviewWrapper = Roact.PureComponent:extend("AssetPreviewWrapper")
 
 local FixModelPreviewSelection = settings():GetFFlag("FixModelPreviewSelection")
-local FFlagFixUseDevelopFetchPluginVersionId2 = game:DefineFastFlag("FixUseDevelopFetchPluginVersionId2", false)
+local FFlagFixUseDevelopFetchPluginVersionId = game:DefineFastFlag("FixUseDevelopFetchPluginVersionId", false)
 local FFlagStudioToolboxPluginPurchaseFlow = game:GetFastFlag("StudioToolboxPluginPurchaseFlow")
 local FFlagStudioHideSuccessDialogWhenFree = game:GetFastFlag("StudioHideSuccessDialogWhenFree")
 local FFlagStudioFixAssetPreviewTreeView = settings():GetFFlag("StudioFixAssetPreviewTreeView")
 local FFlagStudioFixAssetPreviewCloseButton = settings():GetFFlag("StudioFixAssetPreviewCloseButton")
-local FFlagToolboxFixAnalyticsBugs = game:GetFastFlag("ToolboxFixAnalyticsBugs")
 
 local FFlagToolboxUseNewAssetType = game:GetFastFlag("ToolboxUseNewAssetType")
 
@@ -99,7 +98,7 @@ function AssetPreviewWrapper:createPurchaseFlow(localizedContent)
 	local typeId = assetData.Asset.TypeId or Enum.AssetType.Model.Value
 
 	local assetVersionId
-	if FFlagFixUseDevelopFetchPluginVersionId2 then
+	if FFlagFixUseDevelopFetchPluginVersionId then
 		local previewPluginData = self.props.previewPluginData
 		if previewPluginData then
 			assetVersionId = previewPluginData.versionId
@@ -144,8 +143,7 @@ function AssetPreviewWrapper:createPurchaseFlow(localizedContent)
 	local hasRating = typeId == Enum.AssetType.Model.Value
 		or (isPluginAsset and isPluginInstalled) or self.state.overrideEnableVoting
 
-	local installDisabled = (isPluginAsset and (isPluginLoading or isPluginUpToDate)) or
-		(FFlagFixUseDevelopFetchPluginVersionId2 and isPluginAsset and assetVersionId == nil)
+	local installDisabled = (isPluginAsset and (isPluginLoading or isPluginUpToDate)) or (FFlagFixUseDevelopFetchPluginVersionId and assetVersionId == nil)
 
 	local tryInsert
 	if not FFlagStudioToolboxPluginPurchaseFlow then
@@ -158,7 +156,7 @@ function AssetPreviewWrapper:createPurchaseFlow(localizedContent)
 	local showRobuxIcon
 	local pluginButtonText = localizedContent.AssetConfig.Insert
 	if isPluginAsset then
-		if FFlagFixUseDevelopFetchPluginVersionId2 and assetVersionId == nil then
+		if FFlagFixUseDevelopFetchPluginVersionId and assetVersionId == nil then
 			pluginButtonText = localizedContent.AssetConfig.Loading
 		elseif isPluginLoading then
 			pluginButtonText = localizedContent.AssetConfig.Installing
@@ -236,11 +234,7 @@ function AssetPreviewWrapper:init(props)
 			currentPreview = nil
 		})
 
-		local assetData
-		if FFlagToolboxFixAnalyticsBugs then
-			assetData = self.props.assetData
-		end
-		self.props.onClose(assetData)
+		self.props.onClose()
 		self.props.clearPreview()
 	end
 
@@ -339,7 +333,7 @@ function AssetPreviewWrapper:init(props)
 	self.tryInstall = function()
 		local assetData = self.props.assetData
 		local assetVersionId
-		if FFlagFixUseDevelopFetchPluginVersionId2 then
+		if FFlagFixUseDevelopFetchPluginVersionId then
 			local previewPluginData = self.props.previewPluginData
 			assetVersionId = previewPluginData.versionId
 		else
@@ -453,7 +447,7 @@ end
 function AssetPreviewWrapper:didMount()
 	self.props.getPreviewInstance(self.props.assetData.Asset.Id, self.props.assetData.Asset.TypeId)
 	if self.props.assetData.Asset.TypeId == Enum.AssetType.Plugin.Value then
-		if FFlagFixUseDevelopFetchPluginVersionId2 then
+		if FFlagFixUseDevelopFetchPluginVersionId then
 			self.props.getPluginInfo(getNetwork(self), self.props.assetData.Asset.Id)
 		else
 			self.props.deprecated_getAssetVersionId(getNetwork(self), self.props.assetData.Asset.Id)

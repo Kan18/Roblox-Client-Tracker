@@ -22,7 +22,6 @@ local AddChange = require(Actions.AddChange)
 local ClearChange = require(Actions.ClearChange)
 local SetAssetGroupData = require(Actions.SetAssetGroupData)
 local UploadResult = require(Actions.UploadResult)
-local ValidateAnimationResult = require(Actions.ValidateAnimationResult)
 local NetworkError = require(Actions.NetworkError)
 local SetAssetConfigTab = require(Actions.SetAssetConfigTab)
 local SetOverrideAssets = require(Actions.SetOverrideAssets)
@@ -222,12 +221,6 @@ return Rodux.createReducer({
 	[UploadResult.name] = function(state, action)
 		return Cryo.Dictionary.join(state, {
 			uploadSucceeded = action.uploadSucceeded
-		})
-	end,
-
-	[ValidateAnimationResult.name] = function(state, action)
-		return Cryo.Dictionary.join(state, {
-			validateAnimationSucceeded = action.validateAnimationSucceeded
 		})
 	end,
 

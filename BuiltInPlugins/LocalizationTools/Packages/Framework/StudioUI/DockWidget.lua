@@ -23,10 +23,6 @@
 			new enabled state as a parameter.
 ]]
 
-game:DefineFastFlag("FixDevFrameworkDockWidgetMinSize", false)
-
-local FFlagFixDevFrameworkDockWidgetMinSize = game:GetFastFlag("FixDevFrameworkDockWidgetMinSize")
-
 local expectsRestoredMessage = [[
 DockWidget expects an OnWidgetRestored function if ShouldRestore is true.
 This DockWidget may restore as enabled, so we need to listen for that!]]
@@ -37,14 +33,7 @@ local createPluginWidget = require(Framework.StudioUI.createPluginWidget)
 
 local DockWidget = createPluginWidget("DockWidget", function(props)
 	local plugin = props.Plugin:get()
-
-	local minSize
-	if FFlagFixDevFrameworkDockWidgetMinSize then
-		minSize = props.MinSize or Vector2.new(0, 0)
-	else
-		minSize = props.Size or props.MinSize
-	end
-
+	local minSize = props.Size or props.MinSize
 	local shouldRestore = props.ShouldRestore or false
 
 	if shouldRestore then

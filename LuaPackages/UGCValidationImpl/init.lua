@@ -1,5 +1,11 @@
+game:DefineFastFlag("UGCValidateTags", false)
 game:DefineFastFlag("UGCValidateMeshBounds", false)
+game:DefineFastFlag("UGCValidateTextureSize", false)
 game:DefineFastFlag("UGCValidateHandleSize", false)
+game:DefineFastFlag("UGCValidateProperties", false)
+game:DefineFastFlag("UGCAllowThumbnailConfiguration", false)
+game:DefineFastFlag("UGCUseNewAssetTypeInfoSchema", false)
+game:DefineFastFlag("UGCFixModerationCheck", false)
 game:DefineFastFlag("UGCExtraBannedNames", false)
 
 local root = script
@@ -36,14 +42,18 @@ local function validateInternal(isAsync, instances, assetTypeEnum, noModeration)
 		return false, reasons
 	end
 
-	success, reasons = validateProperties(instance)
-	if not success then
-		return false, reasons
+	if game:GetFastFlag("UGCValidateProperties") then
+		success, reasons = validateProperties(instance)
+		if not success then
+			return false, reasons
+		end
 	end
 
-	success, reasons = validateTags(instance)
-	if not success then
-		return false, reasons
+	if game:GetFastFlag("UGCValidateTags") then
+		success, reasons = validateTags(instance)
+		if not success then
+			return false, reasons
+		end
 	end
 
 	if game:GetFastFlag("UGCValidateMeshBounds") then
@@ -53,9 +63,11 @@ local function validateInternal(isAsync, instances, assetTypeEnum, noModeration)
 		end
 	end
 
-	success, reasons = validateTextureSize(isAsync, instance)
-	if not success then
-		return false, reasons
+	if game:GetFastFlag("UGCValidateTextureSize") then
+		success, reasons = validateTextureSize(isAsync, instance)
+		if not success then
+			return false, reasons
+		end
 	end
 
 	if game:GetFastFlag("UGCValidateHandleSize") then

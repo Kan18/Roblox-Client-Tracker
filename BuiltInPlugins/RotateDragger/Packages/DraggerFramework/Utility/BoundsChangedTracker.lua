@@ -8,7 +8,6 @@
 local DraggerFramework = script.Parent.Parent
 
 local getFFlagUpdateHandleRoot = require(DraggerFramework.Flags.getFFlagUpdateHandleRoot)
-local getFFlagTrackIndividualParts = require(DraggerFramework.Flags.getFFlagTrackIndividualParts)
 
 local MAX_PARTS_TO_TRACK_BOUNDS_FOR = 1024
 
@@ -27,23 +26,12 @@ end
 local function hookUpConnections(entry)
 	entry.CFrameChangedConnection =
 		entry.CFrameChangedSignal:Connect(entry.Trampoline)
-	if getFFlagTrackIndividualParts() then
-		if entry.RootCFrameChangedSignal then
-			entry.RootCFrameChangedConnection =
-				entry.RootCFrameChangedSignal:Connect(entry.Trampoline)
-		end
-	end
 	entry.SizeChangedConnection =
 		entry.SizeChangedSignal:Connect(entry.Trampoline)
 end
 
 local function disconnectConnections(entry)
 	entry.CFrameChangedConnection:Disconnect()
-	if getFFlagTrackIndividualParts() then
-		if entry.RootCFrameChangedConnection then
-			entry.RootCFrameChangedConnection:Disconnect()
-		end
-	end
 	entry.SizeChangedConnection:Disconnect()
 end
 
@@ -122,30 +110,13 @@ function BoundsChangedTracker:setParts(parts)
 		self._partToEntry[part] = nil
 		if not entry then
 			if getFFlagUpdateHandleRoot() then
-				if getFFlagTrackIndividualParts() then
-					local rootPart = part:GetRootPart()
-					local rootCFrameChangedSignal
-					if rootPart and rootPart ~= part then
-						rootCFrameChangedSignal = rootPart:GetPropertyChangedSignal("CFrame")
-					end
-
-					entry = {
-						CFrameChangedSignal = part:GetPropertyChangedSignal("CFrame"),
-						RootCFrameChangedSignal = rootCFrameChangedSignal,
-						SizeChangedSignal = part:GetPropertyChangedSignal("Size"),
-						Trampoline = function()
-							self._handler(part)
-						end,
-					}
-				else
-					entry = {
-						CFrameChangedSignal = (part:GetRootPart() or part):GetPropertyChangedSignal("CFrame"),
-						SizeChangedSignal = part:GetPropertyChangedSignal("Size"),
-						Trampoline = function()
-							self._handler(part)
-						end,
-					}
-				end
+				entry = {
+					CFrameChangedSignal = (part:GetRootPart() or part):GetPropertyChangedSignal("CFrame"),
+					SizeChangedSignal = part:GetPropertyChangedSignal("Size"),
+					Trampoline = function()
+						self._handler(part)
+					end,
+				}
 			else
 				entry = {
 					CFrameChangedSignal = part:GetPropertyChangedSignal("CFrame"),
