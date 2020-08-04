@@ -21,6 +21,7 @@ local getBoundingBoxScale = require(DraggerFramework.Utility.getBoundingBoxScale
 local RotateHandleView = require(Plugin.Src.RotateHandleView)
 
 local getFFlagRotationTicks = require(DraggerFramework.Flags.getFFlagRotationTicks)
+local getFFlagFixIKRotateCFrameError = require(DraggerFramework.Flags.getFFlagFixIKRotateCFrameError)
 
 -- The difference from exactly touching to try to bring the parts within when
 -- dragging parts into a colliding condition with Collisions enabled.
@@ -387,19 +388,30 @@ end
 	transformation, so that the RotateHandleView can show the correct angle.
 ]]
 function RotateToolImpl:_mouseDragWithInverseKinematics(mouseRay, delta)
-	if delta == 0 then
-		return nil
+	if not getFFlagFixIKRotateCFrameError() then
+		if delta == 0 then
+			return nil
+		end
 	end
 
 	local collisionsMode = self._draggerContext:areCollisionsEnabled() and
 		Enum.IKCollisionsMode.OtherMechanismsAnchored or
 		Enum.IKCollisionsMode.NoCollisions
 
-	local candidateTransform = getRotationTransform(
-		self._boundingBox.CFrame,
-		self._handleCFrame.RightVector,
-		delta,
-		self._draggerContext:getRotateIncrement())
+	local candidateTransform
+	if getFFlagFixIKRotateCFrameError() then
+		candidateTransform = getRotationTransform(
+			self._originalBoundingBoxCFrame,
+			self._handleCFrame.RightVector,
+			delta,
+			self._draggerContext:getRotateIncrement())
+	else
+		candidateTransform = getRotationTransform(
+			self._boundingBox.CFrame,
+			self._handleCFrame.RightVector,
+			delta,
+			self._draggerContext:getRotateIncrement())
+	end
 	local appliedTransform = self._partMover:rotateToWithIk(candidateTransform, collisionsMode)
 
 	self._attachmentMover:transformTo(appliedTransform)

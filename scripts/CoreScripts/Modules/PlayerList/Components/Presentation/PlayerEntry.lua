@@ -23,6 +23,8 @@ local PlayerList = Components.Parent
 local ClosePlayerDropDown = require(PlayerList.Actions.ClosePlayerDropDown)
 local OpenPlayerDropDown = require(PlayerList.Actions.OpenPlayerDropDown)
 
+local FFlagFixLeaderboardWaitingOnScreenSize = require(PlayerList.Flags.FFlagFixLeaderboardWaitingOnScreenSize)
+
 local PlayerEntry = Roact.PureComponent:extend("PlayerEntry")
 
 PlayerEntry.validateProps = t.strictInterface({
@@ -58,6 +60,8 @@ PlayerEntry.validateProps = t.strictInterface({
 
 	selectedPlayer = t.optional(t.instanceIsA("Player")),
 	dropDownOpen = t.boolean,
+
+	isSmallTouchDevice = FFlagFixLeaderboardWaitingOnScreenSize and t.boolean or nil,
 
 	closeDropDown = t.callback,
 	openDropDown = t.callback,
@@ -297,8 +301,13 @@ function PlayerEntry:render()
 				})
 			})
 
+			local maxLeaderstats = layoutValues.MaxLeaderstats
+			if FFlagFixLeaderboardWaitingOnScreenSize and self.props.isSmallTouchDevice then
+				maxLeaderstats = layoutValues.MaxLeaderstatsSmallScreen
+			end
+
 			for i, gameStat in ipairs(self.props.gameStats) do
-				if i > layoutValues.MaxLeaderstats then
+				if i > maxLeaderstats then
 					break
 				end
 				playerEntryChildren["GameStat_" ..gameStat.name] = Roact.createElement(StatEntry, {
@@ -358,6 +367,8 @@ local function mapStateToProps(state)
 	return {
 		selectedPlayer = state.playerDropDown.selectedPlayer,
 		dropDownOpen = state.playerDropDown.isVisible,
+
+		isSmallTouchDevice = FFlagFixLeaderboardWaitingOnScreenSize and state.displayOptions.isSmallTouchDevice or nil,
 	}
 end
 
