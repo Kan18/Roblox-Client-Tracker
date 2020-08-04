@@ -84,6 +84,7 @@ function HeaderBar:render()
 		).X
 
 		return Roact.createElement("Frame", {
+			BackgroundTransparency = 1,
 			Size = UDim2.new(1, 0, 0, self.props.barHeight),
 			[Roact.Change.AbsoluteSize] = self.onResize,
 		}, {
