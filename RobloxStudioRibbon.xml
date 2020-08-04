@@ -41,17 +41,10 @@
       <addseparator />
       <addaction fflag ="DebugStudioDumpUntranslatedStrings" name="dumpUntranslatedStringsCsvAction"/>
       <addaction fflag ="DebugStudioDumpUntranslatedStrings" name="dumpUntranslatedStringsHeaderAction"/>
-	 
-      <addaction fflag="!ChangesToFileMenu" name="aboutRobloxAction"/>
-      <addaction fflag="!ChangesToFileMenu" name="onlineHelpAction"/>
-      <addaction fflag="!ChangesToFileMenu" name="settingsAction"/>
-      <addaction fflag="!ChangesToFileMenu" name="betaFeaturesAction"/>
-	  
-      <addaction fflag="ChangesToFileMenu" name="gameSettingsAction"/>
-      <addaction fflag="ChangesToFileMenu" name="settingsAction"/>
-      <addaction fflag="ChangesToFileMenu" name="betaFeaturesAction"/>
-      <addaction fflag="ChangesToFileMenu" name="onlineHelpAction"/>
-      <addaction fflag="ChangesToFileMenu" name="aboutRobloxAction"/>
+      <addaction name="aboutRobloxAction"/>
+      <addaction name="onlineHelpAction"/>
+      <addaction name="settingsAction"/>
+      <addaction name="betaFeaturesAction"/>
     </SystemPopup>
   </SystemButton>
   <RibbonBar minimizeButton="true" font="">
