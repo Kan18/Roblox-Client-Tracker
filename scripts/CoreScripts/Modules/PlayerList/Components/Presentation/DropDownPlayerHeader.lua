@@ -3,6 +3,7 @@ local CorePackages = game:GetService("CorePackages")
 local Roact = require(CorePackages.Roact)
 local t = require(CorePackages.Packages.t)
 local UIBlox = require(CorePackages.UIBlox)
+local RoactRodux = require(CorePackages.RoactRodux)
 
 local withStyle = UIBlox.Style.withStyle
 
@@ -14,6 +15,8 @@ local WithLayoutValues = LayoutValues.WithLayoutValues
 local PlayerList = Components.Parent
 local isDisplayNameEnabled = require(PlayerList.isDisplayNameEnabled)
 
+local FFlagLeaderboardDontWaitOnChinaPolicy = require(PlayerList.Flags.FFlagLeaderboardDontWaitOnChinaPolicy)
+
 local TEXT_PADDING = 5
 local TEXT_HEIGHT = 22
 
@@ -21,13 +24,15 @@ local DropDownPlayerHeader = Roact.PureComponent:extend("DropDownPlayerHeader")
 
 DropDownPlayerHeader.validateProps = t.strictInterface({
 	player = t.instanceIsA("Player"),
+
+	subjectToChinaPolicies = FFlagLeaderboardDontWaitOnChinaPolicy and t.boolean or nil,
 })
 
 function DropDownPlayerHeader:render()
 	return WithLayoutValues(function(layoutValues)
 		return withStyle(function(style)
 			local avatarBackgroundImage
-			if isDisplayNameEnabled() then
+			if isDisplayNameEnabled(self.props.subjectToChinaPolicies) then
 				avatarBackgroundImage = "rbxasset://textures/ui/PlayerList/NewAvatarBackground.png"
 			else
 				avatarBackgroundImage = "rbxasset://textures/ui/PlayerList/AvatarBackground.png"
@@ -48,7 +53,7 @@ function DropDownPlayerHeader:render()
 					Position = UDim2.new(0, 0, 1, 0),
 					AnchorPoint = Vector2.new(0, 1),
 				}, {
-					TextContainerFrame = isDisplayNameEnabled() and Roact.createElement("Frame", {
+					TextContainerFrame = isDisplayNameEnabled(self.props.subjectToChinaPolicies) and Roact.createElement("Frame", {
 						BackgroundTransparency = 1,
 						Size = UDim2.new(1, -(112 + 45), 1, 0),
 						Position = UDim2.new(0, 112, 0, 0),
@@ -87,7 +92,7 @@ function DropDownPlayerHeader:render()
 						}),
 					}) or nil,
 
-					Text = (not isDisplayNameEnabled()) and Roact.createElement("TextLabel", {
+					Text = (not isDisplayNameEnabled(self.props.subjectToChinaPolicies)) and Roact.createElement("TextLabel", {
 						Position = UDim2.new(0, 112, 0, 0),
 						Size = UDim2.new(1, -(112 + 45), 1, 0),
 						Text = self.props.player.Name,
@@ -124,4 +129,14 @@ function DropDownPlayerHeader:render()
 	end)
 end
 
-return DropDownPlayerHeader
+if FFlagLeaderboardDontWaitOnChinaPolicy then
+	local function mapStateToProps(state)
+		return {
+			subjectToChinaPolicies = state.displayOptions.subjectToChinaPolicies,
+		}
+	end
+
+	return RoactRodux.UNSTABLE_connect2(mapStateToProps, nil)(DropDownPlayerHeader)
+else
+	return DropDownPlayerHeader
+end

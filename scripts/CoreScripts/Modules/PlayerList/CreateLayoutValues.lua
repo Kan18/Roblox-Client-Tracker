@@ -3,8 +3,11 @@ local CorePackages = game:GetService("CorePackages")
 local UIBlox = require(CorePackages.UIBlox)
 local Images = UIBlox.App.ImageSet.Images
 
+local FFlagFixLeaderboardWaitingOnScreenSize = require(script.Parent.Flags.FFlagFixLeaderboardWaitingOnScreenSize)
+
 local SCREEN_SIDE_PADDING = 4
 
+-- Remove isSmallTouchScreen with FFlagFixLeaderboardWaitingOnScreenSize
 return function(isTenFoot, isSmallTouchScreen)
 	local LayoutValues = {}
 
@@ -127,10 +130,15 @@ return function(isTenFoot, isSmallTouchScreen)
 		LayoutValues.ScrollBarSize = 8
 	end
 
-	if isSmallTouchScreen then
-		LayoutValues.MaxLeaderstats = 1
-	else
+	if FFlagFixLeaderboardWaitingOnScreenSize then
 		LayoutValues.MaxLeaderstats = 4
+		LayoutValues.MaxLeaderstatsSmallScreen = 1
+	else
+		if isSmallTouchScreen then
+			LayoutValues.MaxLeaderstats = 1
+		else
+			LayoutValues.MaxLeaderstats = 4
+		end
 	end
 
 	LayoutValues.PlayerEntryFont = Enum.Font.SourceSans

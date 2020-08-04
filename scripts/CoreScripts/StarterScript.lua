@@ -94,6 +94,9 @@ if not FFlagConnectErrorHandlerInLoadingScript then
 	end
 end
 
+-- In-game notifications script
+ScriptContext:AddCoreScriptLocal("CoreScripts/NotificationScript2", RobloxGui)
+
 -- TopBar
 initify(CoreGuiModules.TopBar)
 coroutine.wrap(safeRequire)(CoreGuiModules.TopBar)
@@ -107,9 +110,6 @@ coroutine.wrap(function() -- this is the first place we call, which can yield so
 		ScriptContext:AddCoreScriptLocal("CoreScripts/ScreenTimeInGame", RobloxGui)
 	end
 end)()
-
--- In-game notifications script
-ScriptContext:AddCoreScriptLocal("CoreScripts/NotificationScript2", RobloxGui)
 
 -- Performance Stats Management
 ScriptContext:AddCoreScriptLocal("CoreScripts/PerformanceStatsManagerScript", RobloxGui)
