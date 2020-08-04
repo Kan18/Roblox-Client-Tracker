@@ -1024,7 +1024,6 @@ RBX
 	LatchedSignalBase
 	LayoutDefault
 	LayoutGrid
-	LayoutInline
 	LayoutList
 	LayoutNode
 	LayoutPage
@@ -1335,7 +1334,6 @@ RBX
 	UIGradient
 	UIGridLayout
 	UIGridStyleLayout
-	UIInlineLayout
 	UILayout
 	UIListLayout
 	UIPadding

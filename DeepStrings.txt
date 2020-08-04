@@ -240,6 +240,7 @@ AddKeyframe
 AddMaterial
 AddMinStreamRadiusToReplicatorStats
 AddNewAction
+AddNewlineAboveOrBelow
 AddNewPlace
 AddressChoice
 AddSelectionParent
@@ -618,7 +619,6 @@ AnalyticsServiceMonitoringPeriod
 AnalyticsSessionId
 AnalyticsSessionIdName
 AnalyticsSocketFamily
-ANbBcLnzHjMMTrhAqmDA
 AncestorChanged
 AncestorOf
 AncestorsSentWithoutAllDescendants
@@ -2579,7 +2579,6 @@ AVLatchedSignalBase
 AVLaunchHelpForSelectionVerb
 AVLayoutDefault
 AVLayoutGrid
-AVLayoutInline
 AVLayoutList
 AVLayoutNode
 AVLayoutPage
@@ -3693,7 +3692,6 @@ AVUIEditorCornerWidget
 AVUIGradient
 AVUIGridLayout
 AVUIGridStyleLayout
-AVUIInlineLayout
 AVUILayout
 AVUIListLayout
 AVUIPadding
@@ -3905,7 +3903,6 @@ AW4HumanoidHealthDisplayType
 AW4HumanoidRigType
 AW4ImageScale
 AW4ImageType
-AW4InlineAlignment
 AW4KeyCode
 AW4LanguagePreference
 AW4LeftRight
@@ -4486,6 +4483,7 @@ BoxHandleAdornment
 BoxMappedMeshLODFix_v2
 BoxSelectCommand
 BPEAUIUnknown
+BpG7ICPNkH
 BPuVfD9B`uOfD9BpuH
 BQByteArray
 BQJsonValueRef
@@ -4670,6 +4668,7 @@ BVTextureId
 BW4AlphaMode
 BW4ModelLevelOfDetail
 BWGradient.png
+BwuakF5hMUgYSTr7BCR0wUk7
 ByCongestionControl
 ByDatacenter_
 ByIPForDatacenterId_
@@ -4681,7 +4680,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.443.0.409520
+ByVersion_0.443.0.409539
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -5203,7 +5202,6 @@ ChorusSoundEffect
 Chromecast
 ChunkShapes
 ChunkStitchMask
-Ci2zNE0bPoJH0sxQgnkcdw1sV
 CIDFontName
 CIDFontType
 CIDFontVersion
@@ -7718,8 +7716,6 @@ DEPRECATED_insertObjectClicked
 DEPRECATED_InsertObjectWidget
 DEPRECATED_isActive
 DEPRECATED_LinkEnabledPlainTextEdit
-DEPRECATED_mergeCanceled
-DEPRECATED_mergeResolved
 DEPRECATED_newOutputMessage
 DEPRECATED_onAcceptGameNotPublishedDialog
 DEPRECATED_onDialogAccepted
@@ -8242,7 +8238,6 @@ DOFResolveNearFS
 DomainPolicy
 DominantAxis
 DOMMouseScroll
-DOmsZPfhIf
 DoNotLoadUnverifiedBuiltInPlugins
 DoNotOpenClonedOriginalInEditMode
 DoNotRenderMeshLODByDefault
@@ -8761,6 +8756,7 @@ EHcUgHc]oL
 EHERE\EfEpEzE
 EJJJJJJJJJJJJJJJJJJJJ
 EJTU\^bcfguw
+EKm5PY8JTdYoX70md8QVqXATr07YzShl0Etm
 ElapsedSeconds
 ElapsedTime
 ElasticBehavior
@@ -9501,6 +9497,7 @@ FDA6E1EA211E49FA6F7D125AE5309
 FDA6F1EA211E49FA6F7D125AE5309
 FDE5E01E7934
 Fdossl_static.pdb
+FdZB5zkUONwQaQmYJDE
 Feature_AppBridgeRewrite
 Feature_UniversalStartup
 FeatureAlert
@@ -10150,7 +10147,6 @@ FXCompositing
 FXCompositingFS
 FXCompositingLinearFS
 FXComposition
-FzZTF8i635k4ficMgObwNJdPOjh6Lr698qW5mZUi
 GainMakeup
 GameAbsenceInWeb.
 GameAction
@@ -10317,6 +10313,7 @@ GAThrottlingEventThresholdHundredthCat2
 GAThrottlingEventThresholdHundredthCat3
 GazeSelectionEnabled
 GCDistance
+GCE4ir37xPanRryqT
 GCHappened
 Gcircumflex
 GCMinimumDeletionRateForNonZeroClientInstanceQuota
@@ -10342,6 +10339,9 @@ GeneralNames
 GeneralStats
 GeneralString
 GENERALSTRING
+GenerateDataBlobsCacheable
+GenerateDataBlobsNotCacheable
+GenerateDataBlobsParts
 GeneratedLocalizationTable
 GenerateGUID
 GenerateMeshLOD_Fix1
@@ -11348,7 +11348,6 @@ GvEphfEUiHHoD6hYFI4xWGpAnIHcklKQCxrf46kAhDGeZnqIgeGszlGdWafunGE8
 GVKUTS[BXIWH\KbHi
 GXGfGkGpGuG
 GxI9Gpu2E2
-GYIigZIwiCc
 GyroscopeEnabled
 H_Key_dn.png
 H_NAEBVQString
@@ -11585,6 +11584,7 @@ HKEY_PERFORMANCE_DATA
 HKEY_PERFORMANCE_NLSTEXT
 HKEY_PERFORMANCE_TEXT
 HMACGostR3411
+HnL43CTnOqyAoTbDLW9U9MmQa8Wx9TinONV
 HomePageLoaded
 HopperPanel.png
 Horizontal
@@ -12223,8 +12223,6 @@ InitKernel
 InitThreadMenu
 InletCursor
 Inlets.png
-InlineAlignment
-InlinePadding
 InMainThreadInternal
 InnerBoxHeight
 InnerRadius
@@ -12589,7 +12587,6 @@ IsVerified
 IsVertexArray
 IsVibrationSupported
 IsVIPDeveloper
-It9rU4CLcClpHWvu2H32ruRPkES
 ITALIC_ANGLE
 ItalicAngle
 Item.forceActiveFocus
@@ -12817,7 +12814,6 @@ KFKPKXK`KhK
 KickByDatacenter_
 KiDszBCYB0gyp03Pc
 KillPtClicked
-Kk7rLLQ0iRxznrv8ZazkoJ7rZv9roUy1SSjdOoK5Tf9Ou4UCL3bILJfiQ6rQ5t
 KKKKKKKKKK
 KKKKKKKKKKKK
 KKKKKKKKKKKKKKKKKKKKKK
@@ -13567,6 +13563,7 @@ ManualGlue
 ManualSurfaceJointInstance
 ManualWeld
 MapBufferRange
+MapLocalhostTo127Address
 MapMouseButton
 MappingScheme
 MapViewOfFile
@@ -14179,7 +14176,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAvVhr9TwGtzObMvlQjbidSjvO4tPb
+MIICCgKCAgEA66pIKdxZ8sWX8BNEwhurpmqJc7N6y8cCuE36S3xbl3Nd835dIhyJ
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14474,7 +14471,6 @@ Mtx_destroy_in_situ
 Mtx_init_in_situ
 Mtx_trylock
 Mtx_unlock
-MuC02lM8nmHcam3dHex2GOhSU0CAwEAAQ
 MULE_BASELINE_OFFSET
 MULE_RELATIVE_COMPOSE
 MultiByteToWideChar
@@ -14617,7 +14613,6 @@ NCONF_get_string
 NCONF_load
 NCONF_load_bio
 NCONF_load_fp
-Nd5AokpH49rYYPKdEpCDvgF66
 NdnuScpeLkclOiiaVruaSilaKgnjRicyLiraCidyLmahCanaLtvaTtsvApygErmaSusiLumaBavaJietMimrAbraSitrPilhPhkrOihtKktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTzzzZssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
 NE9F0uHE9F4uBE9F8u
 NearIntensity
@@ -14735,7 +14730,9 @@ NewInstanceItemClientDoNotEchoPlayer
 NewInstanceMode
 NewJoinStorage
 NEWLINEABOVE
+NewlineAboveAction
 NEWLINEBELOW
+NewlineBelowAction
 NewMemoryLevelCheck
 NewMessage
 NewMessageBySelf
@@ -15051,6 +15048,7 @@ OgreWidgetShowEvent
 Oh44\h44\Q
 Ohungarumlaut
 OiCCPPhotoshop
+OIlIZPbk1O77xEmuYCNb0Q0qHBUeVqMtNQE7FwAnJpbD5XuYQYDifUt1YaT7EqTI
 OldActiveElement
 OldMessagesFetched
 OldServers
@@ -16097,7 +16095,6 @@ PEAVUIAspectRatioConstraint
 PEAVUICorner
 PEAVUIGradient
 PEAVUIGridLayout
-PEAVUIInlineLayout
 PEAVUIListLayout
 PEAVUIPadding
 PEAVUIPageLayout
@@ -16781,7 +16778,6 @@ PluginWidgetRelay
 PluginWidgetRelayForPluginGui
 PluginWriteTemp
 PlusButtonPressed
-PMrdVdI0aOt
 POINT_SIZE
 PointBalanceCacheInvalidateTimeMs
 PointDataChanged
@@ -17239,7 +17235,6 @@ QDoubleSpinBox
 QDoubleValidator
 QDragMoveEvent
 QDropEvent
-QE7LfcRzcAzMvTV1fiWfowkKrTKSwakwkfoMqaqgUoywt66NPN
 QEAA_JAEBVQByteArray
 QEAA_JPEAD_J
 QEAA_JPEB_W_J
@@ -17732,7 +17727,6 @@ QLocalSocket
 QMainWindow
 QMapDataBase
 QMapNodeBase
-QMBmagyKbbLvB4RD1rBc32GWqORB1t8pv
 QMessageBox
 QMessageLogger
 QMetaMethod
@@ -17792,7 +17786,6 @@ QRegularExpression
 QRegularExpressionMatch
 QRegularExpressionMatchIterator
 QRubberBand
-QrvLAD6HMesof5Dx
 QScopedPointer
 QScopedPointerDeleter
 QScrollArea
@@ -17874,6 +17867,7 @@ QTextStream
 QTextTable
 QTextTableCell
 QTextTableFormat
+QtFguBn1S6LK57e
 QtGraphicalEffects
 QThreadPool
 QThreadStorage
@@ -19193,6 +19187,7 @@ RigidBodyLazyUpdating
 RigidityEnabled
 RiseVelocity
 Rj0isQcnqX
+RLmH9zZ4p7fsedDCW8ZFRQvbIHB8fHnUZDbX6r57ZkYUD3y3Ct
 Roact.createElement
 ROBLOSECURITY
 Roblox.Hybrid
@@ -19442,7 +19437,6 @@ RVideoInternal
 RVideoMemLogging
 RVideoTrace
 RxRlReport
-RYG2445lvXxHKjy2ttyu1YVqXdu
 S_Key_dn.png
 SA_KPEAPEBV123
 SA_KPEAPEBVfacet
@@ -20406,7 +20400,6 @@ SHUseNewComputeLevelUsesOBB
 ShutdownClient
 ShutdownClientAndSave
 ShutdownPolicy
-SIAm9gWKIo2vMv
 SiblingElement
 SigDigest_add1
 SigEd25519
@@ -21745,8 +21738,6 @@ Studio.App.MainWindow.WaitingForShutdown
 Studio.App.ManageEmulationDeviceDialog.CloneDevice
 Studio.App.ManageEmulationDeviceDialog.EmulationDeviceManager
 Studio.App.ManageEmulationDeviceDialog.NewDevicePrefix
-Studio.App.Merge.Accept
-Studio.App.Merge.AcceptServerChanges
 Studio.App.Merge.AllConflictsResolved
 Studio.App.Merge.CompareCurrentDraftWithThis
 Studio.App.Merge.ConflictInstruction
@@ -21768,7 +21759,6 @@ Studio.App.Merge.Preview
 Studio.App.Merge.Previous
 Studio.App.Merge.Protip1
 Studio.App.Merge.ProtipDiscovery
-Studio.App.Merge.Save
 Studio.App.Merge.UnresolvedConflict
 Studio.App.MeshImportOptionsDialog.ApplyAll
 Studio.App.MeshImportOptionsDialog.FileCount2
@@ -21923,6 +21913,10 @@ Studio.App.RBXMainWindow.15StudGrid
 Studio.App.RBXMainWindow.3DGrid
 Studio.App.RBXMainWindow.AboutRobloxStudio
 Studio.App.RBXMainWindow.ActiveInstancesInOutputWindow
+Studio.App.RBXMainWindow.AddNewlineAbove
+Studio.App.RBXMainWindow.AddNewlineAboveToolTip
+Studio.App.RBXMainWindow.AddNewlineBelow
+Studio.App.RBXMainWindow.AddNewlineBelowToolTip
 Studio.App.RBXMainWindow.AddRemoveAndModifyTerrain
 Studio.App.RBXMainWindow.AddUIElements
 Studio.App.RBXMainWindow.AddWatch
@@ -23106,6 +23100,7 @@ StudioLSPAvoidFullLexMapUpdate
 StudioLSPIndentParen
 StudioLSPIndentParen2
 StudioLSPSpacesReplacing
+StudioLuaSettings
 StudioLuauIceInfluxHundredthsPercentage
 StudioLuauLints
 StudioLuauLintWithFrontend2
@@ -23136,7 +23131,6 @@ StudioMinorFixesForAssetPreview
 StudioMode
 StudioModeChanged
 StudioMousePanSensitivity
-StudioMultiMergeSupport
 StudioMuteOnlyOnUnfocus
 StudioMuteOnlyOnUnfocus2
 StudioNativeCaptcha
@@ -23695,7 +23689,6 @@ TattletaleUseNewWordListFeatures
 TattletaleUseOriginalWordList
 Tcommaaccent
 TCP_NODELAY
-TdonYQ6EzRemOhbw4DoTPtTJvP6jYqWeP
 TeachingCallouts
 TeamChildOrderExposedTelemetry
 TeamChildOrderProperty
@@ -24876,7 +24869,6 @@ U_Unforced
 UActionsQuickOpenProviderSharedState
 Uacutesmall
 Uambiguous_result
-UaohI565dKvWJUsUwMpmP7jKf9Ambkn7mwlV8NA42
 Uasio_client
 Uasio_tls_client
 UAssetLoadingData
@@ -25066,8 +25058,6 @@ UIGradient
 UIGridLayout
 UIGridStyleLayout
 UIGridStyleLayout.SortOrder
-UIInlineLayout
-UIInlineLayout2
 UiLegacyJoints
 UIListLayout
 UILitFogFS
@@ -25090,6 +25080,7 @@ UINT64_MAX
 UInt8Vector
 UIntVector
 UINumTicks
+UiOT29eR8RxKPyQEC1sN8cq2OTCgZ870tlDjkxTVzsF
 UIPageLayout
 UIQuadTree
 UIQuadTreeCellAreaMin
@@ -25677,7 +25668,7 @@ UWindowShowMessageNotification
 UWindowShowMessageRequest
 UWindowShowMessageResponse
 UXImprovementsFixEscKeyClosing
-UZNE8mniO18IONWC2UHQuehY
+UXkOPfRwqbHXzvANFwUPjhVgFovxnxyXztUTtOkGNVx8EmOtPvh3Ss
 V_http_request
 V_http_response
 VABTestEnrollmentsRequest
@@ -25849,7 +25840,6 @@ VCmdSelect
 VCmdToggleComment
 VCmdUnfoldAll
 VCmdUnindentSelection
-VcngxvAifFFh9mMdHcHtAEN
 VCollectionService
 VColor3uint8
 VColorCorrectionEffect
@@ -26198,6 +26188,7 @@ VGuiObject
 VGUIObject
 VGuiService
 VGuiTextButton
+VGWADjHgJxC4BvnSvn
 VHammerTool
 VHandleAdornment
 VHandlesBase
@@ -26388,7 +26379,6 @@ VKeyframeSequenceProvider
 VLanguageService
 VLayoutDefault
 VLayoutGrid
-VLayoutInline
 VLayoutList
 VLayoutNode
 VLayoutPage
@@ -26601,7 +26591,6 @@ VR_CONFIG_PATH
 VR_InitInternal
 VR_LOG_PATH
 VR_OVERRIDE
-Vr04e7QqdShp8biYL
 VRakPeerCrypto
 VRakPeerInterface
 Vrange_error
@@ -26642,6 +26631,7 @@ VResponseMessage
 VResultEmitter
 VReverbSoundEffect
 VRevoluteLink
+Vrfv3fvbHHk
 VRightMotorTool
 VRobloxChatWidget
 VRobloxDisabledChatWidget
@@ -26838,7 +26828,6 @@ VUIConstraint
 VUIGradient
 VUIGridLayout
 VUIGridStyleLayout
-VUIInlineLayout
 VUIListLayout
 VUIPadding
 VUIPageLayout
@@ -26910,6 +26899,7 @@ VWebSocketCurl
 VWeldConstraint
 Vwin_iocp_io_service
 Vwinhttp_client
+VwODbUEN8G7
 Vwork_io_service_runner
 VWorkspace
 VWorldModel
@@ -27511,12 +27501,13 @@ YieldFuncDesc
 YieldFunction
 YQByteArray
 YResolution
+YRZQfLOyYIXwC2viBGt4OHaOUxGbjYyNin2sPVYjDZm6IlT1B
 YwBBvY55YvBBwY5
+YYpBoHLV4cCAwEAAQ
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
 Zcaronsmall
 Zdotaccent
-ZG8lCg7b9lGJ1p1cD0o77
 ZgnhKhWhci
 ZhniZzzzZbarAnmrAgneBlryCaveDroeGkerGrjuGuruGgnaHinaHrbeHariHadnKanaKooaLntaLmylMayrOlmaTuleTiahTtbiTopoBiarBsnaCrehCihtErmhKgnoMrmyMmagOrnuRhniScrySaahTiiiYtrsDhtoGlatIdhuBonaHglgTbgaTtrpCbmiLbniLamsOwahSelaTragUiguBtpoCgalGrahKulaToepXolySgnfTilaBxusXookNga
 ZIndexBehavior
@@ -27530,6 +27521,7 @@ ZoomToHighlight
 ZP6APEAX1PEBX
 ZP6AX1PEAX
 ZPEAVRBXMessageBox
+ZpzK48BbCoAUyvnutro6EVHzXo77eBhFYEwX1Lslix6iOk2eTOG2VATNMhxqrics
 ZRZZZbZt[.[
 ZVspecial_equipped_signal
 ZVTouchedSignal

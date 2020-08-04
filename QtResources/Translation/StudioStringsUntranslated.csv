@@ -1301,6 +1301,10 @@ Studio.App.RBXMainWindow.15StudGrid,,1/5 Stud Grid,1/5 Stud Grid
 Studio.App.RBXMainWindow.3DGrid,,3D Grid,3D Grid
 Studio.App.RBXMainWindow.AboutRobloxStudio,,About Roblox Studio,About Roblox Studio
 Studio.App.RBXMainWindow.ActiveInstancesInOutputWindow,,Displays Roblox Studio Active Instances in Output Window,Displays Roblox Studio Active Instances in Output Window
+Studio.App.RBXMainWindow.AddNewlineAbove,,Insert Newline Above,Insert Newline Above
+Studio.App.RBXMainWindow.AddNewlineAboveToolTip,,Insert a newline above the current line,Insert a newline above the current line
+Studio.App.RBXMainWindow.AddNewlineBelow,,Insert Newline Below,Insert Newline Below
+Studio.App.RBXMainWindow.AddNewlineBelowToolTip,,Insert a newline below the current line,Insert a newline below the current line
 Studio.App.RBXMainWindow.AddRemoveAndModifyTerrain,,"Add, remove, and modify terrain","Add, remove, and modify terrain"
 Studio.App.RBXMainWindow.AddUIElements,,Add UI elements,Add UI elements
 Studio.App.RBXMainWindow.AddWatch,,Add Watch,Add Watch

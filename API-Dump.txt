@@ -3137,9 +3137,6 @@ Class UIGridLayout : UIGridStyleLayout
 	Property Enum<StartCorner> UIGridLayout.StartCorner
 	Property Vector2 UIGridLayout.AbsoluteCellCount  [ReadOnly] [NotReplicated]
 	Property Vector2 UIGridLayout.AbsoluteCellSize  [ReadOnly] [NotReplicated]
-Class UIInlineLayout : UIGridStyleLayout
-	Property UDim2 UIInlineLayout.InlinePadding
-	Property Enum<InlineAlignment> UIInlineLayout.InlineAlignment
 Class UIListLayout : UIGridStyleLayout
 	Property UDim UIListLayout.Padding
 Class UIPageLayout : UIGridStyleLayout
@@ -4066,10 +4063,6 @@ Enum InitialDockState
 	EnumItem InitialDockState.Left : 2
 	EnumItem InitialDockState.Right : 3
 	EnumItem InitialDockState.Float : 4
-Enum InlineAlignment
-	EnumItem InlineAlignment.Bottom : 0
-	EnumItem InlineAlignment.Center : 1
-	EnumItem InlineAlignment.Top : 2
 Enum InputType
 	EnumItem InputType.NoInput : 0
 	EnumItem InputType.Constant : 12

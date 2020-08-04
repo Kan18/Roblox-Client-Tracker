@@ -56140,47 +56140,6 @@
         {
             "Members": [
                 {
-                    "Category": "Behavior",
-                    "MemberType": "Property",
-                    "Name": "InlineAlignment",
-                    "Security": {
-                        "Read": "None",
-                        "Write": "None"
-                    },
-                    "Serialization": {
-                        "CanLoad": true,
-                        "CanSave": true
-                    },
-                    "ValueType": {
-                        "Category": "Enum",
-                        "Name": "InlineAlignment"
-                    }
-                },
-                {
-                    "Category": "Appearance",
-                    "MemberType": "Property",
-                    "Name": "InlinePadding",
-                    "Security": {
-                        "Read": "None",
-                        "Write": "None"
-                    },
-                    "Serialization": {
-                        "CanLoad": true,
-                        "CanSave": true
-                    },
-                    "ValueType": {
-                        "Category": "DataType",
-                        "Name": "UDim2"
-                    }
-                }
-            ],
-            "MemoryCategory": "Instances",
-            "Name": "UIInlineLayout",
-            "Superclass": "UIGridStyleLayout"
-        },
-        {
-            "Members": [
-                {
                     "Category": "Appearance",
                     "MemberType": "Property",
                     "Name": "Padding",
@@ -63867,23 +63826,6 @@
                 }
             ],
             "Name": "InitialDockState"
-        },
-        {
-            "Items": [
-                {
-                    "Name": "Bottom",
-                    "Value": 0
-                },
-                {
-                    "Name": "Center",
-                    "Value": 1
-                },
-                {
-                    "Name": "Top",
-                    "Value": 2
-                }
-            ],
-            "Name": "InlineAlignment"
         },
         {
             "Items": [
