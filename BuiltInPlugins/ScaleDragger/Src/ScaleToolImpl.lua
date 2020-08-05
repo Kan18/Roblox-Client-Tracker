@@ -22,6 +22,8 @@ local getFFlagDraggerResizeLimit = require(DraggerFramework.Flags.getFFlagDragge
 
 local ScaleHandleView = require(Plugin.Src.ScaleHandleView)
 
+local getFFlagScaleDraggerPartBias = require(DraggerFramework.Flags.getFFlagScaleDraggerPartBias)
+
 local ScaleToolImpl = {}
 ScaleToolImpl.__index = ScaleToolImpl
 
@@ -127,7 +129,13 @@ function ScaleToolImpl:update(draggerToolState, derivedWorldState)
 	self:_updateHandles()
 end
 
-function ScaleToolImpl:hitTest(mouseRay, handleScale)
+if getFFlagScaleDraggerPartBias() then
+	function ScaleToolImpl:shouldBiasTowardsObjects()
+		return true
+	end
+end
+
+function ScaleToolImpl:hitTest(mouseRay, ignoreExtraThreshold)
 	local closestHandleId, closestHandleDistance = nil, math.huge
 	for handleId, handleProps in pairs(self._handles) do
 		local distance = ScaleHandleView.hitTest(handleProps, mouseRay)
@@ -138,6 +146,8 @@ function ScaleToolImpl:hitTest(mouseRay, handleScale)
 	end
 	if closestHandleId then
 		return closestHandleId, 0
+	elseif getFFlagScaleDraggerPartBias() and ignoreExtraThreshold then
+		return nil, 0
 	else
 		-- Second attempt to find a handle, now using closest distance to the ray
 		-- rather than closest hit distance to the camera.

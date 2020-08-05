@@ -1,4 +1,5 @@
 local CorePackages = game:GetService("CorePackages")
+local CoreGui = game:GetService("CoreGui")
 
 local Roact = require(CorePackages.Roact)
 local t = require(CorePackages.Packages.t)
@@ -14,10 +15,13 @@ local WithLayoutValues = LayoutValues.WithLayoutValues
 
 local PlayerList = Components.Parent
 local isDisplayNameEnabled = require(PlayerList.isDisplayNameEnabled)
-
 local FFlagLeaderboardDontWaitOnChinaPolicy = require(PlayerList.Flags.FFlagLeaderboardDontWaitOnChinaPolicy)
 
-local TEXT_PADDING = 5
+local RobloxGui = CoreGui:WaitForChild("RobloxGui")
+local FFlagPlayerListFormattingUpdates = require(RobloxGui.Modules.Flags.FFlagPlayerListFormattingUpdates)
+
+local TEXT_PADDING = FFlagPlayerListFormattingUpdates and 0 or 5
+
 local TEXT_HEIGHT = 22
 
 local DropDownPlayerHeader = Roact.PureComponent:extend("DropDownPlayerHeader")
@@ -48,15 +52,21 @@ function DropDownPlayerHeader:render()
 				Background = Roact.createElement("ImageLabel", {
 					BackgroundTransparency = 1,
 					Image = avatarBackgroundImage,
-					ImageTransparency = layoutValues.DropDownHeaderBackgroundTransparency,
+					ImageTransparency = FFlagPlayerListFormattingUpdates
+						and 0
+						or layoutValues.DropDownHeaderBackgroundTransparency,
 					Size = UDim2.new(1, 0, 0, layoutValues.DropDownHeaderBackgroundSize),
 					Position = UDim2.new(0, 0, 1, 0),
 					AnchorPoint = Vector2.new(0, 1),
 				}, {
 					TextContainerFrame = isDisplayNameEnabled(self.props.subjectToChinaPolicies) and Roact.createElement("Frame", {
 						BackgroundTransparency = 1,
-						Size = UDim2.new(1, -(112 + 45), 1, 0),
-						Position = UDim2.new(0, 112, 0, 0),
+						Size = FFlagPlayerListFormattingUpdates
+							and UDim2.new(1, -(112 + 12), 1, 0)
+							or UDim2.new(1, -(112 + 45), 1, 0),
+						Position = FFlagPlayerListFormattingUpdates
+							and UDim2.new(0, 107, 0, 0)
+							or UDim2.new(0, 112, 0, 0),
 					}, {
 						Layout = Roact.createElement("UIListLayout", {
 							SortOrder = Enum.SortOrder.LayoutOrder,
@@ -76,25 +86,45 @@ function DropDownPlayerHeader:render()
 							TextXAlignment = Enum.TextXAlignment.Left,
 							TextTruncate = Enum.TextTruncate.AtEnd,
 							BackgroundTransparency = 1,
+							TextScaled = FFlagPlayerListFormattingUpdates or nil,
+						}, {
+							SizeConstraint = FFlagPlayerListFormattingUpdates and Roact.createElement("UITextSizeConstraint", {
+								MaxTextSize = style.Font.BaseSize * style.Font.Header2.RelativeSize,
+								MinTextSize = style.Font.BaseSize * style.Font.Footer.RelativeSize,
+							}) or nil
 						}),
 
 						PlayerName = Roact.createElement("TextLabel", {
 							LayoutOrder = 2,
 							Size = UDim2.new(1, 0, 0, TEXT_HEIGHT),
 							Text ="@" .. self.props.player.Name,
-							Font = style.Font.SubHeader1.Font,
-							TextSize = style.Font.BaseSize * style.Font.SubHeader1.RelativeSize,
+							Font = FFlagPlayerListFormattingUpdates
+								and style.Font.CaptionHeader.Font
+								or style.Font.SubHeader1.Font,
+							TextSize = FFlagPlayerListFormattingUpdates
+								and style.Font.BaseSize * style.Font.CaptionHeader.RelativeSize
+								or style.Font.BaseSize * style.Font.SubHeader1.RelativeSize,
 							TextColor3 = style.Theme.TextMuted.Color,
 							TextTransparency = style.Theme.TextMuted.Transparency,
 							TextXAlignment = Enum.TextXAlignment.Left,
 							TextTruncate = Enum.TextTruncate.AtEnd,
 							BackgroundTransparency = 1,
+							TextScaled = FFlagPlayerListFormattingUpdates or nil,
+						}, {
+							SizeConstraint = FFlagPlayerListFormattingUpdates and Roact.createElement("UITextSizeConstraint", {
+								MaxTextSize = style.Font.BaseSize * style.Font.CaptionHeader.RelativeSize,
+								MinTextSize = style.Font.BaseSize * style.Font.Footer.RelativeSize,
+							}) or nil
 						}),
 					}) or nil,
 
 					Text = (not isDisplayNameEnabled(self.props.subjectToChinaPolicies)) and Roact.createElement("TextLabel", {
-						Position = UDim2.new(0, 112, 0, 0),
-						Size = UDim2.new(1, -(112 + 45), 1, 0),
+						Size = FFlagPlayerListFormattingUpdates
+							and UDim2.new(1, -(112 + 12), 0, TEXT_HEIGHT)
+							or UDim2.new(1, -(112 + 45), 1, 0),
+						Position = FFlagPlayerListFormattingUpdates
+							and UDim2.new(0, 107, 0.5, -TEXT_HEIGHT/2)
+							or UDim2.new(0, 112, 0, 0),
 						Text = self.props.player.Name,
 						Font = style.Font.Header2.Font,
 						TextSize = style.Font.BaseSize * style.Font.Header2.RelativeSize,
@@ -103,6 +133,12 @@ function DropDownPlayerHeader:render()
 						TextXAlignment = Enum.TextXAlignment.Left,
 						TextTruncate = Enum.TextTruncate.AtEnd,
 						BackgroundTransparency = 1,
+						TextScaled = FFlagPlayerListFormattingUpdates or nil,
+					}, {
+						SizeConstraint = FFlagPlayerListFormattingUpdates and Roact.createElement("UITextSizeConstraint", {
+							MaxTextSize = style.Font.BaseSize * style.Font.Header2.RelativeSize,
+							MinTextSize = style.Font.BaseSize * style.Font.Footer.RelativeSize,
+						}) or nil
 					}) or nil,
 				}),
 
