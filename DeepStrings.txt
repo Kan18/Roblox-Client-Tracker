@@ -327,6 +327,7 @@ AEBUbtDispatcherInfo
 AEBUClassInfo
 AEBUConnectionStats
 AEBUConversionOptions
+AEBUHttpResponseProxy
 AEBUPlaceLauncherRequestResult
 AEBUQMetaObject
 AEBUSystemAddress
@@ -341,6 +342,7 @@ AEBVFbxClassId
 AEBVFbxCriteria
 AEBVFbxTime
 AEBVFbxVector4
+AEBVHttpError
 AEBVHttpResponse
 AEBVIdentity
 AEBVInstanceIdentifier
@@ -606,7 +608,6 @@ AnalyticsService.VerifyPlayFabTitleNoContent
 AnalyticsService.VerifyPlayFabTitleServiceUnavailable
 AnalyticsService.VerifyPlayFabTitleStatusCodeGatewayTimeout
 AnalyticsService.VerifyPlayFabTitleSuccess
-AnalyticsServiceAutoCreatedGetPlayFabTitleRolloutPercentage
 AnalyticsServiceCustomDataBugetKBPerSecond
 AnalyticsServiceCustomDataBugetRefreshSeconds
 AnalyticsServiceEventIngestSwitchPercentage
@@ -2600,6 +2601,7 @@ AVLineHandleAdornment
 AVLinkedListNode
 AVLinkEnabledPlainTextEdit
 AVLinkEnabledTextEdit
+AVLintDeprecatedMeta
 AVLintFormatString
 AVLintForRange
 AVLintGlobalLocal
@@ -3279,6 +3281,7 @@ AVRotateJoint
 AVRotatePJoint
 AVRotateSelectionVerb
 AVRotateVJoint
+AVRQ7sBjteKrHB4MuPaNO76rjsBgo5
 AVRuiCheckBoxHeader
 AVRuiDialog
 AVRuiDialogButtonWatcher
@@ -3472,6 +3475,7 @@ AVSoundGroup
 AVSoundIdPropertyItem
 AVSoundJob
 AVSoundJobStudio
+AVSoundOutput
 AVSoundPreviewPropertyItem
 AVSoundPreviewWidget
 AVSoundService
@@ -4238,7 +4242,6 @@ BeginQuery
 BeginRecording
 BeginTransformFeedback
 BehaviorType
-BEnableUsersEndpoint
 Benchmarked
 Benchmarking
 BetaFeatureInformation
@@ -4569,7 +4572,6 @@ BrowserWindow
 BrowserWindowClosed
 BrowserWindowWillNavigate
 BrushStyle
-BsTsKeIMSoYUpT678WW5jFjUrkiL4LuDoVsF0ZKz8eYfHLNR1MCAwEAAQ
 BtnBackground.png
 BtYovqVKoHMDMoDd0u9Mc5CIyRqyu0IGS99A0jeEXRj7aofQ
 BU_Simplex1to4
@@ -4679,7 +4681,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.443.0.409558
+ByVersion_0.443.0.409650
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -4931,7 +4933,6 @@ CB27CB59AAF011E38B9D871882A8E559
 CB27CB5CAAF011E38B9D871882A8E559
 CB583B11E29A3DBD856014A660
 CBUGroupRolesResult
-CBUHttpResponseProxy
 CBUHttpTarget
 CBUPathData
 CBUPluginDragImpl
@@ -5032,6 +5033,7 @@ CFrame.new
 CFrameDecal
 CFrameOnly
 CFrameValue
+Cfw9DcngxbNx4WrDIH
 ChainCAFile
 ChainCAPath
 Chalkboard
@@ -7034,7 +7036,6 @@ CustomSort
 CustomStatusAdded
 CustomStatusRemoved
 CustomToolButton
-CUU5TcAyazZ48chqQ
 CWindowImpl
 CWindowImplBaseT
 CWindowImplRoot
@@ -7180,7 +7181,6 @@ DataStoreMaxRetryCount
 DataStoreMaxThrottledQueue
 DataStoreMaxValueSize
 DataStoreMoreInfoForVagueErrorLength
-DataStoreNoSerializedDataInCache
 DataStoreOldNamingScheme
 DataStoreOrderedGetFixedRequestLimit
 DataStoreOrderedGetInitialBudget
@@ -8656,7 +8656,6 @@ ECPKParameters_print_fp
 ECPrivateKey
 ECPublicKey
 Ecrypto\bn\bn_prime.c
-ECZItYmrTUrTZuBggxOpyChKJH
 ED23AAF011E38B9D871882A8E559
 ED24AAF011E38B9D871882A8E559
 ED27AAF011E38B9D871882A8E559
@@ -8899,7 +8898,6 @@ EnableGameSignalRWithUWP1
 EnableGameSignalRWithWindows1
 EnableGenlockI3D
 EnableGetAvailableForExperimentAPI
-EnableGetPlayFabTitleFromService
 EnableGLScissor
 EnableGranularMemoryTabStats
 EnableHttpProxy
@@ -8948,7 +8946,6 @@ EnableRichTextBeta
 EnableRichTextBetaFeature
 EnableRobuxHexIcon
 EnableRobuxHexIconV2
-EnableRoundCornerShading
 EnableSafeUpdateBeta
 EnableScriptCollabByDefaultOnLoad
 EnableScriptCollabOnLoad
@@ -8969,9 +8966,8 @@ EnableToolboxPluginInsertion
 EnableToolboxVideos
 EnableToolboxVoteFix
 EnableTrackingAccessoryDestoyedWithLiveSignals
-EnableUICornerBeta
-EnableUICornerBetaFeature
 EnableUniversalAppUserAgentOnMacAndWin32
+EnableUsersEndpoint
 EnableVertexAttribArray
 EnableVulkanScissor
 Encipherment
@@ -9717,7 +9713,6 @@ FirstTimeOpenLocation
 FirstTimePopUpQuickView
 FitWithinMaxSize
 FixActivatedEventDoubleFire
-FixAnalyticsServiceSetApiKey
 FixBallRaycasts
 FixBoundSocket
 FixCaseSensitiveAssetNames
@@ -10225,6 +10220,7 @@ GameLoadToGameJoinTime_Country
 GameLoadToGameJoinTime_Country_
 GameLocale
 GameLocaleId
+GameLocaleIdInternalOverridesForceGameLocaleId
 GameLocaleIdName
 GameLocalizationTable.csv
 GameManagementBetaFeature
@@ -10817,7 +10813,6 @@ GetPlayerPlaceInstanceAsync
 GetPlayers
 GetPlayFabTitleFromServiceRetryBackOffMiliSeconds
 GetPlayFabTitleFromServiceRetryTimes
-GetPlayFabTitleFromServiceRolloutPercentage
 GetPlayingAnimationTracks
 GetPointBalance
 GetPointCoordinates
@@ -11312,7 +11307,6 @@ GroupTeleportLog
 GroupTeleportStarted
 GroupTeleportSuccess
 GroupTime.Sum.toFixed
-GsaCExjqgrhmfntI7jfgx8
 GSSolverActive
 GSSS466FSSS455
 GTInfluxDB
@@ -11505,7 +11499,6 @@ HelpWindow
 HelpWindow.style[
 HHAEBVQModelIndex
 HHHHHAEBVQString
-HhjAXkqBJtL10V6wEaI28zgdoz9dPpiE5uElXR8oc624cdpye806j
 HHPEAVQObject
 HHTT\AKKKKTYWAH
 HHUQPrivateSignal
@@ -11638,6 +11631,7 @@ HPEBVQMimeData
 HQEAPEAVQGraphicsItem
 HQFSShadowed
 HQFSShadowedFSM
+Hqrmt2wuTUlXeUQb5N1cLRg
 HQVSShadowed
 HQVSShadowedFSM
 HtmlEscaped
@@ -11835,6 +11829,9 @@ HttpUseContentCacheFlag3
 HttpUseMinGzip
 HttpUserId
 HttpUtilities
+HttpUtilitiesDefaultRetryInitialDelayInMs
+HttpUtilitiesDefaultRetryMultiplierTimes1000
+HttpUtilitiesDefaultRetryTimes
 HttpUtilitiesDummyObject
 HuaTianKaiTi
 HuaTianSongTi
@@ -11889,12 +11886,14 @@ HW4Initialization
 HW4MatchType
 HW4Orientation
 HW4PacketPriority
-HWGRGw6RlvKWjCcT9u2dO7OKRdgfBn
+HwHSv3oi0wJw5APveZuLCxA32JFjhoIo7iSnsvDS
+HWK5kucKathJJgvZGSeSsYFvbdH2OoaLIKgsplLWIcISOigdR2mEXxIk3zu44TBd
 HwngSmldAskhBcraMaweNegsOgnaT
 HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdnaNpnmHohcWsrhCkaiDstiKizeY
 HWYGOTH.ttf
 HybridEvent
 HyIyPyVy]y^yey
+HZHSvgCmApqmxcOB1gVt3p5g9pMn5hqsk17s34NSL8z3E
 Iacutesmall
 IAutocompleter
 IBusyStateModel
@@ -12485,7 +12484,6 @@ IRobloxMainWindow
 Is30FpsThrottleEnabled
 IsActivated
 IsActivatedWithExclusiveMouse
-IsAnalyticsServiceAutoCreated
 IsAncestorOf
 ISandboxLocalCache
 IsAnimationAssetUploadEnabled
@@ -12524,6 +12522,7 @@ IsHighlightedAsError
 IsHighlightedByDebugger
 IsImageModelAssetUploadEnabled
 IsInsertWidget
+IsKQPlGZfaDlumqRt
 Islandizer
 IsLuaChatEnabled
 IsLuaGameDetailsEnabled
@@ -12728,7 +12727,7 @@ JointStepParallelBatchSize
 JointTime_TextureCooldown
 JointToolHelpDialogVerb
 JPEBUSG_INDEX_TRIANGLE
-Js5yDzqD8TiF0Dh
+Js9bJr3ZlyklIeWnQAIE3YXAgCOjEgae00IfFRANR3GRdbVw
 JSON.parse
 JSON.stringify
 JSON_Parser
@@ -13513,6 +13512,7 @@ Luau.TypeChecking.ICE
 Luau.TypeChecking.W
 LuauCheckRecursionLimit
 LuauEnableAsKeyword
+LuauExtraAccurateRobloxTypes
 LuauMagicFormat
 LuauOsTimeUTC
 LuauParserEnableTypeGroup
@@ -13521,6 +13521,7 @@ LuauParserWarnOnFatArrow
 LuauRecursionLimit
 LuauResolveModulesWithBfs
 LuauScriptTextProvider
+LuauSetmetatableUseMetatableField
 LuauTypeInferRecursionLimit
 LuauTypeInferTypePackLoopLimit
 LuauUseClassesForRobloxApi
@@ -13569,6 +13570,7 @@ MapBufferRange
 MapLocalhostTo127Address
 MapMouseButton
 MappingScheme
+MApTOCfu2QjqD27Kjx8Rpgk2gc3JxtFTfX4DQKR
 MapViewOfFile
 MapVirtualKeyW
 MarginBottom
@@ -14180,7 +14182,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAlqqiD7QtJNEaP5VobxUw1bH
+MIICCgKCAgEA1EXd4ftbtNqR6
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14525,6 +14527,7 @@ MultTransposeMatrixd
 MultTransposeMatrixf
 MusicalInstruments
 MutexLifetime
+MvCJpyGExAzaCJ9UT0xdXib5GZmXbuQQg
 MW4PartMaterial
 MyModelsAction
 MyWatchTreeWidget
@@ -14718,7 +14721,7 @@ NewDevConsoleMaxHttpCount
 NewDevConsoleMaxLogCount
 NewDraftAdded
 NewEnrollmentsFromFuture
-NewFastClusterImplementation2
+NewFastClusterImplementation3
 NewFeatureAlert
 NewFeatureAlert.qml
 NewFeatureAlert_
@@ -14775,7 +14778,6 @@ NextTabPage
 NfXf`fhfzf
 NHVVariant
 NinjaMask.mesh
-NKbvRDC0DL03
 NNNNNNNNNNNNNNNNNNNNNN
 NNNNNNNSSSSSSSSSSSSSSSSSSSSSS
 NNW4SizeMode
@@ -14978,7 +14980,6 @@ ObjectWindow.qmlGetFFlagStudioInsertObjectStreamliningv2_Consolidated
 ObjectWindowExpandedView
 ObjectWithIface7
 ObscuredBy
-OBXjwc8GVgL8HyDORsTc8XDaetYrH18HMxh0TvrStKR
 OccludeAll
 OccupancyDebugFS
 Ocircumflex
@@ -15012,7 +15013,6 @@ OCSPResponse
 OCSPSigning
 OCTETSTRING
 Odieresissmall
-OectPs1SDKwLsnC2fTbQIaqL7DEm7J0iRPmuxxveg9va
 OfA9HPuHfA9H`uAfA9Hpu
 OfAdmissions
 OfApproval
@@ -15092,7 +15092,7 @@ OnlyLoginItems
 OnlyReadPlayerOsOnServer
 OnlyRemoveSoundParseErrorsThatAreReported
 OnlyStartPageItems
-OnlyUpdateSoundChannelsThatNeedUpdate
+OnlyUpdateSoundChannelsThatHaveValidPlayingChannel
 OnlyWhitelistedPluginsInStudio
 OnMousePart
 OnNewConnection
@@ -15210,7 +15210,6 @@ OptionsMenu
 OptionState
 OPUS_ARCHMASK
 OpusCustomMode
-OPxhhvk5RGiw062xuh4BozoIOBCZFlpCJM8vyOwrLS3
 OrCharacter
 OrCreateFileSyncItemClient
 OrderArray
@@ -15357,6 +15356,7 @@ OverrideToMyBranch
 OverwriteMode
 OverwritePublish
 OwnProperty
+OXyo63RdEI39NsqiFVJq0oMMVlKm7yI6jsmUi
 Ozs8xYCf2Q05p4gHyX
 PA^A]A\_^]
 PA^A]A\_^][
@@ -17732,6 +17732,7 @@ QListWidget
 QListWidgetItem
 QLocalServer
 QLocalSocket
+Qm30uDwazgVzff
 QMainWindow
 QMapDataBase
 QMapNodeBase
@@ -17739,6 +17740,7 @@ QMessageBox
 QMessageLogger
 QMetaMethod
 QMetaObject
+QmJDFK945ISBVdCgeggXaqzKtAyja
 Qml2Imports
 QModelIndex
 QMouseEvent
@@ -17833,7 +17835,6 @@ QStyleOptionViewItem
 QSurfaceFormat
 QSyntaxHighlighter
 QSystemSemaphore
-QSzI99UFh4d7
 Qt.ArrowCursor
 Qt.createComponent
 Qt.NoButton
@@ -18813,6 +18814,7 @@ ReportCoalescingStats
 ReportCollisionDetectionTime
 ReportCounter
 ReportCSGLODAdoptionStats
+ReportCSGMeshVersionOnce
 ReportDataStoreErrorCases
 ReportDevConsoleOpenClose
 ReportDeviceInfoRate
@@ -19402,7 +19404,6 @@ RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS_mgf1
 RSAPrivateKey
 RSAPublicKey
-RSFthM8rRTbGnQEcyDEZE0xPaUfWzQPiMn4Tq8yCFZ
 RTDynamicCast
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -20520,7 +20521,6 @@ SkylightRGBA
 SkyLinearFS
 SkyVertex2
 SleepConditionVariableCS
-SLhbbdw1MG6euAZ7lT
 SliceCenter
 SliceScale
 SliderChanged
@@ -21005,6 +21005,7 @@ StatsSender
 StatsService
 Status_new
 StatusAdded
+StatusBarProject
 StatusBarSize
 StatusBarTapped
 StatusCallback
@@ -21273,8 +21274,6 @@ Studio.App.BetaFeatures.SupportPluginDebuggingTitle
 Studio.App.BetaFeatures.TexturePacksDescription
 Studio.App.BetaFeatures.TexturePacksTitle
 Studio.App.BetaFeatures.TryCoolFeaturesWithWarning
-Studio.App.BetaFeatures.UICornerDescription
-Studio.App.BetaFeatures.UICornerTitle
 Studio.App.BreakpointConditionEditDialog.BreakpointCondition
 Studio.App.BreakpointConditionEditDialog.Condition
 Studio.App.Breakpoints.DeleteAllBreakpoints
@@ -22939,6 +22938,7 @@ StudioClose.Start
 StudioCLoseDeletedScriptOnDraftDeletion
 StudioCloudEditController_Dtor_CrashFix
 StudioCloudEditLoadCreatorId
+StudioCloudEditLogGameId
 StudioCollectGPUInfo
 StudioColorVerb
 StudioCommandBarLocalState
@@ -23412,6 +23412,7 @@ StudioUserNotificationPath
 StudioUserNotificationReconnectTimerIncrementMs
 StudioUserNotificationTopSubdomain
 StudioUserPreferences
+StudioUseStudioHttpRequestInUserDataStoreService
 StudioUtilities
 StudioVerbInvocation
 StudioVersionControlAlpha
@@ -23775,6 +23776,10 @@ TeleportGameFull
 TeleportGameNotFound
 TeleportGroupMapUseGuid
 TeleportGuid
+TeleportHttpError_429
+TeleportHttpError_500
+TeleportHttpError_Untracked
+TeleportHttpErrorCounter
 Teleporting
 TeleportInitFailed
 TeleportInitFailedEvent
@@ -24431,6 +24436,7 @@ TLS_SRP_SHA_WITH_AES_128_CBC_SHA
 TLS_SRP_SHA_WITH_AES_256_CBC_SHA
 TlsGetValue
 TlsSetValue
+TlsVerificationFail
 Tmap_traits
 TMxQPxAA13
 ToArtistIntentAssetMigratorEnabled
@@ -24867,6 +24873,7 @@ TypeOutboundSubtotal
 Typesetter
 TypeToImport
 Typewriter
+TYX3OPOsa5zFuIS2E4qOMQI
 U_ContinuationTaskHandleBase
 U_ExceptionHolder
 U_Key_dn.png
@@ -25044,9 +25051,6 @@ UIAspectRatioConstraint
 UIAxWinAmbientDispatchEx
 UIComponent
 UIConstraint
-UICornerBetaFeatureRoleSet
-UICornerBetaFeatureUrl
-UICornerEnabled
 UID0UpdatedFromSolver
 UIEditor.rbxm
 UIEditor.rbxm_RobloxUIEditor
@@ -25293,7 +25297,6 @@ UntranslatedStringsHeader
 UntranslatedStringsHeaderAction
 Unull_deleter
 Unverified
-UostPPjMVSC4G
 Up_key.png
 Up_key_dn.png
 UPackageAssetData
@@ -25402,6 +25405,7 @@ URawUntranslatedEntry
 UReplicatorPeerInfo
 UResponseError
 UResultDetail
+URetryBehavior
 URLConstructionCleanup
 UrlFormattingOption
 URLHasChineseHost
@@ -25517,6 +25521,8 @@ UserHeadshotUrl
 UserHttpRequestsPerMinuteLimit
 UserHttpRequestsPerMinuteLimitM
 UserHttpRequestsPerMinuteLimitZ
+UserIdNameMapping
+UserIdToQueue
 UserInputProfile
 UserInputSerice.IsMouseButtonPressed
 UserInputService
@@ -25528,6 +25534,7 @@ UsernameAndPasswordError
 UsernameError
 UsernameOrPassword
 UsernamePasswordRequired
+UserNameToQueue
 UserNavigationClickToMoveSkipPassedWaypoints
 UserNotFound
 USERNOTICE
@@ -25604,6 +25611,7 @@ UStandardOutMessage
 UStartGameStatistics
 UStatistics
 Usteady_clock
+UStudioHttpRequestShareable
 USVATAUAVAWH
 USVATAVAWH
 USVAUAVAWH
@@ -26291,6 +26299,7 @@ VideoTexture
 VideoTimeOffsetToVideoPTSMs
 VideoTrace
 VideoUISupport
+VideoUseSoundOutputClass
 VIdSerializer
 VIEW_GAME_DETAILS
 VIEW_GAME_DETAILS_ANIMATED
@@ -27278,7 +27287,6 @@ WSAStartup
 WSAStringToAddressW
 WTHelperGetProvSignerFromChain
 WTHelperProvDataFromStateData
-WwjgXyeegA7yph
 WWWWWWWWWW
 WWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWW
@@ -27295,16 +27303,19 @@ XA_A^A]A\_^[]
 XA_A^A]A\_^[]H
 XA_A^A]A\_^]
 XA_A^A]A\_^][
+Xa0Z7eMm2aYf1b3fhq
 XAEAVFormatUpdater
 XAEAVGraph
 XAEAVHttpClient
 XAEAVInvocation
 XAEAVNetworkStream
 XAEAW4AssetType
+XAEBUHttpResponseProxy
 XAEBUPlaceLauncherRequestInfo
 XAEBVBetaFeatureStruct
 XAEBVerror_code
 XAEBVexception
+XAEBVHttpError
 XAEBVQJsonObject
 XAEBVQString
 XAEBVvalue
@@ -27328,7 +27339,7 @@ XboxPresencePolling
 XboxSaleAvatarPackageIds
 XboxUseCuratedGameSort2
 XboxUseNewValidUsernameCheck2
-XDcRPEFaMeGYG8
+XcY438E7fSGfkXAYo
 XFbxAMatrix
 XFREE86_GLYPH_RANGES
 XGetLastError
@@ -27503,17 +27514,19 @@ YAXW4error_type
 Ycircumflex
 Ydieresissmall
 YDYHYQYTYbYsY
+YeYpjNHS0my
 YffYZefYDNNDCOO
 YieldEvent
 YieldFuncDesc
 YieldFunction
-YPccq64Qqm4W49FrfarhpE3Z5mKiwHoT3FR3RKIse3oSoVPxPqWd4uu9rgHvzoh
+YJvt5CrmcgJ6lBECAwEAAQ
 YQByteArray
 YResolution
 YwBBvY55YvBBwY5
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
 Zcaronsmall
+ZchDlh3ho2SBcwUFgBLyiE0cgR79B
 Zdotaccent
 ZgnhKhWhci
 ZhniZzzzZbarAnmrAgneBlryCaveDroeGkerGrjuGuruGgnaHinaHrbeHariHadnKanaKooaLntaLmylMayrOlmaTuleTiahTtbiTopoBiarBsnaCrehCihtErmhKgnoMrmyMmagOrnuRhniScrySaahTiiiYtrsDhtoGlatIdhuBonaHglgTbgaTtrpCbmiLbniLamsOwahSelaTragUiguBtpoCgalGrahKulaToepXolySgnfTilaBxusXookNga
