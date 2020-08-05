@@ -4483,7 +4483,6 @@ BoxHandleAdornment
 BoxMappedMeshLODFix_v2
 BoxSelectCommand
 BPEAUIUnknown
-BpG7ICPNkH
 BPuVfD9B`uOfD9BpuH
 BQByteArray
 BQJsonValueRef
@@ -4570,6 +4569,7 @@ BrowserWindow
 BrowserWindowClosed
 BrowserWindowWillNavigate
 BrushStyle
+BsTsKeIMSoYUpT678WW5jFjUrkiL4LuDoVsF0ZKz8eYfHLNR1MCAwEAAQ
 BtnBackground.png
 BtYovqVKoHMDMoDd0u9Mc5CIyRqyu0IGS99A0jeEXRj7aofQ
 BU_Simplex1to4
@@ -4668,7 +4668,6 @@ BVTextureId
 BW4AlphaMode
 BW4ModelLevelOfDetail
 BWGradient.png
-BwuakF5hMUgYSTr7BCR0wUk7
 ByCongestionControl
 ByDatacenter_
 ByIPForDatacenterId_
@@ -4680,7 +4679,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.443.0.409539
+ByVersion_0.443.0.409558
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -5525,11 +5524,10 @@ CloudEditApplyEditsMessage
 CloudEditAwaitingShutdown
 CloudEditCameraCoordinateFrame
 CloudEditChatNotifications
-CloudEditConnectionAborted
-CloudEditConnectionCancelled
 CloudEditConnectionClosed
 CloudEditConnectionEstablished
 CloudEditConnectionModel
+CloudEditConnectionStatusChanged
 CloudEditController
 CloudEditGARespectsThrottling
 CloudEditKey
@@ -7036,6 +7034,7 @@ CustomSort
 CustomStatusAdded
 CustomStatusRemoved
 CustomToolButton
+CUU5TcAyazZ48chqQ
 CWindowImpl
 CWindowImplBaseT
 CWindowImplRoot
@@ -7718,6 +7717,9 @@ DEPRECATED_isActive
 DEPRECATED_LinkEnabledPlainTextEdit
 DEPRECATED_newOutputMessage
 DEPRECATED_onAcceptGameNotPublishedDialog
+DEPRECATED_onCloudEditConnectionAborted
+DEPRECATED_onCloudEditConnectionCancelled
+DEPRECATED_onCloudEditConnectionEstablished
 DEPRECATED_onDialogAccepted
 DEPRECATED_onDismissGameNotPublishedDialog
 DEPRECATED_onLoggedOut
@@ -8654,6 +8656,7 @@ ECPKParameters_print_fp
 ECPrivateKey
 ECPublicKey
 Ecrypto\bn\bn_prime.c
+ECZItYmrTUrTZuBggxOpyChKJH
 ED23AAF011E38B9D871882A8E559
 ED24AAF011E38B9D871882A8E559
 ED27AAF011E38B9D871882A8E559
@@ -8756,7 +8759,6 @@ EHcUgHc]oL
 EHERE\EfEpEzE
 EJJJJJJJJJJJJJJJJJJJJ
 EJTU\^bcfguw
-EKm5PY8JTdYoX70md8QVqXATr07YzShl0Etm
 ElapsedSeconds
 ElapsedTime
 ElasticBehavior
@@ -8928,7 +8930,7 @@ EnablePerfDataCollection
 EnablePerfDataMemoryCollection
 EnablePerfDataTimerCollection
 EnablePerFrameSampling
-EnablePerfStatsCollection
+EnablePerfStatsCollection2
 EnablePhysicsSleepBehaviorImprovements
 EnablePlayFabBatchEventCompression
 EnablePlugin
@@ -9497,7 +9499,6 @@ FDA6E1EA211E49FA6F7D125AE5309
 FDA6F1EA211E49FA6F7D125AE5309
 FDE5E01E7934
 Fdossl_static.pdb
-FdZB5zkUONwQaQmYJDE
 Feature_AppBridgeRewrite
 Feature_UniversalStartup
 FeatureAlert
@@ -10313,7 +10314,6 @@ GAThrottlingEventThresholdHundredthCat2
 GAThrottlingEventThresholdHundredthCat3
 GazeSelectionEnabled
 GCDistance
-GCE4ir37xPanRryqT
 GCHappened
 Gcircumflex
 GCMinimumDeletionRateForNonZeroClientInstanceQuota
@@ -11312,6 +11312,7 @@ GroupTeleportLog
 GroupTeleportStarted
 GroupTeleportSuccess
 GroupTime.Sum.toFixed
+GsaCExjqgrhmfntI7jfgx8
 GSSolverActive
 GSSS466FSSS455
 GTInfluxDB
@@ -11504,6 +11505,7 @@ HelpWindow
 HelpWindow.style[
 HHAEBVQModelIndex
 HHHHHAEBVQString
+HhjAXkqBJtL10V6wEaI28zgdoz9dPpiE5uElXR8oc624cdpye806j
 HHPEAVQObject
 HHTT\AKKKKTYWAH
 HHUQPrivateSignal
@@ -11584,7 +11586,6 @@ HKEY_PERFORMANCE_DATA
 HKEY_PERFORMANCE_NLSTEXT
 HKEY_PERFORMANCE_TEXT
 HMACGostR3411
-HnL43CTnOqyAoTbDLW9U9MmQa8Wx9TinONV
 HomePageLoaded
 HopperPanel.png
 Horizontal
@@ -11888,6 +11889,7 @@ HW4Initialization
 HW4MatchType
 HW4Orientation
 HW4PacketPriority
+HWGRGw6RlvKWjCcT9u2dO7OKRdgfBn
 HwngSmldAskhBcraMaweNegsOgnaT
 HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdnaNpnmHohcWsrhCkaiDstiKizeY
 HWYGOTH.ttf
@@ -12726,6 +12728,7 @@ JointStepParallelBatchSize
 JointTime_TextureCooldown
 JointToolHelpDialogVerb
 JPEBUSG_INDEX_TRIANGLE
+Js5yDzqD8TiF0Dh
 JSON.parse
 JSON.stringify
 JSON_Parser
@@ -14002,6 +14005,7 @@ MegaReplicatorDisconnectSwapAndPop
 MegaReplicatorDisconnectTaskBatchSize
 MegaReplicatorNonPlayerDODInfluxPermyriad2
 MegaReplicatorSharedReplicationMarkers
+MegaReplicatorUseMarkDeadHelper
 MegaReplicatorWorldExtentsRefreshTime
 MegaRepOnlyClearWhenNewlyAlive
 MeleeWeapons
@@ -14176,7 +14180,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEA66pIKdxZ8sWX8BNEwhurpmqJc7N6y8cCuE36S3xbl3Nd835dIhyJ
+MIICCgKCAgEAlqqiD7QtJNEaP5VobxUw1bH
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14771,6 +14775,7 @@ NextTabPage
 NfXf`fhfzf
 NHVVariant
 NinjaMask.mesh
+NKbvRDC0DL03
 NNNNNNNNNNNNNNNNNNNNNN
 NNNNNNNSSSSSSSSSSSSSSSSSSSSSS
 NNW4SizeMode
@@ -14973,6 +14978,7 @@ ObjectWindow.qmlGetFFlagStudioInsertObjectStreamliningv2_Consolidated
 ObjectWindowExpandedView
 ObjectWithIface7
 ObscuredBy
+OBXjwc8GVgL8HyDORsTc8XDaetYrH18HMxh0TvrStKR
 OccludeAll
 OccupancyDebugFS
 Ocircumflex
@@ -15006,6 +15012,7 @@ OCSPResponse
 OCSPSigning
 OCTETSTRING
 Odieresissmall
+OectPs1SDKwLsnC2fTbQIaqL7DEm7J0iRPmuxxveg9va
 OfA9HPuHfA9H`uAfA9Hpu
 OfAdmissions
 OfApproval
@@ -15048,7 +15055,6 @@ OgreWidgetShowEvent
 Oh44\h44\Q
 Ohungarumlaut
 OiCCPPhotoshop
-OIlIZPbk1O77xEmuYCNb0Q0qHBUeVqMtNQE7FwAnJpbD5XuYQYDifUt1YaT7EqTI
 OldActiveElement
 OldMessagesFetched
 OldServers
@@ -15121,6 +15127,7 @@ OnUserABTestLoadingStatusChanged
 OOOOOOOOOOOOOOOOOOOOOOOO
 OpacityMask
 OpaqueUseMaterialAndDistanceSort
+OpaqueWithAlphaDepthPass
 OPEN_BUILDERS_CLUB
 OPEN_CAPTCHA_VIEW
 OPEN_CUSTOM_WEBVIEW
@@ -15203,6 +15210,7 @@ OptionsMenu
 OptionState
 OPUS_ARCHMASK
 OpusCustomMode
+OPxhhvk5RGiw062xuh4BozoIOBCZFlpCJM8vyOwrLS3
 OrCharacter
 OrCreateFileSyncItemClient
 OrderArray
@@ -17825,6 +17833,7 @@ QStyleOptionViewItem
 QSurfaceFormat
 QSyntaxHighlighter
 QSystemSemaphore
+QSzI99UFh4d7
 Qt.ArrowCursor
 Qt.createComponent
 Qt.NoButton
@@ -17867,7 +17876,6 @@ QTextStream
 QTextTable
 QTextTableCell
 QTextTableFormat
-QtFguBn1S6LK57e
 QtGraphicalEffects
 QThreadPool
 QThreadStorage
@@ -19187,7 +19195,6 @@ RigidBodyLazyUpdating
 RigidityEnabled
 RiseVelocity
 Rj0isQcnqX
-RLmH9zZ4p7fsedDCW8ZFRQvbIHB8fHnUZDbX6r57ZkYUD3y3Ct
 Roact.createElement
 ROBLOSECURITY
 Roblox.Hybrid
@@ -19395,6 +19402,7 @@ RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS_mgf1
 RSAPrivateKey
 RSAPublicKey
+RSFthM8rRTbGnQEcyDEZE0xPaUfWzQPiMn4Tq8yCFZ
 RTDynamicCast
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -20512,6 +20520,7 @@ SkylightRGBA
 SkyLinearFS
 SkyVertex2
 SleepConditionVariableCS
+SLhbbdw1MG6euAZ7lT
 SliceCenter
 SliceScale
 SliderChanged
@@ -23226,6 +23235,7 @@ StudioQuickOpenReopenShowHistory
 StudioQuickOpenSelectFirstByDefault
 StudioRecentActionCacheSize
 StudioRecoveryWidgetDuplicatedEntry
+StudioRefactorTCConnectionDialog
 StudioRemoveDebuggerLegacyLock4
 StudioRemoveExtraFindAction
 StudioRemoveObjectBrowserUI
@@ -25080,7 +25090,6 @@ UINT64_MAX
 UInt8Vector
 UIntVector
 UINumTicks
-UiOT29eR8RxKPyQEC1sN8cq2OTCgZ870tlDjkxTVzsF
 UIPageLayout
 UIQuadTree
 UIQuadTreeCellAreaMin
@@ -25284,6 +25293,7 @@ UntranslatedStringsHeader
 UntranslatedStringsHeaderAction
 Unull_deleter
 Unverified
+UostPPjMVSC4G
 Up_key.png
 Up_key_dn.png
 UPackageAssetData
@@ -25668,7 +25678,6 @@ UWindowShowMessageNotification
 UWindowShowMessageRequest
 UWindowShowMessageResponse
 UXImprovementsFixEscKeyClosing
-UXkOPfRwqbHXzvANFwUPjhVgFovxnxyXztUTtOkGNVx8EmOtPvh3Ss
 V_http_request
 V_http_response
 VABTestEnrollmentsRequest
@@ -26188,7 +26197,6 @@ VGuiObject
 VGUIObject
 VGuiService
 VGuiTextButton
-VGWADjHgJxC4BvnSvn
 VHammerTool
 VHandleAdornment
 VHandlesBase
@@ -26631,7 +26639,6 @@ VResponseMessage
 VResultEmitter
 VReverbSoundEffect
 VRevoluteLink
-Vrfv3fvbHHk
 VRightMotorTool
 VRobloxChatWidget
 VRobloxDisabledChatWidget
@@ -26899,7 +26906,6 @@ VWebSocketCurl
 VWeldConstraint
 Vwin_iocp_io_service
 Vwinhttp_client
-VwODbUEN8G7
 Vwork_io_service_runner
 VWorkspace
 VWorldModel
@@ -27272,6 +27278,7 @@ WSAStartup
 WSAStringToAddressW
 WTHelperGetProvSignerFromChain
 WTHelperProvDataFromStateData
+WwjgXyeegA7yph
 WWWWWWWWWW
 WWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWW
@@ -27321,6 +27328,7 @@ XboxPresencePolling
 XboxSaleAvatarPackageIds
 XboxUseCuratedGameSort2
 XboxUseNewValidUsernameCheck2
+XDcRPEFaMeGYG8
 XFbxAMatrix
 XFREE86_GLYPH_RANGES
 XGetLastError
@@ -27499,11 +27507,10 @@ YffYZefYDNNDCOO
 YieldEvent
 YieldFuncDesc
 YieldFunction
+YPccq64Qqm4W49FrfarhpE3Z5mKiwHoT3FR3RKIse3oSoVPxPqWd4uu9rgHvzoh
 YQByteArray
 YResolution
-YRZQfLOyYIXwC2viBGt4OHaOUxGbjYyNin2sPVYjDZm6IlT1B
 YwBBvY55YvBBwY5
-YYpBoHLV4cCAwEAAQ
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
 Zcaronsmall
@@ -27521,7 +27528,6 @@ ZoomToHighlight
 ZP6APEAX1PEBX
 ZP6AX1PEAX
 ZPEAVRBXMessageBox
-ZpzK48BbCoAUyvnutro6EVHzXo77eBhFYEwX1Lslix6iOk2eTOG2VATNMhxqrics
 ZRZZZbZt[.[
 ZVspecial_equipped_signal
 ZVTouchedSignal
