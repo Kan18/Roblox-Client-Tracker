@@ -25,7 +25,7 @@ dependencies = [
     "PolicyProvider roblox/policy-provider fe7d3d84 git+https://github.rbx.com/roblox/lua-roact-policy-provider#master",
     "PremiumUpsellDeps PremiumUpsellDeps c51030b7 git+https://github.com/roblox/premium-upsell-deps#master",
     "Promise lua-promise bbb9e162 git+https://github.rbx.com/roblox/lua-promise#master",
-    "PurchasePrompt roblox/purchase-prompt 37ce96bb git+https://github.com/roblox/purchasepromptscript-roact#master",
+    "PurchasePrompt roblox/purchase-prompt 7bd4a456 git+https://github.com/roblox/purchasepromptscript-roact#master",
     "Result roblox/lua-result c6817c84 git+https://github.rbx.com/roblox/lua-result#master",
     "Rhodium roblox/rhodium 0.2.5 url+https://github.com/roblox/rhodium",
     "Roact roblox/roact 1.3.0 url+https://github.com/roblox/roact",
@@ -234,7 +234,7 @@ dependencies = [
 [[package]]
 name = "roblox/purchase-prompt"
 version = "0.1.6"
-commit = "37ce96bb5bc75778567ebabe660c2326eeb73e61"
+commit = "7bd4a456db33b198b665328be5f7b427b5f6d1d8"
 source = "git+https://github.com/roblox/purchasepromptscript-roact#master"
 dependencies = [
     "Cryo roblox/cryo 1.0.0 url+https://github.com/roblox/cryo",
