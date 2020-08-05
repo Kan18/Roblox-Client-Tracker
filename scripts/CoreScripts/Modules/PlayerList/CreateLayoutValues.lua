@@ -76,6 +76,7 @@ return function(isTenFoot, isSmallTouchScreen)
 		LayoutValues.PlayerIconSize = UDim2.new(0, 64, 0, 64)
 		LayoutValues.InitalPlayerEntryPadding = 18
 		LayoutValues.PlayerEntryPadding = 8
+		LayoutValues.PlayerEntryNamePadding = 8
 		LayoutValues.TeamEntryTextPadding = 5
 		LayoutValues.StatTextPadding =0
 
@@ -117,6 +118,7 @@ return function(isTenFoot, isSmallTouchScreen)
 		LayoutValues.PlayerIconSize = UDim2.new(0, 16, 0, 16)
 		LayoutValues.InitalPlayerEntryPadding = 12
 		LayoutValues.PlayerEntryPadding = 12
+		LayoutValues.PlayerEntryNamePadding = 4
 		LayoutValues.TeamEntryTextPadding = 15
 		LayoutValues.StatTextPadding = 4
 

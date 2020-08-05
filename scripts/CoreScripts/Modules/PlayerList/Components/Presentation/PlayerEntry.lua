@@ -1,5 +1,6 @@
 local CorePackages = game:GetService("CorePackages")
 local Players = game:GetService("Players")
+local CoreGui = game:GetService("CoreGui")
 
 local Roact = require(CorePackages.Roact)
 local RoactRodux = require(CorePackages.RoactRodux)
@@ -23,6 +24,8 @@ local PlayerList = Components.Parent
 local ClosePlayerDropDown = require(PlayerList.Actions.ClosePlayerDropDown)
 local OpenPlayerDropDown = require(PlayerList.Actions.OpenPlayerDropDown)
 
+local RobloxGui = CoreGui:WaitForChild("RobloxGui")
+local FFlagPlayerListFormattingUpdates = require(RobloxGui.Modules.Flags.FFlagPlayerListFormattingUpdates)
 local FFlagFixLeaderboardWaitingOnScreenSize = require(PlayerList.Flags.FFlagFixLeaderboardWaitingOnScreenSize)
 
 local PlayerEntry = Roact.PureComponent:extend("PlayerEntry")
@@ -189,11 +192,13 @@ function PlayerEntry:getPlayerNameFont(layoutValues, style)
 			return {
 				Font = layoutValues.TitlePlayerEntryFont,
 				Size = layoutValues.PlayerNameTextSize,
+				MinSize = layoutValues.PlayerNameTextSize,
 			}
 		end
 		return {
 			Font = layoutValues.PlayerEntryFont,
 			Size = layoutValues.PlayerNameTextSize,
+			MinSize = layoutValues.PlayerNameTextSize,
 		}
 	end
 
@@ -202,12 +207,14 @@ function PlayerEntry:getPlayerNameFont(layoutValues, style)
 		return {
 			Font = style.Font.CaptionHeader.Font,
 			Size = style.Font.CaptionHeader.RelativeSize * style.Font.BaseSize,
+			MinSize = style.Font.Footer.RelativeMinSize * style.Font.BaseSize,
 		}
 	end
 
 	return {
 		Font = style.Font.CaptionBody.Font,
 		Size = style.Font.CaptionBody.RelativeSize * style.Font.BaseSize,
+		MinSize = style.Font.Footer.RelativeMinSize * style.Font.BaseSize,
 	}
 end
 
@@ -275,7 +282,9 @@ function PlayerEntry:render()
 						SortOrder = Enum.SortOrder.LayoutOrder,
 						FillDirection = Enum.FillDirection.Horizontal,
 						VerticalAlignment = Enum.VerticalAlignment.Center,
-						Padding = UDim.new(0, layoutValues.PlayerEntryPadding)
+						Padding = UDim.new(0, FFlagPlayerListFormattingUpdates
+							and layoutValues.PlayerEntryNamePadding
+							or layoutValues.PlayerEntryPadding)
 					}),
 
 					InitalPadding = Roact.createElement("UIPadding", {

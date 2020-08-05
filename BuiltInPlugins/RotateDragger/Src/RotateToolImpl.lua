@@ -17,11 +17,14 @@ local Math = require(DraggerFramework.Utility.Math)
 local PartMover = require(DraggerFramework.Utility.PartMover)
 local StandaloneSelectionBox = require(DraggerFramework.Components.StandaloneSelectionBox)
 local getBoundingBoxScale = require(DraggerFramework.Utility.getBoundingBoxScale)
+local roundRotation = require(DraggerFramework.Utility.roundRotation)
 
 local RotateHandleView = require(Plugin.Src.RotateHandleView)
 
+local getFFlagRoundRotation = require(DraggerFramework.Flags.getFFlagRoundRotation)
 local getFFlagRotationTicks = require(DraggerFramework.Flags.getFFlagRotationTicks)
 local getFFlagFixIKRotateCFrameError = require(DraggerFramework.Flags.getFFlagFixIKRotateCFrameError)
+local getFFlagScaleDraggerPartBias = require(DraggerFramework.Flags.getFFlagScaleDraggerPartBias)
 
 -- The difference from exactly touching to try to bring the parts within when
 -- dragging parts into a colliding condition with Collisions enabled.
@@ -77,14 +80,18 @@ local function getRotationTransform(mainCFrame, axisVector, delta, rotateIncreme
 		-- thanks to the isRightAngle check, we can find the pure
 		-- permutation rotation matrix simply by rounding the rotation
 		-- matrix elements to the nearest integer.
-		local _, _, _,
-			r0, r1, r2,
-			r3, r4, r5,
-			r6, r7, r8 = rotationCFrame:components()
-		rotationCFrame = CFrame.new(0, 0, 0,
-			math.floor(r0 + 0.5), math.floor(r1 + 0.5), math.floor(r2 + 0.5),
-			math.floor(r3 + 0.5), math.floor(r4 + 0.5), math.floor(r5 + 0.5),
-			math.floor(r6 + 0.5), math.floor(r7 + 0.5), math.floor(r8 + 0.5))
+		if getFFlagRoundRotation() then
+			rotationCFrame = roundRotation(rotationCFrame)
+		else
+			local _, _, _,
+				r0, r1, r2,
+				r3, r4, r5,
+				r6, r7, r8 = rotationCFrame:components()
+			rotationCFrame = CFrame.new(0, 0, 0,
+				math.floor(r0 + 0.5), math.floor(r1 + 0.5), math.floor(r2 + 0.5),
+				math.floor(r3 + 0.5), math.floor(r4 + 0.5), math.floor(r5 + 0.5),
+				math.floor(r6 + 0.5), math.floor(r7 + 0.5), math.floor(r8 + 0.5))
+		end
 	end
 
 	-- Convert the rotation to a global space transformation
@@ -168,7 +175,13 @@ function RotateToolImpl:update(draggerToolState, derivedWorldState)
 	self:_updateHandles()
 end
 
-function RotateToolImpl:hitTest(mouseRay, handleScale)
+if getFFlagScaleDraggerPartBias() then
+	function RotateToolImpl:shouldBiasTowardsObjects()
+		return false
+	end
+end
+
+function RotateToolImpl:hitTest(mouseRay, ignoreExtraThreshold)
 	local closestHandleId, closestHandleDistance = nil, math.huge
 	for handleId, handleProps in pairs(self._handles) do
 		handleProps.Scale = self._scale
