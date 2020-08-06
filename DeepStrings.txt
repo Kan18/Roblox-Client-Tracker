@@ -2306,7 +2306,6 @@ AVGeometryVulkan
 AVGetAssetVersionNumberRequest
 AVGetDevForumPageRequest
 AVGetIsCurrentVersionTask
-AVGetLatestPlacePersistanceLocationForVersionRequest
 AVGettingUp
 AVGfxBinding
 AvgHttpApiCallsPerSecInClient
@@ -2816,6 +2815,7 @@ AVOutputBatchEventController
 AVOutputEmulated
 AVOutputFindSearchBar
 AVOutputRibbonDropdown
+AVOutputRibbonVerticalFilter
 AVOutputSoftware
 AVOutputTableHeader
 AVOutputWidgetRibbon
@@ -3281,7 +3281,6 @@ AVRotateJoint
 AVRotatePJoint
 AVRotateSelectionVerb
 AVRotateVJoint
-AVRQ7sBjteKrHB4MuPaNO76rjsBgo5
 AVRuiCheckBoxHeader
 AVRuiDialog
 AVRuiDialogButtonWatcher
@@ -4273,6 +4272,7 @@ BgUpdateRedirectsHttpErrInfluxHundredthsPercentage
 BgUpdateRedirectsRejectInfluxHundredthsPercentage
 BHHHHHHHHHHHHHHHHHHHHHHHHHH
 BhHlLjJTiIfdnczsxX
+Bhrb1mHyGgN
 BillboardGui
 BillboardGuiDistanceStepping2
 BinaryData
@@ -4681,7 +4681,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.443.0.409650
+ByVersion_0.444.0.409672
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -5033,7 +5033,6 @@ CFrame.new
 CFrameDecal
 CFrameOnly
 CFrameValue
-Cfw9DcngxbNx4WrDIH
 ChainCAFile
 ChainCAPath
 Chalkboard
@@ -7709,8 +7708,6 @@ DependentInsert
 DeprecatableBroadcasts
 Deprecated
 DEPRECATED_doCheck
-DEPRECATED_handlePersistanceRequestSuccess
-DEPRECATED_handleVersionRequestSuccess
 DEPRECATED_insertObjectClicked
 DEPRECATED_InsertObjectWidget
 DEPRECATED_isActive
@@ -9796,6 +9793,7 @@ FixUsingGameIdInsteadOfJobId
 FixWeldConstraintTeamCreateReplication
 FixZeroNormalInDecompositeGeometry
 FJFTF^FhFrF
+FK26SOAH2XVEGffvhnulMlTQiu3tgynxB2JGmP2RtqljPv7DeaSqR
 FlagCaptured
 FlagCreated
 FlagCursor.png
@@ -10680,7 +10678,6 @@ GetLastInputType
 GetLastPoseForTrackedDeviceIndex
 GetLatestAssetVersionAsync
 GetLatestAssetVersionErrors
-GetLatestPlacePersistanceLocationForVersionRequest
 GetLayerCount
 GetListener
 GetLocalPlayerTeleportData
@@ -11084,6 +11081,7 @@ GfxPartInvalidationLimitToTime2
 GGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GgxndSZlH6KfKNNKiXwIjUasXy8yYWsWykn6uuGNDmZpQlzaf5CB4bf2vNtvV3
 GIM_ShapeRetriever
 GImpactCollisionAlgorithm
 GImpactCompound
@@ -11631,7 +11629,6 @@ HPEBVQMimeData
 HQEAPEAVQGraphicsItem
 HQFSShadowed
 HQFSShadowedFSM
-Hqrmt2wuTUlXeUQb5N1cLRg
 HQVSShadowed
 HQVSShadowedFSM
 HtmlEscaped
@@ -11886,14 +11883,11 @@ HW4Initialization
 HW4MatchType
 HW4Orientation
 HW4PacketPriority
-HwHSv3oi0wJw5APveZuLCxA32JFjhoIo7iSnsvDS
-HWK5kucKathJJgvZGSeSsYFvbdH2OoaLIKgsplLWIcISOigdR2mEXxIk3zu44TBd
 HwngSmldAskhBcraMaweNegsOgnaT
 HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdnaNpnmHohcWsrhCkaiDstiKizeY
 HWYGOTH.ttf
 HybridEvent
 HyIyPyVy]y^yey
-HZHSvgCmApqmxcOB1gVt3p5g9pMn5hqsk17s34NSL8z3E
 Iacutesmall
 IAutocompleter
 IBusyStateModel
@@ -12003,6 +11997,7 @@ IID_IVPVBIConfig
 IID_IVPVBINotify
 IID_IVPVBIObject
 IIMAEBVInstanceIdentifier
+Ij1ZrpetbBE88VQTT
 IKCollisionsMode
 IkDragCollisionsMode
 IkDraggerAnchorMode
@@ -12522,7 +12517,6 @@ IsHighlightedAsError
 IsHighlightedByDebugger
 IsImageModelAssetUploadEnabled
 IsInsertWidget
-IsKQPlGZfaDlumqRt
 Islandizer
 IsLuaChatEnabled
 IsLuaGameDetailsEnabled
@@ -12644,6 +12638,7 @@ IVRScreenshots_001
 IVRSettings_002
 IVRSystem_017
 IVRTrackedCamera_003
+IWbTZX981ZtrDSx9R1SHNqIfxDOXD8g
 IWebBrowser2
 IWorldStage
 IXMLHTTPRequest2
@@ -12727,7 +12722,6 @@ JointStepParallelBatchSize
 JointTime_TextureCooldown
 JointToolHelpDialogVerb
 JPEBUSG_INDEX_TRIANGLE
-Js9bJr3ZlyklIeWnQAIE3YXAgCOjEgae00IfFRANR3GRdbVw
 JSON.parse
 JSON.stringify
 JSON_Parser
@@ -12750,6 +12744,7 @@ JumpScaresP2
 JumpToIndex
 JustEndedBusy
 JUUserNameResponseHandler
+JVtiqDmgh4
 JW4AppInstallType
 JW4FriendService_FriendStatus
 JW4HttpRequestResult
@@ -13393,6 +13388,7 @@ LowQMaterialFS
 LowQMaterialWangFallbackFS
 LowQMaterialWangFS
 LowResolution
+LpTF511F6dPnm8uG5
 Lslashsmall
 LSPManager
 LSPObservable
@@ -13570,7 +13566,6 @@ MapBufferRange
 MapLocalhostTo127Address
 MapMouseButton
 MappingScheme
-MApTOCfu2QjqD27Kjx8Rpgk2gc3JxtFTfX4DQKR
 MapViewOfFile
 MapVirtualKeyW
 MarginBottom
@@ -14120,7 +14115,9 @@ MessagesOnlyChanged
 MessagesReq
 MessageTextEdit
 MessageType
+MessageTypeAll
 MessageTypeDropdown
+MessageTypeLabel
 MessageWarning
 MessagingService
 MessagingServiceAnalysisJob
@@ -14182,7 +14179,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEA1EXd4ftbtNqR6
+MIICCgKCAgEAvfi3PTbWoTtvFgnk
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14527,7 +14524,6 @@ MultTransposeMatrixd
 MultTransposeMatrixf
 MusicalInstruments
 MutexLifetime
-MvCJpyGExAzaCJ9UT0xdXib5GZmXbuQQg
 MW4PartMaterial
 MyModelsAction
 MyWatchTreeWidget
@@ -14620,6 +14616,7 @@ NCONF_get_string
 NCONF_load
 NCONF_load_bio
 NCONF_load_fp
+NcUU1vN5fWaTeRDw9zz0H8
 NdnuScpeLkclOiiaVruaSilaKgnjRicyLiraCidyLmahCanaLtvaTtsvApygErmaSusiLumaBavaJietMimrAbraSitrPilhPhkrOihtKktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTzzzZssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
 NE9F0uHE9F4uBE9F8u
 NearIntensity
@@ -14867,6 +14864,7 @@ NPCsAction
 NPEAVInstance
 NPEAVQString
 NPEAVQWidget
+NruFIbMrex
 NSNNNNNNTNh0ii
 NSNNNNNNTNPVR
 NSNNNNNNTNPVV
@@ -15013,6 +15011,7 @@ OCSPResponse
 OCSPSigning
 OCTETSTRING
 Odieresissmall
+Oe0VgslR5LI
 OfA9HPuHfA9H`uAfA9Hpu
 OfAdmissions
 OfApproval
@@ -15316,6 +15315,7 @@ OutputFindSearchBar
 OutputInterface
 OutputLayoutMode
 OutputRibbonDropdown
+OutputRibbonVerticalFilter
 OutputSearchBar_ComboBox
 OutputSearchBar_FindLineEdit
 OutputSearchBar_MatchCaseButton
@@ -15356,7 +15356,6 @@ OverrideToMyBranch
 OverwriteMode
 OverwritePublish
 OwnProperty
-OXyo63RdEI39NsqiFVJq0oMMVlKm7yI6jsmUi
 Ozs8xYCf2Q05p4gHyX
 PA^A]A\_^]
 PA^A]A\_^][
@@ -17688,6 +17687,7 @@ QEntityType
 QEQMQTQdQgQhQiQmQwQ
 QEventLoop
 QeYuIZ19oaUCFnjkmV3u
+Qff3LYILd5HRJ2CR3f3FQ
 QFileDevice
 QFileDialog
 QFileSystemWatcher
@@ -17700,6 +17700,7 @@ QFutureInterface
 QFutureInterfaceBase
 QFutureWatcher
 QFutureWatcherBase
+Qg7vMhcPXX91aum2XBUj8yAy9ZJGRj1
 QGenericArgument
 QGenericReturnArgument
 QGraphicsDropShadowEffect
@@ -17710,6 +17711,7 @@ QGraphicsScene
 QGraphicsView
 QGridLayout
 QGuiApplication
+QH6bl7F25UYS9dFtkSjG4yovLD
 QHBoxLayout
 QHeaderView
 QHostAddress
@@ -17732,7 +17734,6 @@ QListWidget
 QListWidgetItem
 QLocalServer
 QLocalSocket
-Qm30uDwazgVzff
 QMainWindow
 QMapDataBase
 QMapNodeBase
@@ -17740,7 +17741,6 @@ QMessageBox
 QMessageLogger
 QMetaMethod
 QMetaObject
-QmJDFK945ISBVdCgeggXaqzKtAyja
 Qml2Imports
 QModelIndex
 QMouseEvent
@@ -19446,6 +19446,7 @@ RVideoInternal
 RVideoMemLogging
 RVideoTrace
 RxRlReport
+RyFiNSSYgerTeYghCdv2qFCCI0L9LldybNfeIb5y6Urp1pOP4k0ENcdDtXW9VOtY
 S_Key_dn.png
 SA_KPEAPEBV123
 SA_KPEAPEBVfacet
@@ -19596,6 +19597,7 @@ ScriptContextAdd
 ScriptContextClose
 ScriptContextDropdown
 ScriptContextExtractCallStackDetailedMaxLevel
+ScriptContextLabel
 ScriptContextReadLuaValueAsStringItemLimit
 ScriptContextRemove
 ScriptContextShutdownTimeoutSeconds
@@ -19753,6 +19755,7 @@ SCT_set1_extensions
 SCT_set1_log_id
 SCT_set1_signature
 SCT_signature
+ScxImpplJxKd6MyV88ReLyzBZCpIKaSmVTSJU3YGXSAdJthqBX
 SDK_OPEN_URL
 SDL_EVENT_QUEUE_STATISTICS
 SDL_GAMECONTROLLERCONFIG
@@ -20753,6 +20756,7 @@ SplittingCanceled
 SpreadAngle
 SpringConstraint
 SpringConstraintAction
+SPsHXpenpYjiE7tDTHXlHKbbsjcCAwEAAQ
 SquishRelay
 SQUIshRobloxReflectionExtensionLibrary
 Src.Thread
@@ -22348,12 +22352,14 @@ Studio.App.RobloxOutputRibbonDropdown.All
 Studio.App.RobloxOutputRibbonDropdown.AllContexts
 Studio.App.RobloxOutputRibbonDropdown.AllMessages
 Studio.App.RobloxOutputRibbonDropdown.Client
+Studio.App.RobloxOutputRibbonDropdown.Context
 Studio.App.RobloxOutputRibbonDropdown.CoreScript
 Studio.App.RobloxOutputRibbonDropdown.Edit
 Studio.App.RobloxOutputRibbonDropdown.Error
 Studio.App.RobloxOutputRibbonDropdown.Information
 Studio.App.RobloxOutputRibbonDropdown.Log
 Studio.App.RobloxOutputRibbonDropdown.LogMode
+Studio.App.RobloxOutputRibbonDropdown.MessageTypes
 Studio.App.RobloxOutputRibbonDropdown.None
 Studio.App.RobloxOutputRibbonDropdown.NumberContexts1
 Studio.App.RobloxOutputRibbonDropdown.NumberMessages1
@@ -22958,7 +22964,6 @@ StudioDebuggerRefactorLuaArguments
 StudioDebugLog
 StudioDebugPackage
 StudioDefaultNewTemplatePlaceId
-StudioDeprecateLoadLatestPersistenceFromWeb
 StudioDeprecateQuickFindScriptStep
 StudioDeprecateQuickFindScriptTotally
 StudioDeprecateUIThemeProperty
@@ -23018,7 +23023,6 @@ StudioFixMacFileOpen
 StudioFixMoreScriptDebuggerAssert
 StudioFixNegativeWidthChar
 StudioFixNullUniverseInGetResourceByCategory
-StudioFixPlaceOpenNullPlaceIdInAnalytics
 StudioFixPluginUninstall
 StudioFixPluginWidgetEnabledSignal
 StudioFixProcessInstallPluginFromWebsite
@@ -23416,6 +23420,7 @@ StudioUseStudioHttpRequestInUserDataStoreService
 StudioUtilities
 StudioVerbInvocation
 StudioVersionControlAlpha
+StudioVerticalFilter
 StudioWaitTimeMs_ForAsyncRequestsBeforeQuit
 StudioWebDialogMinimumHeight
 StudioWebDialogMinimumWidth
@@ -24438,6 +24443,7 @@ TlsGetValue
 TlsSetValue
 TlsVerificationFail
 Tmap_traits
+TMKAiTGCjgbZff
 TMxQPxAA13
 ToArtistIntentAssetMigratorEnabled
 ToastNotification
@@ -24873,7 +24879,6 @@ TypeOutboundSubtotal
 Typesetter
 TypeToImport
 Typewriter
-TYX3OPOsa5zFuIS2E4qOMQI
 U_ContinuationTaskHandleBase
 U_ExceptionHolder
 U_Key_dn.png
@@ -26119,6 +26124,8 @@ VertexAttribPointer
 VertexColor
 VertexStreamer
 VerticalAlignment
+VerticalFilterMenuOptionClicked
+VerticalModeFilterDropdown
 VerticalPolicy
 VerticalScrollBarInset
 VerticalScrollBarPolicy
@@ -26188,7 +26195,6 @@ VGeometryService
 VGeometryVulkan
 VGetAssetVersionNumberRequest
 VGetDevForumPageRequest
-VGetLatestPlacePersistanceLocationForVersionRequest
 VGlobalAdvancedSettings
 VGlobalBasicSettings
 VGlyphRenderer
@@ -27303,7 +27309,6 @@ XA_A^A]A\_^[]
 XA_A^A]A\_^[]H
 XA_A^A]A\_^]
 XA_A^A]A\_^][
-Xa0Z7eMm2aYf1b3fhq
 XAEAVFormatUpdater
 XAEAVGraph
 XAEAVHttpClient
@@ -27339,7 +27344,6 @@ XboxPresencePolling
 XboxSaleAvatarPackageIds
 XboxUseCuratedGameSort2
 XboxUseNewValidUsernameCheck2
-XcY438E7fSGfkXAYo
 XFbxAMatrix
 XFREE86_GLYPH_RANGES
 XGetLastError
@@ -27376,6 +27380,7 @@ XPEAVRobloxScriptDiffDoc
 XQColorDialog
 Xregex_error
 XResolution
+XSUYpFg1FawEjOA
 Xtime_get_ticks
 XUnegotiation_response
 XUNetworkResult
@@ -27471,6 +27476,7 @@ XW4ResultCode
 XW4websocket_close_status
 XW4WebSocketEventType
 XwhvcEikuIaqb7nHhEJ
+XXXhEDehhWcsjYoZZj0n1gsMBfaUXjAG7Bh88qW2mLRaOUTkCe3obMmn6LQ914MI
 XXXXXXXXXXXXXXXXuuuuuuuuuuuuuuuuppppppppppppppppppppppp
 XZP8CoreGuiService
 XZP8CRenderSettingsItem
@@ -27514,23 +27520,21 @@ YAXW4error_type
 Ycircumflex
 Ydieresissmall
 YDYHYQYTYbYsY
-YeYpjNHS0my
 YffYZefYDNNDCOO
 YieldEvent
 YieldFuncDesc
 YieldFunction
-YJvt5CrmcgJ6lBECAwEAAQ
 YQByteArray
 YResolution
 YwBBvY55YvBBwY5
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
 Zcaronsmall
-ZchDlh3ho2SBcwUFgBLyiE0cgR79B
 Zdotaccent
 ZgnhKhWhci
 ZhniZzzzZbarAnmrAgneBlryCaveDroeGkerGrjuGuruGgnaHinaHrbeHariHadnKanaKooaLntaLmylMayrOlmaTuleTiahTtbiTopoBiarBsnaCrehCihtErmhKgnoMrmyMmagOrnuRhniScrySaahTiiiYtrsDhtoGlatIdhuBonaHglgTbgaTtrpCbmiLbniLamsOwahSelaTragUiguBtpoCgalGrahKulaToepXolySgnfTilaBxusXookNga
 ZIndexBehavior
+Zj3QxVvQmSLF9f8BznCG1
 ZLcJhLcGhM
 ZNjlXiODrHUcaGRYt
 ZntaLkerGlryCnmrArbeHbarAcrySaahTaveDgneBuruGrjuGayrOlmaTuleTadnKmylMhniSiahTooaLtbiTrmyMroeGgnaHihtErehCsnaCmagOrnuRrmhKgnoMariHanaKopoBinaHiiiYlatIhtoGtrsDhniZglgTonaHdhuBbgaTbmiLelaTbniLragUwahSamsOtrpCiarBiguBtpoCulaTgalGgnfTolySoepXrahKilaBxusXxnhPgahPoo

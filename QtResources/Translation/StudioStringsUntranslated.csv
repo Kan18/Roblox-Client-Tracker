@@ -1883,12 +1883,14 @@ Studio.App.RobloxOutputRibbonDropdown.All,,All,All
 Studio.App.RobloxOutputRibbonDropdown.AllContexts,,All Contexts,All Contexts
 Studio.App.RobloxOutputRibbonDropdown.AllMessages,,All Messages,All Messages
 Studio.App.RobloxOutputRibbonDropdown.Client,,Client,Client
+Studio.App.RobloxOutputRibbonDropdown.Context,,Context,Context
 Studio.App.RobloxOutputRibbonDropdown.CoreScript,,CoreScript,CoreScript
 Studio.App.RobloxOutputRibbonDropdown.Edit,,Edit,Edit
 Studio.App.RobloxOutputRibbonDropdown.Error,,Error,Error
 Studio.App.RobloxOutputRibbonDropdown.Information,,Information,Information
 Studio.App.RobloxOutputRibbonDropdown.Log,,Log,Log
 Studio.App.RobloxOutputRibbonDropdown.LogMode,,Log Mode,Log Mode
+Studio.App.RobloxOutputRibbonDropdown.MessageTypes,,Message Types,Message Types
 Studio.App.RobloxOutputRibbonDropdown.None,,None,None
 Studio.App.RobloxOutputRibbonDropdown.NumberContexts1,,%1 Contexts,%1 Contexts
 Studio.App.RobloxOutputRibbonDropdown.NumberMessages1,,%1 Messages,%1 Messages
