@@ -97,6 +97,7 @@ AboutToClearDataModelDirtyBit
 AboutToCreateDataModel
 AboutToDestroyDataModel
 AboutToShow
+AbRxjlDoa8F8
 AbsoluteCellCount
 AbsoluteCellSize
 AbsoluteContentSize
@@ -425,7 +426,6 @@ AggregateInfo.Frames
 AggregateInfo.Time.toFixed
 AggregateInfo.TotalFrames
 AggrFrames
-AgqsSffidlUZEVCk2x9Q1HUiAAJ6n4
 Agravesmall
 AHPEAU_iobuf
 AHPEAX1PEAPEAX
@@ -4223,7 +4223,7 @@ BCFB4827B1F11E4A86BBBBE005A3BAD
 BCIDistributionTBS
 BConnection
 BCryptGenRandom
-BDsbcx1vezNta3o3dcA48LIu0W
+BdFlBNRm0vGrjyUOZ2GQm
 BE20681180838E23F0DC6224
 BE42889BE20681180838E23F0DC6224
 BEA91211E2B410EF351327957B
@@ -4683,7 +4683,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409689
+ByVersion_0.444.0.409690
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -8665,7 +8665,6 @@ ED6CA7E256DC11E2898E9FB8E4A9E79B
 ED6CA7E356DC11E2898E9FB8E4A9E79B
 ED6CA7E456DC11E2898E9FB8E4A9E79B
 ED6CA7E556DC11E2898E9FB8E4A9E79B
-EdcsBJGQNMWXwIWXvAY
 EDEABA8211E68B9ECD8848BAB4E2
 EDEBBA8211E68B9ECD8848BAB4E2
 EdgeReductionsInPivotOrder
@@ -9431,7 +9430,6 @@ FB64AAAED11E38B9D871882A8E559
 FB6CE584711E29A3DBD856014A660
 FB6CF584711E29A3DBD856014A660
 FB8E4A9E79B
-FBd9V4HBeRNkNzPfkQPfqED5j6I93sORPt
 FbPnXNTBBz2CM47ldc6zPnp04Gg1Ch1zQNrS9Q0fLcTp94XeqG0DjA42Iq0M3ZDg
 FbxAMatrix
 FbxAnimation
@@ -9749,7 +9747,6 @@ FixHelpURL
 FixHumanoidOwnershipRoot
 FixIAdornableCollectorCrash3
 FixIMECursorDesyncInStudio
-FixKeepingFolderAcquiredInStudioThroughTheFileSystem
 FixKeyframeDetectionV2
 FixKeysStuckOnTest
 FixLadderStairsMixupCheckTorsoHeightAboveGround
@@ -9849,7 +9846,6 @@ FMODPlaybackDSP
 FMODReportDeviceInfo
 FMODSoundChannels
 FMODStudio
-FmzolbHV4EDyqV4zYVjFv
 FocusChange
 FocusChanged
 FocusDistance
@@ -11085,6 +11081,7 @@ GfxPartInvalidationLimitToTime2
 GGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GiA93g2e70zp3Dw7rGsP7VezXVTHpGPL
 GIM_ShapeRetriever
 GImpactCollisionAlgorithm
 GImpactCompound
@@ -11345,7 +11342,6 @@ GVKUTS[BXIWH\KbHi
 GXGfGkGpGuG
 GxI9Gpu2E2
 GyroscopeEnabled
-GzFjutgtHVv95JDenffLq1OnJcQJEOfuXg4yy
 H_Key_dn.png
 H_NAEBVQString
 H`CeIkHq7v4
@@ -13523,6 +13519,7 @@ LuauTypeInferTypePackLoopLimit
 LuauUseClassesForRobloxApi
 LuauWatchdog
 LuaWebService
+LUnWDDbDiFewPwiKOyO0Gg9gUV49jdJVebMUfiz
 LVvuOx39]O
 M_NVWeakFunctionRef
 MacGamepadUseGCController
@@ -14179,7 +14176,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEA3Um9ab1K2DoT0
+MIICCgKCAgEA37C6FdbJXXFKxzUBp6gkenM9yRvCBv
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14774,6 +14771,7 @@ NextTabPage
 NfXf`fhfzf
 NHVVariant
 NinjaMask.mesh
+NNJXjS4353
 NNNNNNNNNNNNNNNNNNNNNN
 NNNNNNNSSSSSSSSSSSSSSSSSSSSSS
 NNW4SizeMode
@@ -14929,6 +14927,7 @@ NW4PenStyle
 NW4UserInputType
 Oacutesmall
 OAEPEncryptionSET
+OAETGQxYXqtNuxVBq1fyIBIfnMsGQN3re9Ltq9OxMwZBYTpwhEpFGGvxh0hL0
 OAUTHBEARER
 Obj.GroupColors
 Obj.GroupsActive
@@ -14978,6 +14977,7 @@ ObjectWithIface7
 ObscuredBy
 OccludeAll
 OccupancyDebugFS
+OchBNSBYy1OTMFxz
 Ocircumflex
 Ocircumflexsmall
 OCSP_basic_add1_status
@@ -15009,6 +15009,7 @@ OCSPResponse
 OCSPSigning
 OCTETSTRING
 Odieresissmall
+ODMiEOUtREt6kDJ5ledinnIc
 OfA9HPuHfA9H`uAfA9Hpu
 OfAdmissions
 OfApproval
@@ -16500,7 +16501,6 @@ PL_TeleportMaxBackoffMs
 PL_TeleportMaxElapsedTimeMs
 PL_TeleportPlaceLauncherExpBackoffRollout
 PL_TeleportPlaceLauncherStateCounter
-Pl3vF1niHBB0PX3EBRGpjZmqJVjnXEuM
 Place_Prims_PercDynamicAssemblies
 PlaceAction
 PlaceAfterLogin
@@ -16783,6 +16783,7 @@ PluginWidgetRelay
 PluginWidgetRelayForPluginGui
 PluginWriteTemp
 PlusButtonPressed
+PO42kyiWzWd16xPjOaEUxQzHQNE0Cay7aIltTKIsDzAFBZZgECAwEAAQ
 POINT_SIZE
 PointBalanceCacheInvalidateTimeMs
 PointDataChanged
@@ -17219,7 +17220,6 @@ QAssociativeIterableImpl
 QAuthenticator
 QAWNcgRdAzOKj8pi5wAlnsdoumgAtB1J7d
 QBoxLayout
-QBt8r46rlMZPt8Osfhrd0DP2cUTeEqdSYZ7dKIJK63kzoqVv9WU8Vby0t7BX2Dy
 QButtonGroup
 QByteArray
 QChildEvent
@@ -17723,8 +17723,10 @@ QJsonDocument
 QJsonObject
 QJsonValue
 QJsonValueRef
+Qk98k2oIqbPBMdhhz
 QKeySequence
 QLayoutItem
+QlEIoLpB7y442X1XCKqzbTrbaVyJQFL8f8jVbS72wUaeNyU
 QLinearGradient
 QListWidget
 QListWidgetItem
@@ -19077,7 +19079,7 @@ RevocationList
 RevocationRefs
 RevocationUrl
 RevokeFriendship
-RFg0Q43sI8CO7sYuiAD5pFHtqUmFp5Unh7YQptanwiTIrX4DwSaE5eIm
+RgQNqwGzc7qibuSg2I71fZN69EL6GoWzUXSr7I9Eiz0lf7NJKKg2BFpbOgAsWn1
 RibbonButton
 RibbonButtonControl
 RibbonGallery
@@ -19106,7 +19108,6 @@ RibbonTool.None
 RibbonVisiblityAction
 RichTextBetaFeatureRoleSet
 RichTextBetaFeatureUrl
-RIf8OXUpDSpvagTgRyxzvDS8BD5iUtFoHISE9oZw9dvaTi6
 RigAttachment
 RigFromAttachments
 Right_key.png
@@ -19440,10 +19441,10 @@ RunService.Stepped
 RuntimeScriptService
 RuntimeUndoBehavior
 RunUpdateCycle.
+RVENzZTFwMDkuPjm7QburUYPmklIbrWkARx8Rf
 RVideoInternal
 RVideoMemLogging
 RVideoTrace
-RwJUd2edLxp52yqw15glLn6SviH4ZnnIKTfCYwSCR8ODkBX8j0CAwEAAQ
 RxRlReport
 S_Key_dn.png
 SA_KPEAPEBV123
@@ -20759,7 +20760,6 @@ Src.Thread
 Src.YBegin
 SrcPlaceId
 SrcUniverseId
-SrdT66iKINWl8Ij
 SRGBToLinearFS
 SRTP_AEAD_AES_128_GCM
 SRTP_AEAD_AES_256_GCM
@@ -23309,7 +23309,6 @@ StudioServiceDraggerSolveConstraints
 StudioServiceHost
 StudioSession
 StudioSession_
-StudioSetDefaultDirectoryDocumentsFolder
 StudioSetInstanceDefaultsBetaFeature
 StudioSettings
 StudioShipCollaborativeEditingV0
@@ -23705,6 +23704,7 @@ TattletaleUseNewWordListFeatures
 TattletaleUseOriginalWordList
 Tcommaaccent
 TCP_NODELAY
+TCphQrz8YK
 TeachingCallouts
 TeamChildOrderExposedTelemetry
 TeamChildOrderProperty
@@ -24672,7 +24672,6 @@ TouchTransmitter
 ToUniversalTime
 TownAndCity
 ToWorldSpace
-TPZZ5aWbq3gBPOYqEo7s8JdUx3SbeO7JwLdTj8LFhuIPEmBC
 TraceMessage
 Track2Data
 TrackAudioDriversPerSystem
@@ -25634,6 +25633,7 @@ Utag_original_exception_type
 UTagNotifyOnParseComplete
 UTagUseAsStart
 UTaskFunctor
+UtCdmSwIkmAyEoems64OtNd1nF0xLVeczcAzn6EPXdDZ3Y5s
 UTeleportThreadReportInfo
 UTextDocumentDidChangeNotification
 UTextDocumentDidCloseNotification
@@ -26395,7 +26395,6 @@ VK_KHR_swapchain
 VK_KHR_win32_surface
 VK_LAYER_LUNARG_standard_validation
 VK_NULL_HANDLE
-VK3e431h8VUiOnffrYMZO7k72XxfW
 VKeyboardService
 VKeyframeMarker
 VKeyframeSequence
@@ -26514,7 +26513,6 @@ VOscillateMotorTool
 Vout_of_range
 Voverflow_error
 VOverridePropertyItem
-Vp0ed0a9muX6x4Jv4lR4mqZyWULRYPYGU112URQnpA4
 VPackageAssetModel
 VPackageLink
 VPackageListener
@@ -27050,7 +27048,6 @@ WeldConstraintRelativeCFrame2
 WeldConstraintTool
 WeldCursor
 WeldsAction
-WfCQVuAl9sp8N
 WGL_3DFX_multisample
 WGL_3DL_stereo_control
 WGL_AMD_gpu_association
@@ -27347,6 +27344,7 @@ XboxPresencePolling
 XboxSaleAvatarPackageIds
 XboxUseCuratedGameSort2
 XboxUseNewValidUsernameCheck2
+XfAybDyWjbGmtjtbW42sK
 XFbxAMatrix
 XFREE86_GLYPH_RANGES
 XGetLastError
@@ -27357,6 +27355,7 @@ XInputGetState
 XInputSetState
 Xinvalid_argument
 Xlength_error
+XNFwEMFmEeWu
 Xout_of_range
 XP6AXAEBUTextFilterResult
 XP6AXAEBVQString
@@ -27376,7 +27375,6 @@ XP6AXVVariant
 XP6AXVWeakFunctionRef
 XP6AXW4HttpRequestResult
 XP6AXXZVlist0
-XPaheIiYKlncHyjO8Fo2bL
 XPEAVFileSyncItem
 XPEAVICHull
 XPEAVQNetworkReply
@@ -27528,6 +27526,7 @@ YieldFuncDesc
 YieldFunction
 YQByteArray
 YResolution
+YRKGnYUqPTE2lKA4fVsYCVQ9Ca3P90LW7kO
 YwBBvY55YvBBwY5
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
@@ -27549,6 +27548,5 @@ ZPEAVRBXMessageBox
 ZRZZZbZt[.[
 ZVspecial_equipped_signal
 ZVTouchedSignal
-ZWdz9JH5511YFjIVLxG5i
 ZZZZZZZZZZZZZZZ
 ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
