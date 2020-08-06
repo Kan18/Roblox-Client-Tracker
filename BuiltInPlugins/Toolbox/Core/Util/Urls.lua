@@ -171,7 +171,7 @@ function Urls.constructGetCreatorInfoUrl(creatorId, creatorType)
 	end
 end
 
--- TODO: Delete when FFlagStudioFixGroupCreatorInfo is retired
+-- TODO: Delete when FFlagStudioFixGroupCreatorInfo2 is retired
 function Urls.constructGetCreatorNameUrl(creatorId, creatorType)
 	return GET_USER:format(creatorId)
 end

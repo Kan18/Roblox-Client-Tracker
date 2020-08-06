@@ -42,7 +42,7 @@ game:DefineFastFlag("ToolboxForceSelectDragger", false)
 
 game:DefineFastFlag("StudioFixComparePageInfo2", false)
 
-game:DefineFastFlag("StudioFixGroupCreatorInfo", false)
+game:DefineFastFlag("StudioFixGroupCreatorInfo2", false)
 game:DefineFastFlag("StudioToolboxFixNewEndpointFilters", false)
 
 game:DefineFastFlag("ToolboxUseDevFrameworkPromise", false)

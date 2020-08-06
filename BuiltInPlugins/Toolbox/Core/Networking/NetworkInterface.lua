@@ -7,7 +7,7 @@
 local FFlagToolboxShowGroupCreations = game:GetFastFlag("ToolboxShowGroupCreations")
 local FFlagEnableOverrideAssetGroupCreationApi = game:GetFastFlag("EnableOverrideAssetGroupCreationApi")
 local FFlagUseCategoryNameInToolbox = game:GetFastFlag("UseCategoryNameInToolbox")
-local FFlagStudioFixGroupCreatorInfo = game:GetFastFlag("StudioFixGroupCreatorInfo")
+local FFlagStudioFixGroupCreatorInfo2 = game:GetFastFlag("StudioFixGroupCreatorInfo2")
 local FFlagStudioFixComparePageInfo2 = game:GetFastFlag("StudioFixComparePageInfo2")
 
 local Plugin = script.Parent.Parent.Parent
@@ -256,7 +256,7 @@ function NetworkInterface:getAssetCreationDetails(assetIds)
 	end)
 end
 
-if FFlagStudioFixGroupCreatorInfo then
+if FFlagStudioFixGroupCreatorInfo2 then
 	function NetworkInterface:getCreatorInfo(creatorId, creatorType)
 		local targetUrl = Urls.constructGetCreatorInfoUrl(creatorId, creatorType)
 
