@@ -9,7 +9,6 @@ require(script.Parent.defineLuaFlags)
 -- Fast flags
 local OverrideLocaleId = settings():GetFVariable("StudioForceLocale")
 local DFFlagDeveloperSubscriptionsEnabled = settings():GetFFlag("DeveloperSubscriptionsEnabled")
-local FFlagGameSettingsPreventClosingDialogWhileSaveInProgress = game:DefineFastFlag("GameSettingsPreventClosingDialogWhileSaveInProgress", false)
 local FFlagStudioLocalizationInGameSettingsEnabled = game:GetFastFlag("StudioLocalizationInGameSettingsEnabled")
 local FFlagGameSettingsPlaceSettings = game:GetFastFlag("GameSettingsPlaceSettings")
 local FFlagStudioConvertGameSettingsToDevFramework = game:GetFastFlag("StudioConvertGameSettingsToDevFramework")
@@ -205,10 +204,8 @@ local function closeGameSettings(userPressedSave)
 	local state = settingsStore:getState()
 	local currentStatus = state.Status
 
-	if FFlagGameSettingsPreventClosingDialogWhileSaveInProgress then
-		if currentStatus == CurrentStatus.Working and not userPressedSave then
-			return
-		end
+	if currentStatus == CurrentStatus.Working and not userPressedSave then
+		return
 	end
 
 	if currentStatus ~= CurrentStatus.Closed then
