@@ -27,6 +27,7 @@ local ContentProvider = game:GetService("ContentProvider")
 local FFlagStudioAssetManagerSetEmptyName = game:DefineFastFlag("StudioAssetManagerSetEmptyName", false)
 local FFlagBatchThumbnailAddNewThumbnailTypes = game:GetFastFlag("BatchThumbnailAddNewThumbnailTypes")
 local FFlagStudioAssetManagerShiftMultiSelect = game:DefineFastFlag("StudioAssetManagerShiftMultiSelect", false)
+local FFlagAssetManagerOpenContextMenu = game:GetFastFlag("AssetManagerOpenContextMenu")
 
 local Tile = Roact.PureComponent:extend("Tile")
 
@@ -55,7 +56,9 @@ function Tile:init()
     self.onMouseEnter = function()
         local props = self.props
         if self.state.StyleModifier == nil then
-            props.Mouse:__pushCursor("PointingHand")
+            if not FFlagAssetManagerOpenContextMenu then
+                props.Mouse:__pushCursor("PointingHand")
+            end
             self:setState({
                 StyleModifier = StyleModifier.Hover,
             })
@@ -68,7 +71,9 @@ function Tile:init()
     self.onMouseLeave = function()
         local props = self.props
         if self.state.StyleModifier == StyleModifier.Hover then
-            props.Mouse:__popCursor()
+            if not FFlagAssetManagerOpenContextMenu then
+                props.Mouse:__popCursor()
+            end
             self:setState({
                 StyleModifier = Roact.None,
             })
@@ -98,7 +103,9 @@ function Tile:init()
             props.dispatchOnAssetDoubleClick(props.Analytics, assetData)
         end
 
-        props.Mouse:__popCursor()
+        if not FFlagAssetManagerOpenContextMenu then
+            props.Mouse:__popCursor()
+        end
     end
 
     self.onMouseButton2Click = function(rbx, x, y)
