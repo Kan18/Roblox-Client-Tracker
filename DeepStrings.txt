@@ -425,6 +425,7 @@ AggregateInfo.Frames
 AggregateInfo.Time.toFixed
 AggregateInfo.TotalFrames
 AggrFrames
+AgqsSffidlUZEVCk2x9Q1HUiAAJ6n4
 Agravesmall
 AHPEAU_iobuf
 AHPEAX1PEAPEAX
@@ -2608,6 +2609,7 @@ AVLintImplicitReturn
 AVLintLocalHygiene
 AVLintMultiLineStatement
 AVLintSameLineStatement
+AVLintTableLiteral
 AVLintUnbalancedAssignment
 AVLintUnknownType
 AVLintUnreachableCode
@@ -4221,6 +4223,7 @@ BCFB4827B1F11E4A86BBBBE005A3BAD
 BCIDistributionTBS
 BConnection
 BCryptGenRandom
+BDsbcx1vezNta3o3dcA48LIu0W
 BE20681180838E23F0DC6224
 BE42889BE20681180838E23F0DC6224
 BEA91211E2B410EF351327957B
@@ -4272,7 +4275,6 @@ BgUpdateRedirectsHttpErrInfluxHundredthsPercentage
 BgUpdateRedirectsRejectInfluxHundredthsPercentage
 BHHHHHHHHHHHHHHHHHHHHHHHHHH
 BhHlLjJTiIfdnczsxX
-Bhrb1mHyGgN
 BillboardGui
 BillboardGuiDistanceStepping2
 BinaryData
@@ -4681,7 +4683,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409672
+ByVersion_0.444.0.409689
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -8663,6 +8665,7 @@ ED6CA7E256DC11E2898E9FB8E4A9E79B
 ED6CA7E356DC11E2898E9FB8E4A9E79B
 ED6CA7E456DC11E2898E9FB8E4A9E79B
 ED6CA7E556DC11E2898E9FB8E4A9E79B
+EdcsBJGQNMWXwIWXvAY
 EDEABA8211E68B9ECD8848BAB4E2
 EDEBBA8211E68B9ECD8848BAB4E2
 EdgeReductionsInPivotOrder
@@ -9428,6 +9431,7 @@ FB64AAAED11E38B9D871882A8E559
 FB6CE584711E29A3DBD856014A660
 FB6CF584711E29A3DBD856014A660
 FB8E4A9E79B
+FBd9V4HBeRNkNzPfkQPfqED5j6I93sORPt
 FbPnXNTBBz2CM47ldc6zPnp04Gg1Ch1zQNrS9Q0fLcTp94XeqG0DjA42Iq0M3ZDg
 FbxAMatrix
 FbxAnimation
@@ -9793,7 +9797,6 @@ FixUsingGameIdInsteadOfJobId
 FixWeldConstraintTeamCreateReplication
 FixZeroNormalInDecompositeGeometry
 FJFTF^FhFrF
-FK26SOAH2XVEGffvhnulMlTQiu3tgynxB2JGmP2RtqljPv7DeaSqR
 FlagCaptured
 FlagCreated
 FlagCursor.png
@@ -9846,6 +9849,7 @@ FMODPlaybackDSP
 FMODReportDeviceInfo
 FMODSoundChannels
 FMODStudio
+FmzolbHV4EDyqV4zYVjFv
 FocusChange
 FocusChanged
 FocusDistance
@@ -10031,7 +10035,7 @@ FrameScale
 FrameShadow
 FrameShape
 FrameSpikeCount
-FrameStepJointsParallel3
+FrameStepJointsParallel4
 FrameStyle
 FrameTabWidget
 FrameThemeEnabled
@@ -11081,7 +11085,6 @@ GfxPartInvalidationLimitToTime2
 GGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGGGGG
-GgxndSZlH6KfKNNKiXwIjUasXy8yYWsWykn6uuGNDmZpQlzaf5CB4bf2vNtvV3
 GIM_ShapeRetriever
 GImpactCollisionAlgorithm
 GImpactCompound
@@ -11342,6 +11345,7 @@ GVKUTS[BXIWH\KbHi
 GXGfGkGpGuG
 GxI9Gpu2E2
 GyroscopeEnabled
+GzFjutgtHVv95JDenffLq1OnJcQJEOfuXg4yy
 H_Key_dn.png
 H_NAEBVQString
 H`CeIkHq7v4
@@ -11997,7 +12001,6 @@ IID_IVPVBIConfig
 IID_IVPVBINotify
 IID_IVPVBIObject
 IIMAEBVInstanceIdentifier
-Ij1ZrpetbBE88VQTT
 IKCollisionsMode
 IkDragCollisionsMode
 IkDraggerAnchorMode
@@ -12638,7 +12641,6 @@ IVRScreenshots_001
 IVRSettings_002
 IVRSystem_017
 IVRTrackedCamera_003
-IWbTZX981ZtrDSx9R1SHNqIfxDOXD8g
 IWebBrowser2
 IWorldStage
 IXMLHTTPRequest2
@@ -12744,7 +12746,6 @@ JumpScaresP2
 JumpToIndex
 JustEndedBusy
 JUUserNameResponseHandler
-JVtiqDmgh4
 JW4AppInstallType
 JW4FriendService_FriendStatus
 JW4HttpRequestResult
@@ -13388,7 +13389,6 @@ LowQMaterialFS
 LowQMaterialWangFallbackFS
 LowQMaterialWangFS
 LowResolution
-LpTF511F6dPnm8uG5
 Lslashsmall
 LSPManager
 LSPObservable
@@ -14179,7 +14179,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAvfi3PTbWoTtvFgnk
+MIICCgKCAgEA3Um9ab1K2DoT0
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14616,7 +14616,6 @@ NCONF_get_string
 NCONF_load
 NCONF_load_bio
 NCONF_load_fp
-NcUU1vN5fWaTeRDw9zz0H8
 NdnuScpeLkclOiiaVruaSilaKgnjRicyLiraCidyLmahCanaLtvaTtsvApygErmaSusiLumaBavaJietMimrAbraSitrPilhPhkrOihtKktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTzzzZssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
 NE9F0uHE9F4uBE9F8u
 NearIntensity
@@ -14864,7 +14863,6 @@ NPCsAction
 NPEAVInstance
 NPEAVQString
 NPEAVQWidget
-NruFIbMrex
 NSNNNNNNTNh0ii
 NSNNNNNNTNPVR
 NSNNNNNNTNPVV
@@ -15011,7 +15009,6 @@ OCSPResponse
 OCSPSigning
 OCTETSTRING
 Odieresissmall
-Oe0VgslR5LI
 OfA9HPuHfA9H`uAfA9Hpu
 OfAdmissions
 OfApproval
@@ -16503,6 +16500,7 @@ PL_TeleportMaxBackoffMs
 PL_TeleportMaxElapsedTimeMs
 PL_TeleportPlaceLauncherExpBackoffRollout
 PL_TeleportPlaceLauncherStateCounter
+Pl3vF1niHBB0PX3EBRGpjZmqJVjnXEuM
 Place_Prims_PercDynamicAssemblies
 PlaceAction
 PlaceAfterLogin
@@ -17221,6 +17219,7 @@ QAssociativeIterableImpl
 QAuthenticator
 QAWNcgRdAzOKj8pi5wAlnsdoumgAtB1J7d
 QBoxLayout
+QBt8r46rlMZPt8Osfhrd0DP2cUTeEqdSYZ7dKIJK63kzoqVv9WU8Vby0t7BX2Dy
 QButtonGroup
 QByteArray
 QChildEvent
@@ -17687,7 +17686,6 @@ QEntityType
 QEQMQTQdQgQhQiQmQwQ
 QEventLoop
 QeYuIZ19oaUCFnjkmV3u
-Qff3LYILd5HRJ2CR3f3FQ
 QFileDevice
 QFileDialog
 QFileSystemWatcher
@@ -17700,7 +17698,6 @@ QFutureInterface
 QFutureInterfaceBase
 QFutureWatcher
 QFutureWatcherBase
-Qg7vMhcPXX91aum2XBUj8yAy9ZJGRj1
 QGenericArgument
 QGenericReturnArgument
 QGraphicsDropShadowEffect
@@ -17711,7 +17708,6 @@ QGraphicsScene
 QGraphicsView
 QGridLayout
 QGuiApplication
-QH6bl7F25UYS9dFtkSjG4yovLD
 QHBoxLayout
 QHeaderView
 QHostAddress
@@ -19081,6 +19077,7 @@ RevocationList
 RevocationRefs
 RevocationUrl
 RevokeFriendship
+RFg0Q43sI8CO7sYuiAD5pFHtqUmFp5Unh7YQptanwiTIrX4DwSaE5eIm
 RibbonButton
 RibbonButtonControl
 RibbonGallery
@@ -19109,6 +19106,7 @@ RibbonTool.None
 RibbonVisiblityAction
 RichTextBetaFeatureRoleSet
 RichTextBetaFeatureUrl
+RIf8OXUpDSpvagTgRyxzvDS8BD5iUtFoHISE9oZw9dvaTi6
 RigAttachment
 RigFromAttachments
 Right_key.png
@@ -19445,8 +19443,8 @@ RunUpdateCycle.
 RVideoInternal
 RVideoMemLogging
 RVideoTrace
+RwJUd2edLxp52yqw15glLn6SviH4ZnnIKTfCYwSCR8ODkBX8j0CAwEAAQ
 RxRlReport
-RyFiNSSYgerTeYghCdv2qFCCI0L9LldybNfeIb5y6Urp1pOP4k0ENcdDtXW9VOtY
 S_Key_dn.png
 SA_KPEAPEBV123
 SA_KPEAPEBVfacet
@@ -19755,7 +19753,6 @@ SCT_set1_extensions
 SCT_set1_log_id
 SCT_set1_signature
 SCT_signature
-ScxImpplJxKd6MyV88ReLyzBZCpIKaSmVTSJU3YGXSAdJthqBX
 SDK_OPEN_URL
 SDL_EVENT_QUEUE_STATISTICS
 SDL_GAMECONTROLLERCONFIG
@@ -20756,13 +20753,13 @@ SplittingCanceled
 SpreadAngle
 SpringConstraint
 SpringConstraintAction
-SPsHXpenpYjiE7tDTHXlHKbbsjcCAwEAAQ
 SquishRelay
 SQUIshRobloxReflectionExtensionLibrary
 Src.Thread
 Src.YBegin
 SrcPlaceId
 SrcUniverseId
+SrdT66iKINWl8Ij
 SRGBToLinearFS
 SRTP_AEAD_AES_128_GCM
 SRTP_AEAD_AES_256_GCM
@@ -21113,6 +21110,7 @@ StreamingMaxTargetPercentage
 StreamingMemoryUsagePercent
 StreamingMesh
 StreamingMinRadius
+StreamingNoResendImmediately
 StreamingNumRegions
 StreamingNumRegionsToGC
 StreamingObserver
@@ -23107,7 +23105,7 @@ StudioLogin.Start.Auto
 StudioLogin.Start.Manual
 StudioLogPlaceIdOnPlaceOpen
 StudioLongCacheRecoveryTime
-StudioLSP_V2_preAlpha
+StudioLSP_V2_alpha
 StudioLSP_V3_preAlpha
 StudioLSPAvoidFullLexMapUpdate
 StudioLSPIndentParen
@@ -23129,6 +23127,7 @@ StudioMaterialVerb
 StudioMaxCommandHistorySize
 StudioMaximumPasswordLength
 StudioMeasureRigidJointsNotInWorld
+StudioMergeFixModByZero
 StudioMeshPartScaleValue
 StudioMeshSplittingError
 StudioMeshSplittingImageProcessed
@@ -23505,7 +23504,7 @@ SupportMeshV4ReadSkinData
 SupportMeshV4Write
 SupportPluginDebugging
 SupportPluginDebuggingBetaFeature
-SupportSkinnedMesh
+SupportSkinnedMesh2
 SupportsPresent
 SupportSwitchingDefaultAudioDevice
 SupportYouTubeInAppDataModelIfRbxCdnAllowed
@@ -23623,6 +23622,7 @@ TabElementId
 TableCells
 TableHeadersUpdated
 TableItemClicked
+TableLiteral
 TableLoadCsvAction
 TableMajorAxis
 TableSaveCsvAction
@@ -23811,7 +23811,6 @@ TeleportService
 TeleportService_TeleportMethod
 TeleportService_TeleportState
 TeleportService_TeleportType
-TeleportSinglePlayerCleanupRollout
 TeleportState
 TeleportState_Failed
 TeleportState_WaitingForServer
@@ -24443,7 +24442,6 @@ TlsGetValue
 TlsSetValue
 TlsVerificationFail
 Tmap_traits
-TMKAiTGCjgbZff
 TMxQPxAA13
 ToArtistIntentAssetMigratorEnabled
 ToastNotification
@@ -24674,6 +24672,7 @@ TouchTransmitter
 ToUniversalTime
 TownAndCity
 ToWorldSpace
+TPZZ5aWbq3gBPOYqEo7s8JdUx3SbeO7JwLdTj8LFhuIPEmBC
 TraceMessage
 Track2Data
 TrackAudioDriversPerSystem
@@ -24825,6 +24824,7 @@ TTUUEDDsss
 TurboBuildersClub
 TurnOffAction
 TurnOnButtonClicked
+TurnOnLSPForInternalPermission
 TutorialId
 TutorialsDockAction
 TutorialWidgetBackground.png
@@ -26395,6 +26395,7 @@ VK_KHR_swapchain
 VK_KHR_win32_surface
 VK_LAYER_LUNARG_standard_validation
 VK_NULL_HANDLE
+VK3e431h8VUiOnffrYMZO7k72XxfW
 VKeyboardService
 VKeyframeMarker
 VKeyframeSequence
@@ -26513,6 +26514,7 @@ VOscillateMotorTool
 Vout_of_range
 Voverflow_error
 VOverridePropertyItem
+Vp0ed0a9muX6x4Jv4lR4mqZyWULRYPYGU112URQnpA4
 VPackageAssetModel
 VPackageLink
 VPackageListener
@@ -27048,6 +27050,7 @@ WeldConstraintRelativeCFrame2
 WeldConstraintTool
 WeldCursor
 WeldsAction
+WfCQVuAl9sp8N
 WGL_3DFX_multisample
 WGL_3DL_stereo_control
 WGL_AMD_gpu_association
@@ -27373,6 +27376,7 @@ XP6AXVVariant
 XP6AXVWeakFunctionRef
 XP6AXW4HttpRequestResult
 XP6AXXZVlist0
+XPaheIiYKlncHyjO8Fo2bL
 XPEAVFileSyncItem
 XPEAVICHull
 XPEAVQNetworkReply
@@ -27380,7 +27384,6 @@ XPEAVRobloxScriptDiffDoc
 XQColorDialog
 Xregex_error
 XResolution
-XSUYpFg1FawEjOA
 Xtime_get_ticks
 XUnegotiation_response
 XUNetworkResult
@@ -27476,7 +27479,6 @@ XW4ResultCode
 XW4websocket_close_status
 XW4WebSocketEventType
 XwhvcEikuIaqb7nHhEJ
-XXXhEDehhWcsjYoZZj0n1gsMBfaUXjAG7Bh88qW2mLRaOUTkCe3obMmn6LQ914MI
 XXXXXXXXXXXXXXXXuuuuuuuuuuuuuuuuppppppppppppppppppppppp
 XZP8CoreGuiService
 XZP8CRenderSettingsItem
@@ -27534,7 +27536,6 @@ Zdotaccent
 ZgnhKhWhci
 ZhniZzzzZbarAnmrAgneBlryCaveDroeGkerGrjuGuruGgnaHinaHrbeHariHadnKanaKooaLntaLmylMayrOlmaTuleTiahTtbiTopoBiarBsnaCrehCihtErmhKgnoMrmyMmagOrnuRhniScrySaahTiiiYtrsDhtoGlatIdhuBonaHglgTbgaTtrpCbmiLbniLamsOwahSelaTragUiguBtpoCgalGrahKulaToepXolySgnfTilaBxusXookNga
 ZIndexBehavior
-Zj3QxVvQmSLF9f8BznCG1
 ZLcJhLcGhM
 ZNjlXiODrHUcaGRYt
 ZntaLkerGlryCnmrArbeHbarAcrySaahTaveDgneBuruGrjuGayrOlmaTuleTadnKmylMhniSiahTooaLtbiTrmyMroeGgnaHihtErehCsnaCmagOrnuRrmhKgnoMariHanaKopoBinaHiiiYlatIhtoGtrsDhniZglgTonaHdhuBbgaTbmiLelaTbniLragUwahSamsOtrpCiarBiguBtpoCulaTgalGgnfTolySoepXrahKilaBxusXxnhPgahPoo
@@ -27548,5 +27549,6 @@ ZPEAVRBXMessageBox
 ZRZZZbZt[.[
 ZVspecial_equipped_signal
 ZVTouchedSignal
+ZWdz9JH5511YFjIVLxG5i
 ZZZZZZZZZZZZZZZ
 ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
