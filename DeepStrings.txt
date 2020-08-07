@@ -97,7 +97,6 @@ AboutToClearDataModelDirtyBit
 AboutToCreateDataModel
 AboutToDestroyDataModel
 AboutToShow
-AbRxjlDoa8F8
 AbsoluteCellCount
 AbsoluteCellSize
 AbsoluteContentSize
@@ -3998,6 +3997,7 @@ AW4ZIndexBehavior
 AwardBadge
 AwardPoints
 AwareCompare
+AwyyBLWC38eWDKJyEppQmwPE5zdGw
 AX_J0W4FriendService_FriendEventType
 AX_J0W4FriendService_FriendStatus
 AX_JW4FriendService_FriendEventType
@@ -4223,7 +4223,6 @@ BCFB4827B1F11E4A86BBBBE005A3BAD
 BCIDistributionTBS
 BConnection
 BCryptGenRandom
-BdFlBNRm0vGrjyUOZ2GQm
 BE20681180838E23F0DC6224
 BE42889BE20681180838E23F0DC6224
 BEA91211E2B410EF351327957B
@@ -4683,7 +4682,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409690
+ByVersion_0.444.0.409693
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -8184,6 +8183,7 @@ Distribution_
 DistributionPoint
 DistributionPoints
 DistToShowBufferCountSqr
+DjP7zFKH5vL
 DKECCAK1600_ASM
 DlcVersion
 DListenerAttributes
@@ -8753,6 +8753,7 @@ EffectiveRetryCount
 EFixFailoverFailure
 EFrontVector
 Egravesmall
+EH2jxRjVeZieG6
 EHcUgHc]oL
 EHERE\EfEpEzE
 EJJJJJJJJJJJJJJJJJJJJ
@@ -9131,6 +9132,7 @@ ESGamePerfMonitorReportDetails
 ESGamePerfMonitorReportTimerInSeconds
 ESGamePerfMonitorUseRandomSelection
 Estrangelo
+EtBkNl53IFMClT
 ETCEffortLevel
 EThrottleType
 EucrosiaUPC
@@ -9248,6 +9250,7 @@ EVRConfig_ForceBob
 EVRConfig_ForceHalfInterlace
 EVRConfig_ForceScaling
 EVRConfig_ForceThrottle
+EwBLWyO28cu7NloufdDODIcsdoR49JEoni
 ExactMatch
 ExceptionAddress
 ExceptionCode
@@ -9365,6 +9368,7 @@ ExtraSelectionStore
 ExtrudedPartInstance
 EXtSoftware
 EyeAccessory
+EYnfJLUwLpsxrHu2p4FfZWZ0R7J7JgoolLlg5BinUMj6BftXJi2GzkCAwEAAQ
 F_ObjectHasComponents
 F`JXKXWJYB[Cd
 FA6256811994CD24F935527E2
@@ -11074,6 +11078,7 @@ GFp_simple_point_set_affine_coordinates
 GFp_simple_point2oct
 GFp_simple_points_make_affine
 GFp_simple_set_compressed_coordinates
+GfW3yHufvZZcyojI14bs3E6QcHA
 GfxClusters
 GfxClustersFull
 GfxPartInvalidationBudgetMs
@@ -11081,7 +11086,6 @@ GfxPartInvalidationLimitToTime2
 GGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGGGGG
-GiA93g2e70zp3Dw7rGsP7VezXVTHpGPL
 GIM_ShapeRetriever
 GImpactCollisionAlgorithm
 GImpactCompound
@@ -11814,7 +11818,6 @@ HttpSessionAsync
 HttpStatus_0
 HttpStatus_1
 HttpStatusCode
-HttpStudioInfluxHundredthsPercentage
 HTTPSuccess
 HTTPSuccessDataStore
 HTTPSuccessMarketPlace
@@ -12640,6 +12643,7 @@ IVRTrackedCamera_003
 IWebBrowser2
 IWorldStage
 IXMLHTTPRequest2
+IzSXf619qOvZkri5KQbwVwzaUuPvWUSHaqiVxpeKnifTWEQ7
 J_Key_dn.png
 J_NW4CurrencyType
 JasmineUPC
@@ -12817,6 +12821,7 @@ KodchiangUPC
 KPEAVICHull
 KPEIBX_K_KPEIAU_iobuf
 KSocialService
+KuvOeJqRvsiOnvQ868fYPE1rojyPkRosas6tLOQV3V7O6EwwSb20WdXeQunYusL8
 KVScriptContext
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
 LabelArray
@@ -13519,7 +13524,6 @@ LuauTypeInferTypePackLoopLimit
 LuauUseClassesForRobloxApi
 LuauWatchdog
 LuaWebService
-LUnWDDbDiFewPwiKOyO0Gg9gUV49jdJVebMUfiz
 LVvuOx39]O
 M_NVWeakFunctionRef
 MacGamepadUseGCController
@@ -14176,7 +14180,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEA37C6FdbJXXFKxzUBp6gkenM9yRvCBv
+MIICCgKCAgEAxkx7dLX1ArKKUvj10k5YFwllwTi0fcwnpUqiLsQ
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14771,7 +14775,6 @@ NextTabPage
 NfXf`fhfzf
 NHVVariant
 NinjaMask.mesh
-NNJXjS4353
 NNNNNNNNNNNNNNNNNNNNNN
 NNNNNNNSSSSSSSSSSSSSSSSSSSSSS
 NNW4SizeMode
@@ -14927,7 +14930,6 @@ NW4PenStyle
 NW4UserInputType
 Oacutesmall
 OAEPEncryptionSET
-OAETGQxYXqtNuxVBq1fyIBIfnMsGQN3re9Ltq9OxMwZBYTpwhEpFGGvxh0hL0
 OAUTHBEARER
 Obj.GroupColors
 Obj.GroupsActive
@@ -14977,7 +14979,6 @@ ObjectWithIface7
 ObscuredBy
 OccludeAll
 OccupancyDebugFS
-OchBNSBYy1OTMFxz
 Ocircumflex
 Ocircumflexsmall
 OCSP_basic_add1_status
@@ -15009,7 +15010,6 @@ OCSPResponse
 OCSPSigning
 OCTETSTRING
 Odieresissmall
-ODMiEOUtREt6kDJ5ledinnIc
 OfA9HPuHfA9H`uAfA9Hpu
 OfAdmissions
 OfApproval
@@ -15060,6 +15060,7 @@ OLEAUT32.dll
 OleInitialize
 OleLockRunning
 OleUninitialize
+OM0t4l6BZ8AbIJyyWid6GtKN3G8rnmQegsiqtBTuYXRydhbIq7
 OnAllScriptErrorsAction
 OnBadgeAwarded
 OnboardingsCompleted
@@ -15257,6 +15258,7 @@ OSSL_STORE_SEARCH_by_alias
 OSSL_STORE_SEARCH_by_issuer_serial
 OSSL_STORE_SEARCH_by_key_fingerprint
 OSSL_STORE_SEARCH_by_name
+OsuIUZJBIMdP
 OtherBlues
 OtherDisconnect
 OtherError
@@ -16783,7 +16785,6 @@ PluginWidgetRelay
 PluginWidgetRelayForPluginGui
 PluginWriteTemp
 PlusButtonPressed
-PO42kyiWzWd16xPjOaEUxQzHQNE0Cay7aIltTKIsDzAFBZZgECAwEAAQ
 POINT_SIZE
 PointBalanceCacheInvalidateTimeMs
 PointDataChanged
@@ -16886,6 +16887,7 @@ PpjEtrFill
 PpjEtrThreshold
 PpjPmThreshold
 PPLTaskHandle
+PpNUWGleUAd9
 PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
 Prc.length
 Prc[MouseGraphX]
@@ -17723,10 +17725,8 @@ QJsonDocument
 QJsonObject
 QJsonValue
 QJsonValueRef
-Qk98k2oIqbPBMdhhz
 QKeySequence
 QLayoutItem
-QlEIoLpB7y442X1XCKqzbTrbaVyJQFL8f8jVbS72wUaeNyU
 QLinearGradient
 QListWidget
 QListWidgetItem
@@ -17757,6 +17757,7 @@ QNetworkReplyAsQJsonObject
 QNetworkReplyImplPrivate
 QNetworkRequest
 QNPPPPPPPPPPPPPPPPPPPNOP
+QO2O9yh5EvonI
 QObjectData
 QObjectShared
 QOgreWidget
@@ -19079,7 +19080,6 @@ RevocationList
 RevocationRefs
 RevocationUrl
 RevokeFriendship
-RgQNqwGzc7qibuSg2I71fZN69EL6GoWzUXSr7I9Eiz0lf7NJKKg2BFpbOgAsWn1
 RibbonButton
 RibbonButtonControl
 RibbonGallery
@@ -19441,7 +19441,6 @@ RunService.Stepped
 RuntimeScriptService
 RuntimeUndoBehavior
 RunUpdateCycle.
-RVENzZTFwMDkuPjm7QburUYPmklIbrWkARx8Rf
 RVideoInternal
 RVideoMemLogging
 RVideoTrace
@@ -23243,7 +23242,6 @@ StudioRemoveDebuggerLegacyLock4
 StudioRemoveExtraFindAction
 StudioRemoveObjectBrowserUI
 StudioRemoveShareOptionFromLocalFiles
-StudioRemoveStudioInfluxHundredthsPercentage
 StudioRemoveToolboxScrollingFrameHack
 StudioRenderingTestClosureWhenNoTestsRun
 StudioReplaceAll
@@ -23251,7 +23249,6 @@ StudioReplaceAllSquish
 StudioReplaceApplyEditWithCommit
 StudioReplaceStringWithSet
 StudioReportElevatedCount
-StudioReportMacHardwareInfo
 StudioReportOpenPlaceTime
 StudioReportOpenPlaceTimeFilter
 StudioReportOSVersionDiag
@@ -23704,7 +23701,6 @@ TattletaleUseNewWordListFeatures
 TattletaleUseOriginalWordList
 Tcommaaccent
 TCP_NODELAY
-TCphQrz8YK
 TeachingCallouts
 TeamChildOrderExposedTelemetry
 TeamChildOrderProperty
@@ -25112,6 +25108,7 @@ UITransformedLitVS
 UITransformedVS
 UIViewportFrameCollectFrames
 UIViewportFrameWorkspace
+UkkQa2lqNomvZBZ6T7PGCeonxXwbmcWoKl7YNn1iPmu4W7v
 ULinkedScriptLoadData
 ULoadedImage
 ULuaCallbacks
@@ -25633,7 +25630,6 @@ Utag_original_exception_type
 UTagNotifyOnParseComplete
 UTagUseAsStart
 UTaskFunctor
-UtCdmSwIkmAyEoems64OtNd1nF0xLVeczcAzn6EPXdDZ3Y5s
 UTeleportThreadReportInfo
 UTextDocumentDidChangeNotification
 UTextDocumentDidCloseNotification
@@ -27344,7 +27340,6 @@ XboxPresencePolling
 XboxSaleAvatarPackageIds
 XboxUseCuratedGameSort2
 XboxUseNewValidUsernameCheck2
-XfAybDyWjbGmtjtbW42sK
 XFbxAMatrix
 XFREE86_GLYPH_RANGES
 XGetLastError
@@ -27355,7 +27350,6 @@ XInputGetState
 XInputSetState
 Xinvalid_argument
 Xlength_error
-XNFwEMFmEeWu
 Xout_of_range
 XP6AXAEBUTextFilterResult
 XP6AXAEBVQString
@@ -27478,6 +27472,7 @@ XW4websocket_close_status
 XW4WebSocketEventType
 XwhvcEikuIaqb7nHhEJ
 XXXXXXXXXXXXXXXXuuuuuuuuuuuuuuuuppppppppppppppppppppppp
+XZaCZVCw6rx4Wba1qPsBQ1624dsrkChXb2B03kXQzVnb6GfJsoNiUF
 XZP8CoreGuiService
 XZP8CRenderSettingsItem
 XZP8GuiObject
@@ -27526,7 +27521,6 @@ YieldFuncDesc
 YieldFunction
 YQByteArray
 YResolution
-YRKGnYUqPTE2lKA4fVsYCVQ9Ca3P90LW7kO
 YwBBvY55YvBBwY5
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
@@ -27546,6 +27540,7 @@ ZP6APEAX1PEBX
 ZP6AX1PEAX
 ZPEAVRBXMessageBox
 ZRZZZbZt[.[
+ZveCfpuvYwJZlzuCNITZ8rz9ht7Nl
 ZVspecial_equipped_signal
 ZVTouchedSignal
 ZZZZZZZZZZZZZZZ
