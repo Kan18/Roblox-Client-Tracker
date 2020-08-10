@@ -431,6 +431,7 @@ AHPEAU_iobuf
 AHPEAX1PEAPEAX
 AHW4DataStoreRequestType
 AHW4UserInputType
+AkiBLUj1ASpFBpmM1Z
 Algorithms
 AliasRequestResult
 ALIGN_TYPE
@@ -733,7 +734,6 @@ AntiAddictionReport401ToLua
 AntiReplay
 AntiSpamSpamLimit
 AnyWayYouHashItOut4
-ANzrTgGCxxhi2JJWo
 APEAU_iobuf
 ApiGamesChanged
 ApiKeyResult
@@ -969,6 +969,7 @@ AstExprUnary
 AstStatFor
 AstStatFunction
 AStudioCrashOnInvalidColor3Cast
+AsxF1bCtoTIU8kUBshieQuvbOdR4WB
 ASYNC_init_thread
 Async_Mesh
 ASYNC_pause_job
@@ -1033,6 +1034,7 @@ AttributeSyntax
 AttributeType
 AttributeType27
 AtUserChoice
+AtVuC0inY2ingDjgTV6BNM29tAWk1eJTF4LAj6NmVELqF6LW4JLGWcUkT7
 AU_ATL_MODULE70
 AU_Collvec
 AU_ContinuationTaskHandleBase
@@ -4075,7 +4077,6 @@ AXW4UiMessageType
 AXW4UserCFrame
 AXW4UserInputType
 AXW4VRTouchpad
-AyvvkVq4fwl7D
 BA447F42A91111E2B410EF351327957B
 BA886F11E18561866242201959
 BAA3C620681180838E23F0DC6224
@@ -4684,7 +4685,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409705
+ByVersion_0.444.0.409710
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -6832,6 +6833,7 @@ CSwitchTime.length
 CSwitchTime[i]
 CT_POLICY_EVAL_CTX_new
 CtctStageCtcts
+CTDnEy1Ofj09KEzqUiz0uHXflFq1bM9wN6zo8Box2P3FlRlGQ9e1UvNaER7ev
 CTLOG_new_from_base64
 CTLOG_STORE_load_file
 CTLOG_STORE_new
@@ -8466,6 +8468,7 @@ DynamicReloaderFileFailureInfluxHundrethsPercentage
 DynamicRotate
 DynamicThumbstick
 DynamicTToolReplacement
+DZcEFCSUg5ir5Gm4QH8eQwN9ZQBC0CQuo76LLhBCXB8mE
 E\HTH\HfHrH
 E_disc_bottom_link.png
 E_modified.png
@@ -9518,6 +9521,7 @@ FetchUniverse
 FetchUserId
 FetchUsername
 FF65B11E38470F846885BB6FB
+FFDvM3Olz551FAvdqAx9csePCYWgFtWzkPGiuAdxxz4nih
 FFFFFFFFFFFFFFF
 FFFFFFFFFFFFFFFFFFFFFFFF
 FFFIIIIIIIIIIIIIIII
@@ -11131,6 +11135,8 @@ GLSL.std.450
 Glsles3Mediump1
 GlslesMediump1
 GlueCursor
+GMvXsBx2FS
+Go84rmqjHx5fwiw
 GoldenHashes
 GoodbyeChoiceActive
 GoodbyeChoiceActiveProperty
@@ -12625,7 +12631,6 @@ ItemWasSet
 ItemWidget
 Iterations
 ITRedirect
-IUiSkvGvlTmHaPks2fZ17V3lhUlWbwKOtT95ZSf
 IUpdateUIManager
 IUserDataStoreServiceBase
 IVRApplications_006
@@ -12655,7 +12660,6 @@ Jba5qWkYU5nARYZm1gQVP
 Jcircumflex
 JDJNJXJbJlJvJ
 JHJRJ\JfJpJxJ
-JhMSXsRKflY6ZwLx6G23
 JHW4MembershipType
 JIIIIIIIKI
 JIRA_RIDE_1135
@@ -12824,6 +12828,7 @@ KPEAVICHull
 KPEIBX_K_KPEIAU_iobuf
 KSocialService
 KVScriptContext
+KWcFJo3kCAwEAAQ
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
 LabelArray
 LabelArray.push
@@ -12894,7 +12899,6 @@ LayoutRichTextFaster2
 LazySubmitTask
 LC_MESSAGES
 LCMapStringW
-LDelAiGUlnLG
 LDLBuildProgramTimeReportRate
 LDLComponents
 LDLMaxBundleDimension
@@ -14183,7 +14187,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEArl4wutC9zJpX6UuLQjHZ9HS0Yp7WdwFQL9Bo1ikMHbLolp72C47L
+MIICCgKCAgEAySHi1PDKkNzld
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14444,6 +14448,7 @@ MovingHumanoid
 MovingNoPhysicsBase
 MovingPrimitives
 MovingPrimitivesCount
+MP45MecEXXRji62f2sE2OAhamUgJDUJn
 MP8PartInstance
 MpCehiHzreSzNTczkc9d
 MPEAVAdorn
@@ -14527,7 +14532,6 @@ MultiTexCoord4s
 MultiTexCoord4sv
 MultTransposeMatrixd
 MultTransposeMatrixf
-MUPIEeWI5jGDBg2tnvJc9rRe3hgg8OJXzC
 MusicalInstruments
 MutexLifetime
 MW4PartMaterial
@@ -14935,6 +14939,7 @@ NW4PenStyle
 NW4UserInputType
 Oacutesmall
 OAEPEncryptionSET
+OAp2dWDVOIGs
 OAUTHBEARER
 Obj.GroupColors
 Obj.GroupsActive
@@ -15065,7 +15070,6 @@ OLEAUT32.dll
 OleInitialize
 OleLockRunning
 OleUninitialize
-OlSk7XZrYm0S2arc0jw5rgZR8M6xEBao
 OnAllScriptErrorsAction
 OnBadgeAwarded
 OnboardingsCompleted
@@ -15213,7 +15217,6 @@ OptionsMenu
 OptionState
 OPUS_ARCHMASK
 OpusCustomMode
-OQzmmBbP1U
 OrCharacter
 OrCreateFileSyncItemClient
 OrderArray
@@ -15264,6 +15267,7 @@ OSSL_STORE_SEARCH_by_alias
 OSSL_STORE_SEARCH_by_issuer_serial
 OSSL_STORE_SEARCH_by_key_fingerprint
 OSSL_STORE_SEARCH_by_name
+OtgU6kcIx99tUA52zslLAxR2nf4
 OtherBlues
 OtherDisconnect
 OtherError
@@ -15338,6 +15342,7 @@ OutrageousBuildersClub
 OutsideStreamedArea
 OutTouches
 OutUnprepareHeader
+Ouw2xHeVyMvTh0wAeIFcd1K2U10Xj
 OverAction
 OverallHitRate
 OverflowAllowance
@@ -15610,6 +15615,7 @@ PatternSyntax
 PauseAction
 PauseSound
 PBKDF2PARAM
+PbukdVeyhpfW
 PCDesktopClient
 PCertReqData
 PCertResTBS
@@ -16268,6 +16274,7 @@ PersistentEditor
 PersistentFifoComboBox
 PerThreadTimer
 PerThreadTimerTotal
+PFVinUUGyxVHCJ6a7y9O09GMfY2UFoqL4glaG
 PGSAlign2AxesCorrectionDamping
 PGSAlign2AxesPStageFrictionConstant
 PGSAlign2AxesVStageFrictionConstant
@@ -16415,6 +16422,7 @@ PixelStorei
 PixelXDimension
 PixelYDimension
 PixmapRect
+PJOLejTwfjk6LQ4lfpADvnS1gqYTONaB6kIEPdK3oIfk
 PKCS12_AUTHSAFES
 PKCS12_BAGS
 PKCS12_create
@@ -19371,7 +19379,6 @@ RowsToRemove
 RowStretch
 RowVisibilityChanged
 RPCServers
-RQTOKr0B7pFr
 RRReceiptFail
 RRReceiptTotal
 RRRRRRRRzzzzzzzzzzzzzzzzzz
@@ -23435,7 +23442,6 @@ StudsPerTileV
 StyleOption
 StyleSheet
 StyleVersion
-SU9Muk6Lufh1lDef
 SUATAUAVAW
 SUATAUAVAWA
 SUATAUAVAWE
@@ -24270,7 +24276,6 @@ TitleBarProgress
 TitlebarText
 TitleBarVisible
 TJNLerU][Wr
-Tk4hvrcn5PjyC3c
 TLS_AES_128_CCM_8_SHA256
 TLS_AES_128_CCM_SHA256
 TLS_AES_128_GCM_SHA256
@@ -24823,7 +24828,6 @@ TSMk2ThrottleStreamJob
 TTTTTTTTTT
 TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
 TTUUEDDsss
-TtzawAaLm3KggfEd5eJLVigCjttiEF5dV
 TurboBuildersClub
 TurnOffAction
 TurnOnButtonClicked
@@ -25305,7 +25309,6 @@ UntranslatedStringsHeader
 UntranslatedStringsHeaderAction
 Unull_deleter
 Unverified
-Uo9sVIS3uUjBhBwnCUxYt7rHAdphN
 Up_key.png
 Up_key_dn.png
 UPackageAssetData
@@ -25806,7 +25809,6 @@ VBodyVelocity
 VBoneInstance
 VBoolParser
 VBoxHandleAdornment
-Vbrdh5q6QxjtBjK8qZlnh
 VBrickColor
 Vbroken_promise
 VBrokenAssetResourceController
@@ -26679,7 +26681,6 @@ VRunService
 VRunStateVerb
 Vruntime_error
 VRuntimeScriptService
-VS4pt2LYCRNMB1f
 Vscoped_connection
 VScopedToken
 VScraperJob
@@ -26907,7 +26908,6 @@ VVirtualBlockParser
 VVirtualInputManager
 VVirtualUser
 VVRService
-VVTnpdWsx4BIxnX5nP61d1CGnkKhXXUilhMNboBlVgmyyO4HCL
 VVVVVVVVVVVVV
 VVVVVVVVVVVVVVVVMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
@@ -27012,7 +27012,6 @@ WaterViscosityDragFudgeFactor
 WaterWaveSize
 WaterWaveSpeed
 WaypointIdx
-Wb7QKTXW09TenUmCzaVWYJz
 WCharArray
 Wcircumflex
 WDU_Mbstatet
@@ -27239,7 +27238,6 @@ WM_ATLGETCONTROL
 WM_ATLGETHOST
 WMCreateProfileManager
 WMCreateSyncReader
-WmOIHscr9y3yf6ChPA7kXP8Lzlx0CAwEAAQ
 Wmvcore.dll
 WoodPlanks
 WordWrapMode
@@ -27386,6 +27384,7 @@ XPEAVICHull
 XPEAVQNetworkReply
 XPEAVRobloxScriptDiffDoc
 XQColorDialog
+Xqz4jkFnUonlgudl5HDL4zhH
 Xregex_error
 XResolution
 Xtime_get_ticks
@@ -27527,11 +27526,9 @@ Ycircumflex
 Ydieresissmall
 YDYHYQYTYbYsY
 YffYZefYDNNDCOO
-YICNarIfmhkWKHJ48prHwlYx5K
 YieldEvent
 YieldFuncDesc
 YieldFunction
-YnnHwErTVj8
 YQByteArray
 YResolution
 YwBBvY55YvBBwY5
@@ -27553,7 +27550,6 @@ ZP6APEAX1PEBX
 ZP6AX1PEAX
 ZPEAVRBXMessageBox
 ZRZZZbZt[.[
-Zv7NMj1rvXiRMiwZdp3yuI9Qy2bIU3
 ZVspecial_equipped_signal
 ZVTouchedSignal
 ZZZZZZZZZZZZZZZ
