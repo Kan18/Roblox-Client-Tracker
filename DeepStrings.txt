@@ -3997,7 +3997,6 @@ AW4ZIndexBehavior
 AwardBadge
 AwardPoints
 AwareCompare
-AwyyBLWC38eWDKJyEppQmwPE5zdGw
 AX_J0W4FriendService_FriendEventType
 AX_J0W4FriendService_FriendStatus
 AX_JW4FriendService_FriendEventType
@@ -4258,6 +4257,7 @@ BF5757DAAEA11E38B9D871882A8E559
 BF5757EAAEA11E38B9D871882A8E559
 BF9701C11E3B075CBAD925AA50F
 BFA701C11E3B075CBAD925AA50F
+BFAWwBwEOOranOA8BaGVt
 BFB1B25E9A
 BFB2D2E1E3DDD7C7
 BFbxString
@@ -4491,6 +4491,7 @@ BPuVfD9B`uOfD9BpuH
 BQByteArray
 BQJsonValueRef
 BQPersistentModelIndex
+BR3PQyo5fVNmdIiEaXeUvltSn
 BranchIcon
 BreakGroup
 BreakJoints
@@ -4682,7 +4683,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409693
+ByVersion_0.444.0.409699
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -4974,6 +4975,7 @@ CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 Cdotaccent
 CE583B11E29A3DBD856014A660
 Cedillasmall
+CejWkz2DdPxSXuY9tMYGvbefsQWWaPHnSC
 CelestialBodiesShown
 CellCenterToWorld
 CellChanged
@@ -5877,6 +5879,7 @@ Cnd_register_at_thread_exit
 Cnd_signal
 Cnd_timedwait
 Cnd_unregister_at_thread_exit
+CNWNLckAs6FXf
 CoAddRefServerProcess
 Cobblestone
 CoCreateGuid
@@ -7130,6 +7133,7 @@ DataModelPatcherOTAEnabled
 DataModelPatcherOTAPercentage
 DataModelPatcherRevokedPublicKeyIds
 DataModelPatcherRevokedSignatureTypes
+DataModelPatchRequiredSpaceMB
 DataModelPlaceVersion
 DataModelSession
 DataModelSessionEnded
@@ -8183,7 +8187,6 @@ Distribution_
 DistributionPoint
 DistributionPoints
 DistToShowBufferCountSqr
-DjP7zFKH5vL
 DKECCAK1600_ASM
 DlcVersion
 DListenerAttributes
@@ -8437,6 +8440,7 @@ DurationReceiveResponse
 DurationSSLHandshake
 DurationWidth
 Durbanville1
+DURM3Av7ObhHY3RAjzoP3b
 DVCSRequestData
 DVCSResponseData
 DVPAES_ASM
@@ -8753,7 +8757,6 @@ EffectiveRetryCount
 EFixFailoverFailure
 EFrontVector
 Egravesmall
-EH2jxRjVeZieG6
 EHcUgHc]oL
 EHERE\EfEpEzE
 EJJJJJJJJJJJJJJJJJJJJ
@@ -9132,7 +9135,6 @@ ESGamePerfMonitorReportDetails
 ESGamePerfMonitorReportTimerInSeconds
 ESGamePerfMonitorUseRandomSelection
 Estrangelo
-EtBkNl53IFMClT
 ETCEffortLevel
 EThrottleType
 EucrosiaUPC
@@ -9250,7 +9252,6 @@ EVRConfig_ForceBob
 EVRConfig_ForceHalfInterlace
 EVRConfig_ForceScaling
 EVRConfig_ForceThrottle
-EwBLWyO28cu7NloufdDODIcsdoR49JEoni
 ExactMatch
 ExceptionAddress
 ExceptionCode
@@ -9368,7 +9369,6 @@ ExtraSelectionStore
 ExtrudedPartInstance
 EXtSoftware
 EyeAccessory
-EYnfJLUwLpsxrHu2p4FfZWZ0R7J7JgoolLlg5BinUMj6BftXJi2GzkCAwEAAQ
 F_ObjectHasComponents
 F`JXKXWJYB[Cd
 FA6256811994CD24F935527E2
@@ -11078,7 +11078,6 @@ GFp_simple_point_set_affine_coordinates
 GFp_simple_point2oct
 GFp_simple_points_make_affine
 GFp_simple_set_compressed_coordinates
-GfW3yHufvZZcyojI14bs3E6QcHA
 GfxClusters
 GfxClustersFull
 GfxPartInvalidationBudgetMs
@@ -11870,6 +11869,7 @@ HumanoidRootPart.
 HumanoidStateType
 HumanoidWithPGSConstraintsUsePhysicsState
 Hungarumlautsmall
+HuUtYb7s26peVik
 HVChangeHistoryService
 HVQByteArray
 HVQRegularExpression
@@ -11889,6 +11889,7 @@ HW4PacketPriority
 HwngSmldAskhBcraMaweNegsOgnaT
 HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdnaNpnmHohcWsrhCkaiDstiKizeY
 HWYGOTH.ttf
+HxvdKtmCzgYJz3hqzsY7aN4p8U1vusDaajCuD5RsWq9Lz0ju2rvB8tN9rAUzup
 HybridEvent
 HyIyPyVy]y^yey
 Iacutesmall
@@ -12360,6 +12361,7 @@ InstructionReject
 InStudioMode
 Insufficent
 Insufficient
+InsufficientStorageForNewPatch
 Int64Vector
 IntanceChangesLoaded
 IntConstrainedValue
@@ -12643,7 +12645,6 @@ IVRTrackedCamera_003
 IWebBrowser2
 IWorldStage
 IXMLHTTPRequest2
-IzSXf619qOvZkri5KQbwVwzaUuPvWUSHaqiVxpeKnifTWEQ7
 J_Key_dn.png
 J_NW4CurrencyType
 JasmineUPC
@@ -12653,6 +12654,7 @@ JavaScriptCallback
 Jba5qWkYU5nARYZm1gQVP
 Jcircumflex
 JDJNJXJbJlJvJ
+JeOvDrst63ztyjdy4uRO3w
 JHJRJ\JfJpJxJ
 JHW4MembershipType
 JIIIIIIIKI
@@ -12752,6 +12754,7 @@ JW4HttpRequestResult
 JW4InfoType
 JW4TextFilterContext
 JW4ThumbnailType
+JWF6Rui9bYhO89DkRN6wUCIoMjDsTsuw5Etfj5YZcEPTkq
 K\7IxU..UxI7\K
 K_Key_dn.png
 KaiTi_GB2312
@@ -12821,7 +12824,6 @@ KodchiangUPC
 KPEAVICHull
 KPEIBX_K_KPEIAU_iobuf
 KSocialService
-KuvOeJqRvsiOnvQ868fYPE1rojyPkRosas6tLOQV3V7O6EwwSb20WdXeQunYusL8
 KVScriptContext
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
 LabelArray
@@ -13523,6 +13525,7 @@ LuauTypeInferRecursionLimit
 LuauTypeInferTypePackLoopLimit
 LuauUseClassesForRobloxApi
 LuauWatchdog
+LuaVersion
 LuaWebService
 LVvuOx39]O
 M_NVWeakFunctionRef
@@ -14180,7 +14183,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAxkx7dLX1ArKKUvj10k5YFwllwTi0fcwnpUqiLsQ
+MIICCgKCAgEAv5
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14303,6 +14306,7 @@ MoonAngularSize
 MoonTextureId
 MoreButton
 MoreColorsPressed
+MoreDataModelPatcherTelemetry
 MoreDropdown
 MoreInfoHoverIcon
 MoreInfoIcon
@@ -14775,6 +14779,7 @@ NextTabPage
 NfXf`fhfzf
 NHVVariant
 NinjaMask.mesh
+NIOLJnsAhrVNpgmgYYd
 NNNNNNNNNNNNNNNNNNNNNN
 NNNNNNNSSSSSSSSSSSSSSSSSSSSSS
 NNW4SizeMode
@@ -14795,6 +14800,7 @@ NoGraphics
 NoInfiniteLoopOnChatInfoLoadFailure
 NoInternet
 NoJoinForMoveTo
+NOkWpT9WlX3Av6pd
 NoLocalPlayer
 NonBlockingAnalyticsExit
 NonBlockingFmodSoundLoader
@@ -14864,6 +14870,7 @@ NPCsAction
 NPEAVInstance
 NPEAVQString
 NPEAVQWidget
+Ns6hLKJDpb
 NSNNNNNNTNh0ii
 NSNNNNNNTNPVR
 NSNNNNNNTNPVV
@@ -15060,7 +15067,6 @@ OLEAUT32.dll
 OleInitialize
 OleLockRunning
 OleUninitialize
-OM0t4l6BZ8AbIJyyWid6GtKN3G8rnmQegsiqtBTuYXRydhbIq7
 OnAllScriptErrorsAction
 OnBadgeAwarded
 OnboardingsCompleted
@@ -15258,7 +15264,6 @@ OSSL_STORE_SEARCH_by_alias
 OSSL_STORE_SEARCH_by_issuer_serial
 OSSL_STORE_SEARCH_by_key_fingerprint
 OSSL_STORE_SEARCH_by_name
-OsuIUZJBIMdP
 OtherBlues
 OtherDisconnect
 OtherError
@@ -15577,6 +15582,9 @@ PasswordOrUsername
 PasswordResetRequired
 PasteRegion
 PatchBegin
+PatchConfigParseException
+PatchDeploymentParseException
+PatchNotFound
 PatchTeamCreateToggleRequest
 Path.ComputeAsync
 PathAddBackslashA
@@ -16497,6 +16505,7 @@ PKEY_CRYPTO
 PKEY_USAGE_PERIOD
 PKIMessage
 PKIResponse
+PKl8LYwrcBxKnwAOSSyIwnA
 PL_TeleportBackoffBaseMs
 PL_TeleportCounter
 PL_TeleportMaxBackoffMs
@@ -16887,7 +16896,6 @@ PpjEtrFill
 PpjEtrThreshold
 PpjPmThreshold
 PPLTaskHandle
-PpNUWGleUAd9
 PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
 Prc.length
 Prc[MouseGraphX]
@@ -17148,6 +17156,7 @@ PROXY_CERT_INFO_EXTENSION
 PROXY_POLICY
 ProxyAction
 PSPECIFIED
+Psw7zwXNs846UjhJqpjEYEiAnq8xSP
 PUBKEY_get0
 PUBKEY_set
 PubKeyExchange33
@@ -17193,6 +17202,8 @@ PURPOSE_set
 PushButtonClicked
 PushButtonLabel
 PushPixels
+PUT6x089xaRER8x41klBaj6K32WW9SNiOxQNMY37EdkiyQ
+PUUhNeXF0NJJrEFlN1B04
 PVAdornment
 PVInstance
 PVK_header
@@ -17757,7 +17768,6 @@ QNetworkReplyAsQJsonObject
 QNetworkReplyImplPrivate
 QNetworkRequest
 QNPPPPPPPPPPPPPPPPPPPNOP
-QO2O9yh5EvonI
 QObjectData
 QObjectShared
 QOgreWidget
@@ -17938,6 +17948,7 @@ QueryPbufferARB
 QueryPbufferEXT
 QueryPerformanceCounter
 QueryPerformanceFrequency
+QuerySpaceAvailableError
 QuerySwapGroupNV
 QueryVideoCaptureDeviceNV
 Questionable
@@ -20181,6 +20192,7 @@ SetOnboardingCompleted
 SetOutgoingKBPSLimit
 SetPartCollisionGroup
 SetPartCollisionGroup.
+SetPatchConfig
 SetPbufferAttribARB
 SetPermissions
 SetPhysicsThrottleEnabled
@@ -24668,6 +24680,8 @@ TouchTransmitter
 ToUniversalTime
 TownAndCity
 ToWorldSpace
+TpMv6uJWW7NnBw5TZBoqXa
+TQW8J9M5289f
 TraceMessage
 Track2Data
 TrackAudioDriversPerSystem
@@ -25011,6 +25025,7 @@ UEditionEntry
 UEventInfo
 UEventInstance
 UEventSlot
+Uewnr6raWs46POzhyurDRnkMP
 UExtraSelection
 UFileMeshData
 UFileMetadata
@@ -25108,7 +25123,6 @@ UITransformedLitVS
 UITransformedVS
 UIViewportFrameCollectFrames
 UIViewportFrameWorkspace
-UkkQa2lqNomvZBZ6T7PGCeonxXwbmcWoKl7YNn1iPmu4W7v
 ULinkedScriptLoadData
 ULoadedImage
 ULuaCallbacks
@@ -27289,6 +27303,7 @@ WSAStartup
 WSAStringToAddressW
 WTHelperGetProvSignerFromChain
 WTHelperProvDataFromStateData
+WUnQprGG3XxEqKq
 WWWWWWWWWW
 WWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWW
@@ -27340,6 +27355,7 @@ XboxPresencePolling
 XboxSaleAvatarPackageIds
 XboxUseCuratedGameSort2
 XboxUseNewValidUsernameCheck2
+Xc8QERdJLcvBuv
 XFbxAMatrix
 XFREE86_GLYPH_RANGES
 XGetLastError
@@ -27472,7 +27488,6 @@ XW4websocket_close_status
 XW4WebSocketEventType
 XwhvcEikuIaqb7nHhEJ
 XXXXXXXXXXXXXXXXuuuuuuuuuuuuuuuuppppppppppppppppppppppp
-XZaCZVCw6rx4Wba1qPsBQ1624dsrkChXb2B03kXQzVnb6GfJsoNiUF
 XZP8CoreGuiService
 XZP8CRenderSettingsItem
 XZP8GuiObject
@@ -27521,6 +27536,7 @@ YieldFuncDesc
 YieldFunction
 YQByteArray
 YResolution
+YSkr6vB9hfwADroMd8DQje5R8qHg8pnIQ5r
 YwBBvY55YvBBwY5
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
@@ -27540,7 +27556,6 @@ ZP6APEAX1PEBX
 ZP6AX1PEAX
 ZPEAVRBXMessageBox
 ZRZZZbZt[.[
-ZveCfpuvYwJZlzuCNITZ8rz9ht7Nl
 ZVspecial_equipped_signal
 ZVTouchedSignal
 ZZZZZZZZZZZZZZZ
