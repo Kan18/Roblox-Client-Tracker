@@ -431,7 +431,6 @@ AHPEAU_iobuf
 AHPEAX1PEAPEAX
 AHW4DataStoreRequestType
 AHW4UserInputType
-AkiBLUj1ASpFBpmM1Z
 Algorithms
 AliasRequestResult
 ALIGN_TYPE
@@ -862,6 +861,7 @@ ASIdentifierChoice_is_canonical
 ASIdentifiers
 ASIdOrRange
 AsInstanceDefaultAction
+ASisN4qLU3bxPE2UJNeYqes4r
 ASN1_bio_stream
 ASN1_BIT_STRING
 ASN1_BIT_STRING_set_bit
@@ -969,7 +969,6 @@ AstExprUnary
 AstStatFor
 AstStatFunction
 AStudioCrashOnInvalidColor3Cast
-AsxF1bCtoTIU8kUBshieQuvbOdR4WB
 ASYNC_init_thread
 Async_Mesh
 ASYNC_pause_job
@@ -1034,7 +1033,6 @@ AttributeSyntax
 AttributeType
 AttributeType27
 AtUserChoice
-AtVuC0inY2ingDjgTV6BNM29tAWk1eJTF4LAj6NmVELqF6LW4JLGWcUkT7
 AU_ATL_MODULE70
 AU_Collvec
 AU_ContinuationTaskHandleBase
@@ -2039,6 +2037,7 @@ AVDEPRECATED_InsertObjectWidget
 AVDEPRECATED_LinkEnabledPlainTextEdit
 AVDEPRECATED_RobloxOutputPlainTextEdit
 AVDEPRECATED_RobloxTextOutputWidget
+AVDEPRECATED_ScriptComboBox
 AVDEPRECATED_ScriptSyntaxHighlighter
 AVDepthOfFieldEffect
 AVDescribedBase
@@ -3339,6 +3338,7 @@ AVScriptFunctionFilterListWidget
 AVScriptHighlightCache
 AVScriptHighlighter
 AVScriptingCmdBase
+AVScriptingCmdInput
 AVScriptingCommands
 AVScriptingHostAppServices
 AVScriptingManager
@@ -4430,6 +4430,7 @@ BN_rand_range
 BN_RECP_CTX_new
 BN_STACK_push
 BN_to_felem
+Bo6tdwTjebWMvtRqqdxqbTxF
 BodyAngularVelocity
 BodyBack_Att
 BodyBackAttachment
@@ -4685,7 +4686,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409710
+ByVersion_0.444.0.409730
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -5217,6 +5218,7 @@ Ciphersuites
 CircularList
 Circumflexsmall
 CityBackground.png
+CjHXLfEBSD1GaaHxDW6lgjFAzfxXXTAfU1cLc5OsvqCtdeL4c0360WGhy9F
 CJVNotFallbackToEnglishForCoreGuiEnabled
 CJVNotFallbackToEnglishForUGCEnabled
 ClampColor
@@ -5997,6 +5999,7 @@ ComboboxSupportTextAttribute
 CommandBar
 CommandBarAction
 CommandHistory
+CommandInput__
 CommandLineToArgvW
 CommandPool
 CommandToolBarTopLevelChanged
@@ -6770,6 +6773,7 @@ CSGLevelOfDetailSwitchingDistanceL23
 CSGLevelOfDetailSwitchingDistanceL34
 CSGOperations
 CSGOperations2
+CSGOperationsGetCommonParentOrWorkspaceCrashFix
 CSGOperationsRespectsCollisionFidelityAtCreation
 CSGOperationStatisticsGA
 CSGPhys_PlaceholderData
@@ -6833,7 +6837,6 @@ CSwitchTime.length
 CSwitchTime[i]
 CT_POLICY_EVAL_CTX_new
 CtctStageCtcts
-CTDnEy1Ofj09KEzqUiz0uHXflFq1bM9wN6zo8Box2P3FlRlGQ9e1UvNaER7ev
 CTLOG_new_from_base64
 CTLOG_STORE_load_file
 CTLOG_STORE_new
@@ -7232,6 +7235,7 @@ DB33D7AAF011E38B9D871882A8E559
 DBD856014A660
 DBSAES_ASM
 Dconst_iterator
+DCTEj7SEAlgIh928Oq55LXFJ06Zthyatkl
 DD11E2898E9FB8E4A9E79B
 DD4669DB402E11E3A29DA4266180AE0C
 DD4669DC402E11E3A29DA4266180AE0C
@@ -7737,6 +7741,7 @@ DEPRECATED_requestVersionDataCallback
 DEPRECATED_restartUpdateTimer
 DEPRECATED_RobloxOutputPlainTextEdit
 DEPRECATED_RobloxTextOutputWidget
+DEPRECATED_ScriptComboBox
 DEPRECATED_ScriptSyntaxHighlighter
 DEPRECATED_ServerConfigCloudEditServerSaveUrl
 DEPRECATED_share.png
@@ -8468,7 +8473,6 @@ DynamicReloaderFileFailureInfluxHundrethsPercentage
 DynamicRotate
 DynamicThumbstick
 DynamicTToolReplacement
-DZcEFCSUg5ir5Gm4QH8eQwN9ZQBC0CQuo76LLhBCXB8mE
 E\HTH\HfHrH
 E_disc_bottom_link.png
 E_modified.png
@@ -9521,7 +9525,6 @@ FetchUniverse
 FetchUserId
 FetchUsername
 FF65B11E38470F846885BB6FB
-FFDvM3Olz551FAvdqAx9csePCYWgFtWzkPGiuAdxxz4nih
 FFFFFFFFFFFFFFF
 FFFFFFFFFFFFFFFFFFFFFFFF
 FFFIIIIIIIIIIIIIIII
@@ -9972,6 +9975,7 @@ ForumHttpRequestFailure
 ForumHttpRequestSuccess
 ForUnpublishedChanges
 ForwardScroll
+FOTW3re8CAwEAAQ
 FoundItems
 FoundThread
 FpFramebuffer
@@ -10314,6 +10318,7 @@ GAThrottlingEventThresholdHundredthCat1
 GAThrottlingEventThresholdHundredthCat2
 GAThrottlingEventThresholdHundredthCat3
 GazeSelectionEnabled
+GbP3gjEcbu7EvZD71yCVqZf
 GCDistance
 GCHappened
 Gcircumflex
@@ -11135,8 +11140,6 @@ GLSL.std.450
 Glsles3Mediump1
 GlslesMediump1
 GlueCursor
-GMvXsBx2FS
-Go84rmqjHx5fwiw
 GoldenHashes
 GoodbyeChoiceActive
 GoodbyeChoiceActiveProperty
@@ -11845,7 +11848,7 @@ HubCallback
 HubMethodCalled
 HumanoidAdornRaycasts
 HumanoidAnimationScripts
-HumanoidBetterFindLadder
+HumanoidBetterFindLadder2
 HumanoidClimbMovingLadders
 HumanoidCollisionType
 HumanoidCollisionTypePropertyEnabled
@@ -12481,6 +12484,7 @@ IPublishedGamesStore
 IPV6_V6ONLY
 IPV6RobloxStudioCleanUp1
 IRestartController
+IRiGC4k2gpERnMjPd65XxXQoYvMiQjyQDhuYv8FI
 IRobloxDoc
 IRobloxDocManager
 IRobloxIDEDoc
@@ -12826,9 +12830,10 @@ KnownPrefixIndex
 KodchiangUPC
 KPEAVICHull
 KPEIBX_K_KPEIAU_iobuf
+KROecYrB4vGTYaW1GmljsYcZMJiM4lyFW2s16wxFVlqcuNnMman
+Ks3RZcmuEjwt7NODynr0f6AUzyaOyJuZORbP
 KSocialService
 KVScriptContext
-KWcFJo3kCAwEAAQ
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
 LabelArray
 LabelArray.push
@@ -14187,7 +14192,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAySHi1PDKkNzld
+MIICCgKCAgEAxGD8tg9S1ZteCNe91NoTmgKOlEr167FzDQxGvSGdVMAElRXpSMWQ
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14448,7 +14453,6 @@ MovingHumanoid
 MovingNoPhysicsBase
 MovingPrimitives
 MovingPrimitivesCount
-MP45MecEXXRji62f2sE2OAhamUgJDUJn
 MP8PartInstance
 MpCehiHzreSzNTczkc9d
 MPEAVAdorn
@@ -14939,7 +14943,6 @@ NW4PenStyle
 NW4UserInputType
 Oacutesmall
 OAEPEncryptionSET
-OAp2dWDVOIGs
 OAUTHBEARER
 Obj.GroupColors
 Obj.GroupsActive
@@ -15267,7 +15270,6 @@ OSSL_STORE_SEARCH_by_alias
 OSSL_STORE_SEARCH_by_issuer_serial
 OSSL_STORE_SEARCH_by_key_fingerprint
 OSSL_STORE_SEARCH_by_name
-OtgU6kcIx99tUA52zslLAxR2nf4
 OtherBlues
 OtherDisconnect
 OtherError
@@ -15275,6 +15277,7 @@ OtherMechanismsAnchored
 OtherTextChanged
 OtherTopLabelOverride
 Otildesmall
+OTryNA6Cjzj2bxUJ
 OutboundTotal
 OutBufferHealth
 OutClusters
@@ -15342,7 +15345,6 @@ OutrageousBuildersClub
 OutsideStreamedArea
 OutTouches
 OutUnprepareHeader
-Ouw2xHeVyMvTh0wAeIFcd1K2U10Xj
 OverAction
 OverallHitRate
 OverflowAllowance
@@ -15615,7 +15617,6 @@ PatternSyntax
 PauseAction
 PauseSound
 PBKDF2PARAM
-PbukdVeyhpfW
 PCDesktopClient
 PCertReqData
 PCertResTBS
@@ -16274,7 +16275,6 @@ PersistentEditor
 PersistentFifoComboBox
 PerThreadTimer
 PerThreadTimerTotal
-PFVinUUGyxVHCJ6a7y9O09GMfY2UFoqL4glaG
 PGSAlign2AxesCorrectionDamping
 PGSAlign2AxesPStageFrictionConstant
 PGSAlign2AxesVStageFrictionConstant
@@ -16422,7 +16422,6 @@ PixelStorei
 PixelXDimension
 PixelYDimension
 PixmapRect
-PJOLejTwfjk6LQ4lfpADvnS1gqYTONaB6kIEPdK3oIfk
 PKCS12_AUTHSAFES
 PKCS12_BAGS
 PKCS12_create
@@ -17193,6 +17192,7 @@ PublishToDifferentGame
 PublishToRobloxAsVerb
 PublishToRobloxVerb
 PugiCrashOnUnhandledXml
+PUImKhBk1NGbJ0Vf74
 PullIterationCount
 PURCHASE_ROBUX
 PurchaseBundlePrompted
@@ -17845,6 +17845,7 @@ QStyleOptionDockWidget
 QStyleOptionSlider
 QStyleOptionToolButton
 QStyleOptionViewItem
+QsUL289zGsXqhqxza3
 QSurfaceFormat
 QSyntaxHighlighter
 QSystemSemaphore
@@ -17894,6 +17895,7 @@ QtGraphicalEffects
 QThreadPool
 QThreadStorage
 QThreadStorage\
+QtLanguageClient
 QtMessage_Critical
 QtMessage_Fatal
 QtMessage_Warning
@@ -19669,6 +19671,7 @@ ScriptHistoryAction
 ScriptInExplorer
 ScriptInExplorerAction
 ScriptingCmdBase
+ScriptingCmdInput
 ScriptInitialSize
 ScriptInputReturnPressed
 ScriptKeyword
@@ -23855,6 +23858,7 @@ TerminateThread
 Termination
 TERMINATION
 TerrainCellListener
+TerrainChunkAnalyticsOnPublish
 TerrainChunks
 TerrainContact
 TerrainGrid
@@ -24680,6 +24684,7 @@ TouchTransmitter
 ToUniversalTime
 TownAndCity
 ToWorldSpace
+Tp5dAFhcOI
 TraceMessage
 Track2Data
 TrackAudioDriversPerSystem
@@ -26499,6 +26504,7 @@ VNetworkPhysicsParallelReceiveJob
 VNetworkSendDataMegaJob
 VNetworkSettings
 VNetworkStream
+VnnA3nwQ9L0SelM3XtEwh2Kgx
 VNoCollisionConstraint
 VNonReplicatedCSGDictionaryService
 VNotificationService
@@ -26519,6 +26525,7 @@ VOscillateMotorTool
 Vout_of_range
 Voverflow_error
 VOverridePropertyItem
+VoxelCountOnPublish
 VPackageAssetModel
 VPackageLink
 VPackageListener
@@ -27006,7 +27013,6 @@ WaterColor
 WaterDirection
 WaterForce
 WaterReflectance
-WaterReflectionWaveFix
 WaterTransparency
 WaterViscosityDragFudgeFactor
 WaterWaveSize
@@ -27384,7 +27390,6 @@ XPEAVICHull
 XPEAVQNetworkReply
 XPEAVRobloxScriptDiffDoc
 XQColorDialog
-Xqz4jkFnUonlgudl5HDL4zhH
 Xregex_error
 XResolution
 Xtime_get_ticks
@@ -27483,6 +27488,7 @@ XW4websocket_close_status
 XW4WebSocketEventType
 XwhvcEikuIaqb7nHhEJ
 XXXXXXXXXXXXXXXXuuuuuuuuuuuuuuuuppppppppppppppppppppppp
+Xze6ji77EEZTybO
 XZP8CoreGuiService
 XZP8CRenderSettingsItem
 XZP8GuiObject
@@ -27522,6 +27528,7 @@ YAXPEAXPEBX1
 YAXPEBVQObject
 YAXVexception_ptr
 YAXW4error_type
+YbvUXJ5tAZxL6sZPRJNvafbTm902
 Ycircumflex
 Ydieresissmall
 YDYHYQYTYbYsY
@@ -27529,6 +27536,7 @@ YffYZefYDNNDCOO
 YieldEvent
 YieldFuncDesc
 YieldFunction
+Ympea95u5lXteS0HpLDrLf5
 YQByteArray
 YResolution
 YwBBvY55YvBBwY5
@@ -27550,6 +27558,7 @@ ZP6APEAX1PEBX
 ZP6AX1PEAX
 ZPEAVRBXMessageBox
 ZRZZZbZt[.[
+ZTqKi8MDGOezvtEY5O57G9y2tZ
 ZVspecial_equipped_signal
 ZVTouchedSignal
 ZZZZZZZZZZZZZZZ
