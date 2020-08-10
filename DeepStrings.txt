@@ -278,6 +278,7 @@ AdornRenderStats
 AdornSelfLitHighlightVS
 AdornSelfLitVS
 AdornUnlitFS
+AdornUseRawTexture
 AdvancedDragger
 AdvancedMouseSensitivityEnabled
 AdvancedObjectMenu
@@ -732,6 +733,7 @@ AntiAddictionReport401ToLua
 AntiReplay
 AntiSpamSpamLimit
 AnyWayYouHashItOut4
+ANzrTgGCxxhi2JJWo
 APEAU_iobuf
 ApiGamesChanged
 ApiKeyResult
@@ -4073,6 +4075,7 @@ AXW4UiMessageType
 AXW4UserCFrame
 AXW4UserInputType
 AXW4VRTouchpad
+AyvvkVq4fwl7D
 BA447F42A91111E2B410EF351327957B
 BA886F11E18561866242201959
 BAA3C620681180838E23F0DC6224
@@ -4257,7 +4260,6 @@ BF5757DAAEA11E38B9D871882A8E559
 BF5757EAAEA11E38B9D871882A8E559
 BF9701C11E3B075CBAD925AA50F
 BFA701C11E3B075CBAD925AA50F
-BFAWwBwEOOranOA8BaGVt
 BFB1B25E9A
 BFB2D2E1E3DDD7C7
 BFbxString
@@ -4491,7 +4493,6 @@ BPuVfD9B`uOfD9BpuH
 BQByteArray
 BQJsonValueRef
 BQPersistentModelIndex
-BR3PQyo5fVNmdIiEaXeUvltSn
 BranchIcon
 BreakGroup
 BreakJoints
@@ -4683,7 +4684,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409699
+ByVersion_0.444.0.409705
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -4975,7 +4976,6 @@ CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 Cdotaccent
 CE583B11E29A3DBD856014A660
 Cedillasmall
-CejWkz2DdPxSXuY9tMYGvbefsQWWaPHnSC
 CelestialBodiesShown
 CellCenterToWorld
 CellChanged
@@ -5400,6 +5400,8 @@ ClientAppSettings
 ClientAppSettings.json
 ClientCAFile
 ClientCAPath
+ClientCompressionFormatRequestMobile
+ClientCompressionFormatRequestPC
 ClientConnecting
 ClientConnectionSignals
 ClientConnectResult
@@ -5879,7 +5881,6 @@ Cnd_register_at_thread_exit
 Cnd_signal
 Cnd_timedwait
 Cnd_unregister_at_thread_exit
-CNWNLckAs6FXf
 CoAddRefServerProcess
 Cobblestone
 CoCreateGuid
@@ -7781,7 +7782,6 @@ DeserializePackets
 DeserializePacketsJob
 DesignVector
 DesiredAngle
-DesiredStreamJobTimeMS
 DesiredStreamJobTimeMSPerThread
 DestGlobalArray
 DestGlobalArray.length
@@ -8440,7 +8440,6 @@ DurationReceiveResponse
 DurationSSLHandshake
 DurationWidth
 Durbanville1
-DURM3Av7ObhHY3RAjzoP3b
 DVCSRequestData
 DVCSResponseData
 DVPAES_ASM
@@ -11472,6 +11471,8 @@ HeaderString
 HeadersUpdated
 HeaderVisibility
 HeaderWidths
+HeaderWidthsAndColumnContents
+HeaderWidthsAndRequestColumnContentsChange
 HeadLocked
 HeadReduction
 HeadsUpDisplay
@@ -11869,7 +11870,6 @@ HumanoidRootPart.
 HumanoidStateType
 HumanoidWithPGSConstraintsUsePhysicsState
 Hungarumlautsmall
-HuUtYb7s26peVik
 HVChangeHistoryService
 HVQByteArray
 HVQRegularExpression
@@ -11889,7 +11889,6 @@ HW4PacketPriority
 HwngSmldAskhBcraMaweNegsOgnaT
 HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdnaNpnmHohcWsrhCkaiDstiKizeY
 HWYGOTH.ttf
-HxvdKtmCzgYJz3hqzsY7aN4p8U1vusDaajCuD5RsWq9Lz0ju2rvB8tN9rAUzup
 HybridEvent
 HyIyPyVy]y^yey
 Iacutesmall
@@ -12626,6 +12625,7 @@ ItemWasSet
 ItemWidget
 Iterations
 ITRedirect
+IUiSkvGvlTmHaPks2fZ17V3lhUlWbwKOtT95ZSf
 IUpdateUIManager
 IUserDataStoreServiceBase
 IVRApplications_006
@@ -12654,8 +12654,8 @@ JavaScriptCallback
 Jba5qWkYU5nARYZm1gQVP
 Jcircumflex
 JDJNJXJbJlJvJ
-JeOvDrst63ztyjdy4uRO3w
 JHJRJ\JfJpJxJ
+JhMSXsRKflY6ZwLx6G23
 JHW4MembershipType
 JIIIIIIIKI
 JIRA_RIDE_1135
@@ -12754,7 +12754,6 @@ JW4HttpRequestResult
 JW4InfoType
 JW4TextFilterContext
 JW4ThumbnailType
-JWF6Rui9bYhO89DkRN6wUCIoMjDsTsuw5Etfj5YZcEPTkq
 K\7IxU..UxI7\K
 K_Key_dn.png
 KaiTi_GB2312
@@ -12895,6 +12894,7 @@ LayoutRichTextFaster2
 LazySubmitTask
 LC_MESSAGES
 LCMapStringW
+LDelAiGUlnLG
 LDLBuildProgramTimeReportRate
 LDLComponents
 LDLMaxBundleDimension
@@ -14183,7 +14183,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAv5
+MIICCgKCAgEArl4wutC9zJpX6UuLQjHZ9HS0Yp7WdwFQL9Bo1ikMHbLolp72C47L
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14527,6 +14527,7 @@ MultiTexCoord4s
 MultiTexCoord4sv
 MultTransposeMatrixd
 MultTransposeMatrixf
+MUPIEeWI5jGDBg2tnvJc9rRe3hgg8OJXzC
 MusicalInstruments
 MutexLifetime
 MW4PartMaterial
@@ -14779,7 +14780,6 @@ NextTabPage
 NfXf`fhfzf
 NHVVariant
 NinjaMask.mesh
-NIOLJnsAhrVNpgmgYYd
 NNNNNNNNNNNNNNNNNNNNNN
 NNNNNNNSSSSSSSSSSSSSSSSSSSSSS
 NNW4SizeMode
@@ -14800,7 +14800,6 @@ NoGraphics
 NoInfiniteLoopOnChatInfoLoadFailure
 NoInternet
 NoJoinForMoveTo
-NOkWpT9WlX3Av6pd
 NoLocalPlayer
 NonBlockingAnalyticsExit
 NonBlockingFmodSoundLoader
@@ -14870,7 +14869,6 @@ NPCsAction
 NPEAVInstance
 NPEAVQString
 NPEAVQWidget
-Ns6hLKJDpb
 NSNNNNNNTNh0ii
 NSNNNNNNTNPVR
 NSNNNNNNTNPVV
@@ -15067,6 +15065,7 @@ OLEAUT32.dll
 OleInitialize
 OleLockRunning
 OleUninitialize
+OlSk7XZrYm0S2arc0jw5rgZR8M6xEBao
 OnAllScriptErrorsAction
 OnBadgeAwarded
 OnboardingsCompleted
@@ -15214,6 +15213,7 @@ OptionsMenu
 OptionState
 OPUS_ARCHMASK
 OpusCustomMode
+OQzmmBbP1U
 OrCharacter
 OrCreateFileSyncItemClient
 OrderArray
@@ -16505,7 +16505,6 @@ PKEY_CRYPTO
 PKEY_USAGE_PERIOD
 PKIMessage
 PKIResponse
-PKl8LYwrcBxKnwAOSSyIwnA
 PL_TeleportBackoffBaseMs
 PL_TeleportCounter
 PL_TeleportMaxBackoffMs
@@ -17156,7 +17155,6 @@ PROXY_CERT_INFO_EXTENSION
 PROXY_POLICY
 ProxyAction
 PSPECIFIED
-Psw7zwXNs846UjhJqpjEYEiAnq8xSP
 PUBKEY_get0
 PUBKEY_set
 PubKeyExchange33
@@ -17202,8 +17200,6 @@ PURPOSE_set
 PushButtonClicked
 PushButtonLabel
 PushPixels
-PUT6x089xaRER8x41klBaj6K32WW9SNiOxQNMY37EdkiyQ
-PUUhNeXF0NJJrEFlN1B04
 PVAdornment
 PVInstance
 PVK_header
@@ -18005,7 +18001,6 @@ QuickOpenThreadPool
 QuickSaveLocalPlace
 QuitDialog
 QUnhandledException
-QuotaTimeScaleCapMS
 QuotedDouble
 QUrlTwoFlags
 QValidator
@@ -19376,6 +19371,7 @@ RowsToRemove
 RowStretch
 RowVisibilityChanged
 RPCServers
+RQTOKr0B7pFr
 RRReceiptFail
 RRReceiptTotal
 RRRRRRRRzzzzzzzzzzzzzzzzzz
@@ -19739,7 +19735,6 @@ ScrollBarThickness
 ScrollbarValueChanged
 ScrollBarValuechanged
 ScrollBarValueChanged
-ScrollBarVisible
 ScrollHint
 ScrollingDirection
 ScrollingEnabled
@@ -23427,7 +23422,6 @@ StudioUseStudioHttpRequestInUserDataStoreService
 StudioUtilities
 StudioVerbInvocation
 StudioVersionControlAlpha
-StudioVerticalFilter
 StudioWaitTimeMs_ForAsyncRequestsBeforeQuit
 StudioWebDialogMinimumHeight
 StudioWebDialogMinimumWidth
@@ -23441,6 +23435,7 @@ StudsPerTileV
 StyleOption
 StyleSheet
 StyleVersion
+SU9Muk6Lufh1lDef
 SUATAUAVAW
 SUATAUAVAWA
 SUATAUAVAWE
@@ -23634,7 +23629,6 @@ TableLiteral
 TableLoadCsvAction
 TableMajorAxis
 TableSaveCsvAction
-TableViewHeaderWidths
 TabManagerTabBar
 TabOnPageClicked
 TabsClosable
@@ -24276,6 +24270,7 @@ TitleBarProgress
 TitlebarText
 TitleBarVisible
 TJNLerU][Wr
+Tk4hvrcn5PjyC3c
 TLS_AES_128_CCM_8_SHA256
 TLS_AES_128_CCM_SHA256
 TLS_AES_128_GCM_SHA256
@@ -24680,8 +24675,6 @@ TouchTransmitter
 ToUniversalTime
 TownAndCity
 ToWorldSpace
-TpMv6uJWW7NnBw5TZBoqXa
-TQW8J9M5289f
 TraceMessage
 Track2Data
 TrackAudioDriversPerSystem
@@ -24830,6 +24823,7 @@ TSMk2ThrottleStreamJob
 TTTTTTTTTT
 TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
 TTUUEDDsss
+TtzawAaLm3KggfEd5eJLVigCjttiEF5dV
 TurboBuildersClub
 TurnOffAction
 TurnOnButtonClicked
@@ -25025,7 +25019,6 @@ UEditionEntry
 UEventInfo
 UEventInstance
 UEventSlot
-Uewnr6raWs46POzhyurDRnkMP
 UExtraSelection
 UFileMeshData
 UFileMetadata
@@ -25312,6 +25305,7 @@ UntranslatedStringsHeader
 UntranslatedStringsHeaderAction
 Unull_deleter
 Unverified
+Uo9sVIS3uUjBhBwnCUxYt7rHAdphN
 Up_key.png
 Up_key_dn.png
 UPackageAssetData
@@ -25812,6 +25806,7 @@ VBodyVelocity
 VBoneInstance
 VBoolParser
 VBoxHandleAdornment
+Vbrdh5q6QxjtBjK8qZlnh
 VBrickColor
 Vbroken_promise
 VBrokenAssetResourceController
@@ -26328,7 +26323,6 @@ ViewAction
 ViewActionAliasTriggered
 ViewAliasedActionChanged
 ViewFlagsTab
-ViewHeaderWidthsUpdated
 ViewPackageOnWebsite
 ViewPortBackground
 ViewportFrame
@@ -26685,6 +26679,7 @@ VRunService
 VRunStateVerb
 Vruntime_error
 VRuntimeScriptService
+VS4pt2LYCRNMB1f
 Vscoped_connection
 VScopedToken
 VScraperJob
@@ -26912,6 +26907,7 @@ VVirtualBlockParser
 VVirtualInputManager
 VVirtualUser
 VVRService
+VVTnpdWsx4BIxnX5nP61d1CGnkKhXXUilhMNboBlVgmyyO4HCL
 VVVVVVVVVVVVV
 VVVVVVVVVVVVVVVVMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
@@ -27016,6 +27012,7 @@ WaterViscosityDragFudgeFactor
 WaterWaveSize
 WaterWaveSpeed
 WaypointIdx
+Wb7QKTXW09TenUmCzaVWYJz
 WCharArray
 Wcircumflex
 WDU_Mbstatet
@@ -27242,6 +27239,7 @@ WM_ATLGETCONTROL
 WM_ATLGETHOST
 WMCreateProfileManager
 WMCreateSyncReader
+WmOIHscr9y3yf6ChPA7kXP8Lzlx0CAwEAAQ
 Wmvcore.dll
 WoodPlanks
 WordWrapMode
@@ -27303,7 +27301,6 @@ WSAStartup
 WSAStringToAddressW
 WTHelperGetProvSignerFromChain
 WTHelperProvDataFromStateData
-WUnQprGG3XxEqKq
 WWWWWWWWWW
 WWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWW
@@ -27355,7 +27352,6 @@ XboxPresencePolling
 XboxSaleAvatarPackageIds
 XboxUseCuratedGameSort2
 XboxUseNewValidUsernameCheck2
-Xc8QERdJLcvBuv
 XFbxAMatrix
 XFREE86_GLYPH_RANGES
 XGetLastError
@@ -27531,12 +27527,13 @@ Ycircumflex
 Ydieresissmall
 YDYHYQYTYbYsY
 YffYZefYDNNDCOO
+YICNarIfmhkWKHJ48prHwlYx5K
 YieldEvent
 YieldFuncDesc
 YieldFunction
+YnnHwErTVj8
 YQByteArray
 YResolution
-YSkr6vB9hfwADroMd8DQje5R8qHg8pnIQ5r
 YwBBvY55YvBBwY5
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
@@ -27556,6 +27553,7 @@ ZP6APEAX1PEBX
 ZP6AX1PEAX
 ZPEAVRBXMessageBox
 ZRZZZbZt[.[
+Zv7NMj1rvXiRMiwZdp3yuI9Qy2bIU3
 ZVspecial_equipped_signal
 ZVTouchedSignal
 ZZZZZZZZZZZZZZZ
