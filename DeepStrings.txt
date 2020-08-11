@@ -121,7 +121,6 @@ ABTestServiceSkipRedundantInit
 ABTestSystemShutoff
 ABTestVariation
 ABTestVerboseInit
-AbThOCVu7X6qpib4
 AbuseReport
 AbuseReporter
 AC01E30AF65B11E3AFC2CE47415C029D
@@ -4226,6 +4225,7 @@ BCFB4827B1F11E4A86BBBBE005A3BAD
 BCIDistributionTBS
 BConnection
 BCryptGenRandom
+BDHKafBWmolGbEnYUcbd
 BE20681180838E23F0DC6224
 BE42889BE20681180838E23F0DC6224
 BEA91211E2B410EF351327957B
@@ -4685,7 +4685,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409818
+ByVersion_0.444.0.409819
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -7069,7 +7069,6 @@ CylinderMesh
 CylinderShapeData
 CylindricalConstraint
 CylindricalConstraintAction
-CyWyrKhMi5tvYV
 D_Key_dn.png
 DA88D6583A11E29A3DBD856014A660
 DA88D7583A11E29A3DBD856014A660
@@ -8303,6 +8302,7 @@ DPERF_EndEvent
 DPERF_GetStatus
 DPOLY1305_ASM
 Dqlqlqlqlql
+DqQIrBzNUu9Nk2NeLlGIQhv
 DraftAdded
 DraftCommitted
 DraftOutdated
@@ -9084,6 +9084,7 @@ EnvironmentDiffuseScale
 EnvironmentSpecularScale
 EnviroSpeed
 EoOoZoaozo
+EorIIxbQCSP
 EphemeralCounter
 EphemeralCounterInfluxReportingEnabled
 EphemeralCounterInfluxReportingPriorityHundredthsPercent
@@ -10322,6 +10323,7 @@ GCNotAlwaysMemory
 GCReducesQuota2
 GCReducesQuotaCriticalPercent
 GCReducesQuotaPercent
+GDigPgIY98naPw8AL
 Gdotaccent
 GE_package.png
 GE_packagefolder.png
@@ -11135,7 +11137,6 @@ GLSL.std.450
 Glsles3Mediump1
 GlslesMediump1
 GlueCursor
-GnxIKWagMNCsp8iX58bXXPR4Ax7ByxXw7xQA8h14
 GoldenHashes
 GoodbyeChoiceActive
 GoodbyeChoiceActiveProperty
@@ -11165,6 +11166,7 @@ GoToNextScriptLocation
 GoToPreviousScriptLocation
 GoToSourceCodeTB
 GoToVersionFailed
+GpT4QnuiYupLEvq5MXXJT7ot
 GpuVariance
 GrabCursor.png
 GrabRotateCursor
@@ -11348,6 +11350,7 @@ GvEphfEUiHHoD6hYFI4xWGpAnIHcklKQCxrf46kAhDGeZnqIgeGszlGdWafunGE8
 GVKUTS[BXIWH\KbHi
 GXGfGkGpGuG
 GxI9Gpu2E2
+GykGkgtzdZ85tBNDxdM8e9IljFFdJCfIOzlWWNYA6G2cnggV9cuJtqc
 GyroscopeEnabled
 H_Key_dn.png
 H_NAEBVQString
@@ -11504,8 +11507,8 @@ HelpForSelectionAction
 HelpPageLink
 HelpWindow
 HelpWindow.style[
+Hfj553AVPtLcnYSZbKQr6KAfrWkvNX
 HHAEBVQModelIndex
-HHfnfRm7l6n1uDrI7Vwe1j1UzujX8J
 HHHHHAEBVQString
 HHPEAVQObject
 HHTT\AKKKKTYWAH
@@ -11630,7 +11633,6 @@ HoverTokenLogIndex
 HoverTokenLogIndexNext
 HoverTokenNext
 HoverWindowShadow
-HpBXnIiKbC5mV85H
 HPEAU_iobuf
 HPEAUlua_State
 HPEAVQAction
@@ -11642,6 +11644,7 @@ HQFSShadowed
 HQFSShadowedFSM
 HQVSShadowed
 HQVSShadowedFSM
+Hr1ZrJz7ZDBjSHVVONffJKG
 HtmlEscaped
 Http_Failed
 HTTPAccumulatedBytes
@@ -11844,6 +11847,7 @@ HuaTianKaiTi
 HuaTianSongTi
 HubCallback
 HubMethodCalled
+HUHMZyOcILS2gchnbfYVKxpfI0xs6
 HumanoidAdornRaycasts
 HumanoidAnimationScripts
 HumanoidBetterFindLadder2
@@ -12653,7 +12657,6 @@ IWorldStage
 IXMLHTTPRequest2
 J_Key_dn.png
 J_NW4CurrencyType
-Ja0q8Nx5BR0rcyFHF0Ceik9v0pxQHD4JvL2FGti8lKB4TO8CGh
 JasmineUPC
 Javascript
 JavaScript
@@ -12831,7 +12834,6 @@ KPEIBX_K_KPEIAU_iobuf
 KSocialService
 KVScriptContext
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
-KYYnoCdYXslYJ9
 LabelArray
 LabelArray.push
 LabelArray[globstart]
@@ -13091,7 +13093,6 @@ LevelItemCount
 LevelOfDetail
 LevelOfDetailSetting
 LevelQuality
-LeXat7XhpFSGiWe
 Liberation
 LIBOVR_DLL_DIR
 LibsodiumDRG
@@ -13714,6 +13715,7 @@ MaxWaitTimeBeforeForcePacketProcessMS
 MayBeLinkedSourceModified
 MdiControls
 MDIManagerHost
+MduZ1SSWpA0dkQ5xJKRDwornsJXB
 MEAA_JPEA_W_J
 MEAA_JPEAD_J
 MEAA_JPEB_W_J
@@ -14191,7 +14193,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAsX60wkuuJY1ZmNsh0ijS1xa63wGsFUK7xTBhUTAwEmanZPDmrwa3
+MIICCgKCAgEAtwgTvpTyfCxcbtR
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14231,6 +14233,7 @@ Miscellaneous
 Mismatched
 MissingCoreScript
 MissingDumpFile
+MJPr2IKmn2RyV2bgjOPaR8F5kU8s8E7j
 MMW4IkDragCollisionsMode
 MMW4PartMaterial
 MMW4UserInputState
@@ -14476,6 +14479,7 @@ MSACM32.dll
 MsecBetweenTextureMemoryUsageArrayRefresh
 MSecsSinceEpoch
 MsgWaitForMultipleObjectsEx
+MsHWqLzRlnFpuVLVopJ
 MsToScreen
 MSVCP140.dll
 MSWSOCK.dll
@@ -14941,6 +14945,7 @@ NVWorkspace
 NW4FileSystemDir
 NW4PenStyle
 NW4UserInputType
+NwxiD7z8gqYrC7vtlJGu
 Oacutesmall
 OAEPEncryptionSET
 OAUTHBEARER
@@ -15064,7 +15069,6 @@ OgreWidgetForGameState
 OgreWidgetShowEvent
 Oh44\h44\Q
 Ohungarumlaut
-OI1DiuHjijJbLJceOdhaC9QvtcaRwNQcuWumrWgNh1kRgAgpu0
 OiCCPPhotoshop
 OldActiveElement
 OldMessagesFetched
@@ -15093,6 +15097,7 @@ OnDisconnectHTTPTimeout
 OnEmitRequested
 OneSocketServerForStudio
 OneToOneConversation
+OnfcEzgvhnikW4yaCMOqkOY0qZSIY2EW5
 OnGotPacket
 OnHttpResultApproved
 OnImportFromRoblox
@@ -15247,7 +15252,6 @@ OriginalSize
 OrIncrementCounterForOutputText
 OrProvinceName
 OS.Authentication.LuaLoginAndSignup4
-Os0OpsJKEuOpvxaCmdB5gQf9u4xSkSdRB2UwjvBp
 OscillateMotor
 Oscillator
 Oslashsmall
@@ -17162,6 +17166,7 @@ ProxiedRouter
 PROXY_CERT_INFO_EXTENSION
 PROXY_POLICY
 ProxyAction
+PRVQK3pFU7Ea435IsbEHk
 PSPECIFIED
 PUBKEY_get0
 PUBKEY_set
@@ -17245,7 +17250,6 @@ QCommonStyle
 QCompleter
 QCoreApplication
 QCryptographicHash
-QCw9RtlwhjiNyGS4pkwqN3V8vgI
 QDataStream
 QDebuggerClient
 QDesktopServices
@@ -17772,7 +17776,6 @@ QNetworkReplyAsQJsonObject
 QNetworkReplyImplPrivate
 QNetworkRequest
 QNPPPPPPPPPPPPPPPPPPPNOP
-QnXItneZV4L7QmfYdhdVC8j1uaewFEaXt46kcYunNpbhQqyBGauOq
 QObjectData
 QObjectShared
 QOgreWidget
@@ -18276,7 +18279,6 @@ RCCUpdateBroadphaseDtAverage
 RCCUpdateBroadphaseDtAverage_Datacenter_
 RccUse64BitAppearanceId
 RcpReferenceTime
-RDr51p7hy1r30L
 ReachActorChest
 ReachActorChestRotation
 ReachActorHead
@@ -19381,6 +19383,7 @@ RowsToRemove
 RowStretch
 RowVisibilityChanged
 RPCServers
+Rrr1w0mTKRTEpV
 RRReceiptFail
 RRReceiptTotal
 RRRRRRRRzzzzzzzzzzzzzzzzzz
@@ -24518,6 +24521,7 @@ ToLinkedScript
 ToLocalTime
 ToNextHunkAction
 ToNextScriptLocation
+TOo6rkyvfgw3yD3cLFru7
 ToObjectSpace
 ToOffAction
 ToolBarArea
@@ -24683,7 +24687,6 @@ TouchTransmitter
 ToUniversalTime
 TownAndCity
 ToWorldSpace
-TpzYusyYv06x2lhTbFl0MVfM7xjIOiWfz33hc
 TraceMessage
 Track2Data
 TrackAudioDriversPerSystem
@@ -25028,7 +25031,6 @@ UEventInfo
 UEventInstance
 UEventSlot
 UExtraSelection
-UFcgUiFsjcU9gC4Zc5OlyPN9F4i6BECAwEAAQ
 UFileMeshData
 UFileMetadata
 UFMODSystemRelease
@@ -27242,6 +27244,7 @@ WithSHA384
 WithSHA512
 WM_ATLGETCONTROL
 WM_ATLGETHOST
+WmCiqxvCHXKjfRYSvon
 WMCreateProfileManager
 WMCreateSyncReader
 Wmvcore.dll
@@ -27305,7 +27308,6 @@ WSAStartup
 WSAStringToAddressW
 WTHelperGetProvSignerFromChain
 WTHelperProvDataFromStateData
-WVpX7yKGgP
 WWWWWWWWWW
 WWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWW
@@ -27393,8 +27395,8 @@ XPEAVRobloxScriptDiffDoc
 XQColorDialog
 Xregex_error
 XResolution
+XTigA7Pdtw49RhKQNup
 Xtime_get_ticks
-XUDYbLm0vj1Zo2CdRJz6bE3
 XUnegotiation_response
 XUNetworkResult
 XvAAuY44YuAAvX4
@@ -27533,13 +27535,15 @@ Ycircumflex
 Ydieresissmall
 YDYHYQYTYbYsY
 YffYZefYDNNDCOO
+YGllx2pMqZPf5nNUqxcOxtpzJ8sfgTDCfRw4s6bmbtenbcwu0uIl8CAwEAAQ
 YieldEvent
 YieldFuncDesc
 YieldFunction
+YiKCQnQE8IXnH3IiZCHlhmO8z18gxuxoFpE3hk
+YMiU9oyGsy9GqHSZ10V
 YQByteArray
 YResolution
 YwBBvY55YvBBwY5
-YYuX0BEYgpBG7DwOwIWhWm
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
 Zcaronsmall
@@ -27557,6 +27561,7 @@ ZoomToHighlight
 ZP6APEAX1PEBX
 ZP6AX1PEAX
 ZPEAVRBXMessageBox
+ZqoUdOpIwa
 ZRZZZbZt[.[
 ZVspecial_equipped_signal
 ZVTouchedSignal
