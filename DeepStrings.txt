@@ -442,6 +442,8 @@ AlignOrientationAction
 AlignPosition
 AlignPositionAction
 AliveTimerTimeout
+All_Context
+All_Message
 AllBreakpoints.png
 AllBreakpointsStateAction
 AllButtonPressed
@@ -4275,6 +4277,7 @@ BgUpdateRedirectsHttpErrInfluxHundredthsPercentage
 BgUpdateRedirectsRejectInfluxHundredthsPercentage
 BHHHHHHHHHHHHHHHHHHHHHHHHHH
 BhHlLjJTiIfdnczsxX
+BIbNJvXbgbFjE9PYrfirbnD44c19nUJSvhsiEJVSGQiKjIDxBSKWl8PtlhnCn
 BillboardGui
 BillboardGuiDistanceStepping2
 BinaryData
@@ -4428,6 +4431,7 @@ BN_rand_range
 BN_RECP_CTX_new
 BN_STACK_push
 BN_to_felem
+BnAppkPeUH7LIepgmHb5PMSSoFlcP3zwkUOp
 BodyAngularVelocity
 BodyBack_Att
 BodyBackAttachment
@@ -4683,7 +4687,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409826
+ByVersion_0.444.0.409842
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -4966,7 +4970,6 @@ CComObjectRootEx
 CComPolyObject
 CCPPhotoshop
 CCx[66[xCCx[6L
-CCxZ0rSrZRWZleKdH
 CD583B11E29A3DBD856014A660
 CDA22142068118C14FDE5E01E7934
 CDAC09CD62068118083FFBB091BBC13
@@ -5513,10 +5516,9 @@ CloseInspectMenu
 CloseInspectMenuRequest
 ClosePlayDataModel
 CloseReason
-CloseRecursive
+CloseRedirectedLocalAssetIds
 CloseRequested
 CloseShareModal
-CloseSpecific
 CloseStatsBasedOnInputString
 ClosestNoPath
 ClosestOutOfRange
@@ -7477,7 +7479,6 @@ DebugStudioFlagState
 DebugStudioForceBootstrapperRedundancyCheck
 DebugStudioForceExternalLogin
 DebugStudioIgnoreQtBufferError
-DebugStudioLegacyPlayerJoin
 DebugStudioLogSessionsOnTimer
 DebugStudioMeshSplitProcessInterval
 DebugStudioMockTranslation
@@ -8759,9 +8760,9 @@ EFrontVector
 Egravesmall
 EHcUgHc]oL
 EHERE\EfEpEzE
+Ej5cXwOAykBu2NJmFcfFcZw6nbHl13pXjb0cOlap5
 EJJJJJJJJJJJJJJJJJJJJ
 EJTU\^bcfguw
-EjxVEViVRSuhTGbbsfg9CGxiH1
 ElapsedSeconds
 ElapsedTime
 ElasticBehavior
@@ -8929,6 +8930,7 @@ EnableNewLuaTypeChecking
 EnableNewPreciseConvexDecompositionCollisionFidelity
 EnableOutputTableViewBeta
 EnablePerfDataCollection
+EnablePerfDataCoreTimersCollection
 EnablePerfDataMemoryCollection
 EnablePerfDataTimerCollection
 EnablePerFrameSampling
@@ -10123,7 +10125,6 @@ FrontSurface
 FrontSurfaceInput
 FrustumOrdered
 FrustumRenderQueue
-FullDisconnect
 FullRenderObjects
 Fullscreen
 FullScreen
@@ -11086,6 +11087,7 @@ GfxPartInvalidationLimitToTime2
 GGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GgleQjJM2o5czjOb
 GIM_ShapeRetriever
 GImpactCollisionAlgorithm
 GImpactCompound
@@ -11341,7 +11343,6 @@ GuiTrackInsertionOrder
 GuiVertices
 GunCursor.png
 GunWaitCursor.png
-GURK45qYDcGAcIeDv0FNjz
 GvEphfEUiHHoD6hYFI4xWGpAnIHcklKQCxrf46kAhDGeZnqIgeGszlGdWafunGE8
 GVKUTS[BXIWH\KbHi
 GXGfGkGpGuG
@@ -11502,7 +11503,6 @@ HelpForSelectionAction
 HelpPageLink
 HelpWindow
 HelpWindow.style[
-HEMUxMN0Y7
 HHAEBVQModelIndex
 HHHHHAEBVQString
 HHPEAVQObject
@@ -11896,6 +11896,7 @@ HWYGOTH.ttf
 HybridEvent
 HyIyPyVy]y^yey
 Iacutesmall
+IAKAgO5p5rEOleRW
 IAutocompleter
 IBusyStateModel
 ICCProfile
@@ -12589,6 +12590,7 @@ IsVerified
 IsVertexArray
 IsVibrationSupported
 IsVIPDeveloper
+It53FNUmgvtJQbMMrQanU7alH8oCptZMTVT3O7KPP2W
 ITALIC_ANGLE
 ItalicAngle
 Item.forceActiveFocus
@@ -12826,6 +12828,7 @@ KPEAVICHull
 KPEIBX_K_KPEIAU_iobuf
 KSocialService
 KVScriptContext
+KxPaZyTtX0OLm1
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
 LabelArray
 LabelArray.push
@@ -13529,6 +13532,7 @@ LuauWatchdog
 LuaVersion
 LuaWebService
 LVvuOx39]O
+LWqaNBmJcwLGIQm74Q0d0GPJ40M8lZQX8VS
 M_NVWeakFunctionRef
 MacGamepadUseGCController
 MachineAddress
@@ -13706,7 +13710,6 @@ MaxViscousForceGravityTimesMult
 MaxVisibleItems
 MaxWaitTimeBeforeForcePacketProcessMS
 MayBeLinkedSourceModified
-MDHooz78n8o43zoJoAcPzzC4jPMyCFTdDRAn13xXw1jrgd0Sch
 MdiControls
 MDIManagerHost
 MEAA_JPEA_W_J
@@ -14006,8 +14009,6 @@ MegaPhysics
 MegaReplicationDataForReplicator
 MegaReplicatorDisconnectSwapAndPop
 MegaReplicatorDisconnectTaskBatchSize
-MegaReplicatorNonPlayerDODInfluxPermyriad2
-MegaReplicatorSharedReplicationMarkers
 MegaReplicatorStoreWeakDm
 MegaReplicatorUseMarkDeadHelper
 MegaReplicatorWorldExtentsRefreshTime
@@ -14170,7 +14171,7 @@ MethodQuery
 Metrics.width
 MetricsSets
 MetricType
-MGeD91XuDpOLQz3Jya8jpiKEQrST8GC5YJ3H749mow
+MeyjBKJSGGUw4P0rKmGgHvCqDf2e
 MHapV7R8MxA953
 MicroProfile
 MicroProfileFlip
@@ -14187,7 +14188,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEA3WBSnleRtxzaQoX8U9nsDZ6
+MIICCgKCAgEA
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14783,9 +14784,6 @@ NextTabPage
 NfXf`fhfzf
 NHVVariant
 NinjaMask.mesh
-NJ9oBUtXp2Vd
-NLIBvIudDSmIQp
-NNCe7E4R93VOB
 NNNNNNNNNNNNNNNNNNNNNN
 NNNNNNNSSSSSSSSSSSSSSSSSSSSSS
 NNW4SizeMode
@@ -14815,7 +14813,6 @@ NONINFRINGEMENT
 NonJsonParseType
 NonMinRadiusAvgQueueWaitTimeMs
 NonNullFrame
-NonPlayerDOD
 NonReplicatedCSGDictionaryService
 NonSolidFloorPercentForceApplication
 NonVariant
@@ -14926,6 +14923,7 @@ NumRegionsToGC
 NumRigidJointsNotInWorld
 NumSubSounds
 NumTickets
+NUrJRA5HqvovcFWtJCpj2AEiaWN65C5kRZDGMe3jOE1UkvryCVtVmbUbDpfUNk6S
 NVAuthenticationHelper
 Nvb5JjRCUQ
 NVLuaWebService
@@ -15031,7 +15029,6 @@ OfCitizenship
 OfCompressedBytes
 OfCreation
 OfDelivery
-OfdzxMnX84bn8x
 OfE9E0uHfE9E
 OffCounters
 OfficeStyle
@@ -15245,7 +15242,6 @@ OriginalPosition
 OriginalSize
 OrIncrementCounterForOutputText
 OrProvinceName
-ORrjjyFPAgAvDvB0yF
 OS.Authentication.LuaLoginAndSignup4
 OscillateMotor
 Oscillator
@@ -18799,7 +18795,6 @@ ReplicatorKickReadEventStringDataAndVariantLimit
 ReplicatorKickWriteEventStringDataAndVariantLimit
 ReplicatorLabelItemTypesProcessed
 ReplicatorMaxPacketBytesSentToInfluxOnError
-ReplicatorOnlyDODPlayerOnlyOnReplicatorDisconnect
 ReplicatorReadVariantLimit
 ReplicatorStreamingReportAncestorsSentWithoutAllDescendants
 ReplicatorStreamingReportGCStepPercentage
@@ -19091,7 +19086,6 @@ RevocationList
 RevocationRefs
 RevocationUrl
 RevokeFriendship
-RGy95QIo0X7i4
 RibbonButton
 RibbonButtonControl
 RibbonGallery
@@ -19419,7 +19413,6 @@ RTDynamicCast
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-Rtuw8CDigyBZb6u1Y9MCgno0iMs
 RuiCheckBoxHeader
 RuiDialogButtonBox
 RuiDialogButtonHLayout
@@ -19454,7 +19447,6 @@ RunService.Stepped
 RuntimeScriptService
 RuntimeUndoBehavior
 RunUpdateCycle.
-RvCfZ3rLjiIKYDX6qrL
 RVideoInternal
 RVideoMemLogging
 RVideoTrace
@@ -20424,6 +20416,7 @@ SHUseNewComputeLevelUsesOBB
 ShutdownClient
 ShutdownClientAndSave
 ShutdownPolicy
+SHX8pHn0nytiXlIfdiRXVZqwflfvysZLOSns
 SiblingElement
 SigDigest_add1
 SigEd25519
@@ -20526,6 +20519,7 @@ SkinningIsland
 SkinningIslands
 SkinningIslandsForModel
 SkipFirstMechanismChangeReport
+SKlWIA1i2BkNN2U2SMsn
 Sky.SkyboxBk
 Sky.SkyboxDn
 Sky.SkyboxFt
@@ -23707,10 +23701,8 @@ TattletaleReportUnfilteredJobMaxReportsPerTick
 TattletaleShuffleCount
 TattletaleUseNewWordListFeatures
 TattletaleUseOriginalWordList
-TbAkzNV2JasQ0HADBFfXcedxQQgh
 Tcommaaccent
 TCP_NODELAY
-TDu1bAl8wiDvAgv2NBkNIgcnMLaMHO1qiOh6ZvsUIFA6fjgYMKEe
 TeachingCallouts
 TeamChildOrderExposedTelemetry
 TeamChildOrderProperty
@@ -26414,6 +26406,7 @@ VLayoutPage
 VLayoutTable
 VLayoutTableMajor
 VLazyTable
+VlcEhnashS
 VLDLComponent
 VLeftMotorTool
 VLegacyCharacterAppearance
@@ -26938,6 +26931,7 @@ VWXYZ[\]^_`a
 VXmlElement
 VYieldFunctions
 VYieldFunctionStateObject
+VzpPxK5BiW2xGo5JmpPeLvaoLKWD51hHk
 W_Key_dn.png
 WaistAccessory
 WaistBack_Att
@@ -27001,6 +26995,7 @@ WatchRemoved
 WatchValues
 WatchWidget
 WatchWidgetContextMenuCopy
+WatchWidgetSortVariables
 WaterCellDirection
 WaterCellForce
 WaterColor
@@ -27012,6 +27007,7 @@ WaterViscosityDragFudgeFactor
 WaterWaveSize
 WaterWaveSpeed
 WaypointIdx
+WBOxa5EJvQV0CAwEAAQ
 WCharArray
 Wcircumflex
 WDU_Mbstatet
@@ -27302,6 +27298,7 @@ WTHelperProvDataFromStateData
 WWWWWWWWWW
 WWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWW
+WYoJwdCbSxu4i0aU6DE02dwFTikoqMWy5x
 X_JW4AssetType
 XA^A]A\_][
 XA_A]A\_^[
@@ -27335,6 +27332,7 @@ XAlignment
 Xbad_alloc
 Xbad_function_call
 XbbXXbbXGSSGGSS
+XBCDYuAidMlkKC13psf
 Xbox.AllUsers.PlayNextGame
 XboxAvatarPaneRefreshInterval
 XboxDisableTextChat
@@ -27387,6 +27385,7 @@ XQColorDialog
 Xregex_error
 XResolution
 Xtime_get_ticks
+XUn7euicGFapaC7PTVqYzW43QP9Lp6zPOR9Z
 XUnegotiation_response
 XUNetworkResult
 XvAAuY44YuAAvX4
@@ -27419,6 +27418,7 @@ XVHttpClientHandler
 XVHumanoid
 XVInventoryPages
 XVLDLBatchTask
+XVlkCQxCNFJWNUV1kQg9
 XVLuaSourceBuffer
 XVLuaWebService
 XVMarketplaceApiClient
@@ -27525,10 +27525,10 @@ Ycircumflex
 Ydieresissmall
 YDYHYQYTYbYsY
 YffYZefYDNNDCOO
+YiBVGdOrARsnLD901DNtxt
 YieldEvent
 YieldFuncDesc
 YieldFunction
-YOdXAJbIEKK4z1oybxLmPfkLsCAwEAAQ
 YQByteArray
 YResolution
 YwBBvY55YvBBwY5
@@ -27541,7 +27541,6 @@ ZhniZzzzZbarAnmrAgneBlryCaveDroeGkerGrjuGuruGgnaHinaHrbeHariHadnKanaKooaLntaLmyl
 ZIndexBehavior
 ZLcJhLcGhM
 ZNjlXiODrHUcaGRYt
-ZNLQff5c5JMtWP6PLlr7H3bjT
 ZntaLkerGlryCnmrArbeHbarAcrySaahTaveDgneBuruGrjuGayrOlmaTuleTadnKmylMhniSiahTooaLtbiTrmyMroeGgnaHihtErehCsnaCmagOrnuRrmhKgnoMariHanaKopoBinaHiiiYlatIhtoGtrsDhniZglgTonaHdhuBbgaTbmiLelaTbniLragUwahSamsOtrpCiarBiguBtpoCulaTgalGgnfTolySoepXrahKilaBxusXxnhPgahPoo
 ZoomActive
 ZoomOutDistance
@@ -27550,9 +27549,7 @@ ZoomToHighlight
 ZP6APEAX1PEBX
 ZP6AX1PEAX
 ZPEAVRBXMessageBox
-ZPqY09nu4Vb5xCcIFXQ0kleXL4hzabA8c
 ZRZZZbZt[.[
-Zs6BJSSElQ0HoKVZ7HH5McUlLzyq956nP
 ZVspecial_equipped_signal
 ZVTouchedSignal
 ZZZZZZZZZZZZZZZ
