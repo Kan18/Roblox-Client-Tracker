@@ -408,6 +408,7 @@ AfterRequested
 AfterSeconds
 AfterUpdateContentFromSource
 AgainstLatestPackageAction
+AGcgPNfark3xzchGXarJGVRqr
 Age13OrOver
 AgeBracket
 AgentCanJump
@@ -855,13 +856,13 @@ ArrowToolAction
 ArtistIntent
 Ascii_helper
 AScrollWheelDeltaAmount
+AsFgwtJlge49jK
 ASIdentifierChoice
 ASIdentifierChoice_canonize
 ASIdentifierChoice_is_canonical
 ASIdentifiers
 ASIdOrRange
 AsInstanceDefaultAction
-ASisN4qLU3bxPE2UJNeYqes4r
 ASN1_bio_stream
 ASN1_BIT_STRING
 ASN1_BIT_STRING_set_bit
@@ -4223,6 +4224,7 @@ BCFB47F7B1F11E4A86BBBBE005A3BAD
 BCFB4807B1F11E4A86BBBBE005A3BAD
 BCFB4817B1F11E4A86BBBBE005A3BAD
 BCFB4827B1F11E4A86BBBBE005A3BAD
+BcglzouIPys9g1WBWXm3wRkO8ZilkroWRhFpDwA312RHMc5Z4psyqHaDKYq3
 BCIDistributionTBS
 BConnection
 BCryptGenRandom
@@ -4369,6 +4371,7 @@ BlendEquationSeparatei
 BlendFunci
 BlendFuncSeparate
 BlendFuncSeparatei
+BleOsrf9g1UJDdyphi6Aeal5
 BlitContextFramebufferAMD
 BlitFramebuffer
 BlobCacheMRPMap
@@ -4430,7 +4433,6 @@ BN_rand_range
 BN_RECP_CTX_new
 BN_STACK_push
 BN_to_felem
-Bo6tdwTjebWMvtRqqdxqbTxF
 BodyAngularVelocity
 BodyBack_Att
 BodyBackAttachment
@@ -4675,6 +4677,7 @@ BVTextureId
 BW4AlphaMode
 BW4ModelLevelOfDetail
 BWGradient.png
+BwTEts4djCY
 ByCongestionControl
 ByDatacenter_
 ByIPForDatacenterId_
@@ -4686,7 +4689,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409730
+ByVersion_0.444.0.409745
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -4949,6 +4952,7 @@ CBVvalue_semantic
 CBVVariant
 CBW4AppConfigurationType
 CC11E498F68EF2339C0665
+CC4CBAlJ38CAwEAAQ
 CC583B11E29A3DBD856014A660
 CCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCDC
@@ -5218,7 +5222,6 @@ Ciphersuites
 CircularList
 Circumflexsmall
 CityBackground.png
-CjHXLfEBSD1GaaHxDW6lgjFAzfxXXTAfU1cLc5OsvqCtdeL4c0360WGhy9F
 CJVNotFallbackToEnglishForCoreGuiEnabled
 CJVNotFallbackToEnglishForUGCEnabled
 ClampColor
@@ -5465,7 +5468,6 @@ ClientSettings
 ClientSignatureAlgorithms
 ClientSocketIPVersion
 ClientStepContactsDtAveMS_
-ClientStopSendJdiAtJoin
 ClientStreamingRadiusRoundConsistency
 ClientTextureMemoryUsage_
 ClientTicket
@@ -7235,7 +7237,6 @@ DB33D7AAF011E38B9D871882A8E559
 DBD856014A660
 DBSAES_ASM
 Dconst_iterator
-DCTEj7SEAlgIh928Oq55LXFJ06Zthyatkl
 DD11E2898E9FB8E4A9E79B
 DD4669DB402E11E3A29DA4266180AE0C
 DD4669DC402E11E3A29DA4266180AE0C
@@ -9975,7 +9976,6 @@ ForumHttpRequestFailure
 ForumHttpRequestSuccess
 ForUnpublishedChanges
 ForwardScroll
-FOTW3re8CAwEAAQ
 FoundItems
 FoundThread
 FpFramebuffer
@@ -10318,7 +10318,6 @@ GAThrottlingEventThresholdHundredthCat1
 GAThrottlingEventThresholdHundredthCat2
 GAThrottlingEventThresholdHundredthCat3
 GazeSelectionEnabled
-GbP3gjEcbu7EvZD71yCVqZf
 GCDistance
 GCHappened
 Gcircumflex
@@ -11508,6 +11507,7 @@ HelpForSelectionAction
 HelpPageLink
 HelpWindow
 HelpWindow.style[
+HGiQ4oUQQoCjZOFq
 HHAEBVQModelIndex
 HHHHHAEBVQString
 HHPEAVQObject
@@ -12484,7 +12484,6 @@ IPublishedGamesStore
 IPV6_V6ONLY
 IPV6RobloxStudioCleanUp1
 IRestartController
-IRiGC4k2gpERnMjPd65XxXQoYvMiQjyQDhuYv8FI
 IRobloxDoc
 IRobloxDocManager
 IRobloxIDEDoc
@@ -12769,6 +12768,7 @@ KAXPEBDHAEAPEAVQChar
 KBytesPerSec
 KeepAliveTimeout
 KeepPositionOnInsert
+KepvR9LLZImlR9OHaSjVKQEgf711BQwmsNCD9qeDVejGIK0OOFWziu2Hhd29a
 KERNEL32.dll
 KERNEL32.DLL
 KernelJoint
@@ -12830,8 +12830,6 @@ KnownPrefixIndex
 KodchiangUPC
 KPEAVICHull
 KPEIBX_K_KPEIAU_iobuf
-KROecYrB4vGTYaW1GmljsYcZMJiM4lyFW2s16wxFVlqcuNnMman
-Ks3RZcmuEjwt7NODynr0f6AUzyaOyJuZORbP
 KSocialService
 KVScriptContext
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
@@ -12919,6 +12917,7 @@ LDLProgramOpsReportingMinOpCount
 LDLProgramOpsReportingRate
 LDLStasisCacheMaxAge
 LDLStasisCachePurgeRate
+LDZVMnuLBknK7
 LeafBodies
 LeafLeftArmRoll1
 LeafLeftArmRoll1Mode
@@ -14192,7 +14191,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAxGD8tg9S1ZteCNe91NoTmgKOlEr167FzDQxGvSGdVMAElRXpSMWQ
+MIICCgKCAgEAwMkdBrllX8nUqaylDbHFadjmCZdS53qR5tLxMV4MzWfmjvZ9n
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14541,6 +14540,7 @@ MutexLifetime
 MW4PartMaterial
 MyModelsAction
 MyWatchTreeWidget
+Mz2oa1skh9MUbCGaP23mHAf3HBXRJjU6u7MQK0jig
 NAEAVHttpResponse
 NAEBUPlaceLauncherRequestInfo
 NAEBVFbxTime
@@ -14622,6 +14622,7 @@ NavigationServiceTimingAnalytics
 NavigationServiceWorker
 NavigationType
 NavMeshTiles
+Nc6fhVgieU0wpG
 NCONF_dump_bio
 NCONF_dump_fp
 NCONF_get_number_e
@@ -14772,6 +14773,7 @@ Newsession
 NewSettingsEndpointExceptionInfluxPermyriad
 NewSortAndFilter
 NextAction
+NExTATwyq45wBO3C5o0IuTByafUCFawy0
 NextButton
 NextConflictButton
 NextConflictClicked
@@ -15244,6 +15246,7 @@ OriginalDocumentID
 OriginalPosition
 OriginalSize
 OrIncrementCounterForOutputText
+Orjl2l7Tt0BUmSlcmIcz
 OrProvinceName
 OS.Authentication.LuaLoginAndSignup4
 OscillateMotor
@@ -15277,7 +15280,6 @@ OtherMechanismsAnchored
 OtherTextChanged
 OtherTopLabelOverride
 Otildesmall
-OTryNA6Cjzj2bxUJ
 OutboundTotal
 OutBufferHealth
 OutClusters
@@ -17192,7 +17194,6 @@ PublishToDifferentGame
 PublishToRobloxAsVerb
 PublishToRobloxVerb
 PugiCrashOnUnhandledXml
-PUImKhBk1NGbJ0Vf74
 PullIterationCount
 PURCHASE_ROBUX
 PurchaseBundlePrompted
@@ -17845,7 +17846,6 @@ QStyleOptionDockWidget
 QStyleOptionSlider
 QStyleOptionToolButton
 QStyleOptionViewItem
-QsUL289zGsXqhqxza3
 QSurfaceFormat
 QSyntaxHighlighter
 QSystemSemaphore
@@ -18841,7 +18841,6 @@ ReportFeOnStartup
 ReportFeOnStartupPermyriad
 ReportFMODInitThreadingRate
 ReportGALightingTechnology
-ReportGameJoinSession
 ReportGPUMetrics
 ReportHttpServiceToEc
 ReportInfluxFastLog
@@ -19485,6 +19484,7 @@ SandboxLocalCache
 SandboxLocalCacheInitialized
 SandboxUser
 SANW4EMode
+SAOlXW3q3Gdj
 SAPEAUNode
 SAPEAVQClipboard
 SAPEAVQDesktopWidget
@@ -20503,6 +20503,7 @@ SingletonTemplate
 SIO_KEEPALIVE_VALS
 SISQSZSsSuS
 SiteMessageBanner
+SiWKKFmoXQIBNy7kFAwTTn6Y8yNfqbTDUu3b1A4iy51rqzg4a4Oy
 Size100x100
 Size150x150
 Size180x180
@@ -22974,7 +22975,7 @@ StudioData
 StudioDataModelType
 StudioDebugBTID
 StudioDebugger
-StudioDebuggerRefactorLuaArguments
+StudioDebuggerRefactorLuaArguments2
 StudioDebugLog
 StudioDebugPackage
 StudioDefaultNewTemplatePlaceId
@@ -24684,7 +24685,6 @@ TouchTransmitter
 ToUniversalTime
 TownAndCity
 ToWorldSpace
-Tp5dAFhcOI
 TraceMessage
 Track2Data
 TrackAudioDriversPerSystem
@@ -25125,6 +25125,7 @@ UITransformedLitVS
 UITransformedVS
 UIViewportFrameCollectFrames
 UIViewportFrameWorkspace
+UK3mnOjH5R
 ULinkedScriptLoadData
 ULoadedImage
 ULuaCallbacks
@@ -26504,7 +26505,6 @@ VNetworkPhysicsParallelReceiveJob
 VNetworkSendDataMegaJob
 VNetworkSettings
 VNetworkStream
-VnnA3nwQ9L0SelM3XtEwh2Kgx
 VNoCollisionConstraint
 VNonReplicatedCSGDictionaryService
 VNotificationService
@@ -27392,6 +27392,7 @@ XPEAVRobloxScriptDiffDoc
 XQColorDialog
 Xregex_error
 XResolution
+Xs43BF8CMV1fHvS
 Xtime_get_ticks
 XUnegotiation_response
 XUNetworkResult
@@ -27488,7 +27489,6 @@ XW4websocket_close_status
 XW4WebSocketEventType
 XwhvcEikuIaqb7nHhEJ
 XXXXXXXXXXXXXXXXuuuuuuuuuuuuuuuuppppppppppppppppppppppp
-Xze6ji77EEZTybO
 XZP8CoreGuiService
 XZP8CRenderSettingsItem
 XZP8GuiObject
@@ -27528,7 +27528,6 @@ YAXPEAXPEBX1
 YAXPEBVQObject
 YAXVexception_ptr
 YAXW4error_type
-YbvUXJ5tAZxL6sZPRJNvafbTm902
 Ycircumflex
 Ydieresissmall
 YDYHYQYTYbYsY
@@ -27536,10 +27535,10 @@ YffYZefYDNNDCOO
 YieldEvent
 YieldFuncDesc
 YieldFunction
-Ympea95u5lXteS0HpLDrLf5
 YQByteArray
 YResolution
 YwBBvY55YvBBwY5
+YyEUyOxxscZ72e9JqH4jWxv3vOcuySAFQl264NeSpk8jrrRMK
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
 Zcaronsmall
@@ -27547,6 +27546,7 @@ Zdotaccent
 ZgnhKhWhci
 ZhniZzzzZbarAnmrAgneBlryCaveDroeGkerGrjuGuruGgnaHinaHrbeHariHadnKanaKooaLntaLmylMayrOlmaTuleTiahTtbiTopoBiarBsnaCrehCihtErmhKgnoMrmyMmagOrnuRhniScrySaahTiiiYtrsDhtoGlatIdhuBonaHglgTbgaTtrpCbmiLbniLamsOwahSelaTragUiguBtpoCgalGrahKulaToepXolySgnfTilaBxusXookNga
 ZIndexBehavior
+ZkhRiSu1IxyfJgGhXa3bGtYeE5YWqQOZlaERyXWPx
 ZLcJhLcGhM
 ZNjlXiODrHUcaGRYt
 ZntaLkerGlryCnmrArbeHbarAcrySaahTaveDgneBuruGrjuGayrOlmaTuleTadnKmylMhniSiahTooaLtbiTrmyMroeGgnaHihtErehCsnaCmagOrnuRrmhKgnoMariHanaKopoBinaHiiiYlatIhtoGtrsDhniZglgTonaHdhuBbgaTbmiLelaTbniLragUwahSamsOtrpCiarBiguBtpoCulaTgalGgnfTolySoepXrahKilaBxusXxnhPgahPoo
@@ -27558,7 +27558,6 @@ ZP6APEAX1PEBX
 ZP6AX1PEAX
 ZPEAVRBXMessageBox
 ZRZZZbZt[.[
-ZTqKi8MDGOezvtEY5O57G9y2tZ
 ZVspecial_equipped_signal
 ZVTouchedSignal
 ZZZZZZZZZZZZZZZ
