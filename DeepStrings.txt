@@ -512,7 +512,6 @@ AllUsers.Studio.LuaDraggers
 AllUsers.Studio.PaidPlugins
 AllWatches
 AllWindows
-AlpehG3YbNCaLVnN7W8iQvrEt
 AlphaBufferSize
 AlreadyReset
 AlternateName
@@ -1103,6 +1102,7 @@ AUHashState
 AUHashStateBlake2b
 AUHashStateMd5
 AUHashStateSha1
+AuHKbvfEhJHV
 AUHmacState
 AUHmacStateMd5
 AUIAdviseSink
@@ -4203,6 +4203,7 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBB
 BBCA91111E2B410EF351327957B
 BbEcJYG[I[NYVP\B]
 BBFA91111E2B410EF351327957B
+BbRRQdqMhsjsTD3HcAI4jInCjOdZ3QDnT1PLn
 BBxZ55ZxBBx[5D
 BC0A91111E2B410EF351327957B
 BC0DAEAAF011E38B9D871882A8E559
@@ -4226,7 +4227,6 @@ BCFB4827B1F11E4A86BBBBE005A3BAD
 BCIDistributionTBS
 BConnection
 BCryptGenRandom
-BdBrNygOxy2MBa9arMPb
 BE20681180838E23F0DC6224
 BE42889BE20681180838E23F0DC6224
 BEA91211E2B410EF351327957B
@@ -4686,7 +4686,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409747
+ByVersion_0.444.0.409815
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -5038,7 +5038,7 @@ CFrame.new
 CFrameDecal
 CFrameOnly
 CFrameValue
-CGz0OElZfZj5aewrK76GzG6qDXv2GodwWwVHNnGmUqTjb3Zsm14zyodD
+CGa4NdpFnJ6pfYg3EO42mWjRjMdi1pq6ADsjEMDcFDEko0xxCqXyo3X69No0O7M
 ChainCAFile
 ChainCAPath
 Chalkboard
@@ -5219,6 +5219,7 @@ Ciphersuites
 CircularList
 Circumflexsmall
 CityBackground.png
+CJbvNLh9maXuMNTqW5okSwny5D0lGt0tRD0Y5LBvDMn8QURbKGqh48CAwEAAQ
 CJVNotFallbackToEnglishForCoreGuiEnabled
 CJVNotFallbackToEnglishForUGCEnabled
 ClampColor
@@ -6487,6 +6488,7 @@ CountryRegionCode
 CountryRegionCodeReplicate
 CountShifted
 CountWidth
+CPfWj4cnGST0q3De6EmsHnjh7YkCb
 CrackedLava
 CrashDumpFileName
 CrashEvent
@@ -7081,7 +7083,6 @@ DAAEB11E38B9D871882A8E559
 DADE9A44A91111E2B410EF351327957B
 DADE9A45A91111E2B410EF351327957B
 DaHaLaNa`ahaza
-DAkSO0V9y5i
 DarkEditorColors
 DarkTheme.json
 DarwinMemoryLimitPercentageEstimate1GB
@@ -8305,7 +8306,6 @@ DPERF_EndEvent
 DPERF_GetStatus
 DPOLY1305_ASM
 Dqlqlqlqlql
-Dr0uu7C7Szl
 DraftAdded
 DraftCommitted
 DraftOutdated
@@ -8463,6 +8463,7 @@ DXT1DXT3DXT5
 DXUnlockObjectsNV
 DXUnregisterObjectNV
 DXVideoMemory
+DY3xP877sjqmjgykx9v3A9LNazJeBi7mc8h
 DynamicFastVariableReloaderTimeoutMs
 DynamicLocalizationTablesDataTimeout
 DynamicLocalizationTablesRetryCount
@@ -9498,6 +9499,7 @@ FCDAAED11E38B9D871882A8E559
 FD0AAED11E38B9D871882A8E559
 FD1AAED11E38B9D871882A8E559
 FD8642D2249E1119F2FDB7CBEC74584
+Fd9m9pODBfxiJMFV96
 FDA6C1EA211E49FA6F7D125AE5309
 FDA6D1EA211E49FA6F7D125AE5309
 FDA6E1EA211E49FA6F7D125AE5309
@@ -10318,7 +10320,6 @@ GAThrottlingEventThresholdHundredthCat1
 GAThrottlingEventThresholdHundredthCat2
 GAThrottlingEventThresholdHundredthCat3
 GazeSelectionEnabled
-Gb7SKPxpLPOkcGZ
 GCDistance
 GCHappened
 Gcircumflex
@@ -10327,6 +10328,7 @@ GCNotAlwaysMemory
 GCReducesQuota2
 GCReducesQuotaCriticalPercent
 GCReducesQuotaPercent
+GCX9kl8h5WBZRgseIy
 Gdotaccent
 GE_package.png
 GE_packagefolder.png
@@ -11352,8 +11354,8 @@ GvEphfEUiHHoD6hYFI4xWGpAnIHcklKQCxrf46kAhDGeZnqIgeGszlGdWafunGE8
 GVKUTS[BXIWH\KbHi
 GXGfGkGpGuG
 GxI9Gpu2E2
+GXXe1a5fE5lgf
 GyroscopeEnabled
-GzAsWqlIZ3pwbqm
 H_Key_dn.png
 H_NAEBVQString
 H`CeIkHq7v4
@@ -11580,7 +11582,6 @@ HistoryViewMouseX
 HistoryViewMouseY
 HitLocationPartFilterDescendents
 HitsPrecise
-HjChq11DnkOd9h1N393s6ElJCCGwrGzEzWSS7FbNCTsZEk6S5IXeE6lD
 HKEY_CLASSES_ROOT
 HKEY_CURRENT_CONFIG
 HKEY_CURRENT_USER
@@ -11897,10 +11898,10 @@ HW4Initialization
 HW4MatchType
 HW4Orientation
 HW4PacketPriority
-HW9dOOFTXMQNxlOCBPXvrJm5Y0iJ0XuVgwQ
 HwngSmldAskhBcraMaweNegsOgnaT
 HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdnaNpnmHohcWsrhCkaiDstiKizeY
 HWYGOTH.ttf
+HXSeIwhld1
 HybridEvent
 HyIyPyVy]y^yey
 Iacutesmall
@@ -12824,7 +12825,6 @@ KFKPKXK`KhK
 KickByDatacenter_
 KiDszBCYB0gyp03Pc
 KillPtClicked
-KjElA4HhRd
 KKKKKKKKKK
 KKKKKKKKKKKK
 KKKKKKKKKKKKKKKKKKKKKK
@@ -12833,7 +12833,7 @@ KnownPrefixIndex
 KodchiangUPC
 KPEAVICHull
 KPEIBX_K_KPEIAU_iobuf
-KsE4xAnYIki7AuvEIpVpdb6VRXIPdxwH2V3bVPMvGwjaGAXFFy
+KQ4DzIi0hi
 KSocialService
 KVScriptContext
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
@@ -12904,6 +12904,7 @@ LayoutNode
 LayoutOrder
 LayoutRichTextFaster2
 LazySubmitTask
+Lb1ExiPYqdrHdk6vPm2n0JKVyqp
 LC_MESSAGES
 LCMapStringW
 LDLBuildProgramTimeReportRate
@@ -14017,6 +14018,7 @@ MegaReplicatorDisconnectSwapAndPop
 MegaReplicatorDisconnectTaskBatchSize
 MegaReplicatorNonPlayerDODInfluxPermyriad2
 MegaReplicatorSharedReplicationMarkers
+MegaReplicatorStoreWeakDm
 MegaReplicatorUseMarkDeadHelper
 MegaReplicatorWorldExtentsRefreshTime
 MegaRepOnlyClearWhenNewlyAlive
@@ -14194,7 +14196,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEA3z3NUS3i5K1lcHC3rnYbzRg0j5El9ys
+MIICCgKCAgEAvijkrFhx0rbagWxDsUs
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14311,6 +14313,7 @@ ModuleFolderFromPath
 ModuleName
 ModuleScript
 ModuleScriptLargeAction
+MOnM2x9nzStuoabUQVjCFpQ6QS7ris1
 Monochrome
 Montgomery
 MoonAngularSize
@@ -14476,7 +14479,6 @@ MRURobloxApiGamesChanged
 MRURobloxApiGameStore
 MRURobloxApiGameStoreBase
 MSACM32.dll
-MSAfg0OvIUANI0Fa1nxzGojA1eZilXo6hrmWy29YwMl7jCZIn0sAzTwdTiUrfL
 MsecBetweenTextureMemoryUsageArrayRefresh
 MSecsSinceEpoch
 MsgWaitForMultipleObjectsEx
@@ -15371,7 +15373,6 @@ OverrideToMyBranch
 OverwriteMode
 OverwritePublish
 OwnProperty
-OZfuHsLTxs76rbIfnjYUG
 Ozs8xYCf2Q05p4gHyX
 PA^A]A\_^]
 PA^A]A\_^][
@@ -16194,6 +16195,7 @@ PEBVWorkspace
 PEBVXmlElement
 PeekMessageW
 PeerClosedError
+PEhGIsrWSv4t
 PEM_ASN1_read
 PEM_ASN1_read_bio
 PEM_ASN1_write
@@ -18030,7 +18032,6 @@ QWheelEvent
 QWidgetAction
 QWidgetPluginGui
 QWidgetWindow
-QWiZpoGIimPfaceGbihaTNhb2vW5UWvFS6jMHJi5Fyq6zd5eMCAwEAAQ
 RadialBlurFS
 RagdollBallSocketConstraint
 RagdollDefaultTimerTenthSecond
@@ -18181,6 +18182,7 @@ RaycastParam
 RaycastParams
 RaycastResult
 RaycastSourceCollisionGroup2
+RBt2b89jQ1nG5
 RBX_CHECK_EQUAL
 RBX_CHECK_GE
 RBX_CHECK_GT
@@ -18376,6 +18378,7 @@ RecordToggle
 RecordToggleVerb
 RecoveredScriptFileLocation
 RecoveryWidget
+RecursionGuard
 RecursionMode
 Recursively
 RecursivelyAcquired
@@ -19097,7 +19100,6 @@ RevocationList
 RevocationRefs
 RevocationUrl
 RevokeFriendship
-Rh7G13xfOQrHr8
 RibbonButton
 RibbonButtonControl
 RibbonGallery
@@ -19214,6 +19216,7 @@ RigidBodyLazyUpdating
 RigidityEnabled
 RiseVelocity
 Rj0isQcnqX
+RmIwnBkWk95c0AZyKUcRdBj3Dc3vNMe0FeSKgZ
 Roact.createElement
 ROBLOSECURITY
 Roblox.Hybrid
@@ -24831,6 +24834,7 @@ TS_TST_INFO_set_time
 TS_TST_INFO_set_tsa
 TS_VERIFY_CTX_new
 TSMk2ThrottleStreamJob
+TsphTqzTDIzAdV3TQyN2f
 TTTTTTTTTT
 TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
 TTUUEDDsss
@@ -24945,7 +24949,6 @@ UContentEncodings
 UContentEncryption
 UConversionOptions
 UCueTrackPositions
-Ud5ZID4ABVvKdSiVJi181Qv967hZFEKQ8rvjI
 UDecompConvexExtents
 UDefinition
 Udelete_data
@@ -25475,6 +25478,7 @@ UseKeyframeMarkersForEvents2
 UseLocalizationTable
 UseLocalSpace
 UseLockFreeVoronoiSimplexContainer
+UseMegaReplicatorAssemblyList
 UseMomentumThinning
 UseNativePathWaypoint
 UseNewDateTimeLocaleConfig
@@ -27019,6 +27023,7 @@ WaterViscosityDragFudgeFactor
 WaterWaveSize
 WaterWaveSpeed
 WaypointIdx
+WbulSAJiPa3X5wBvmgVQ
 WCharArray
 Wcircumflex
 WDU_Mbstatet
@@ -27532,24 +27537,25 @@ Ycircumflex
 Ydieresissmall
 YDYHYQYTYbYsY
 YffYZefYDNNDCOO
+YgZ58kLsD58FfeXDphgLh6tQcZF6
 YieldEvent
 YieldFuncDesc
 YieldFunction
 YQByteArray
 YResolution
 YwBBvY55YvBBwY5
+YwKfPNniqY7nfg4gdu1a
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
 Zcaronsmall
 Zdotaccent
+ZDZq6MDwfWXTWrlksaVIlwuXsIqZA
 ZgnhKhWhci
 ZhniZzzzZbarAnmrAgneBlryCaveDroeGkerGrjuGuruGgnaHinaHrbeHariHadnKanaKooaLntaLmylMayrOlmaTuleTiahTtbiTopoBiarBsnaCrehCihtErmhKgnoMrmyMmagOrnuRhniScrySaahTiiiYtrsDhtoGlatIdhuBonaHglgTbgaTtrpCbmiLbniLamsOwahSelaTragUiguBtpoCgalGrahKulaToepXolySgnfTilaBxusXookNga
 ZIndexBehavior
 ZLcJhLcGhM
 ZNjlXiODrHUcaGRYt
-ZnNBLjxakM
 ZntaLkerGlryCnmrArbeHbarAcrySaahTaveDgneBuruGrjuGayrOlmaTuleTadnKmylMhniSiahTooaLtbiTrmyMroeGgnaHihtErehCsnaCmagOrnuRrmhKgnoMariHanaKopoBinaHiiiYlatIhtoGtrsDhniZglgTonaHdhuBbgaTbmiLelaTbniLragUwahSamsOtrpCiarBiguBtpoCulaTgalGgnfTolySoepXrahKilaBxusXxnhPgahPoo
-ZO0Mb7VE6Q
 ZoomActive
 ZoomOutDistance
 ZoomToExtents
