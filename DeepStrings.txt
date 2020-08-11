@@ -408,7 +408,6 @@ AfterRequested
 AfterSeconds
 AfterUpdateContentFromSource
 AgainstLatestPackageAction
-AGcgPNfark3xzchGXarJGVRqr
 Age13OrOver
 AgeBracket
 AgentCanJump
@@ -513,6 +512,7 @@ AllUsers.Studio.LuaDraggers
 AllUsers.Studio.PaidPlugins
 AllWatches
 AllWindows
+AlpehG3YbNCaLVnN7W8iQvrEt
 AlphaBufferSize
 AlreadyReset
 AlternateName
@@ -856,7 +856,6 @@ ArrowToolAction
 ArtistIntent
 Ascii_helper
 AScrollWheelDeltaAmount
-AsFgwtJlge49jK
 ASIdentifierChoice
 ASIdentifierChoice_canonize
 ASIdentifierChoice_is_canonical
@@ -4224,10 +4223,10 @@ BCFB47F7B1F11E4A86BBBBE005A3BAD
 BCFB4807B1F11E4A86BBBBE005A3BAD
 BCFB4817B1F11E4A86BBBBE005A3BAD
 BCFB4827B1F11E4A86BBBBE005A3BAD
-BcglzouIPys9g1WBWXm3wRkO8ZilkroWRhFpDwA312RHMc5Z4psyqHaDKYq3
 BCIDistributionTBS
 BConnection
 BCryptGenRandom
+BdBrNygOxy2MBa9arMPb
 BE20681180838E23F0DC6224
 BE42889BE20681180838E23F0DC6224
 BEA91211E2B410EF351327957B
@@ -4371,7 +4370,6 @@ BlendEquationSeparatei
 BlendFunci
 BlendFuncSeparate
 BlendFuncSeparatei
-BleOsrf9g1UJDdyphi6Aeal5
 BlitContextFramebufferAMD
 BlitFramebuffer
 BlobCacheMRPMap
@@ -4677,7 +4675,6 @@ BVTextureId
 BW4AlphaMode
 BW4ModelLevelOfDetail
 BWGradient.png
-BwTEts4djCY
 ByCongestionControl
 ByDatacenter_
 ByIPForDatacenterId_
@@ -4689,7 +4686,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409745
+ByVersion_0.444.0.409747
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -4952,7 +4949,6 @@ CBVvalue_semantic
 CBVVariant
 CBW4AppConfigurationType
 CC11E498F68EF2339C0665
-CC4CBAlJ38CAwEAAQ
 CC583B11E29A3DBD856014A660
 CCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCDC
@@ -5042,6 +5038,7 @@ CFrame.new
 CFrameDecal
 CFrameOnly
 CFrameValue
+CGz0OElZfZj5aewrK76GzG6qDXv2GodwWwVHNnGmUqTjb3Zsm14zyodD
 ChainCAFile
 ChainCAPath
 Chalkboard
@@ -7084,6 +7081,7 @@ DAAEB11E38B9D871882A8E559
 DADE9A44A91111E2B410EF351327957B
 DADE9A45A91111E2B410EF351327957B
 DaHaLaNa`ahaza
+DAkSO0V9y5i
 DarkEditorColors
 DarkTheme.json
 DarwinMemoryLimitPercentageEstimate1GB
@@ -8307,6 +8305,7 @@ DPERF_EndEvent
 DPERF_GetStatus
 DPOLY1305_ASM
 Dqlqlqlqlql
+Dr0uu7C7Szl
 DraftAdded
 DraftCommitted
 DraftOutdated
@@ -8761,7 +8760,6 @@ EFEAAF011E38B9D871882A8E559
 EFEPEZEdEnExE
 EffectBoundings
 EffectiveRetryCount
-EFixFailoverFailure
 EFrontVector
 Egravesmall
 EHcUgHc]oL
@@ -9096,6 +9094,7 @@ EphemeralCounterInfluxReportingThrottleHundredthsPercent
 EphemeralStatsInfluxReportingEnabled
 EphemeralStatsInfluxReportingPriorityHundredthsPercent
 EphemeralStatsInfluxReportingThrottleHundredthsPercent
+EPubKeyMtu16
 EqualizerSoundEffect
 EquippedEmotes
 EquippedEmotesChanged
@@ -9742,6 +9741,7 @@ FixedPitch
 FixedWidth
 FixEmotesInventoryOverwrite
 FixEquipToolAssertWhenHumanoidNotInDataModel
+FixFailoverFailure
 FixFastClusterEntityLocalBounds
 FixFileSyncServiceCrashForInvalidTarget
 FixFirstPersonMouseCursorSnapping_CenterPos
@@ -10318,6 +10318,7 @@ GAThrottlingEventThresholdHundredthCat1
 GAThrottlingEventThresholdHundredthCat2
 GAThrottlingEventThresholdHundredthCat3
 GazeSelectionEnabled
+Gb7SKPxpLPOkcGZ
 GCDistance
 GCHappened
 Gcircumflex
@@ -11352,6 +11353,7 @@ GVKUTS[BXIWH\KbHi
 GXGfGkGpGuG
 GxI9Gpu2E2
 GyroscopeEnabled
+GzAsWqlIZ3pwbqm
 H_Key_dn.png
 H_NAEBVQString
 H`CeIkHq7v4
@@ -11507,7 +11509,6 @@ HelpForSelectionAction
 HelpPageLink
 HelpWindow
 HelpWindow.style[
-HGiQ4oUQQoCjZOFq
 HHAEBVQModelIndex
 HHHHHAEBVQString
 HHPEAVQObject
@@ -11579,6 +11580,7 @@ HistoryViewMouseX
 HistoryViewMouseY
 HitLocationPartFilterDescendents
 HitsPrecise
+HjChq11DnkOd9h1N393s6ElJCCGwrGzEzWSS7FbNCTsZEk6S5IXeE6lD
 HKEY_CLASSES_ROOT
 HKEY_CURRENT_CONFIG
 HKEY_CURRENT_USER
@@ -11895,6 +11897,7 @@ HW4Initialization
 HW4MatchType
 HW4Orientation
 HW4PacketPriority
+HW9dOOFTXMQNxlOCBPXvrJm5Y0iJ0XuVgwQ
 HwngSmldAskhBcraMaweNegsOgnaT
 HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdnaNpnmHohcWsrhCkaiDstiKizeY
 HWYGOTH.ttf
@@ -12768,7 +12771,6 @@ KAXPEBDHAEAPEAVQChar
 KBytesPerSec
 KeepAliveTimeout
 KeepPositionOnInsert
-KepvR9LLZImlR9OHaSjVKQEgf711BQwmsNCD9qeDVejGIK0OOFWziu2Hhd29a
 KERNEL32.dll
 KERNEL32.DLL
 KernelJoint
@@ -12822,6 +12824,7 @@ KFKPKXK`KhK
 KickByDatacenter_
 KiDszBCYB0gyp03Pc
 KillPtClicked
+KjElA4HhRd
 KKKKKKKKKK
 KKKKKKKKKKKK
 KKKKKKKKKKKKKKKKKKKKKK
@@ -12830,6 +12833,7 @@ KnownPrefixIndex
 KodchiangUPC
 KPEAVICHull
 KPEIBX_K_KPEIAU_iobuf
+KsE4xAnYIki7AuvEIpVpdb6VRXIPdxwH2V3bVPMvGwjaGAXFFy
 KSocialService
 KVScriptContext
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
@@ -12917,7 +12921,6 @@ LDLProgramOpsReportingMinOpCount
 LDLProgramOpsReportingRate
 LDLStasisCacheMaxAge
 LDLStasisCachePurgeRate
-LDZVMnuLBknK7
 LeafBodies
 LeafLeftArmRoll1
 LeafLeftArmRoll1Mode
@@ -14191,7 +14194,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAwMkdBrllX8nUqaylDbHFadjmCZdS53qR5tLxMV4MzWfmjvZ9n
+MIICCgKCAgEA3z3NUS3i5K1lcHC3rnYbzRg0j5El9ys
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14473,6 +14476,7 @@ MRURobloxApiGamesChanged
 MRURobloxApiGameStore
 MRURobloxApiGameStoreBase
 MSACM32.dll
+MSAfg0OvIUANI0Fa1nxzGojA1eZilXo6hrmWy29YwMl7jCZIn0sAzTwdTiUrfL
 MsecBetweenTextureMemoryUsageArrayRefresh
 MSecsSinceEpoch
 MsgWaitForMultipleObjectsEx
@@ -14540,7 +14544,6 @@ MutexLifetime
 MW4PartMaterial
 MyModelsAction
 MyWatchTreeWidget
-Mz2oa1skh9MUbCGaP23mHAf3HBXRJjU6u7MQK0jig
 NAEAVHttpResponse
 NAEBUPlaceLauncherRequestInfo
 NAEBVFbxTime
@@ -14622,7 +14625,6 @@ NavigationServiceTimingAnalytics
 NavigationServiceWorker
 NavigationType
 NavMeshTiles
-Nc6fhVgieU0wpG
 NCONF_dump_bio
 NCONF_dump_fp
 NCONF_get_number_e
@@ -14773,7 +14775,6 @@ Newsession
 NewSettingsEndpointExceptionInfluxPermyriad
 NewSortAndFilter
 NextAction
-NExTATwyq45wBO3C5o0IuTByafUCFawy0
 NextButton
 NextConflictButton
 NextConflictClicked
@@ -14829,6 +14830,7 @@ NoOutlinesAction
 NoPatchContent
 NoProHashTag
 NoProStringTag
+NoProtectedStringCache
 NoRenegotiation
 NoReplicator
 NoResumptionOnRenegotiation
@@ -15246,7 +15248,6 @@ OriginalDocumentID
 OriginalPosition
 OriginalSize
 OrIncrementCounterForOutputText
-Orjl2l7Tt0BUmSlcmIcz
 OrProvinceName
 OS.Authentication.LuaLoginAndSignup4
 OscillateMotor
@@ -15370,6 +15371,7 @@ OverrideToMyBranch
 OverwriteMode
 OverwritePublish
 OwnProperty
+OZfuHsLTxs76rbIfnjYUG
 Ozs8xYCf2Q05p4gHyX
 PA^A]A\_^]
 PA^A]A\_^][
@@ -17167,7 +17169,6 @@ PSPECIFIED
 PUBKEY_get0
 PUBKEY_set
 PubKeyExchange33
-PubKeyMtu16
 PublicationInfo
 PublicChat
 PublishAllDescendantPartOperationAsset
@@ -18029,6 +18030,7 @@ QWheelEvent
 QWidgetAction
 QWidgetPluginGui
 QWidgetWindow
+QWiZpoGIimPfaceGbihaTNhb2vW5UWvFS6jMHJi5Fyq6zd5eMCAwEAAQ
 RadialBlurFS
 RagdollBallSocketConstraint
 RagdollDefaultTimerTenthSecond
@@ -19095,6 +19097,7 @@ RevocationList
 RevocationRefs
 RevocationUrl
 RevokeFriendship
+Rh7G13xfOQrHr8
 RibbonButton
 RibbonButtonControl
 RibbonGallery
@@ -19484,7 +19487,6 @@ SandboxLocalCache
 SandboxLocalCacheInitialized
 SandboxUser
 SANW4EMode
-SAOlXW3q3Gdj
 SAPEAUNode
 SAPEAVQClipboard
 SAPEAVQDesktopWidget
@@ -20503,7 +20505,6 @@ SingletonTemplate
 SIO_KEEPALIVE_VALS
 SISQSZSsSuS
 SiteMessageBanner
-SiWKKFmoXQIBNy7kFAwTTn6Y8yNfqbTDUu3b1A4iy51rqzg4a4Oy
 Size100x100
 Size150x150
 Size180x180
@@ -24944,6 +24945,7 @@ UContentEncodings
 UContentEncryption
 UConversionOptions
 UCueTrackPositions
+Ud5ZID4ABVvKdSiVJi181Qv967hZFEKQ8rvjI
 UDecompConvexExtents
 UDefinition
 Udelete_data
@@ -25125,7 +25127,6 @@ UITransformedLitVS
 UITransformedVS
 UIViewportFrameCollectFrames
 UIViewportFrameWorkspace
-UK3mnOjH5R
 ULinkedScriptLoadData
 ULoadedImage
 ULuaCallbacks
@@ -25593,7 +25594,7 @@ UServerSchemaInfo
 UsesAssetInsertionDrag
 UseSelectBeforeRecvFrom
 UseServerAndSessionIdInflux
-UseSharedStringForScriptReplication3
+UseSharedStringForScriptReplication4
 UseSignalRCommonInUserNotificationClient
 UseSolverDisplacementForWake
 UseSortForClient
@@ -27392,7 +27393,6 @@ XPEAVRobloxScriptDiffDoc
 XQColorDialog
 Xregex_error
 XResolution
-Xs43BF8CMV1fHvS
 Xtime_get_ticks
 XUnegotiation_response
 XUNetworkResult
@@ -27538,7 +27538,6 @@ YieldFunction
 YQByteArray
 YResolution
 YwBBvY55YvBBwY5
-YyEUyOxxscZ72e9JqH4jWxv3vOcuySAFQl264NeSpk8jrrRMK
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
 Zcaronsmall
@@ -27546,10 +27545,11 @@ Zdotaccent
 ZgnhKhWhci
 ZhniZzzzZbarAnmrAgneBlryCaveDroeGkerGrjuGuruGgnaHinaHrbeHariHadnKanaKooaLntaLmylMayrOlmaTuleTiahTtbiTopoBiarBsnaCrehCihtErmhKgnoMrmyMmagOrnuRhniScrySaahTiiiYtrsDhtoGlatIdhuBonaHglgTbgaTtrpCbmiLbniLamsOwahSelaTragUiguBtpoCgalGrahKulaToepXolySgnfTilaBxusXookNga
 ZIndexBehavior
-ZkhRiSu1IxyfJgGhXa3bGtYeE5YWqQOZlaERyXWPx
 ZLcJhLcGhM
 ZNjlXiODrHUcaGRYt
+ZnNBLjxakM
 ZntaLkerGlryCnmrArbeHbarAcrySaahTaveDgneBuruGrjuGayrOlmaTuleTadnKmylMhniSiahTooaLtbiTrmyMroeGgnaHihtErehCsnaCmagOrnuRrmhKgnoMariHanaKopoBinaHiiiYlatIhtoGtrsDhniZglgTonaHdhuBbgaTbmiLelaTbniLragUwahSamsOtrpCiarBiguBtpoCulaTgalGgnfTolySoepXrahKilaBxusXxnhPgahPoo
+ZO0Mb7VE6Q
 ZoomActive
 ZoomOutDistance
 ZoomToExtents
