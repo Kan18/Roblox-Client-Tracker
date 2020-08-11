@@ -121,6 +121,7 @@ ABTestServiceSkipRedundantInit
 ABTestSystemShutoff
 ABTestVariation
 ABTestVerboseInit
+AbThOCVu7X6qpib4
 AbuseReport
 AbuseReporter
 AC01E30AF65B11E3AFC2CE47415C029D
@@ -1102,7 +1103,6 @@ AUHashState
 AUHashStateBlake2b
 AUHashStateMd5
 AUHashStateSha1
-AuHKbvfEhJHV
 AUHmacState
 AUHmacStateMd5
 AUIAdviseSink
@@ -4203,7 +4203,6 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBB
 BBCA91111E2B410EF351327957B
 BbEcJYG[I[NYVP\B]
 BBFA91111E2B410EF351327957B
-BbRRQdqMhsjsTD3HcAI4jInCjOdZ3QDnT1PLn
 BBxZ55ZxBBx[5D
 BC0A91111E2B410EF351327957B
 BC0DAEAAF011E38B9D871882A8E559
@@ -4686,7 +4685,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409815
+ByVersion_0.444.0.409818
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -5038,7 +5037,6 @@ CFrame.new
 CFrameDecal
 CFrameOnly
 CFrameValue
-CGa4NdpFnJ6pfYg3EO42mWjRjMdi1pq6ADsjEMDcFDEko0xxCqXyo3X69No0O7M
 ChainCAFile
 ChainCAPath
 Chalkboard
@@ -5219,7 +5217,6 @@ Ciphersuites
 CircularList
 Circumflexsmall
 CityBackground.png
-CJbvNLh9maXuMNTqW5okSwny5D0lGt0tRD0Y5LBvDMn8QURbKGqh48CAwEAAQ
 CJVNotFallbackToEnglishForCoreGuiEnabled
 CJVNotFallbackToEnglishForUGCEnabled
 ClampColor
@@ -6488,7 +6485,6 @@ CountryRegionCode
 CountryRegionCodeReplicate
 CountShifted
 CountWidth
-CPfWj4cnGST0q3De6EmsHnjh7YkCb
 CrackedLava
 CrashDumpFileName
 CrashEvent
@@ -7073,6 +7069,7 @@ CylinderMesh
 CylinderShapeData
 CylindricalConstraint
 CylindricalConstraintAction
+CyWyrKhMi5tvYV
 D_Key_dn.png
 DA88D6583A11E29A3DBD856014A660
 DA88D7583A11E29A3DBD856014A660
@@ -8463,7 +8460,6 @@ DXT1DXT3DXT5
 DXUnlockObjectsNV
 DXUnregisterObjectNV
 DXVideoMemory
-DY3xP877sjqmjgykx9v3A9LNazJeBi7mc8h
 DynamicFastVariableReloaderTimeoutMs
 DynamicLocalizationTablesDataTimeout
 DynamicLocalizationTablesRetryCount
@@ -9499,7 +9495,6 @@ FCDAAED11E38B9D871882A8E559
 FD0AAED11E38B9D871882A8E559
 FD1AAED11E38B9D871882A8E559
 FD8642D2249E1119F2FDB7CBEC74584
-Fd9m9pODBfxiJMFV96
 FDA6C1EA211E49FA6F7D125AE5309
 FDA6D1EA211E49FA6F7D125AE5309
 FDA6E1EA211E49FA6F7D125AE5309
@@ -9756,7 +9751,6 @@ FixGamepadCursorIdlePosition
 FixGamepadR3LastInputType
 FixGetPropertyChangedSignalMemoryLeak
 FixHACDHullPointLoss
-FixHelpURL
 FixHumanoidOwnershipRoot
 FixIAdornableCollectorCrash3
 FixIMECursorDesyncInStudio
@@ -10328,7 +10322,6 @@ GCNotAlwaysMemory
 GCReducesQuota2
 GCReducesQuotaCriticalPercent
 GCReducesQuotaPercent
-GCX9kl8h5WBZRgseIy
 Gdotaccent
 GE_package.png
 GE_packagefolder.png
@@ -11142,6 +11135,7 @@ GLSL.std.450
 Glsles3Mediump1
 GlslesMediump1
 GlueCursor
+GnxIKWagMNCsp8iX58bXXPR4Ax7ByxXw7xQA8h14
 GoldenHashes
 GoodbyeChoiceActive
 GoodbyeChoiceActiveProperty
@@ -11354,7 +11348,6 @@ GvEphfEUiHHoD6hYFI4xWGpAnIHcklKQCxrf46kAhDGeZnqIgeGszlGdWafunGE8
 GVKUTS[BXIWH\KbHi
 GXGfGkGpGuG
 GxI9Gpu2E2
-GXXe1a5fE5lgf
 GyroscopeEnabled
 H_Key_dn.png
 H_NAEBVQString
@@ -11512,6 +11505,7 @@ HelpPageLink
 HelpWindow
 HelpWindow.style[
 HHAEBVQModelIndex
+HHfnfRm7l6n1uDrI7Vwe1j1UzujX8J
 HHHHHAEBVQString
 HHPEAVQObject
 HHTT\AKKKKTYWAH
@@ -11636,6 +11630,7 @@ HoverTokenLogIndex
 HoverTokenLogIndexNext
 HoverTokenNext
 HoverWindowShadow
+HpBXnIiKbC5mV85H
 HPEAU_iobuf
 HPEAUlua_State
 HPEAVQAction
@@ -11901,7 +11896,6 @@ HW4PacketPriority
 HwngSmldAskhBcraMaweNegsOgnaT
 HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdnaNpnmHohcWsrhCkaiDstiKizeY
 HWYGOTH.ttf
-HXSeIwhld1
 HybridEvent
 HyIyPyVy]y^yey
 Iacutesmall
@@ -12659,6 +12653,7 @@ IWorldStage
 IXMLHTTPRequest2
 J_Key_dn.png
 J_NW4CurrencyType
+Ja0q8Nx5BR0rcyFHF0Ceik9v0pxQHD4JvL2FGti8lKB4TO8CGh
 JasmineUPC
 Javascript
 JavaScript
@@ -12833,10 +12828,10 @@ KnownPrefixIndex
 KodchiangUPC
 KPEAVICHull
 KPEIBX_K_KPEIAU_iobuf
-KQ4DzIi0hi
 KSocialService
 KVScriptContext
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
+KYYnoCdYXslYJ9
 LabelArray
 LabelArray.push
 LabelArray[globstart]
@@ -12904,7 +12899,6 @@ LayoutNode
 LayoutOrder
 LayoutRichTextFaster2
 LazySubmitTask
-Lb1ExiPYqdrHdk6vPm2n0JKVyqp
 LC_MESSAGES
 LCMapStringW
 LDLBuildProgramTimeReportRate
@@ -13097,6 +13091,7 @@ LevelItemCount
 LevelOfDetail
 LevelOfDetailSetting
 LevelQuality
+LeXat7XhpFSGiWe
 Liberation
 LIBOVR_DLL_DIR
 LibsodiumDRG
@@ -14196,7 +14191,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAvijkrFhx0rbagWxDsUs
+MIICCgKCAgEAsX60wkuuJY1ZmNsh0ijS1xa63wGsFUK7xTBhUTAwEmanZPDmrwa3
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14313,7 +14308,6 @@ ModuleFolderFromPath
 ModuleName
 ModuleScript
 ModuleScriptLargeAction
-MOnM2x9nzStuoabUQVjCFpQ6QS7ris1
 Monochrome
 Montgomery
 MoonAngularSize
@@ -15070,6 +15064,7 @@ OgreWidgetForGameState
 OgreWidgetShowEvent
 Oh44\h44\Q
 Ohungarumlaut
+OI1DiuHjijJbLJceOdhaC9QvtcaRwNQcuWumrWgNh1kRgAgpu0
 OiCCPPhotoshop
 OldActiveElement
 OldMessagesFetched
@@ -15252,6 +15247,7 @@ OriginalSize
 OrIncrementCounterForOutputText
 OrProvinceName
 OS.Authentication.LuaLoginAndSignup4
+Os0OpsJKEuOpvxaCmdB5gQf9u4xSkSdRB2UwjvBp
 OscillateMotor
 Oscillator
 Oslashsmall
@@ -16195,7 +16191,6 @@ PEBVWorkspace
 PEBVXmlElement
 PeekMessageW
 PeerClosedError
-PEhGIsrWSv4t
 PEM_ASN1_read
 PEM_ASN1_read_bio
 PEM_ASN1_write
@@ -17250,6 +17245,7 @@ QCommonStyle
 QCompleter
 QCoreApplication
 QCryptographicHash
+QCw9RtlwhjiNyGS4pkwqN3V8vgI
 QDataStream
 QDebuggerClient
 QDesktopServices
@@ -17776,6 +17772,7 @@ QNetworkReplyAsQJsonObject
 QNetworkReplyImplPrivate
 QNetworkRequest
 QNPPPPPPPPPPPPPPPPPPPNOP
+QnXItneZV4L7QmfYdhdVC8j1uaewFEaXt46kcYunNpbhQqyBGauOq
 QObjectData
 QObjectShared
 QOgreWidget
@@ -18182,7 +18179,6 @@ RaycastParam
 RaycastParams
 RaycastResult
 RaycastSourceCollisionGroup2
-RBt2b89jQ1nG5
 RBX_CHECK_EQUAL
 RBX_CHECK_GE
 RBX_CHECK_GT
@@ -18280,6 +18276,7 @@ RCCUpdateBroadphaseDtAverage
 RCCUpdateBroadphaseDtAverage_Datacenter_
 RccUse64BitAppearanceId
 RcpReferenceTime
+RDr51p7hy1r30L
 ReachActorChest
 ReachActorChestRotation
 ReachActorHead
@@ -18603,7 +18600,6 @@ RemoveMetadata
 RemovePGSSolverActivatedAnalytics
 RemovePlace
 RemovePose
-RemoveRelativePath
 RemoveRows
 RemoveScript
 RemoveSelectionGroup
@@ -19216,7 +19212,6 @@ RigidBodyLazyUpdating
 RigidityEnabled
 RiseVelocity
 Rj0isQcnqX
-RmIwnBkWk95c0AZyKUcRdBj3Dc3vNMe0FeSKgZ
 Roact.createElement
 ROBLOSECURITY
 Roblox.Hybrid
@@ -23269,7 +23264,6 @@ StudioRenderingTestClosureWhenNoTestsRun
 StudioReplaceAll
 StudioReplaceAllSquish
 StudioReplaceApplyEditWithCommit
-StudioReplaceStringWithSet
 StudioReportElevatedCount
 StudioReportOpenPlaceTime
 StudioReportOpenPlaceTimeFilter
@@ -24689,6 +24683,7 @@ TouchTransmitter
 ToUniversalTime
 TownAndCity
 ToWorldSpace
+TpzYusyYv06x2lhTbFl0MVfM7xjIOiWfz33hc
 TraceMessage
 Track2Data
 TrackAudioDriversPerSystem
@@ -24834,7 +24829,6 @@ TS_TST_INFO_set_time
 TS_TST_INFO_set_tsa
 TS_VERIFY_CTX_new
 TSMk2ThrottleStreamJob
-TsphTqzTDIzAdV3TQyN2f
 TTTTTTTTTT
 TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
 TTUUEDDsss
@@ -25034,6 +25028,7 @@ UEventInfo
 UEventInstance
 UEventSlot
 UExtraSelection
+UFcgUiFsjcU9gC4Zc5OlyPN9F4i6BECAwEAAQ
 UFileMeshData
 UFileMetadata
 UFMODSystemRelease
@@ -27023,7 +27018,6 @@ WaterViscosityDragFudgeFactor
 WaterWaveSize
 WaterWaveSpeed
 WaypointIdx
-WbulSAJiPa3X5wBvmgVQ
 WCharArray
 Wcircumflex
 WDU_Mbstatet
@@ -27311,6 +27305,7 @@ WSAStartup
 WSAStringToAddressW
 WTHelperGetProvSignerFromChain
 WTHelperProvDataFromStateData
+WVpX7yKGgP
 WWWWWWWWWW
 WWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWW
@@ -27399,6 +27394,7 @@ XQColorDialog
 Xregex_error
 XResolution
 Xtime_get_ticks
+XUDYbLm0vj1Zo2CdRJz6bE3
 XUnegotiation_response
 XUNetworkResult
 XvAAuY44YuAAvX4
@@ -27537,19 +27533,17 @@ Ycircumflex
 Ydieresissmall
 YDYHYQYTYbYsY
 YffYZefYDNNDCOO
-YgZ58kLsD58FfeXDphgLh6tQcZF6
 YieldEvent
 YieldFuncDesc
 YieldFunction
 YQByteArray
 YResolution
 YwBBvY55YvBBwY5
-YwKfPNniqY7nfg4gdu1a
+YYuX0BEYgpBG7DwOwIWhWm
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
 Zcaronsmall
 Zdotaccent
-ZDZq6MDwfWXTWrlksaVIlwuXsIqZA
 ZgnhKhWhci
 ZhniZzzzZbarAnmrAgneBlryCaveDroeGkerGrjuGuruGgnaHinaHrbeHariHadnKanaKooaLntaLmylMayrOlmaTuleTiahTtbiTopoBiarBsnaCrehCihtErmhKgnoMrmyMmagOrnuRhniScrySaahTiiiYtrsDhtoGlatIdhuBonaHglgTbgaTtrpCbmiLbniLamsOwahSelaTragUiguBtpoCgalGrahKulaToepXolySgnfTilaBxusXookNga
 ZIndexBehavior
