@@ -1255,7 +1255,6 @@ AutoAssignable
 AutoButtonColor
 AutoColorCharacters
 Autocomplete
-AutocompleteChildItemMetadata
 AutocompleteException
 AutocompleteMenu
 AutocompleteMetadata
@@ -4225,7 +4224,6 @@ BCFB4827B1F11E4A86BBBBE005A3BAD
 BCIDistributionTBS
 BConnection
 BCryptGenRandom
-BDHKafBWmolGbEnYUcbd
 BE20681180838E23F0DC6224
 BE42889BE20681180838E23F0DC6224
 BEA91211E2B410EF351327957B
@@ -4685,7 +4683,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409819
+ByVersion_0.444.0.409826
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -4968,6 +4966,7 @@ CComObjectRootEx
 CComPolyObject
 CCPPhotoshop
 CCx[66[xCCx[6L
+CCxZ0rSrZRWZleKdH
 CD583B11E29A3DBD856014A660
 CDA22142068118C14FDE5E01E7934
 CDAC09CD62068118083FFBB091BBC13
@@ -8302,7 +8301,6 @@ DPERF_EndEvent
 DPERF_GetStatus
 DPOLY1305_ASM
 Dqlqlqlqlql
-DqQIrBzNUu9Nk2NeLlGIQhv
 DraftAdded
 DraftCommitted
 DraftOutdated
@@ -8763,6 +8761,7 @@ EHcUgHc]oL
 EHERE\EfEpEzE
 EJJJJJJJJJJJJJJJJJJJJ
 EJTU\^bcfguw
+EjxVEViVRSuhTGbbsfg9CGxiH1
 ElapsedSeconds
 ElapsedTime
 ElasticBehavior
@@ -9084,7 +9083,6 @@ EnvironmentDiffuseScale
 EnvironmentSpecularScale
 EnviroSpeed
 EoOoZoaozo
-EorIIxbQCSP
 EphemeralCounter
 EphemeralCounterInfluxReportingEnabled
 EphemeralCounterInfluxReportingPriorityHundredthsPercent
@@ -9092,7 +9090,6 @@ EphemeralCounterInfluxReportingThrottleHundredthsPercent
 EphemeralStatsInfluxReportingEnabled
 EphemeralStatsInfluxReportingPriorityHundredthsPercent
 EphemeralStatsInfluxReportingThrottleHundredthsPercent
-EPubKeyMtu16
 EqualizerSoundEffect
 EquippedEmotes
 EquippedEmotesChanged
@@ -9131,6 +9128,7 @@ ErrorWindow
 ErrOutOfRetries
 ESDHwith3DES
 ESDHwithRC2
+ESessionCrypto
 ESGamePerfMonitor
 ESGamePerfMonitorDelayBeforeFirstReportInSeconds
 ESGamePerfMonitorEnabled
@@ -9739,7 +9737,6 @@ FixedPitch
 FixedWidth
 FixEmotesInventoryOverwrite
 FixEquipToolAssertWhenHumanoidNotInDataModel
-FixFailoverFailure
 FixFastClusterEntityLocalBounds
 FixFileSyncServiceCrashForInvalidTarget
 FixFirstPersonMouseCursorSnapping_CenterPos
@@ -10323,7 +10320,6 @@ GCNotAlwaysMemory
 GCReducesQuota2
 GCReducesQuotaCriticalPercent
 GCReducesQuotaPercent
-GDigPgIY98naPw8AL
 Gdotaccent
 GE_package.png
 GE_packagefolder.png
@@ -11166,7 +11162,6 @@ GoToNextScriptLocation
 GoToPreviousScriptLocation
 GoToSourceCodeTB
 GoToVersionFailed
-GpT4QnuiYupLEvq5MXXJT7ot
 GpuVariance
 GrabCursor.png
 GrabRotateCursor
@@ -11346,11 +11341,11 @@ GuiTrackInsertionOrder
 GuiVertices
 GunCursor.png
 GunWaitCursor.png
+GURK45qYDcGAcIeDv0FNjz
 GvEphfEUiHHoD6hYFI4xWGpAnIHcklKQCxrf46kAhDGeZnqIgeGszlGdWafunGE8
 GVKUTS[BXIWH\KbHi
 GXGfGkGpGuG
 GxI9Gpu2E2
-GykGkgtzdZ85tBNDxdM8e9IljFFdJCfIOzlWWNYA6G2cnggV9cuJtqc
 GyroscopeEnabled
 H_Key_dn.png
 H_NAEBVQString
@@ -11507,7 +11502,7 @@ HelpForSelectionAction
 HelpPageLink
 HelpWindow
 HelpWindow.style[
-Hfj553AVPtLcnYSZbKQr6KAfrWkvNX
+HEMUxMN0Y7
 HHAEBVQModelIndex
 HHHHHAEBVQString
 HHPEAVQObject
@@ -11644,7 +11639,6 @@ HQFSShadowed
 HQFSShadowedFSM
 HQVSShadowed
 HQVSShadowedFSM
-Hr1ZrJz7ZDBjSHVVONffJKG
 HtmlEscaped
 Http_Failed
 HTTPAccumulatedBytes
@@ -11847,7 +11841,6 @@ HuaTianKaiTi
 HuaTianSongTi
 HubCallback
 HubMethodCalled
-HUHMZyOcILS2gchnbfYVKxpfI0xs6
 HumanoidAdornRaycasts
 HumanoidAnimationScripts
 HumanoidBetterFindLadder2
@@ -13713,9 +13706,9 @@ MaxViscousForceGravityTimesMult
 MaxVisibleItems
 MaxWaitTimeBeforeForcePacketProcessMS
 MayBeLinkedSourceModified
+MDHooz78n8o43zoJoAcPzzC4jPMyCFTdDRAn13xXw1jrgd0Sch
 MdiControls
 MDIManagerHost
-MduZ1SSWpA0dkQ5xJKRDwornsJXB
 MEAA_JPEA_W_J
 MEAA_JPEAD_J
 MEAA_JPEB_W_J
@@ -14177,6 +14170,7 @@ MethodQuery
 Metrics.width
 MetricsSets
 MetricType
+MGeD91XuDpOLQz3Jya8jpiKEQrST8GC5YJ3H749mow
 MHapV7R8MxA953
 MicroProfile
 MicroProfileFlip
@@ -14193,7 +14187,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAtwgTvpTyfCxcbtR
+MIICCgKCAgEA3WBSnleRtxzaQoX8U9nsDZ6
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14233,7 +14227,6 @@ Miscellaneous
 Mismatched
 MissingCoreScript
 MissingDumpFile
-MJPr2IKmn2RyV2bgjOPaR8F5kU8s8E7j
 MMW4IkDragCollisionsMode
 MMW4PartMaterial
 MMW4UserInputState
@@ -14479,7 +14472,6 @@ MSACM32.dll
 MsecBetweenTextureMemoryUsageArrayRefresh
 MSecsSinceEpoch
 MsgWaitForMultipleObjectsEx
-MsHWqLzRlnFpuVLVopJ
 MsToScreen
 MSVCP140.dll
 MSWSOCK.dll
@@ -14791,6 +14783,9 @@ NextTabPage
 NfXf`fhfzf
 NHVVariant
 NinjaMask.mesh
+NJ9oBUtXp2Vd
+NLIBvIudDSmIQp
+NNCe7E4R93VOB
 NNNNNNNNNNNNNNNNNNNNNN
 NNNNNNNSSSSSSSSSSSSSSSSSSSSSS
 NNW4SizeMode
@@ -14945,7 +14940,6 @@ NVWorkspace
 NW4FileSystemDir
 NW4PenStyle
 NW4UserInputType
-NwxiD7z8gqYrC7vtlJGu
 Oacutesmall
 OAEPEncryptionSET
 OAUTHBEARER
@@ -15037,6 +15031,7 @@ OfCitizenship
 OfCompressedBytes
 OfCreation
 OfDelivery
+OfdzxMnX84bn8x
 OfE9E0uHfE9E
 OffCounters
 OfficeStyle
@@ -15097,7 +15092,6 @@ OnDisconnectHTTPTimeout
 OnEmitRequested
 OneSocketServerForStudio
 OneToOneConversation
-OnfcEzgvhnikW4yaCMOqkOY0qZSIY2EW5
 OnGotPacket
 OnHttpResultApproved
 OnImportFromRoblox
@@ -15251,6 +15245,7 @@ OriginalPosition
 OriginalSize
 OrIncrementCounterForOutputText
 OrProvinceName
+ORrjjyFPAgAvDvB0yF
 OS.Authentication.LuaLoginAndSignup4
 OscillateMotor
 Oscillator
@@ -17166,11 +17161,9 @@ ProxiedRouter
 PROXY_CERT_INFO_EXTENSION
 PROXY_POLICY
 ProxyAction
-PRVQK3pFU7Ea435IsbEHk
 PSPECIFIED
 PUBKEY_get0
 PUBKEY_set
-PubKeyExchange33
 PublicationInfo
 PublicChat
 PublishAllDescendantPartOperationAsset
@@ -19098,6 +19091,7 @@ RevocationList
 RevocationRefs
 RevocationUrl
 RevokeFriendship
+RGy95QIo0X7i4
 RibbonButton
 RibbonButtonControl
 RibbonGallery
@@ -19383,7 +19377,6 @@ RowsToRemove
 RowStretch
 RowVisibilityChanged
 RPCServers
-Rrr1w0mTKRTEpV
 RRReceiptFail
 RRReceiptTotal
 RRRRRRRRzzzzzzzzzzzzzzzzzz
@@ -19426,6 +19419,7 @@ RTDynamicCast
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+Rtuw8CDigyBZb6u1Y9MCgno0iMs
 RuiCheckBoxHeader
 RuiDialogButtonBox
 RuiDialogButtonHLayout
@@ -19460,6 +19454,7 @@ RunService.Stepped
 RuntimeScriptService
 RuntimeUndoBehavior
 RunUpdateCycle.
+RvCfZ3rLjiIKYDX6qrL
 RVideoInternal
 RVideoMemLogging
 RVideoTrace
@@ -23028,7 +23023,6 @@ StudioFixAssetPreviewCloseButton
 StudioFixAssetPreviewTreeView
 StudioFixCannotSetBreakPoint
 StudioFixChangeNameMacCrash
-StudioFixDebuggerToolTipScrolls
 StudioFixF2AfterAutoSelectionChange
 StudioFixFirePackageStatusChangedSignalCrash
 StudioFixFlatTerrainDefaultSaveLocation
@@ -23072,7 +23066,6 @@ StudioGDPRCompliance
 StudioGetSharedPackagesInToolbox
 StudioGuiObjectSecondRectOffset
 StudioHideSuccessDialogWhenFree
-StudioHighlightCurrentLine
 StudioHttpServiceProtectLegacyPathsForPlugins
 StudioHttpServiceUsePluginPermissions
 StudioHttpUpgradeToHttps
@@ -23081,7 +23074,6 @@ StudioImportLayeredHeightmaps
 StudioImportMaxAsset
 StudioImportSingleChannelColormaps
 StudioIndentIfLineEndsWithFoldEnder
-StudioInformAutocompleteWhenClosingInLSP
 StudioInsertCheckTimeSeconds
 StudioInsertDeletionCheckTimeMS
 StudioInsertObjectStreamliningv0_Consolidated
@@ -23313,7 +23305,6 @@ StudioSaveToCloudV2
 StudioSaveToCloudV3
 StudioSaveToCloudV3SpotFixes
 StudioScriptEditorEventsCrashFix
-StudioScriptPerformanceMonitorCrash
 StudioScriptSize
 StudioSearchWithoutInsertionTimeSeconds
 StudioSecondsBeforeInactive
@@ -23716,8 +23707,10 @@ TattletaleReportUnfilteredJobMaxReportsPerTick
 TattletaleShuffleCount
 TattletaleUseNewWordListFeatures
 TattletaleUseOriginalWordList
+TbAkzNV2JasQ0HADBFfXcedxQQgh
 Tcommaaccent
 TCP_NODELAY
+TDu1bAl8wiDvAgv2NBkNIgcnMLaMHO1qiOh6ZvsUIFA6fjgYMKEe
 TeachingCallouts
 TeamChildOrderExposedTelemetry
 TeamChildOrderProperty
@@ -24521,7 +24514,6 @@ ToLinkedScript
 ToLocalTime
 ToNextHunkAction
 ToNextScriptLocation
-TOo6rkyvfgw3yD3cLFru7
 ToObjectSpace
 ToOffAction
 ToolBarArea
@@ -27244,7 +27236,6 @@ WithSHA384
 WithSHA512
 WM_ATLGETCONTROL
 WM_ATLGETHOST
-WmCiqxvCHXKjfRYSvon
 WMCreateProfileManager
 WMCreateSyncReader
 Wmvcore.dll
@@ -27395,7 +27386,6 @@ XPEAVRobloxScriptDiffDoc
 XQColorDialog
 Xregex_error
 XResolution
-XTigA7Pdtw49RhKQNup
 Xtime_get_ticks
 XUnegotiation_response
 XUNetworkResult
@@ -27535,12 +27525,10 @@ Ycircumflex
 Ydieresissmall
 YDYHYQYTYbYsY
 YffYZefYDNNDCOO
-YGllx2pMqZPf5nNUqxcOxtpzJ8sfgTDCfRw4s6bmbtenbcwu0uIl8CAwEAAQ
 YieldEvent
 YieldFuncDesc
 YieldFunction
-YiKCQnQE8IXnH3IiZCHlhmO8z18gxuxoFpE3hk
-YMiU9oyGsy9GqHSZ10V
+YOdXAJbIEKK4z1oybxLmPfkLsCAwEAAQ
 YQByteArray
 YResolution
 YwBBvY55YvBBwY5
@@ -27553,6 +27541,7 @@ ZhniZzzzZbarAnmrAgneBlryCaveDroeGkerGrjuGuruGgnaHinaHrbeHariHadnKanaKooaLntaLmyl
 ZIndexBehavior
 ZLcJhLcGhM
 ZNjlXiODrHUcaGRYt
+ZNLQff5c5JMtWP6PLlr7H3bjT
 ZntaLkerGlryCnmrArbeHbarAcrySaahTaveDgneBuruGrjuGayrOlmaTuleTadnKmylMhniSiahTooaLtbiTrmyMroeGgnaHihtErehCsnaCmagOrnuRrmhKgnoMariHanaKopoBinaHiiiYlatIhtoGtrsDhniZglgTonaHdhuBbgaTbmiLelaTbniLragUwahSamsOtrpCiarBiguBtpoCulaTgalGgnfTolySoepXrahKilaBxusXxnhPgahPoo
 ZoomActive
 ZoomOutDistance
@@ -27561,8 +27550,9 @@ ZoomToHighlight
 ZP6APEAX1PEBX
 ZP6AX1PEAX
 ZPEAVRBXMessageBox
-ZqoUdOpIwa
+ZPqY09nu4Vb5xCcIFXQ0kleXL4hzabA8c
 ZRZZZbZt[.[
+Zs6BJSSElQ0HoKVZ7HH5McUlLzyq956nP
 ZVspecial_equipped_signal
 ZVTouchedSignal
 ZZZZZZZZZZZZZZZ
