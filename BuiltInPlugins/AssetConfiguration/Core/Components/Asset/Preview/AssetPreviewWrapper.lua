@@ -26,6 +26,7 @@ local RoactRodux = require(Libs.RoactRodux)
 
 local UILibrary = require(Libs.UILibrary)
 local AssetPreview = UILibrary.Component.AssetPreview
+local AssetType = UILibrary.Util.AssetType
 
 local Util = Plugin.Core.Util
 local Constants = require(Util.Constants)
@@ -77,9 +78,6 @@ local FFlagStudioFixAssetPreviewTreeView = settings():GetFFlag("StudioFixAssetPr
 local FFlagStudioFixAssetPreviewCloseButton = settings():GetFFlag("StudioFixAssetPreviewCloseButton")
 local FFlagToolboxFixAnalyticsBugs = game:GetFastFlag("ToolboxFixAnalyticsBugs")
 
-local FFlagToolboxUseNewAssetType = game:GetFastFlag("ToolboxUseNewAssetType")
-
-local AssetType = FFlagToolboxUseNewAssetType and UILibrary.Util.AssetType or require(Plugin.Core.Types.AssetType)
 
 local PADDING = FFlagStudioFixAssetPreviewCloseButton and 32 or 20
 local INSTALLATION_ANIMATION_TIME = 1.0 --seconds

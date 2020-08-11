@@ -33,10 +33,7 @@ game:DefineFastFlag("EnableToolboxVideos", false)
 game:DefineFastFlag("CMSPremiumBenefitsLink2", false)
 game:DefineFastFlag("CMSFixAssetPreviewForThumbnailConfig", false)
 
-game:DefineFastFlag("ToolboxUseNewAssetType", false)
-
 game:DefineFastFlag("ToolboxShowGroupCreations", false)
-game:DefineFastFlag("StudioToolboxSearchOverflowFix", false)
 game:DefineFastFlag("ToolboxFixOneSecondAudioMaxDuration", false)
 game:DefineFastFlag("ToolboxForceSelectDragger", false)
 
