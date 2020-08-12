@@ -427,6 +427,7 @@ AggregateInfo.Time.toFixed
 AggregateInfo.TotalFrames
 AggrFrames
 Agravesmall
+AgRNnhuY3B1PKJZxPeyOn
 AHPEAU_iobuf
 AHPEAX1PEAPEAX
 AHW4DataStoreRequestType
@@ -805,7 +806,6 @@ AppStorageService
 AppsUseLightTheme
 AppVersion
 APSToggleClientServerFTUE
-APxpKbdLMczoXs5qpftS2lqQA
 AQJsonArray
 AQJsonObject
 ArcadeStick
@@ -4273,7 +4273,6 @@ BFD701C11E3B075CBAD925AA50F
 BFE701C11E3B075CBAD925AA50F
 BFLuaDraggersRoleSet
 BFontSizePadding
-BFpclqRxYXpWOlF1cvM
 BFSupportPluginDebuggingRoleSet
 BFTableOutputViewRoleSet
 BgUpdateRedirectsDisable
@@ -4689,7 +4688,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409882
+ByVersion_0.444.0.409889
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -5041,6 +5040,7 @@ CFrame.new
 CFrameDecal
 CFrameOnly
 CFrameValue
+CGWjAjwi4UeqOqBmg4WiYj2uNpv35whvJGxEX8AGcPhR2PbFmuh1UGJAWjaWrCOo
 ChainCAFile
 ChainCAPath
 Chalkboard
@@ -6435,7 +6435,6 @@ Corporation1402
 CorrectTextBoundsForRichText
 CorrodedMetal
 CorrodedMetal.png
-CosgRciKyRhTDOW
 CoTaskMemAlloc
 CoTaskMemFree
 CoUninitialize
@@ -7245,6 +7244,7 @@ DB33D6AAF011E38B9D871882A8E559
 DB33D7AAF011E38B9D871882A8E559
 DBD856014A660
 DBSAES_ASM
+DbWndYhnDIsYB7CVYujLodciXz7nJLqpMjZDIZTOf
 Dconst_iterator
 DD11E2898E9FB8E4A9E79B
 DD4669DB402E11E3A29DA4266180AE0C
@@ -8432,6 +8432,7 @@ DSO_up_ref
 Dst.Thread
 Dst.YBegin
 DSVideoCaptureEngine
+DT4RxWnojEPREgIl3MJv
 DTLS_RECORD_LAYER_new
 DTLSv1_listen
 DumbSpatialHash2
@@ -8658,7 +8659,6 @@ ECDSA_SIG_new
 ECDSA_sign_ex
 ECDSA_sign_setup
 ECDSA_verify
-ECh3hbNffKGeYh63P1gy
 EchoSoundEffect
 Ecircumflex
 Ecircumflexsmall
@@ -9388,7 +9388,6 @@ ExtraSelectionStore
 ExtrudedPartInstance
 EXtSoftware
 EyeAccessory
-Eyooe82XDv4bA5sKpstni
 F_ObjectHasComponents
 F`JXKXWJYB[Cd
 FA6256811994CD24F935527E2
@@ -9538,7 +9537,6 @@ FetchingComplete
 FetchUniverse
 FetchUserId
 FetchUsername
-FexageOymkg4911
 FF65B11E38470F846885BB6FB
 FFFFFFFFFFFFFFF
 FFFFFFFFFFFFFFFFFFFFFFFF
@@ -9994,7 +9992,6 @@ FoundItems
 FoundThread
 FpFramebuffer
 FpsVariance
-FQq28ykrgwX8jrsaJaTEqt7dz49RDcVHld5iXgEl
 Fractional
 Frame_.LogEnd[nLog]
 Frame_.LogStart[nLog]
@@ -10337,7 +10334,6 @@ GCReducesQuota2
 GCReducesQuotaCriticalPercent
 GCReducesQuotaPercent
 Gdotaccent
-GDRl1QIEb8z6uS4FJGvwvRi07G
 GE_package.png
 GE_packagefolder.png
 GearAction
@@ -11643,7 +11639,6 @@ HoverTokenLogIndex
 HoverTokenLogIndexNext
 HoverTokenNext
 HoverWindowShadow
-HPAtn0akwozZyDGht4o8QpsnG
 HPEAU_iobuf
 HPEAUlua_State
 HPEAVQAction
@@ -12645,6 +12640,7 @@ ItemWasSet
 ItemWidget
 Iterations
 ITRedirect
+IuNeGq5eZfEYhXg7T2B8Nqydo5wK1FQSES
 IUpdateUIManager
 IUserDataStoreServiceBase
 IVRApplications_006
@@ -12675,7 +12671,9 @@ Jcircumflex
 JDJNJXJbJlJvJ
 JHJRJ\JfJpJxJ
 JHW4MembershipType
+JI8Z2vwlhNsOAhwfkM5M89ReRWNU4IAfhfjXABodD3L3GKTsz7X3UZdU1rJmQFhS
 JIIIIIIIKI
+JIPruVEhjGr
 JIRA_RIDE_1135
 JIRA_RIDE_192
 JIRA_RIDE_630
@@ -12835,7 +12833,6 @@ KillPtClicked
 KKKKKKKKKK
 KKKKKKKKKKKK
 KKKKKKKKKKKKKKKKKKKKKK
-Kmit9UYMnvLHGo8eDAyEi5XGWaBBNdCmV0QmaMr7htcOJ1dyOFJU5JpXSXxvHw
 KnownHeaders
 KnownPrefixIndex
 KodchiangUPC
@@ -12911,7 +12908,6 @@ LayoutNode
 LayoutOrder
 LayoutRichTextFaster2
 LazySubmitTask
-LbYsu7P8EWa1BXI10dO7wcBy7C2ZJR90x9eLT2x1
 LC_MESSAGES
 LCMapStringW
 LDLBuildProgramTimeReportRate
@@ -13173,9 +13169,9 @@ LiveCoding
 LiveScript
 LiveThreadRef
 LivingRoom
+LkQWX7kJZEiV
 LLEo6Soxvx2
 LLLLLLLLLLLLLLLL]]]]]]]]]]]]]]]]]]]]
-LMzGjZxVXMp7qTyiT95yrxc
 LOAD_CERT_CTRL
 LoadAnimation
 LoadAssetVersion
@@ -13533,6 +13529,7 @@ LuauCheckRecursionLimit
 LuauEnableAsKeyword
 LuauExtraAccurateRobloxTypes
 LuauMagicFormat
+LuauNonstrictArgumentCounts
 LuauOsTimeUTC
 LuauParserEnableTypeGroup
 LuauParserNoFatArrow
@@ -14138,7 +14135,6 @@ MessagesOnlyChanged
 MessagesReq
 MessageTextEdit
 MessageType
-MessageTypeAll
 MessageTypeDropdown
 MessageTypeLabel
 MessageWarning
@@ -14202,7 +14198,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAzBLJyKgitmgLk3ZDUyKRQKZWrOGh9qMi
+MIICCgKCAgEAomSFk1u9Pq0yzXr37KDp5A1XHu8S
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14475,6 +14471,7 @@ MQModelIndex
 MQStandardItem
 MQTableWidgetItem
 MQTreeWidgetItem
+Mr4hWJGaNO40E
 MRSMessageSize
 MRSTopicNameLength
 MRULocalFilesChanged
@@ -14641,7 +14638,6 @@ NCONF_load
 NCONF_load_bio
 NCONF_load_fp
 NdnuScpeLkclOiiaVruaSilaKgnjRicyLiraCidyLmahCanaLtvaTtsvApygErmaSusiLumaBavaJietMimrAbraSitrPilhPhkrOihtKktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTzzzZssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
-NdYa3KX1nlcSae1X
 NE9F0uHE9F4uBE9F8u
 NearIntensity
 NearPlaneZ
@@ -14952,7 +14948,6 @@ NVWorkspace
 NW4FileSystemDir
 NW4PenStyle
 NW4UserInputType
-NXznp7G8RcjKEuvJvFf6hVHBtHgD7cxsHE
 Oacutesmall
 OAEPEncryptionSET
 OAUTHBEARER
@@ -16285,6 +16280,7 @@ PersistentEditor
 PersistentFifoComboBox
 PerThreadTimer
 PerThreadTimerTotal
+PgaLZs2Qfxi0
 PGSAlign2AxesCorrectionDamping
 PGSAlign2AxesPStageFrictionConstant
 PGSAlign2AxesVStageFrictionConstant
@@ -16867,7 +16863,6 @@ PollHttpResponse
 PolygonMode
 PolygonOffset
 Polynomial
-PoPrOBeBs6jZ9V3E9g
 Populating
 PopulatingItems
 PopupAnalytics
@@ -17247,6 +17242,7 @@ QAWNcgRdAzOKj8pi5wAlnsdoumgAtB1J7d
 QBoxLayout
 QButtonGroup
 QByteArray
+QcEQVp7Srp
 QChildEvent
 QClipboard
 QColorDialog
@@ -17743,6 +17739,7 @@ QItemDelegate
 QItemSelection
 QItemSelectionModel
 QItemSelectionRange
+QiyL73K4c2CTBK2
 QJsonArray
 QJsonDocument
 QJsonObject
@@ -19218,7 +19215,6 @@ RigidBodyLazyUpdating
 RigidityEnabled
 RiseVelocity
 Rj0isQcnqX
-RkovliDH0MsjxWfGNChrWXkpAkGqDK9YYgaE4eOD
 Roact.createElement
 ROBLOSECURITY
 Roblox.Hybrid
@@ -23170,7 +23166,6 @@ StudioNativeCaptchaDisplayTimeoutMillis
 StudioNetwork
 StudioNetworkDetailed
 StudioNewTableOutputWidget
-StudioNewTableOutputWidgetWordWrapOption
 StudioNotifyAliveAnalyticsTimerMs
 StudioNumExternalLoginAttempts
 StudioOpenGameSettingsEvent
@@ -23595,6 +23590,7 @@ SwitchToFiber
 SwitchWindow
 Sword128.png
 SwordTexture.png
+SXfdfvsBD6bAF06A3nun5dfMg
 SXNET_add_id_asc
 SXNET_add_id_INTEGER
 SXNET_add_id_ulong
@@ -24836,6 +24832,7 @@ TSMk2ThrottleStreamJob
 TTTTTTTTTT
 TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
 TTUUEDDsss
+TuR1sYLJVBKrlpSPfoDPDVwuv0I2Bl
 TurboBuildersClub
 TurnOffAction
 TurnOnButtonClicked
@@ -24927,7 +24924,6 @@ UBatchThumbnailResult
 UBlockAdditions
 UBlockGroup
 UBlockMore
-UbTRMHWQY5M8QEUOG
 UBulkImporterJob
 UBulkIngestionInfo
 UCachedBitstream
@@ -27027,6 +27023,7 @@ WaterWaveSpeed
 WaypointIdx
 WCharArray
 Wcircumflex
+WDNml4brSSPtYylwnohTJqnPmSoEkmYq
 WDU_Mbstatet
 WeakFunctionRef
 WeakThreadRef
@@ -27312,6 +27309,8 @@ WSAStartup
 WSAStringToAddressW
 WTHelperGetProvSignerFromChain
 WTHelperProvDataFromStateData
+WUSsw7toYd32H
+WWAwwCdRx6
 WWWWWWWWWW
 WWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWW
@@ -27345,10 +27344,10 @@ XAEBVQString
 XAEBVvalue
 XAEBVwebsocket_incoming_message
 XAlignment
+XayNCeDJWIiLYQgoJSXCZ4KBbNSILkd
 Xbad_alloc
 Xbad_function_call
 XbbXXbbXGSSGGSS
-XBIBmMSpv0SeolIYCVzsgqX
 Xbox.AllUsers.PlayNextGame
 XboxAvatarPaneRefreshInterval
 XboxDisableTextChat
@@ -27373,6 +27372,7 @@ XInputGetCapabilities
 XInputGetState
 XInputSetState
 Xinvalid_argument
+XiyFampWrJytPlvBIkJCUC
 Xlength_error
 Xout_of_range
 XP6AXAEBUTextFilterResult
@@ -27392,7 +27392,6 @@ XP6AXVVariant
 XP6AXVWeakFunctionRef
 XP6AXW4HttpRequestResult
 XP6AXXZVlist0
-Xpamykxyi87sAuix
 XPEAVFileSyncItem
 XPEAVICHull
 XPEAVQNetworkReply
@@ -27401,7 +27400,6 @@ XQColorDialog
 Xregex_error
 XResolution
 Xtime_get_ticks
-Xu6FkZDlVM
 XUnegotiation_response
 XUNetworkResult
 XvAAuY44YuAAvX4
@@ -27543,14 +27541,15 @@ YffYZefYDNNDCOO
 YieldEvent
 YieldFuncDesc
 YieldFunction
-YJECAwEAAQ
 YQByteArray
+YqulHX2qVaySpesE5p06grl
 YResolution
 YwBBvY55YvBBwY5
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
 Zcaronsmall
 Zdotaccent
+ZG18JgY7Yyts9tPcC58Fptiqhe4z28CAwEAAQ
 ZgnhKhWhci
 ZhniZzzzZbarAnmrAgneBlryCaveDroeGkerGrjuGuruGgnaHinaHrbeHariHadnKanaKooaLntaLmylMayrOlmaTuleTiahTtbiTopoBiarBsnaCrehCihtErmhKgnoMrmyMmagOrnuRhniScrySaahTiiiYtrsDhtoGlatIdhuBonaHglgTbgaTtrpCbmiLbniLamsOwahSelaTragUiguBtpoCgalGrahKulaToepXolySgnfTilaBxusXookNga
 ZIndexBehavior
