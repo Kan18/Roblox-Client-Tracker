@@ -554,6 +554,7 @@ AmbientReverb
 AmdPowerXpressRequestHighPerformance
 AmericanExpress
 Amimjmwmxm
+AMKba19CyosarFRg
 AMMW4TweenEasingStyle
 AMPROPSETID_Pin
 AMVVector3
@@ -734,6 +735,7 @@ AntiAddictionManager
 AntiAddictionReport401ToLua
 AntiReplay
 AntiSpamSpamLimit
+ANU0FKlPgNxcjAWoxuQDBh3Dz
 AnyWayYouHashItOut4
 APEAU_iobuf
 ApiGamesChanged
@@ -4277,7 +4279,6 @@ BgUpdateRedirectsHttpErrInfluxHundredthsPercentage
 BgUpdateRedirectsRejectInfluxHundredthsPercentage
 BHHHHHHHHHHHHHHHHHHHHHHHHHH
 BhHlLjJTiIfdnczsxX
-BIbNJvXbgbFjE9PYrfirbnD44c19nUJSvhsiEJVSGQiKjIDxBSKWl8PtlhnCn
 BillboardGui
 BillboardGuiDistanceStepping2
 BinaryData
@@ -4431,7 +4432,6 @@ BN_rand_range
 BN_RECP_CTX_new
 BN_STACK_push
 BN_to_felem
-BnAppkPeUH7LIepgmHb5PMSSoFlcP3zwkUOp
 BodyAngularVelocity
 BodyBack_Att
 BodyBackAttachment
@@ -4687,7 +4687,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409842
+ByVersion_0.444.0.409847
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -8254,6 +8254,7 @@ DontClearForwardRefMapOnGC
 DontDisconnectJointUpdateUnlessNecessary
 DontEnforceChildOrderAtJoin
 DontHandlePlayerReplicationDataAsSpecialCase2
+DontLoadCloudLocalizationSettingsOnCloudEditMode
 DontLoadEmotesInventoryInThumbnails
 DontRepeatMyself
 DontStoreCharacterModelBeingLoadedInPlayer2
@@ -8760,7 +8761,7 @@ EFrontVector
 Egravesmall
 EHcUgHc]oL
 EHERE\EfEpEzE
-Ej5cXwOAykBu2NJmFcfFcZw6nbHl13pXjb0cOlap5
+Ehuaz2lhNN
 EJJJJJJJJJJJJJJJJJJJJ
 EJTU\^bcfguw
 ElapsedSeconds
@@ -9309,7 +9310,6 @@ ExplorerImageIndex
 ExplorerMessageWidget
 ExplorerOrder
 ExplorerPublishWidget
-ExplorerSupportActiveInstance2
 ExplorerWidget
 ExplorerWidgetFilterUsed
 ExplorerWidgetFilterUsed_FTU
@@ -9836,6 +9836,7 @@ FlushMappedMemoryRanges
 FlushModifiedScriptsRetry
 FlyweightService
 FlyweightServiceDataRecievedCallbackCrashFixEnabled
+FMaQnpnTxZ
 FMOD_CREATECOMPRESSEDSAMPLE
 FMOD_OPENMEMORY_POINT
 FMOD_OUTPUT_NOSOUND
@@ -11087,7 +11088,6 @@ GfxPartInvalidationLimitToTime2
 GGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGGGGG
-GgleQjJM2o5czjOb
 GIM_ShapeRetriever
 GImpactCollisionAlgorithm
 GImpactCompound
@@ -11343,6 +11343,7 @@ GuiTrackInsertionOrder
 GuiVertices
 GunCursor.png
 GunWaitCursor.png
+GvdNrpECAwEAAQ
 GvEphfEUiHHoD6hYFI4xWGpAnIHcklKQCxrf46kAhDGeZnqIgeGszlGdWafunGE8
 GVKUTS[BXIWH\KbHi
 GXGfGkGpGuG
@@ -11896,7 +11897,6 @@ HWYGOTH.ttf
 HybridEvent
 HyIyPyVy]y^yey
 Iacutesmall
-IAKAgO5p5rEOleRW
 IAutocompleter
 IBusyStateModel
 ICCProfile
@@ -12590,7 +12590,6 @@ IsVerified
 IsVertexArray
 IsVibrationSupported
 IsVIPDeveloper
-It53FNUmgvtJQbMMrQanU7alH8oCptZMTVT3O7KPP2W
 ITALIC_ANGLE
 ItalicAngle
 Item.forceActiveFocus
@@ -12670,6 +12669,8 @@ JIRA_RIDE_785
 JJJBBB\\\xx
 JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
 JKLMNOPQRSTU
+Jlr15EHqhSWuN29H9RVzBnltMcWUjDNChkskBGwgZgEv
+JNtM9hbZ2PUxJZkSSt5HJY
 JoinBlobInvalidateCountThresholdPercent
 JoinBlobInvalidateThresholdPercent
 JoinCommand
@@ -12827,8 +12828,8 @@ KodchiangUPC
 KPEAVICHull
 KPEIBX_K_KPEIAU_iobuf
 KSocialService
+KSxTtioPXW60
 KVScriptContext
-KxPaZyTtX0OLm1
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
 LabelArray
 LabelArray.push
@@ -13532,7 +13533,6 @@ LuauWatchdog
 LuaVersion
 LuaWebService
 LVvuOx39]O
-LWqaNBmJcwLGIQm74Q0d0GPJ40M8lZQX8VS
 M_NVWeakFunctionRef
 MacGamepadUseGCController
 MachineAddress
@@ -14171,7 +14171,7 @@ MethodQuery
 Metrics.width
 MetricsSets
 MetricType
-MeyjBKJSGGUw4P0rKmGgHvCqDf2e
+MgK6OiCuRXSLSAVm
 MHapV7R8MxA953
 MicroProfile
 MicroProfileFlip
@@ -14188,7 +14188,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEA
+MIICCgKCAgEAmlxLUiDis6cijxTl1cWl6mvROsT1t
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14228,6 +14228,7 @@ Miscellaneous
 Mismatched
 MissingCoreScript
 MissingDumpFile
+MKxNFeGXZWGaTB0AdhWZDAEy05AbZuzO5HcwUE
 MMW4IkDragCollisionsMode
 MMW4PartMaterial
 MMW4UserInputState
@@ -14873,6 +14874,7 @@ NPCsAction
 NPEAVInstance
 NPEAVQString
 NPEAVQWidget
+NS0LePfCn23ZTlKDrxsJIY3UU0SyC5w53WABFhfkKKTej
 NSNNNNNNTNh0ii
 NSNNNNNNTNPVR
 NSNNNNNNTNPVV
@@ -14923,7 +14925,6 @@ NumRegionsToGC
 NumRigidJointsNotInWorld
 NumSubSounds
 NumTickets
-NUrJRA5HqvovcFWtJCpj2AEiaWN65C5kRZDGMe3jOE1UkvryCVtVmbUbDpfUNk6S
 NVAuthenticationHelper
 Nvb5JjRCUQ
 NVLuaWebService
@@ -15062,6 +15063,7 @@ OgreWidgetShowEvent
 Oh44\h44\Q
 Ohungarumlaut
 OiCCPPhotoshop
+OKPmQV9yKaxZX
 OldActiveElement
 OldMessagesFetched
 OldServers
@@ -15217,6 +15219,7 @@ OptionsMenu
 OptionState
 OPUS_ARCHMASK
 OpusCustomMode
+OR4VveloAkOCZhD6A
 OrCharacter
 OrCreateFileSyncItemClient
 OrderArray
@@ -19829,7 +19832,6 @@ SecurityViolation
 SeenFirstTimePopup
 Selectable
 SelectAfterInsertChecked
-SelectAfterStop
 SelectAllButtonPressed
 SelectAllModifiedPackagesVerb
 SelectAttachment0Verb
@@ -20416,7 +20418,6 @@ SHUseNewComputeLevelUsesOBB
 ShutdownClient
 ShutdownClientAndSave
 ShutdownPolicy
-SHX8pHn0nytiXlIfdiRXVZqwflfvysZLOSns
 SiblingElement
 SigDigest_add1
 SigEd25519
@@ -20519,7 +20520,6 @@ SkinningIsland
 SkinningIslands
 SkinningIslandsForModel
 SkipFirstMechanismChangeReport
-SKlWIA1i2BkNN2U2SMsn
 Sky.SkyboxBk
 Sky.SkyboxDn
 Sky.SkyboxFt
@@ -23609,6 +23609,7 @@ SystemOutputView
 SystemPopup
 SystemTimeToFileTime
 SystemUtil
+SzSCQ3lhTP73sO
 TabBarModel
 TabBarModel.append
 TabBarTabLabel
@@ -24267,6 +24268,7 @@ TitleBarProgress
 TitlebarText
 TitleBarVisible
 TJNLerU][Wr
+TK26HmwG4jp4BeSIsNglH8a5bvdx9N4vddvJS2VZzJXuiuPP5LUxz1PXvD
 TLS_AES_128_CCM_8_SHA256
 TLS_AES_128_CCM_SHA256
 TLS_AES_128_GCM_SHA256
@@ -25021,6 +25023,7 @@ UFMODSystemRelease
 Uforward_traversal_tag
 Uforwarding_posix_time_traits
 UGameIconDescription
+UGcC5376yFVGnqxGbcZfBIPC9oSShs
 UGCUpdateErrors
 UGCValidationService
 UGeneralResponse
@@ -26406,7 +26409,6 @@ VLayoutPage
 VLayoutTable
 VLayoutTableMajor
 VLazyTable
-VlcEhnashS
 VLDLComponent
 VLeftMotorTool
 VLegacyCharacterAppearance
@@ -26509,6 +26511,7 @@ Voption_description
 VOrderedDataStore
 VOrientationConstraint
 VOscillateMotorTool
+VOTrPWud8ibj
 Vout_of_range
 Voverflow_error
 VOverridePropertyItem
@@ -26931,7 +26934,6 @@ VWXYZ[\]^_`a
 VXmlElement
 VYieldFunctions
 VYieldFunctionStateObject
-VzpPxK5BiW2xGo5JmpPeLvaoLKWD51hHk
 W_Key_dn.png
 WaistAccessory
 WaistBack_Att
@@ -27007,7 +27009,6 @@ WaterViscosityDragFudgeFactor
 WaterWaveSize
 WaterWaveSpeed
 WaypointIdx
-WBOxa5EJvQV0CAwEAAQ
 WCharArray
 Wcircumflex
 WDU_Mbstatet
@@ -27126,6 +27127,7 @@ WhiteSpace
 WhitespaceColor
 WhoClicked
 WhoHovered
+WhyzXWB0h9MtP6kbzLXZemHffowKlr6NBHq
 WideCharToMultiByte
 WideToNarrowScaleInHundredths
 WideView_purpleLayer.png
@@ -27298,7 +27300,6 @@ WTHelperProvDataFromStateData
 WWWWWWWWWW
 WWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWW
-WYoJwdCbSxu4i0aU6DE02dwFTikoqMWy5x
 X_JW4AssetType
 XA^A]A\_][
 XA_A]A\_^[
@@ -27332,7 +27333,6 @@ XAlignment
 Xbad_alloc
 Xbad_function_call
 XbbXXbbXGSSGGSS
-XBCDYuAidMlkKC13psf
 Xbox.AllUsers.PlayNextGame
 XboxAvatarPaneRefreshInterval
 XboxDisableTextChat
@@ -27348,6 +27348,8 @@ XboxPresencePolling
 XboxSaleAvatarPackageIds
 XboxUseCuratedGameSort2
 XboxUseNewValidUsernameCheck2
+XC7fO19fqbKhrVxgeI2JfX
+XEfQeKaj8CTG6BqtGnYU3gD5UWm4cuQuyIjwwsrsla9uluxf44ptC33sNP5ab
 XFbxAMatrix
 XFREE86_GLYPH_RANGES
 XGetLastError
@@ -27385,7 +27387,6 @@ XQColorDialog
 Xregex_error
 XResolution
 Xtime_get_ticks
-XUn7euicGFapaC7PTVqYzW43QP9Lp6zPOR9Z
 XUnegotiation_response
 XUNetworkResult
 XvAAuY44YuAAvX4
@@ -27418,7 +27419,6 @@ XVHttpClientHandler
 XVHumanoid
 XVInventoryPages
 XVLDLBatchTask
-XVlkCQxCNFJWNUV1kQg9
 XVLuaSourceBuffer
 XVLuaWebService
 XVMarketplaceApiClient
@@ -27525,10 +27525,10 @@ Ycircumflex
 Ydieresissmall
 YDYHYQYTYbYsY
 YffYZefYDNNDCOO
-YiBVGdOrARsnLD901DNtxt
 YieldEvent
 YieldFuncDesc
 YieldFunction
+Yj5iAA2VLRA1iKUSgwqvi6ByFqRvpHBOqXeMw0CGrACLCd1zzCVM7qUpFEdyWy
 YQByteArray
 YResolution
 YwBBvY55YvBBwY5
