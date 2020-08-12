@@ -525,7 +525,6 @@ Alternative
 AltTelegrafAddress
 AltTelegrafHundredthsPercent
 AlwaysChangePrimaryPartWithoutWarning
-AlwaysCountTeleportMethod
 AlwaysLongStep
 AlwaysOnTop
 AlwaysPutSoundsOnDiskWhenLowOnMemory
@@ -554,7 +553,6 @@ AmbientReverb
 AmdPowerXpressRequestHighPerformance
 AmericanExpress
 Amimjmwmxm
-AMKba19CyosarFRg
 AMMW4TweenEasingStyle
 AMPROPSETID_Pin
 AMVVector3
@@ -735,7 +733,6 @@ AntiAddictionManager
 AntiAddictionReport401ToLua
 AntiReplay
 AntiSpamSpamLimit
-ANU0FKlPgNxcjAWoxuQDBh3Dz
 AnyWayYouHashItOut4
 APEAU_iobuf
 ApiGamesChanged
@@ -4250,6 +4247,7 @@ BeginTransformFeedback
 BehaviorType
 Benchmarked
 Benchmarking
+BESS4gVLeG4a32u7
 BetaFeatureInformation
 BetaFeatures
 BetaFeaturesActionTriggered
@@ -4687,7 +4685,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409847
+ByVersion_0.444.0.409859
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -7159,6 +7157,7 @@ DataStore.
 DataStore429MinReponseTimeMSec
 DataStoreAdditionalMetricsEnabled
 DataStoreAnalyticsReportEveryNSeconds
+DataStoreApiRefreshRolloutPercentage
 DataStoreAutoHttpRetry
 DataStoreBudget
 DataStoreBudgetOnCloseBase
@@ -7210,8 +7209,16 @@ DataStoreService.
 DataStoreServiceThrottleFirstBackoffMilliseconds
 DataStoreServiceThrottleMaxBackoffMilliseconds
 DataStoreServiceThrottleThreshold
+DataStoreStopUsingSerializedVersion
 DataStoreThrottleMsg
 DataStoreTouchTimeoutInSeconds
+DataStoreUpdateGetAPI
+DataStoreUpdateGetSortedAPI
+DataStoreUpdateIncrementAPI
+DataStoreUpdateOnUpdateAPI
+DataStoreUpdateRemoveAPI
+DataStoreUpdateSetAPI
+DataStoreUpdateSetIfAPI
 DataStoreValidateHundredthsPercentage
 DataStoreWaitOnYieldingRequestsExpiration
 DataStoreWriteEnabled
@@ -7779,6 +7786,7 @@ Descriptor
 DESCRIPTOR
 DescriptorType
 Deselected
+Deserialization
 Deserialize
 DeserializedItemChildren
 DeserializePackets
@@ -7964,6 +7972,7 @@ DF42709311E28987EB530EBA4742
 DFbxAMatrix
 DFbxMatrix
 DfNfXfbftf
+DGbCxcI2lFn9sOr9
 DGHASH_ASM
 DgNg`ghgpgxg
 DgNgXgbglgvg
@@ -8193,6 +8202,8 @@ DistToShowBufferCountSqr
 DKECCAK1600_ASM
 DlcVersion
 DListenerAttributes
+DlmaV49thAfVsJ2RVUG5H9h4laFt3f
+DMhFt2OZthi3m
 DMinMaxDistance
 DnsResolve
 DNSResponseMS
@@ -8761,7 +8772,6 @@ EFrontVector
 Egravesmall
 EHcUgHc]oL
 EHERE\EfEpEzE
-Ehuaz2lhNN
 EJJJJJJJJJJJJJJJJJJJJ
 EJTU\^bcfguw
 ElapsedSeconds
@@ -9145,6 +9155,7 @@ EThrottleType
 EucrosiaUPC
 EulerAnglesXYZ
 EulerAnglesYXZ
+EvaluatedKey
 EvaluateGlobalTransform
 Event.button
 Event.clientX
@@ -9536,6 +9547,7 @@ FFlagStudioQTitanRibbon24bitQImageCrashFix
 FFlagStudioRemoveShareOptionFromLocalFiles
 FFlagStudioSaveToCloudV2
 FFlagStudioSaveToCloudV3
+FFlagStudioUIItemsHighlightFixEnabled
 FFlagToolboxJointMigrationApi
 FFoRLVHHHHoTJVF
 FHFRF\FfFpFzF
@@ -9836,7 +9848,6 @@ FlushMappedMemoryRanges
 FlushModifiedScriptsRetry
 FlyweightService
 FlyweightServiceDataRecievedCallbackCrashFixEnabled
-FMaQnpnTxZ
 FMOD_CREATECOMPRESSEDSAMPLE
 FMOD_OPENMEMORY_POINT
 FMOD_OUTPUT_NOSOUND
@@ -9976,6 +9987,7 @@ ForwardScroll
 FoundItems
 FoundThread
 FpFramebuffer
+FPpe0TtaAnTjljf6cdyQOKvZhLE5gHfoSojWUHYUZgJL80Tn
 FpsVariance
 Fractional
 Frame_.LogEnd[nLog]
@@ -11343,7 +11355,6 @@ GuiTrackInsertionOrder
 GuiVertices
 GunCursor.png
 GunWaitCursor.png
-GvdNrpECAwEAAQ
 GvEphfEUiHHoD6hYFI4xWGpAnIHcklKQCxrf46kAhDGeZnqIgeGszlGdWafunGE8
 GVKUTS[BXIWH\KbHi
 GXGfGkGpGuG
@@ -11797,7 +11808,6 @@ HttpServiceBetterUserAgent
 HttpServiceBlacklist
 HttpServiceErrorCapLimit
 HttpServiceErrorRateLimit
-HttpServiceInvocationCounters
 HttpServiceLogPluginDomains
 HttpServiceNeverCache
 HttpServicePermyriad
@@ -11875,6 +11885,7 @@ HumanoidRootPart.
 HumanoidStateType
 HumanoidWithPGSConstraintsUsePhysicsState
 Hungarumlautsmall
+HvCFHaX2WC
 HVChangeHistoryService
 HVQByteArray
 HVQRegularExpression
@@ -12105,6 +12116,7 @@ IncorporatedPaul
 IncreaseCircularAdornSideCount
 Increasing
 IncrementAsync
+Incremented
 InCurlyBraces
 InDataAppearance
 InDataBehavior
@@ -12525,6 +12537,7 @@ IsHighlightedAsError
 IsHighlightedByDebugger
 IsImageModelAssetUploadEnabled
 IsInsertWidget
+IskkE5VqnliHdiEYVepuwk
 Islandizer
 IsLuaChatEnabled
 IsLuaGameDetailsEnabled
@@ -12656,6 +12669,7 @@ Javascript
 JavaScript
 JavaScriptCallback
 Jba5qWkYU5nARYZm1gQVP
+Jc0OfCrI8Toa2SljArlAtU1HDshKXcl5uSNPt3YAQ87akQ9No
 Jcircumflex
 JDJNJXJbJlJvJ
 JHJRJ\JfJpJxJ
@@ -12669,8 +12683,6 @@ JIRA_RIDE_785
 JJJBBB\\\xx
 JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
 JKLMNOPQRSTU
-Jlr15EHqhSWuN29H9RVzBnltMcWUjDNChkskBGwgZgEv
-JNtM9hbZ2PUxJZkSSt5HJY
 JoinBlobInvalidateCountThresholdPercent
 JoinBlobInvalidateThresholdPercent
 JoinCommand
@@ -12828,7 +12840,6 @@ KodchiangUPC
 KPEAVICHull
 KPEIBX_K_KPEIAU_iobuf
 KSocialService
-KSxTtioPXW60
 KVScriptContext
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
 LabelArray
@@ -13090,6 +13101,7 @@ LevelItemCount
 LevelOfDetail
 LevelOfDetailSetting
 LevelQuality
+LGY7xtsaORFU37
 Liberation
 LIBOVR_DLL_DIR
 LibsodiumDRG
@@ -14171,7 +14183,6 @@ MethodQuery
 Metrics.width
 MetricsSets
 MetricType
-MgK6OiCuRXSLSAVm
 MHapV7R8MxA953
 MicroProfile
 MicroProfileFlip
@@ -14188,7 +14199,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAmlxLUiDis6cijxTl1cWl6mvROsT1t
+MIICCgKCAgEA2
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14228,10 +14239,10 @@ Miscellaneous
 Mismatched
 MissingCoreScript
 MissingDumpFile
-MKxNFeGXZWGaTB0AdhWZDAEy05AbZuzO5HcwUE
 MMW4IkDragCollisionsMode
 MMW4PartMaterial
 MMW4UserInputState
+MmweeKVWIDgDEDP30gdO7gsWHfHpb85pHIV8C
 MobileWebsite
 MockAndroidBackButtonPressed
 MockGestureGenerator
@@ -14874,7 +14885,6 @@ NPCsAction
 NPEAVInstance
 NPEAVQString
 NPEAVQWidget
-NS0LePfCn23ZTlKDrxsJIY3UU0SyC5w53WABFhfkKKTej
 NSNNNNNNTNh0ii
 NSNNNNNNTNPVR
 NSNNNNNNTNPVV
@@ -15063,7 +15073,6 @@ OgreWidgetShowEvent
 Oh44\h44\Q
 Ohungarumlaut
 OiCCPPhotoshop
-OKPmQV9yKaxZX
 OldActiveElement
 OldMessagesFetched
 OldServers
@@ -15219,7 +15228,6 @@ OptionsMenu
 OptionState
 OPUS_ARCHMASK
 OpusCustomMode
-OR4VveloAkOCZhD6A
 OrCharacter
 OrCreateFileSyncItemClient
 OrderArray
@@ -15487,7 +15495,6 @@ ParallelNarrowPhaseSerialCutoff
 ParallelPhysicsReceive
 ParallelRamp
 ParallelReceiveJob
-ParallelSendTouches2
 ParallelTerrainBroadphase2
 ParalleNarrowPhaseThreads
 ParamCtrlNeckStiffness
@@ -17232,6 +17239,7 @@ QAssociativeIterable
 QAssociativeIterableImpl
 QAuthenticator
 QAWNcgRdAzOKj8pi5wAlnsdoumgAtB1J7d
+Qb4owmE1Uxpo63
 QBoxLayout
 QButtonGroup
 QByteArray
@@ -18271,6 +18279,7 @@ RCCUpdateBroadphaseDtAverage
 RCCUpdateBroadphaseDtAverage_Datacenter_
 RccUse64BitAppearanceId
 RcpReferenceTime
+RDWAXKMrJtCVNOB3zhSHAzO772m04X8A6Dn6VH1bWuBXvK3Li3NA8A
 ReachActorChest
 ReachActorChestRotation
 ReachActorHead
@@ -19115,6 +19124,7 @@ RibbonTabTopBar
 RibbonTool
 RibbonTool.None
 RibbonVisiblityAction
+RibUONlOM2DJU69Pf9jC
 RichTextBetaFeatureRoleSet
 RichTextBetaFeatureUrl
 RigAttachment
@@ -19205,6 +19215,8 @@ RigidBodyLazyUpdating
 RigidityEnabled
 RiseVelocity
 Rj0isQcnqX
+RJGcMuGHiDXmdq
+RjktKZDzNyV1ExlNVHDuPS3gYtV
 Roact.createElement
 ROBLOSECURITY
 Roblox.Hybrid
@@ -20762,6 +20774,7 @@ SplittingCanceled
 SpreadAngle
 SpringConstraint
 SpringConstraintAction
+SquishCheckState
 SquishRelay
 SQUIshRobloxReflectionExtensionLibrary
 Src.Thread
@@ -23378,6 +23391,7 @@ StudioTreeWidgetEventProcessingTime
 StudioTreeWidgetFilterTime
 StudioTreeWidgetProcessingTime
 StudioTutorialIcon.png
+StudioUIItemsHighlightFixEnabled
 StudioUILibraryRoundTextBoxNoTooltip
 StudioUpdateFoldingRangeForEveryChange
 StudioUpdateRuiDialog
@@ -23609,7 +23623,6 @@ SystemOutputView
 SystemPopup
 SystemTimeToFileTime
 SystemUtil
-SzSCQ3lhTP73sO
 TabBarModel
 TabBarModel.append
 TabBarTabLabel
@@ -23756,6 +23769,7 @@ TelegrafPriorityThrottleHundredthsPercent
 TelegrafTCPPort
 TelegrafUDPPort
 TelephoneNumber
+TeleportAdditionalMetrics
 TeleportCallback
 TeleportCancel
 TeleportData
@@ -23764,12 +23778,10 @@ TeleportedIn
 TeleportErrors
 TeleportException
 TeleportExceptionInfluxHundredthsPercentage
-TeleportFailedAnalytics
 TeleportFailedClientNetworkType_
 TeleportFailedClientNetworkType_Unknown
 TeleportFailedClientOs_
 TeleportFailedEvent
-TeleportFailedEventCounter
 TeleportFailedGameClient
 TeleportFailedGameServer
 TeleportFailedUnknownSystem
@@ -23795,7 +23807,6 @@ TeleportMethodAnalyticsHundredthPct
 TeleportPartyAsync
 TeleportPartyAsync_
 TeleportPartyAsyncAdditionalMetrics
-TeleportPartyAsyncCounter
 TeleportPartyAsyncMetrics
 TeleportPartyAsyncPercentageSuccessful_
 TeleportPartyAsyncRequestingGroupTeleport
@@ -23803,6 +23814,8 @@ TeleportPartyExpirationMillisecond
 TeleportPlaceLauncherStateCount
 TeleportPollinInterval
 TeleportPrivateServer
+TeleportPrivateServerAccessGrantFailed
+TeleportPrivateServerAccessGrantSucceeded
 TeleportPrivateServerMetrics
 TeleportResult
 TeleportRetryTimes
@@ -23813,8 +23826,9 @@ TeleportService_TeleportType
 TeleportState
 TeleportState_Failed
 TeleportState_WaitingForServer
+TeleportSuccessAnalytics
+TeleportSuccessEvent
 TeleportThreadImpl
-TeleportThreadImplCount
 TeleportToPlaceInstance
 TeleportToPlaceInstance_
 TeleportToPrivateServer
@@ -24268,7 +24282,6 @@ TitleBarProgress
 TitlebarText
 TitleBarVisible
 TJNLerU][Wr
-TK26HmwG4jp4BeSIsNglH8a5bvdx9N4vddvJS2VZzJXuiuPP5LUxz1PXvD
 TLS_AES_128_CCM_8_SHA256
 TLS_AES_128_CCM_SHA256
 TLS_AES_128_GCM_SHA256
@@ -24673,6 +24686,7 @@ TouchTransmitter
 ToUniversalTime
 TownAndCity
 ToWorldSpace
+TqibhVr1tgUtqBd
 TraceMessage
 Track2Data
 TrackAudioDriversPerSystem
@@ -25023,7 +25037,6 @@ UFMODSystemRelease
 Uforward_traversal_tag
 Uforwarding_posix_time_traits
 UGameIconDescription
-UGcC5376yFVGnqxGbcZfBIPC9oSShs
 UGCUpdateErrors
 UGCValidationService
 UGeneralResponse
@@ -25998,6 +26011,7 @@ VeFailedWithMessage
 VehicleController
 VehiclesAction
 VehicleSeat
+VehRYWlzS1ycIYtArz3c32GwOSsLflNuuI
 Velocity_xml
 VelocityInheritance
 VelocityMotor
@@ -26511,7 +26525,6 @@ Voption_description
 VOrderedDataStore
 VOrientationConstraint
 VOscillateMotorTool
-VOTrPWud8ibj
 Vout_of_range
 Voverflow_error
 VOverridePropertyItem
@@ -26590,6 +26603,7 @@ VPVInstance
 VQAssociativeIterableImpl
 VQByteArray
 VQFileInfo
+VqFuhUx2oiKZiGdLr6ZhtlcfedBfUMTJ5inKzno3a7dIvmbWLdQgheH33Knt1TkK
 VQGenericArgument
 VQGenericReturnArgument
 VQHostAddress
@@ -27127,7 +27141,7 @@ WhiteSpace
 WhitespaceColor
 WhoClicked
 WhoHovered
-WhyzXWB0h9MtP6kbzLXZemHffowKlr6NBHq
+Wi7ia4e5piXy9Jra5FAT8smd7LVwlwOFffahgECAwEAAQ
 WideCharToMultiByte
 WideToNarrowScaleInHundredths
 WideView_purpleLayer.png
@@ -27348,8 +27362,6 @@ XboxPresencePolling
 XboxSaleAvatarPackageIds
 XboxUseCuratedGameSort2
 XboxUseNewValidUsernameCheck2
-XC7fO19fqbKhrVxgeI2JfX
-XEfQeKaj8CTG6BqtGnYU3gD5UWm4cuQuyIjwwsrsla9uluxf44ptC33sNP5ab
 XFbxAMatrix
 XFREE86_GLYPH_RANGES
 XGetLastError
@@ -27371,7 +27383,6 @@ XP6AXPEAVMegaClusterInstance
 XP6AXPEAVQMessageBox
 XP6AXPEAVScriptAnalysisWidget
 XP6AXPEBDV
-XP6AXUHttpRequest
 XP6AXUHttpResult
 XP6AXUStandardOutMessage
 XP6AXVColor3
@@ -27528,10 +27539,11 @@ YffYZefYDNNDCOO
 YieldEvent
 YieldFuncDesc
 YieldFunction
-Yj5iAA2VLRA1iKUSgwqvi6ByFqRvpHBOqXeMw0CGrACLCd1zzCVM7qUpFEdyWy
+YpRVXKAWfWp0k
 YQByteArray
 YResolution
 YwBBvY55YvBBwY5
+YWgkkZQ2yniKuMkgHpY2pcpT1kXdRLeqOWDE
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
 Zcaronsmall
