@@ -162,7 +162,6 @@ AccoutrementWeldingFilteringEnabled
 Accumulate
 Accumulators
 ACDA4EEAD515
-AcePxOao29Ho11ssYFkT9E2WEIz3BrBgken69ZBYBoyGi7v7F3o9J1zEZaDDyUw
 ACertificate
 Acircumflex
 Acircumflexsmall
@@ -3085,6 +3084,7 @@ AVQStackedWidget
 AVQStandardItem
 AVQStandardItemModel
 AVQStatusBar
+AVQStatusTipEvent
 AVQStringList
 AVQStringRef
 AVQStyledItemDelegate
@@ -4077,6 +4077,7 @@ AXW4UiMessageType
 AXW4UserCFrame
 AXW4UserInputType
 AXW4VRTouchpad
+AYLHLaFkbf1j0DpPisLIhlxfMKFvuznTd5yQ5NGdfWYB6VbbSwCPjFK7Ph3tjMsx
 BA447F42A91111E2B410EF351327957B
 BA886F11E18561866242201959
 BAA3C620681180838E23F0DC6224
@@ -4673,7 +4674,6 @@ BVSystemAddress
 BVTextureId
 BW4AlphaMode
 BW4ModelLevelOfDetail
-Bw8ClzBn2juXrLVXlePUsLLnFryAX
 BWGradient.png
 ByCongestionControl
 ByDatacenter_
@@ -4686,7 +4686,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409865
+ByVersion_0.444.0.409876
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -5234,6 +5234,7 @@ ClbCatalogBundleIds
 CLBLuaAppChallengeItems
 CleanCacheMoveMutex
 CleanTeamCreateFlyweightServiceOnDMClose
+CleanupFetchLocaleAssetFallback
 ClearAllChildren
 ClearBeforeRendering
 ClearBufferfi
@@ -7986,7 +7987,6 @@ DH_meth_set1_name
 DH_new_by_nid
 DH_new_method
 DHBasedMac
-DhCUMT36EFmCqQVmlPpkAnhaxSjHfoZdNNnqEof
 DHParameters
 DHparams_print_fp
 DhufyEeFO7U33Tv7vk
@@ -9536,6 +9536,7 @@ FFFFFFFFFFFFFFF
 FFFFFFFFFFFFFFFFFFFFFFFF
 FFFIIIIIIIIIIIIIIII
 FFFPFZFdFnFxF
+FFfU9llDIt3
 FFlagCreateAndUpdateDataReplicationCache4Adding
 FFlagDebugStartPageRefreshOnF5
 FFlagEditorExportHistory
@@ -10274,9 +10275,6 @@ GameSettings
 GameSettings.rbxm
 GameSettings.rbxm_gameSettingsToolbar
 GameSettings.rbxm_gameSettingsToolbar_gameSettingsButton
-GameSettings_old.rbxm
-GameSettings_old.rbxm_gameSettingsToolbar
-GameSettings_old.rbxm_gameSettingsToolbar_gameSettingsButton
 GameSettingsAction
 GameSettingsAssetIDFace
 GameSettingsAssetIDHead
@@ -10290,7 +10288,6 @@ GameSettingsAssetIDTeeShirt
 GameSettingsAssetIDTorso
 GameSettingsAvatar
 GameSettingsDialog
-GameSettingsNetworkRefactor
 GameSettingsPlaceSettings
 GameSettingsR15Collision
 GameSettingsScaleRangeBodyType
@@ -11435,7 +11432,6 @@ HandMiddleToWrist
 HandOutToWrist
 HangDetection
 HangDetectionTimeoutMs
-HAPPDJ0kL6
 HapticService
 HardwareMouse
 HasAppearanceLoaded
@@ -11513,7 +11509,6 @@ HelpForSelectionAction
 HelpPageLink
 HelpWindow
 HelpWindow.style[
-HF1j6ZYOEO9GUxdQxuFMjLDx37n5dHGqoPIvqGZOVCLV53CufFSyWHOhVyBQl72e
 HHAEBVQModelIndex
 HHHHHAEBVQString
 HHPEAVQObject
@@ -11978,6 +11973,7 @@ IEventTarget
 IFindListener
 IfLastDocInLastAppInstance
 IfPurchased
+IG0ZF3ao0DDEUcqoA0CAwEAAQ
 IGameIconsStore
 IgnoreGuiInset
 IgnoreIA5StringSyntax
@@ -12477,6 +12473,7 @@ InvokePreloadCallbackFromDMJob
 InvokeServer
 InWithTheNew
 IObjectWithSiteImpl
+IOTXimY5JJnAphCKz2KSi4ZV48wmK7Xgosa3tRgNuQMxmH6Jsj3
 IPAddrBlocks
 IPAddressChoice
 IPAddressFamily
@@ -12489,6 +12486,7 @@ IPTypeAndDataCenter
 IPublishedGamesStore
 IPV6_V6ONLY
 IPV6RobloxStudioCleanUp1
+IqIfikcHB9VTrwbCZMXHtk2uBV9tL1QKQEVSOdYyyHpD6ptBqm
 IRestartController
 IRobloxDoc
 IRobloxDocManager
@@ -12656,6 +12654,7 @@ IVRScreenshots_001
 IVRSettings_002
 IVRSystem_017
 IVRTrackedCamera_003
+IVV6lY5kArsW
 IWebBrowser2
 IWorldStage
 IXMLHTTPRequest2
@@ -12666,7 +12665,6 @@ Javascript
 JavaScript
 JavaScriptCallback
 Jba5qWkYU5nARYZm1gQVP
-JBFLBmU5W1FRdzUGLxKn
 Jcircumflex
 JDJNJXJbJlJvJ
 JHJRJ\JfJpJxJ
@@ -12740,6 +12738,7 @@ JointStepParallelBatchSize
 JointTime_TextureCooldown
 JointToolHelpDialogVerb
 JPEBUSG_INDEX_TRIANGLE
+JraFWaL9VGsl9yEpCXg14CRO0RyqdAdu
 JSON.parse
 JSON.stringify
 JSON_Parser
@@ -12828,6 +12827,7 @@ KFKPKXK`KhK
 KickByDatacenter_
 KiDszBCYB0gyp03Pc
 KillPtClicked
+KK3YJMYpRkGyvSXDC
 KKKKKKKKKK
 KKKKKKKKKKKK
 KKKKKKKKKKKKKKKKKKKKKK
@@ -14195,7 +14195,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEA7Yl82Lesp5Ivw8keKkT4cuBxDTSTatCqZEpKP82BghaVfAEia8fH
+MIICCgKCAgEAxDkkPVUk1Qxd
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14625,6 +14625,7 @@ NavigationServiceTimingAnalytics
 NavigationServiceWorker
 NavigationType
 NavMeshTiles
+NBK7H6Y2QifMUg83sxQN
 NCONF_dump_bio
 NCONF_dump_fp
 NCONF_get_number_e
@@ -14890,9 +14891,8 @@ NSNNNNNWNa
 NSNNNNNWNSNN_NSNSNSNNNNSNWN`N^^N
 NSNNNNNWNWNNN^^N
 NSNNNNNWNZP[\
-NSUSPC3JzqYyofWEM6e0VB9JMHdV3
-NTDBt0cRaij8JFxxaKwYYE822PJ25JpLgbml30T
 Ntildesmall
+NuK37gLQSjiB1UzWicfmfwBl
 NullPassword
 NUMBER_OF_ORDERED_STREAMS
 NumberAnimation
@@ -14946,7 +14946,6 @@ NVWorkspace
 NW4FileSystemDir
 NW4PenStyle
 NW4UserInputType
-NwEomlAgmfUYwqlvmS5
 Oacutesmall
 OAEPEncryptionSET
 OAUTHBEARER
@@ -15029,6 +15028,7 @@ OCSPResponse
 OCSPSigning
 OCTETSTRING
 Odieresissmall
+OE3JZ2ETHdYLR75U3ES3XqZTVx5ROab0wfr37sTHPjlsj7uJjukN5jCbGk
 OfA9HPuHfA9H`uAfA9Hpu
 OfAdmissions
 OfApproval
@@ -16426,7 +16426,6 @@ PixelStorei
 PixelXDimension
 PixelYDimension
 PixmapRect
-Pj9KKYOg4SSe9DX5sPSWquc2sVULRfwec6k9LbfqC7GbV1oNXMZKlBbmXX
 PKCS12_AUTHSAFES
 PKCS12_BAGS
 PKCS12_create
@@ -17214,6 +17213,7 @@ PVAdornment
 PVInstance
 PVK_header
 PxnhPiraCmahCilaKcpeLicyLidyLkclOgnjRruaSdnuSiiaVtsvAumaBpygEimrAilhPitrPavaJihtKusiLietMbraShkrOrmaSanaLtvaTktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
+PxXDOdJiddjVLawn1putnU0Scdsgk
 PyJlf7IHZQpFHohBe
 QAbstractAnimation
 QAbstractButton
@@ -18608,6 +18608,7 @@ RemoveSpecialKey
 RemoveStatus
 RemoveSubPose
 RemoveTargetLocale
+RemoveToolTipsFromStatusBar
 RemoveTopRows
 RemoveVehicleSeatCameraCFrameSet
 RemoveVertex
@@ -20522,6 +20523,7 @@ SizeToTwoAction
 SizingMode
 SkateboardController
 SkateboardPlatform
+SKAYYkTk8hT
 SkinningIsland
 SkinningIslands
 SkinningIslandsForModel
@@ -23709,7 +23711,6 @@ TattletaleReportUnfilteredJobMaxReportsPerTick
 TattletaleShuffleCount
 TattletaleUseNewWordListFeatures
 TattletaleUseOriginalWordList
-TBcbS6kNwi2mTexdgzZYoYKufgAlrtWi4CLdh83KxK6FL
 Tcommaaccent
 TCP_NODELAY
 TeachingCallouts
@@ -23759,6 +23760,7 @@ TeamTestDisconnect
 TeamTestGame
 Technologies
 Technology
+TeJ5GbmKIIcLtdXKxCOsIRwH
 TelegrafAddress
 TelegrafPriorityThrottleHundredthsPercent
 TelegrafTCPPort
@@ -24277,6 +24279,7 @@ TitleBarProgress
 TitlebarText
 TitleBarVisible
 TJNLerU][Wr
+TKxzDV9eUM
 TLS_AES_128_CCM_8_SHA256
 TLS_AES_128_CCM_SHA256
 TLS_AES_128_GCM_SHA256
@@ -24451,7 +24454,6 @@ TlsGetValue
 TlsSetValue
 TlsVerificationFail
 Tmap_traits
-TmFndEMUtCnC4LhXq
 TMxQPxAA13
 ToArtistIntentAssetMigratorEnabled
 ToastNotification
@@ -24900,7 +24902,6 @@ U_Unforced
 UActionsQuickOpenProviderSharedState
 Uacutesmall
 Uambiguous_result
-UaOJ679OJerVQMKW2U
 Uasio_client
 Uasio_tls_client
 UAssetLoadingData
@@ -25793,6 +25794,7 @@ VBatchThumbnailFetcher
 VBetaFeaturesController
 VBetaFeatureStruct
 VBevelMesh
+VbGlU0746eO6pcERGcTplbht30
 VBillboardGui
 VBinaryString
 VBindableEvent
@@ -26227,6 +26229,7 @@ VHandleAdornment
 VHandlesBase
 VHapticService
 VHCReadOnlyDocument_
+VHD5PEvFYv9rSqERKBMBsxtiDT8SIdogrMQThl9jflcCic4odF
 VHeartbeatTask
 VHeightfieldBuilder
 VHingeConstraint
@@ -27387,7 +27390,6 @@ XPEAVFileSyncItem
 XPEAVICHull
 XPEAVQNetworkReply
 XPEAVRobloxScriptDiffDoc
-XqAHOMZrPSZUwc6Vu2aMRVmcpNz9GyTv77
 XQColorDialog
 Xregex_error
 XResolution
@@ -27527,6 +27529,7 @@ YAXPEBVQObject
 YAXVexception_ptr
 YAXW4error_type
 Ycircumflex
+YCvRlLEbc8wqG
 Ydieresissmall
 YDYHYQYTYbYsY
 YffYZefYDNNDCOO
@@ -27534,9 +27537,9 @@ YieldEvent
 YieldFuncDesc
 YieldFunction
 YQByteArray
+YQysHHdqyC6IyVTKnxCWxe2bqnuz
 YResolution
 YwBBvY55YvBBwY5
-YWFIBgDIGPc9K8M9R9G8osNEFH2HOqkXkywVqx71QskMftL6PsGgbXZcX6MAGdhI
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
 Zcaronsmall
