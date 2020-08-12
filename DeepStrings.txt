@@ -805,6 +805,7 @@ AppStorageService
 AppsUseLightTheme
 AppVersion
 APSToggleClientServerFTUE
+APxpKbdLMczoXs5qpftS2lqQA
 AQJsonArray
 AQJsonObject
 ArcadeStick
@@ -1178,6 +1179,8 @@ AURequireTracer
 AUResponse
 AUResponseError
 AURobloxRegisterSyntaxCategoriesNotification
+AURobloxSuggestExtraSelectionsRequest
+AURobloxSuggestExtraSelectionsResponse
 AURobloxSyntaxHighlightNotification
 AUscheduler_interface
 AUScriptPerformanceViewData
@@ -4077,7 +4080,6 @@ AXW4UiMessageType
 AXW4UserCFrame
 AXW4UserInputType
 AXW4VRTouchpad
-AYLHLaFkbf1j0DpPisLIhlxfMKFvuznTd5yQ5NGdfWYB6VbbSwCPjFK7Ph3tjMsx
 BA447F42A91111E2B410EF351327957B
 BA886F11E18561866242201959
 BAA3C620681180838E23F0DC6224
@@ -4271,6 +4273,7 @@ BFD701C11E3B075CBAD925AA50F
 BFE701C11E3B075CBAD925AA50F
 BFLuaDraggersRoleSet
 BFontSizePadding
+BFpclqRxYXpWOlF1cvM
 BFSupportPluginDebuggingRoleSet
 BFTableOutputViewRoleSet
 BgUpdateRedirectsDisable
@@ -4686,7 +4689,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409876
+ByVersion_0.444.0.409882
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -6432,6 +6435,7 @@ Corporation1402
 CorrectTextBoundsForRichText
 CorrodedMetal
 CorrodedMetal.png
+CosgRciKyRhTDOW
 CoTaskMemAlloc
 CoTaskMemFree
 CoUninitialize
@@ -8654,6 +8658,7 @@ ECDSA_SIG_new
 ECDSA_sign_ex
 ECDSA_sign_setup
 ECDSA_verify
+ECh3hbNffKGeYh63P1gy
 EchoSoundEffect
 Ecircumflex
 Ecircumflexsmall
@@ -8940,6 +8945,7 @@ EnableNewPreciseConvexDecompositionCollisionFidelity
 EnableOutputTableViewBeta
 EnablePerfDataCollection
 EnablePerfDataCoreTimersCollection
+EnablePerfDataExtendedMemoryCollection
 EnablePerfDataMemoryCollection
 EnablePerfDataTimerCollection
 EnablePerFrameSampling
@@ -9382,6 +9388,7 @@ ExtraSelectionStore
 ExtrudedPartInstance
 EXtSoftware
 EyeAccessory
+Eyooe82XDv4bA5sKpstni
 F_ObjectHasComponents
 F`JXKXWJYB[Cd
 FA6256811994CD24F935527E2
@@ -9531,12 +9538,12 @@ FetchingComplete
 FetchUniverse
 FetchUserId
 FetchUsername
+FexageOymkg4911
 FF65B11E38470F846885BB6FB
 FFFFFFFFFFFFFFF
 FFFFFFFFFFFFFFFFFFFFFFFF
 FFFIIIIIIIIIIIIIIII
 FFFPFZFdFnFxF
-FFfU9llDIt3
 FFlagCreateAndUpdateDataReplicationCache4Adding
 FFlagDebugStartPageRefreshOnF5
 FFlagEditorExportHistory
@@ -9987,6 +9994,7 @@ FoundItems
 FoundThread
 FpFramebuffer
 FpsVariance
+FQq28ykrgwX8jrsaJaTEqt7dz49RDcVHld5iXgEl
 Fractional
 Frame_.LogEnd[nLog]
 Frame_.LogStart[nLog]
@@ -10329,6 +10337,7 @@ GCReducesQuota2
 GCReducesQuotaCriticalPercent
 GCReducesQuotaPercent
 Gdotaccent
+GDRl1QIEb8z6uS4FJGvwvRi07G
 GE_package.png
 GE_packagefolder.png
 GearAction
@@ -11634,6 +11643,7 @@ HoverTokenLogIndex
 HoverTokenLogIndexNext
 HoverTokenNext
 HoverWindowShadow
+HPAtn0akwozZyDGht4o8QpsnG
 HPEAU_iobuf
 HPEAUlua_State
 HPEAVQAction
@@ -11973,7 +11983,6 @@ IEventTarget
 IFindListener
 IfLastDocInLastAppInstance
 IfPurchased
-IG0ZF3ao0DDEUcqoA0CAwEAAQ
 IGameIconsStore
 IgnoreGuiInset
 IgnoreIA5StringSyntax
@@ -12473,7 +12482,6 @@ InvokePreloadCallbackFromDMJob
 InvokeServer
 InWithTheNew
 IObjectWithSiteImpl
-IOTXimY5JJnAphCKz2KSi4ZV48wmK7Xgosa3tRgNuQMxmH6Jsj3
 IPAddrBlocks
 IPAddressChoice
 IPAddressFamily
@@ -12486,7 +12494,6 @@ IPTypeAndDataCenter
 IPublishedGamesStore
 IPV6_V6ONLY
 IPV6RobloxStudioCleanUp1
-IqIfikcHB9VTrwbCZMXHtk2uBV9tL1QKQEVSOdYyyHpD6ptBqm
 IRestartController
 IRobloxDoc
 IRobloxDocManager
@@ -12654,7 +12661,6 @@ IVRScreenshots_001
 IVRSettings_002
 IVRSystem_017
 IVRTrackedCamera_003
-IVV6lY5kArsW
 IWebBrowser2
 IWorldStage
 IXMLHTTPRequest2
@@ -12738,7 +12744,6 @@ JointStepParallelBatchSize
 JointTime_TextureCooldown
 JointToolHelpDialogVerb
 JPEBUSG_INDEX_TRIANGLE
-JraFWaL9VGsl9yEpCXg14CRO0RyqdAdu
 JSON.parse
 JSON.stringify
 JSON_Parser
@@ -12827,10 +12832,10 @@ KFKPKXK`KhK
 KickByDatacenter_
 KiDszBCYB0gyp03Pc
 KillPtClicked
-KK3YJMYpRkGyvSXDC
 KKKKKKKKKK
 KKKKKKKKKKKK
 KKKKKKKKKKKKKKKKKKKKKK
+Kmit9UYMnvLHGo8eDAyEi5XGWaBBNdCmV0QmaMr7htcOJ1dyOFJU5JpXSXxvHw
 KnownHeaders
 KnownPrefixIndex
 KodchiangUPC
@@ -12906,6 +12911,7 @@ LayoutNode
 LayoutOrder
 LayoutRichTextFaster2
 LazySubmitTask
+LbYsu7P8EWa1BXI10dO7wcBy7C2ZJR90x9eLT2x1
 LC_MESSAGES
 LCMapStringW
 LDLBuildProgramTimeReportRate
@@ -13169,6 +13175,7 @@ LiveThreadRef
 LivingRoom
 LLEo6Soxvx2
 LLLLLLLLLLLLLLLL]]]]]]]]]]]]]]]]]]]]
+LMzGjZxVXMp7qTyiT95yrxc
 LOAD_CERT_CTRL
 LoadAnimation
 LoadAssetVersion
@@ -14195,7 +14202,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAxDkkPVUk1Qxd
+MIICCgKCAgEAzBLJyKgitmgLk3ZDUyKRQKZWrOGh9qMi
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14625,7 +14632,6 @@ NavigationServiceTimingAnalytics
 NavigationServiceWorker
 NavigationType
 NavMeshTiles
-NBK7H6Y2QifMUg83sxQN
 NCONF_dump_bio
 NCONF_dump_fp
 NCONF_get_number_e
@@ -14635,6 +14641,7 @@ NCONF_load
 NCONF_load_bio
 NCONF_load_fp
 NdnuScpeLkclOiiaVruaSilaKgnjRicyLiraCidyLmahCanaLtvaTtsvApygErmaSusiLumaBavaJietMimrAbraSitrPilhPhkrOihtKktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTzzzZssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
+NdYa3KX1nlcSae1X
 NE9F0uHE9F4uBE9F8u
 NearIntensity
 NearPlaneZ
@@ -14892,7 +14899,6 @@ NSNNNNNWNSNN_NSNSNSNNNNSNWN`N^^N
 NSNNNNNWNWNNN^^N
 NSNNNNNWNZP[\
 Ntildesmall
-NuK37gLQSjiB1UzWicfmfwBl
 NullPassword
 NUMBER_OF_ORDERED_STREAMS
 NumberAnimation
@@ -14946,6 +14952,7 @@ NVWorkspace
 NW4FileSystemDir
 NW4PenStyle
 NW4UserInputType
+NXznp7G8RcjKEuvJvFf6hVHBtHgD7cxsHE
 Oacutesmall
 OAEPEncryptionSET
 OAUTHBEARER
@@ -15028,7 +15035,6 @@ OCSPResponse
 OCSPSigning
 OCTETSTRING
 Odieresissmall
-OE3JZ2ETHdYLR75U3ES3XqZTVx5ROab0wfr37sTHPjlsj7uJjukN5jCbGk
 OfA9HPuHfA9H`uAfA9Hpu
 OfAdmissions
 OfApproval
@@ -16861,6 +16867,7 @@ PollHttpResponse
 PolygonMode
 PolygonOffset
 Polynomial
+PoPrOBeBs6jZ9V3E9g
 Populating
 PopulatingItems
 PopupAnalytics
@@ -17213,7 +17220,6 @@ PVAdornment
 PVInstance
 PVK_header
 PxnhPiraCmahCilaKcpeLicyLidyLkclOgnjRruaSdnuSiiaVtsvAumaBpygEimrAilhPitrPavaJihtKusiLietMbraShkrOrmaSanaLtvaTktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
-PxXDOdJiddjVLawn1putnU0Scdsgk
 PyJlf7IHZQpFHohBe
 QAbstractAnimation
 QAbstractButton
@@ -19212,6 +19218,7 @@ RigidBodyLazyUpdating
 RigidityEnabled
 RiseVelocity
 Rj0isQcnqX
+RkovliDH0MsjxWfGNChrWXkpAkGqDK9YYgaE4eOD
 Roact.createElement
 ROBLOSECURITY
 Roblox.Hybrid
@@ -20523,7 +20530,6 @@ SizeToTwoAction
 SizingMode
 SkateboardController
 SkateboardPlatform
-SKAYYkTk8hT
 SkinningIsland
 SkinningIslands
 SkinningIslandsForModel
@@ -23760,7 +23766,6 @@ TeamTestDisconnect
 TeamTestGame
 Technologies
 Technology
-TeJ5GbmKIIcLtdXKxCOsIRwH
 TelegrafAddress
 TelegrafPriorityThrottleHundredthsPercent
 TelegrafTCPPort
@@ -24279,7 +24284,6 @@ TitleBarProgress
 TitlebarText
 TitleBarVisible
 TJNLerU][Wr
-TKxzDV9eUM
 TLS_AES_128_CCM_8_SHA256
 TLS_AES_128_CCM_SHA256
 TLS_AES_128_GCM_SHA256
@@ -24923,6 +24927,7 @@ UBatchThumbnailResult
 UBlockAdditions
 UBlockGroup
 UBlockMore
+UbTRMHWQY5M8QEUOG
 UBulkImporterJob
 UBulkIngestionInfo
 UCachedBitstream
@@ -25428,6 +25433,8 @@ URLHasChineseHost
 URLRequest
 URobloxApiGame
 URobloxRegisterSyntaxCategoriesNotification
+URobloxSuggestExtraSelectionsRequest
+URobloxSuggestExtraSelectionsResponse
 URobloxSyntaxHighlightNotification
 UsageFeatures
 USATAUAVAW
@@ -25794,7 +25801,6 @@ VBatchThumbnailFetcher
 VBetaFeaturesController
 VBetaFeatureStruct
 VBevelMesh
-VbGlU0746eO6pcERGcTplbht30
 VBillboardGui
 VBinaryString
 VBindableEvent
@@ -26229,7 +26235,6 @@ VHandleAdornment
 VHandlesBase
 VHapticService
 VHCReadOnlyDocument_
-VHD5PEvFYv9rSqERKBMBsxtiDT8SIdogrMQThl9jflcCic4odF
 VHeartbeatTask
 VHeightfieldBuilder
 VHingeConstraint
@@ -27343,6 +27348,7 @@ XAlignment
 Xbad_alloc
 Xbad_function_call
 XbbXXbbXGSSGGSS
+XBIBmMSpv0SeolIYCVzsgqX
 Xbox.AllUsers.PlayNextGame
 XboxAvatarPaneRefreshInterval
 XboxDisableTextChat
@@ -27386,6 +27392,7 @@ XP6AXVVariant
 XP6AXVWeakFunctionRef
 XP6AXW4HttpRequestResult
 XP6AXXZVlist0
+Xpamykxyi87sAuix
 XPEAVFileSyncItem
 XPEAVICHull
 XPEAVQNetworkReply
@@ -27394,6 +27401,7 @@ XQColorDialog
 Xregex_error
 XResolution
 Xtime_get_ticks
+Xu6FkZDlVM
 XUnegotiation_response
 XUNetworkResult
 XvAAuY44YuAAvX4
@@ -27529,15 +27537,14 @@ YAXPEBVQObject
 YAXVexception_ptr
 YAXW4error_type
 Ycircumflex
-YCvRlLEbc8wqG
 Ydieresissmall
 YDYHYQYTYbYsY
 YffYZefYDNNDCOO
 YieldEvent
 YieldFuncDesc
 YieldFunction
+YJECAwEAAQ
 YQByteArray
-YQysHHdqyC6IyVTKnxCWxe2bqnuz
 YResolution
 YwBBvY55YvBBwY5
 YYYYYYYYYYYYYYYYYYYYYYYYY
