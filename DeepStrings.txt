@@ -4247,7 +4247,6 @@ BeginTransformFeedback
 BehaviorType
 Benchmarked
 Benchmarking
-BESS4gVLeG4a32u7
 BetaFeatureInformation
 BetaFeatures
 BetaFeaturesActionTriggered
@@ -4349,6 +4348,7 @@ BIO_socket_nbio
 BIO_write_ex
 BitArrayToObject
 BitstreamList
+BjuvAo7rJ0VR0NAq34BfmPiC7jXE80cgO8pL11Ir
 Bkg_round.png
 Bkg_square.png
 BL17qL9koPpyChCHbWVgSXbfxynzBupojeOEiuqDuGX0BFl
@@ -4685,7 +4685,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409859
+ByVersion_0.444.0.409862
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -5037,6 +5037,7 @@ CFrame.new
 CFrameDecal
 CFrameOnly
 CFrameValue
+CgSWqU1zod
 ChainCAFile
 ChainCAPath
 Chalkboard
@@ -7972,7 +7973,6 @@ DF42709311E28987EB530EBA4742
 DFbxAMatrix
 DFbxMatrix
 DfNfXfbftf
-DGbCxcI2lFn9sOr9
 DGHASH_ASM
 DgNg`ghgpgxg
 DgNgXgbglgvg
@@ -8202,8 +8202,6 @@ DistToShowBufferCountSqr
 DKECCAK1600_ASM
 DlcVersion
 DListenerAttributes
-DlmaV49thAfVsJ2RVUG5H9h4laFt3f
-DMhFt2OZthi3m
 DMinMaxDistance
 DnsResolve
 DNSResponseMS
@@ -9513,6 +9511,7 @@ FDA6E1EA211E49FA6F7D125AE5309
 FDA6F1EA211E49FA6F7D125AE5309
 FDE5E01E7934
 Fdossl_static.pdb
+FE1CJ7KYXeR
 Feature_AppBridgeRewrite
 Feature_UniversalStartup
 FeatureAlert
@@ -9865,6 +9864,7 @@ FMODPlaybackDSP
 FMODReportDeviceInfo
 FMODSoundChannels
 FMODStudio
+FO0KjwOWiQSJNm1PqKMB5LwcgpeUO
 FocusChange
 FocusChanged
 FocusDistance
@@ -9987,7 +9987,6 @@ ForwardScroll
 FoundItems
 FoundThread
 FpFramebuffer
-FPpe0TtaAnTjljf6cdyQOKvZhLE5gHfoSojWUHYUZgJL80Tn
 FpsVariance
 Fractional
 Frame_.LogEnd[nLog]
@@ -11147,6 +11146,7 @@ GLSL.std.450
 Glsles3Mediump1
 GlslesMediump1
 GlueCursor
+GN0txUMUJis7FfwELha2rGA6ktfRWkwrIkZp42mPu1spiW5897CHhylVMeR9mVMt
 GoldenHashes
 GoodbyeChoiceActive
 GoodbyeChoiceActiveProperty
@@ -11183,6 +11183,7 @@ GrabRotateCursor.png
 GradientEditor
 GradientEditorAdapter
 GradientEditorCanvas
+GrAiXmxifZQ4LRPDhOxEU8vdTd0LfjIjzbdLzYEXOG5P4Va
 GraphicsD3D9TextureDL
 GraphicsEffect
 GraphicsFeatureLevel
@@ -11651,6 +11652,7 @@ HQFSShadowed
 HQFSShadowedFSM
 HQVSShadowed
 HQVSShadowedFSM
+HSgllRsJJXtT0ZOBtrmL
 HtmlEscaped
 Http_Failed
 HTTPAccumulatedBytes
@@ -11885,7 +11887,6 @@ HumanoidRootPart.
 HumanoidStateType
 HumanoidWithPGSConstraintsUsePhysicsState
 Hungarumlautsmall
-HvCFHaX2WC
 HVChangeHistoryService
 HVQByteArray
 HVQRegularExpression
@@ -12537,7 +12538,6 @@ IsHighlightedAsError
 IsHighlightedByDebugger
 IsImageModelAssetUploadEnabled
 IsInsertWidget
-IskkE5VqnliHdiEYVepuwk
 Islandizer
 IsLuaChatEnabled
 IsLuaGameDetailsEnabled
@@ -12669,7 +12669,6 @@ Javascript
 JavaScript
 JavaScriptCallback
 Jba5qWkYU5nARYZm1gQVP
-Jc0OfCrI8Toa2SljArlAtU1HDshKXcl5uSNPt3YAQ87akQ9No
 Jcircumflex
 JDJNJXJbJlJvJ
 JHJRJ\JfJpJxJ
@@ -12842,6 +12841,7 @@ KPEIBX_K_KPEIAU_iobuf
 KSocialService
 KVScriptContext
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
+KzPRcu5hyKR
 LabelArray
 LabelArray.push
 LabelArray[globstart]
@@ -13101,7 +13101,6 @@ LevelItemCount
 LevelOfDetail
 LevelOfDetailSetting
 LevelQuality
-LGY7xtsaORFU37
 Liberation
 LIBOVR_DLL_DIR
 LibsodiumDRG
@@ -13409,6 +13408,7 @@ LowQMaterialFS
 LowQMaterialWangFallbackFS
 LowQMaterialWangFS
 LowResolution
+LPbSjL34nxDaj9XkzCjY5Rig4ieK7czCZNue
 Lslashsmall
 LSPManager
 LSPObservable
@@ -14199,7 +14199,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEA2
+MIICCgKCAgEArGGBAv6vu74R2weitwG838c84M6dstqTSE5u2vnAj0vuEBi3Y0Ey
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14242,7 +14242,6 @@ MissingDumpFile
 MMW4IkDragCollisionsMode
 MMW4PartMaterial
 MMW4UserInputState
-MmweeKVWIDgDEDP30gdO7gsWHfHpb85pHIV8C
 MobileWebsite
 MockAndroidBackButtonPressed
 MockGestureGenerator
@@ -14796,6 +14795,7 @@ NextTabPage
 NfXf`fhfzf
 NHVVariant
 NinjaMask.mesh
+Nn7Uj0xzu4slvKyHhaPNzsz
 NNNNNNNNNNNNNNNNNNNNNN
 NNNNNNNSSSSSSSSSSSSSSSSSSSSSS
 NNW4SizeMode
@@ -15071,6 +15071,7 @@ OgreWidget
 OgreWidgetForGameState
 OgreWidgetShowEvent
 Oh44\h44\Q
+OHabtqsvFkl78orDO4kWDXbHVIw9
 Ohungarumlaut
 OiCCPPhotoshop
 OldActiveElement
@@ -15285,6 +15286,7 @@ OtherMechanismsAnchored
 OtherTextChanged
 OtherTopLabelOverride
 Otildesmall
+OTu5Jbnz4ch76FQGys
 OutboundTotal
 OutBufferHealth
 OutClusters
@@ -17214,6 +17216,7 @@ PushPixels
 PVAdornment
 PVInstance
 PVK_header
+PWowSzk5fjjf6awm6ENhtm
 PxnhPiraCmahCilaKcpeLicyLidyLkclOgnjRruaSdnuSiiaVtsvAumaBpygEimrAilhPitrPavaJihtKusiLietMbraShkrOrmaSanaLtvaTktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
 PyJlf7IHZQpFHohBe
 QAbstractAnimation
@@ -17239,7 +17242,6 @@ QAssociativeIterable
 QAssociativeIterableImpl
 QAuthenticator
 QAWNcgRdAzOKj8pi5wAlnsdoumgAtB1J7d
-Qb4owmE1Uxpo63
 QBoxLayout
 QButtonGroup
 QByteArray
@@ -18279,7 +18281,6 @@ RCCUpdateBroadphaseDtAverage
 RCCUpdateBroadphaseDtAverage_Datacenter_
 RccUse64BitAppearanceId
 RcpReferenceTime
-RDWAXKMrJtCVNOB3zhSHAzO772m04X8A6Dn6VH1bWuBXvK3Li3NA8A
 ReachActorChest
 ReachActorChestRotation
 ReachActorHead
@@ -19124,7 +19125,6 @@ RibbonTabTopBar
 RibbonTool
 RibbonTool.None
 RibbonVisiblityAction
-RibUONlOM2DJU69Pf9jC
 RichTextBetaFeatureRoleSet
 RichTextBetaFeatureUrl
 RigAttachment
@@ -19215,8 +19215,6 @@ RigidBodyLazyUpdating
 RigidityEnabled
 RiseVelocity
 Rj0isQcnqX
-RJGcMuGHiDXmdq
-RjktKZDzNyV1ExlNVHDuPS3gYtV
 Roact.createElement
 ROBLOSECURITY
 Roblox.Hybrid
@@ -19386,6 +19384,7 @@ RowsToRemove
 RowStretch
 RowVisibilityChanged
 RPCServers
+RRcDX0mbZEh
 RRReceiptFail
 RRReceiptTotal
 RRRRRRRRzzzzzzzzzzzzzzzzzz
@@ -22993,6 +22992,7 @@ StudioDeviceManagerDesignTweak
 StudioDisableAutoSaveToCloud
 StudioDisabledIconWorksForAllInstances
 StudioDocActivationHistory
+StudioDocActivationHistoryPreventFocusLost
 StudioDoNotEndBlockForFunctionArgs
 StudioDoublePopUp
 StudioDraftsServiceFullNameInDiff
@@ -24519,6 +24519,7 @@ ToLatestPackageAction
 ToLineAction
 ToLinkedScript
 ToLocalTime
+TomaUgD5RpZGHzBmBQl7Ijo
 ToNextHunkAction
 ToNextScriptLocation
 ToObjectSpace
@@ -24686,7 +24687,6 @@ TouchTransmitter
 ToUniversalTime
 TownAndCity
 ToWorldSpace
-TqibhVr1tgUtqBd
 TraceMessage
 Track2Data
 TrackAudioDriversPerSystem
@@ -25127,6 +25127,7 @@ UITransformedLitVS
 UITransformedVS
 UIViewportFrameCollectFrames
 UIViewportFrameWorkspace
+Uk4yeFKozm
 ULinkedScriptLoadData
 ULoadedImage
 ULuaCallbacks
@@ -25675,6 +25676,7 @@ UTokenInternal
 UTokenInternalData
 UTrackEntry
 Utransport_config
+UTUQDlMxgRUN6smzhiQzqfgrE9F4fqgLCC4Us0jv8EAozBBfNntK1
 UUID_UdriTagTables
 UUID_WMDRMTagTables
 Uunspecified
@@ -26011,7 +26013,6 @@ VeFailedWithMessage
 VehicleController
 VehiclesAction
 VehicleSeat
-VehRYWlzS1ycIYtArz3c32GwOSsLflNuuI
 Velocity_xml
 VelocityInheritance
 VelocityMotor
@@ -26603,7 +26604,6 @@ VPVInstance
 VQAssociativeIterableImpl
 VQByteArray
 VQFileInfo
-VqFuhUx2oiKZiGdLr6ZhtlcfedBfUMTJ5inKzno3a7dIvmbWLdQgheH33Knt1TkK
 VQGenericArgument
 VQGenericReturnArgument
 VQHostAddress
@@ -27141,7 +27141,6 @@ WhiteSpace
 WhitespaceColor
 WhoClicked
 WhoHovered
-Wi7ia4e5piXy9Jra5FAT8smd7LVwlwOFffahgECAwEAAQ
 WideCharToMultiByte
 WideToNarrowScaleInHundredths
 WideView_purpleLayer.png
@@ -27344,6 +27343,7 @@ XAEBVQString
 XAEBVvalue
 XAEBVwebsocket_incoming_message
 XAlignment
+XanbsUgPXPydPi2ip3JnlarvbEhn90Lt
 Xbad_alloc
 Xbad_function_call
 XbbXXbbXGSSGGSS
@@ -27539,15 +27539,14 @@ YffYZefYDNNDCOO
 YieldEvent
 YieldFuncDesc
 YieldFunction
-YpRVXKAWfWp0k
 YQByteArray
 YResolution
 YwBBvY55YvBBwY5
-YWgkkZQ2yniKuMkgHpY2pcpT1kXdRLeqOWDE
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
 Zcaronsmall
 Zdotaccent
+Ze7mKIg0DRM5MGNVAbDwaHhwN40Ee7keGuBUvVopKs2L
 ZgnhKhWhci
 ZhniZzzzZbarAnmrAgneBlryCaveDroeGkerGrjuGuruGgnaHinaHrbeHariHadnKanaKooaLntaLmylMayrOlmaTuleTiahTtbiTopoBiarBsnaCrehCihtErmhKgnoMrmyMmagOrnuRhniScrySaahTiiiYtrsDhtoGlatIdhuBonaHglgTbgaTtrpCbmiLbniLamsOwahSelaTragUiguBtpoCgalGrahKulaToepXolySgnfTilaBxusXookNga
 ZIndexBehavior
