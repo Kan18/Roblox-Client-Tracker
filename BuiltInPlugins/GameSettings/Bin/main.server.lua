@@ -1,7 +1,5 @@
 local FFlagQ220PermissionsSettings = settings():GetFFlag("Q220PermissionsSettings")
 
-if not game:GetFastFlag("GameSettingsNetworkRefactor") then return end
-
 if not plugin then
 	return
 end
