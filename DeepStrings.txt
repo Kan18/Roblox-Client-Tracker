@@ -162,6 +162,7 @@ AccoutrementWeldingFilteringEnabled
 Accumulate
 Accumulators
 ACDA4EEAD515
+AcePxOao29Ho11ssYFkT9E2WEIz3BrBgken69ZBYBoyGi7v7F3o9J1zEZaDDyUw
 ACertificate
 Acircumflex
 Acircumflexsmall
@@ -4348,7 +4349,6 @@ BIO_socket_nbio
 BIO_write_ex
 BitArrayToObject
 BitstreamList
-BjuvAo7rJ0VR0NAq34BfmPiC7jXE80cgO8pL11Ir
 Bkg_round.png
 Bkg_square.png
 BL17qL9koPpyChCHbWVgSXbfxynzBupojeOEiuqDuGX0BFl
@@ -4673,6 +4673,7 @@ BVSystemAddress
 BVTextureId
 BW4AlphaMode
 BW4ModelLevelOfDetail
+Bw8ClzBn2juXrLVXlePUsLLnFryAX
 BWGradient.png
 ByCongestionControl
 ByDatacenter_
@@ -4685,7 +4686,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409862
+ByVersion_0.444.0.409865
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -5037,7 +5038,6 @@ CFrame.new
 CFrameDecal
 CFrameOnly
 CFrameValue
-CgSWqU1zod
 ChainCAFile
 ChainCAPath
 Chalkboard
@@ -7986,6 +7986,7 @@ DH_meth_set1_name
 DH_new_by_nid
 DH_new_method
 DHBasedMac
+DhCUMT36EFmCqQVmlPpkAnhaxSjHfoZdNNnqEof
 DHParameters
 DHparams_print_fp
 DhufyEeFO7U33Tv7vk
@@ -8262,7 +8263,6 @@ DontCallOnMovingAssemblyRoot
 DontClearForwardRefMapOnGC
 DontDisconnectJointUpdateUnlessNecessary
 DontEnforceChildOrderAtJoin
-DontHandlePlayerReplicationDataAsSpecialCase2
 DontLoadCloudLocalizationSettingsOnCloudEditMode
 DontLoadEmotesInventoryInThumbnails
 DontRepeatMyself
@@ -9511,7 +9511,6 @@ FDA6E1EA211E49FA6F7D125AE5309
 FDA6F1EA211E49FA6F7D125AE5309
 FDE5E01E7934
 Fdossl_static.pdb
-FE1CJ7KYXeR
 Feature_AppBridgeRewrite
 Feature_UniversalStartup
 FeatureAlert
@@ -9864,7 +9863,6 @@ FMODPlaybackDSP
 FMODReportDeviceInfo
 FMODSoundChannels
 FMODStudio
-FO0KjwOWiQSJNm1PqKMB5LwcgpeUO
 FocusChange
 FocusChanged
 FocusDistance
@@ -11146,7 +11144,6 @@ GLSL.std.450
 Glsles3Mediump1
 GlslesMediump1
 GlueCursor
-GN0txUMUJis7FfwELha2rGA6ktfRWkwrIkZp42mPu1spiW5897CHhylVMeR9mVMt
 GoldenHashes
 GoodbyeChoiceActive
 GoodbyeChoiceActiveProperty
@@ -11183,7 +11180,6 @@ GrabRotateCursor.png
 GradientEditor
 GradientEditorAdapter
 GradientEditorCanvas
-GrAiXmxifZQ4LRPDhOxEU8vdTd0LfjIjzbdLzYEXOG5P4Va
 GraphicsD3D9TextureDL
 GraphicsEffect
 GraphicsFeatureLevel
@@ -11439,6 +11435,7 @@ HandMiddleToWrist
 HandOutToWrist
 HangDetection
 HangDetectionTimeoutMs
+HAPPDJ0kL6
 HapticService
 HardwareMouse
 HasAppearanceLoaded
@@ -11516,6 +11513,7 @@ HelpForSelectionAction
 HelpPageLink
 HelpWindow
 HelpWindow.style[
+HF1j6ZYOEO9GUxdQxuFMjLDx37n5dHGqoPIvqGZOVCLV53CufFSyWHOhVyBQl72e
 HHAEBVQModelIndex
 HHHHHAEBVQString
 HHPEAVQObject
@@ -11652,7 +11650,6 @@ HQFSShadowed
 HQFSShadowedFSM
 HQVSShadowed
 HQVSShadowedFSM
-HSgllRsJJXtT0ZOBtrmL
 HtmlEscaped
 Http_Failed
 HTTPAccumulatedBytes
@@ -12669,6 +12666,7 @@ Javascript
 JavaScript
 JavaScriptCallback
 Jba5qWkYU5nARYZm1gQVP
+JBFLBmU5W1FRdzUGLxKn
 Jcircumflex
 JDJNJXJbJlJvJ
 JHJRJ\JfJpJxJ
@@ -12841,7 +12839,6 @@ KPEIBX_K_KPEIAU_iobuf
 KSocialService
 KVScriptContext
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
-KzPRcu5hyKR
 LabelArray
 LabelArray.push
 LabelArray[globstart]
@@ -13408,7 +13405,6 @@ LowQMaterialFS
 LowQMaterialWangFallbackFS
 LowQMaterialWangFS
 LowResolution
-LPbSjL34nxDaj9XkzCjY5Rig4ieK7czCZNue
 Lslashsmall
 LSPManager
 LSPObservable
@@ -14199,7 +14195,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEArGGBAv6vu74R2weitwG838c84M6dstqTSE5u2vnAj0vuEBi3Y0Ey
+MIICCgKCAgEA7Yl82Lesp5Ivw8keKkT4cuBxDTSTatCqZEpKP82BghaVfAEia8fH
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14795,7 +14791,6 @@ NextTabPage
 NfXf`fhfzf
 NHVVariant
 NinjaMask.mesh
-Nn7Uj0xzu4slvKyHhaPNzsz
 NNNNNNNNNNNNNNNNNNNNNN
 NNNNNNNSSSSSSSSSSSSSSSSSSSSSS
 NNW4SizeMode
@@ -14895,6 +14890,8 @@ NSNNNNNWNa
 NSNNNNNWNSNN_NSNSNSNNNNSNWN`N^^N
 NSNNNNNWNWNNN^^N
 NSNNNNNWNZP[\
+NSUSPC3JzqYyofWEM6e0VB9JMHdV3
+NTDBt0cRaij8JFxxaKwYYE822PJ25JpLgbml30T
 Ntildesmall
 NullPassword
 NUMBER_OF_ORDERED_STREAMS
@@ -14949,6 +14946,7 @@ NVWorkspace
 NW4FileSystemDir
 NW4PenStyle
 NW4UserInputType
+NwEomlAgmfUYwqlvmS5
 Oacutesmall
 OAEPEncryptionSET
 OAUTHBEARER
@@ -15071,7 +15069,6 @@ OgreWidget
 OgreWidgetForGameState
 OgreWidgetShowEvent
 Oh44\h44\Q
-OHabtqsvFkl78orDO4kWDXbHVIw9
 Ohungarumlaut
 OiCCPPhotoshop
 OldActiveElement
@@ -15286,7 +15283,6 @@ OtherMechanismsAnchored
 OtherTextChanged
 OtherTopLabelOverride
 Otildesmall
-OTu5Jbnz4ch76FQGys
 OutboundTotal
 OutBufferHealth
 OutClusters
@@ -16430,6 +16426,7 @@ PixelStorei
 PixelXDimension
 PixelYDimension
 PixmapRect
+Pj9KKYOg4SSe9DX5sPSWquc2sVULRfwec6k9LbfqC7GbV1oNXMZKlBbmXX
 PKCS12_AUTHSAFES
 PKCS12_BAGS
 PKCS12_create
@@ -17216,7 +17213,6 @@ PushPixels
 PVAdornment
 PVInstance
 PVK_header
-PWowSzk5fjjf6awm6ENhtm
 PxnhPiraCmahCilaKcpeLicyLidyLkclOgnjRruaSdnuSiiaVtsvAumaBpygEimrAilhPitrPavaJihtKusiLietMbraShkrOrmaSanaLtvaTktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
 PyJlf7IHZQpFHohBe
 QAbstractAnimation
@@ -19384,7 +19380,6 @@ RowsToRemove
 RowStretch
 RowVisibilityChanged
 RPCServers
-RRcDX0mbZEh
 RRReceiptFail
 RRReceiptTotal
 RRRRRRRRzzzzzzzzzzzzzzzzzz
@@ -21142,7 +21137,6 @@ StreamingObserverGrowthThresholdPercentage
 StreamingObserverInitialReplicatorCapacity
 StreamingObserverResizeJob
 StreamingOrphanSkipPercentage
-StreamingParallel3
 StreamingPauseEventsPerSecond
 StreamingPauseExitOccurred
 StreamingPauseMode
@@ -23715,6 +23709,7 @@ TattletaleReportUnfilteredJobMaxReportsPerTick
 TattletaleShuffleCount
 TattletaleUseNewWordListFeatures
 TattletaleUseOriginalWordList
+TBcbS6kNwi2mTexdgzZYoYKufgAlrtWi4CLdh83KxK6FL
 Tcommaaccent
 TCP_NODELAY
 TeachingCallouts
@@ -24456,6 +24451,7 @@ TlsGetValue
 TlsSetValue
 TlsVerificationFail
 Tmap_traits
+TmFndEMUtCnC4LhXq
 TMxQPxAA13
 ToArtistIntentAssetMigratorEnabled
 ToastNotification
@@ -24519,7 +24515,6 @@ ToLatestPackageAction
 ToLineAction
 ToLinkedScript
 ToLocalTime
-TomaUgD5RpZGHzBmBQl7Ijo
 ToNextHunkAction
 ToNextScriptLocation
 ToObjectSpace
@@ -24905,6 +24900,7 @@ U_Unforced
 UActionsQuickOpenProviderSharedState
 Uacutesmall
 Uambiguous_result
+UaOJ679OJerVQMKW2U
 Uasio_client
 Uasio_tls_client
 UAssetLoadingData
@@ -25127,7 +25123,6 @@ UITransformedLitVS
 UITransformedVS
 UIViewportFrameCollectFrames
 UIViewportFrameWorkspace
-Uk4yeFKozm
 ULinkedScriptLoadData
 ULoadedImage
 ULuaCallbacks
@@ -25676,7 +25671,6 @@ UTokenInternal
 UTokenInternalData
 UTrackEntry
 Utransport_config
-UTUQDlMxgRUN6smzhiQzqfgrE9F4fqgLCC4Us0jv8EAozBBfNntK1
 UUID_UdriTagTables
 UUID_WMDRMTagTables
 Uunspecified
@@ -27343,7 +27337,6 @@ XAEBVQString
 XAEBVvalue
 XAEBVwebsocket_incoming_message
 XAlignment
-XanbsUgPXPydPi2ip3JnlarvbEhn90Lt
 Xbad_alloc
 Xbad_function_call
 XbbXXbbXGSSGGSS
@@ -27394,6 +27387,7 @@ XPEAVFileSyncItem
 XPEAVICHull
 XPEAVQNetworkReply
 XPEAVRobloxScriptDiffDoc
+XqAHOMZrPSZUwc6Vu2aMRVmcpNz9GyTv77
 XQColorDialog
 Xregex_error
 XResolution
@@ -27542,11 +27536,11 @@ YieldFunction
 YQByteArray
 YResolution
 YwBBvY55YvBBwY5
+YWFIBgDIGPc9K8M9R9G8osNEFH2HOqkXkywVqx71QskMftL6PsGgbXZcX6MAGdhI
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
 Zcaronsmall
 Zdotaccent
-Ze7mKIg0DRM5MGNVAbDwaHhwN40Ee7keGuBUvVopKs2L
 ZgnhKhWhci
 ZhniZzzzZbarAnmrAgneBlryCaveDroeGkerGrjuGuruGgnaHinaHrbeHariHadnKanaKooaLntaLmylMayrOlmaTuleTiahTtbiTopoBiarBsnaCrehCihtErmhKgnoMrmyMmagOrnuRhniScrySaahTiiiYtrsDhtoGlatIdhuBonaHglgTbgaTtrpCbmiLbniLamsOwahSelaTragUiguBtpoCgalGrahKulaToepXolySgnfTilaBxusXookNga
 ZIndexBehavior
