@@ -28,6 +28,8 @@ local FFlagStudioAssetManagerSetEmptyName = game:DefineFastFlag("StudioAssetMana
 local FFlagBatchThumbnailAddNewThumbnailTypes = game:GetFastFlag("BatchThumbnailAddNewThumbnailTypes")
 local FFlagStudioAssetManagerShiftMultiSelect = game:DefineFastFlag("StudioAssetManagerShiftMultiSelect", false)
 local FFlagAssetManagerOpenContextMenu = game:GetFastFlag("AssetManagerOpenContextMenu")
+local FFlagStudioAssetManagerAddMiddleElision = game:DefineFastFlag("StudioAssetManagerAddMiddleElision", false)
+
 
 local Tile = Roact.PureComponent:extend("Tile")
 
@@ -288,6 +290,14 @@ function Tile:render()
     local editTextSize = GetTextSize(editText, textSize, textFont, Vector2.new(tileStyle.Size.X.Offset, math.huge))
 
     local name = assetData.name
+    local displayName = assetData.name
+    local nameSize = GetTextSize(assetData.name, textSize, textFont,
+        Vector2.new(textFrameSize.X.Offset, math.huge))
+    if nameSize.Y > textFrameSize.Y.Offset then
+        -- using hardcoded values for now since tile size is constant
+        displayName = string.sub(assetData.name, 1, 12) .. "..." ..
+            string.sub(assetData.name, string.len(assetData.name) - 5)
+    end
 
     local isFolder = assetData.ClassName == "Folder"
     local isPlace = assetData.assetType == Enum.AssetType.Place
@@ -379,7 +389,7 @@ function Tile:render()
             Size = textFrameSize,
             Position = textFramePos,
 
-            Text = name,
+            Text = FFlagStudioAssetManagerAddMiddleElision and displayName or name,
             TextColor3 = textColor,
             Font = textFont,
             TextSize = textSize,
