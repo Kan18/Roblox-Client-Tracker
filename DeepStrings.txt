@@ -1218,7 +1218,6 @@ AuthenticationError
 AuthenticationHelper
 AuthenticationRequired
 Authenticator
-Authenticode
 AuthGOST01
 AuthGOST12
 AuthoredHipHeight
@@ -3843,6 +3842,7 @@ AVXmlWriter
 AVXQColorDialog
 AVYieldFunctionDescriptor
 AVYieldFunctions
+Aw2UPur29bBRboRuploK3mqpR
 AW4ABTestLoadingStatus
 AW4ActuatorRelativeTo
 AW4ActuatorType
@@ -4670,6 +4670,7 @@ BVTextureId
 BW4AlphaMode
 BW4ModelLevelOfDetail
 BWGradient.png
+Bxa1Paq5NgPnNyq9g3pmpSj9ce60zn3HOLT5WrEI
 ByCongestionControl
 ByDatacenter_
 ByIPForDatacenterId_
@@ -6421,6 +6422,7 @@ Corporation\Roblox
 Corporation\Roblox\FilteredExceptionCrash
 Corporation0
 Corporation1
+Corporation100.
 Corporation1402
 CorrectTextBoundsForRichText
 CorrodedMetal
@@ -9367,6 +9369,7 @@ ExtraSelections
 ExtraSelectionStore
 ExtrudedPartInstance
 EXtSoftware
+EY5ZuJtwglhQH56Sj9Id72SujSiXDTKJRbc2Rz
 EyeAccessory
 F_ObjectHasComponents
 F`JXKXWJYB[Cd
@@ -11087,6 +11090,7 @@ GfxPartInvalidationLimitToTime2
 GGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GIjvAWjVnO8EK0VjVlzdluspP0S075PLw02e
 GIM_ShapeRetriever
 GImpactCollisionAlgorithm
 GImpactCompound
@@ -11098,6 +11102,7 @@ GL_EXT_texture_border_clamp
 GL_EXT_texture_compression_s3tc
 Glass[0]VS
 GlassTintFS
+GLiTK6L7jWc95b1dbkikwdyy7HJP6ACZi5KVwyrgMwqfetfTDkBhszTRcY3y0dG
 GlobalAdvancedSettings
 GlobalAdvancedSettingsItem
 GlobalAlloc
@@ -11117,9 +11122,6 @@ GlobalMemoryStatusEx
 GlobalSettings
 GlobalSettings_13.xml
 GlobalShadows
-GlobalSign
-GlobalSign0
-GlobalSign1
 GlobalThrottleFirstBackoffMilliseconds
 GlobalThrottleMaxBackoffMilliseconds
 GlobalThrottleThreshold
@@ -11946,6 +11948,7 @@ IDocHostUIHandlerDispatch
 Idotaccent
 Idotaccent.a
 IDraftsServiceHost
+IDS4wwjxdQsbg3BD3NIVo2NSkCAwEAAQ
 IdsOrRanges
 IEAA_NPEBXAEBW4EFbxType
 IEAAPEA_WXZ
@@ -12764,6 +12767,7 @@ K_Key_dn.png
 KaiTi_GB2312
 KAXPEBDHAEAPEAVQChar
 KBytesPerSec
+KDBeR1Flu4PlPa4AOPlXXM
 KeepAliveTimeout
 KeepPositionOnInsert
 KERNEL32.dll
@@ -14529,6 +14533,7 @@ MultTransposeMatrixd
 MultTransposeMatrixf
 MusicalInstruments
 MutexLifetime
+MVyYLN3nGFAt1HCVsoICAKmk5anzYnT2gOEFpiS2JUK06t5Vg5dIKdKvmHTlpE
 MW4PartMaterial
 MyModelsAction
 MyWatchTreeWidget
@@ -14641,7 +14646,7 @@ NETSCAPE_SPKI
 NETSCAPE_SPKI_b64_decode
 NETSCAPE_SPKI_b64_encode
 NETSCAPE2.0
-Network100.
+Network1B0
 NetworkAccessManager
 NetworkAudit
 NetworkCache
@@ -15223,6 +15228,7 @@ OrderFunction
 OrderFunctionMenu
 OrFirstTier
 Organization
+Organization1
 OrganizationDomain
 OrganizationName
 Organizations
@@ -15609,6 +15615,7 @@ PCertReqData
 PCertResTBS
 PCStudioApp
 PCStudioAppCJV
+PDXzFlzHXDxzx
 PE_MAX_NB_SUBFR
 PEA_NAEBV2
 PEA_NPEAVQDialog
@@ -17197,6 +17204,7 @@ PushPixels
 PVAdornment
 PVInstance
 PVK_header
+PwttMBQBT4n10
 PxnhPiraCmahCilaKcpeLicyLidyLkclOgnjRruaSdnuSiiaVtsvAumaBpygEimrAilhPitrPavaJihtKusiLietMbraShkrOrmaSanaLtvaTktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
 PXungrmn3W
 PyJlf7IHZQpFHohBe
@@ -19447,6 +19455,7 @@ RVideoInternal
 RVideoMemLogging
 RVideoTrace
 RxRlReport
+RzY1Q50HY6EVB
 S_Key_dn.png
 SA_KPEAPEBV123
 SA_KPEAPEBVfacet
@@ -19458,6 +19467,7 @@ SA_NPEAVQTranslator
 SA_NPEBUAbstractConverterFunction
 SafeZoneOffsetsChanged
 SafeZoneOffsetsInputWidget
+SAgIoskrakVuyjgg6ypv
 SAHAEBVQByteArray
 SAHAEBVQString
 SAHPEAVQWidget
@@ -24874,6 +24884,7 @@ TypeOutboundSubtotal
 Typesetter
 TypeToImport
 Typewriter
+TYq5AC1XeWVva5YYMAE
 U_ContinuationTaskHandleBase
 U_ExceptionHolder
 U_Key_dn.png
@@ -26381,6 +26392,7 @@ VisuallyMoved
 VisuallySleeping
 VisualStyle
 VisualTrussStyle
+VjGnGUm8jax689TELAcksXVCW0
 VJointInstance
 VJointsService
 VK_EXT_debug_report
@@ -27227,6 +27239,7 @@ WM_ATLGETCONTROL
 WM_ATLGETHOST
 WMCreateProfileManager
 WMCreateSyncReader
+WMM02CjA1yWFvkATqT0RVCohDS3VjL
 Wmvcore.dll
 WoodPlanks
 WordWrapMode
@@ -27471,6 +27484,7 @@ XW4websocket_close_status
 XW4WebSocketEventType
 XwhvcEikuIaqb7nHhEJ
 XXXXXXXXXXXXXXXXuuuuuuuuuuuuuuuuppppppppppppppppppppppp
+XZOnpXruRFzhj7GWxK
 XZP8CoreGuiService
 XZP8CRenderSettingsItem
 XZP8GuiObject
@@ -27543,5 +27557,6 @@ ZRZZZbZt[.[
 ZUsM4EXODbdtuJq
 ZVspecial_equipped_signal
 ZVTouchedSignal
+ZyTq8CmYtlMHY
 ZZZZZZZZZZZZZZZ
 ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
