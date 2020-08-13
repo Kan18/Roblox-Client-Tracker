@@ -431,6 +431,7 @@ AHPEAU_iobuf
 AHPEAX1PEAPEAX
 AHW4DataStoreRequestType
 AHW4UserInputType
+AIHSdsKko0F
 Algorithms
 AliasRequestResult
 ALIGN_TYPE
@@ -1223,6 +1224,7 @@ AuthenticationError
 AuthenticationHelper
 AuthenticationRequired
 Authenticator
+Authenticode
 AuthGOST01
 AuthGOST12
 AuthoredHipHeight
@@ -3850,7 +3852,6 @@ AVXmlWriter
 AVXQColorDialog
 AVYieldFunctionDescriptor
 AVYieldFunctions
-Aw2UPur29bBRboRuploK3mqpR
 AW4ABTestLoadingStatus
 AW4ActuatorRelativeTo
 AW4ActuatorType
@@ -4001,7 +4002,6 @@ AW4VRTouchpadMode
 AW4XAlignment
 AW4YAlignment
 AW4ZIndexBehavior
-AWAB6YriuFLjCZVhqtO3w9cJK2UUrVYafRbsGXXUCvAuVvDRpqe4N8aPv5gEyJ
 AwardBadge
 AwardPoints
 AwareCompare
@@ -4017,6 +4017,7 @@ AXAEBVVariant
 AXAEBVVector2
 AXAEBVVector3
 AXAEBVwebsocket_incoming_message
+AxEN5O6gNWxvXOt3ZJgdCoVX0zBbOaiO9QLHVC5j
 AXHHHW4CellMaterial
 AXHHHW4WaterCellForce
 AXHVVector3
@@ -4207,6 +4208,7 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBB
 BBCA91111E2B410EF351327957B
 BbEcJYG[I[NYVP\B]
 BBFA91111E2B410EF351327957B
+BbqtyAmUkfHeJYm3mcOUw2wlttF7K7ct5cKbhlHlJyq1Ae3B7FrSYEhCcwqtB
 BBxZ55ZxBBx[5D
 BC0A91111E2B410EF351327957B
 BC0DAEAAF011E38B9D871882A8E559
@@ -4231,6 +4233,7 @@ BCIDistributionTBS
 BConnection
 BCryptGenRandom
 BE20681180838E23F0DC6224
+BE3oGqt33pQrHg2lv6CEt6KI
 BE42889BE20681180838E23F0DC6224
 BEA91211E2B410EF351327957B
 BeforeConnected
@@ -4493,6 +4496,7 @@ BoxContainer
 BoxHandleAdornment
 BoxMappedMeshLODFix_v2
 BoxSelectCommand
+BOzKOkHPfwp
 BPEAUIUnknown
 BPuVfD9B`uOfD9BpuH
 BQByteArray
@@ -4580,6 +4584,8 @@ BrowserWindow
 BrowserWindowClosed
 BrowserWindowWillNavigate
 BrushStyle
+BsNKJx8mNeXsAVTg01Z3s8S6e
+BssB751UreV4Wh
 BtnBackground.png
 BtYovqVKoHMDMoDd0u9Mc5CIyRqyu0IGS99A0jeEXRj7aofQ
 BU_Simplex1to4
@@ -4678,7 +4684,6 @@ BVTextureId
 BW4AlphaMode
 BW4ModelLevelOfDetail
 BWGradient.png
-Bxa1Paq5NgPnNyq9g3pmpSj9ce60zn3HOLT5WrEI
 ByCongestionControl
 ByDatacenter_
 ByIPForDatacenterId_
@@ -4690,7 +4695,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409898
+ByVersion_0.444.0.409961
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -4886,6 +4891,7 @@ CaptchaOther
 CaptchaParse
 CaptchaRedirectToWeb
 CaptchaTimeout
+CaptchaTokenPayload
 CAPTION_FORMAT_ATSC
 CAPTION_FORMAT_DIRECTV
 CAPTION_FORMAT_DVB
@@ -6432,7 +6438,6 @@ Corporation\Roblox
 Corporation\Roblox\FilteredExceptionCrash
 Corporation0
 Corporation1
-Corporation100.
 Corporation1402
 CorrectTextBoundsForRichText
 CorrodedMetal
@@ -9145,7 +9150,6 @@ ErrorWindow
 ErrOutOfRetries
 ESDHwith3DES
 ESDHwithRC2
-ESej88zIiKVSeX93E61o5Zgx
 ESessionCrypto
 ESGamePerfMonitor
 ESGamePerfMonitorDelayBeforeFirstReportInSeconds
@@ -9273,6 +9277,7 @@ EVRConfig_ForceBob
 EVRConfig_ForceHalfInterlace
 EVRConfig_ForceScaling
 EVRConfig_ForceThrottle
+EwnXeBdjlgYz5xGcECJyDC2N2TWHYlIumTErK
 ExactMatch
 ExceptionAddress
 ExceptionCode
@@ -9388,7 +9393,6 @@ ExtraSelections
 ExtraSelectionStore
 ExtrudedPartInstance
 EXtSoftware
-EY5ZuJtwglhQH56Sj9Id72SujSiXDTKJRbc2Rz
 EyeAccessory
 F_ObjectHasComponents
 F`JXKXWJYB[Cd
@@ -9562,7 +9566,6 @@ FieldOfView
 Figueiredo
 FIGURE_WIDTH
 FiiiJOOWFF
-FIKbIBJlvJEu5fd3Mr
 FileAction
 FileButtonLabel
 FileChanged
@@ -10336,6 +10339,7 @@ GCNotAlwaysMemory
 GCReducesQuota2
 GCReducesQuotaCriticalPercent
 GCReducesQuotaPercent
+GdnRhD3HAMWECAwEAAQ
 Gdotaccent
 GE_package.png
 GE_packagefolder.png
@@ -11102,7 +11106,6 @@ GfxPartInvalidationLimitToTime2
 GGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGGGGG
-GIjvAWjVnO8EK0VjVlzdluspP0S075PLw02e
 GIM_ShapeRetriever
 GImpactCollisionAlgorithm
 GImpactCompound
@@ -11114,7 +11117,6 @@ GL_EXT_texture_border_clamp
 GL_EXT_texture_compression_s3tc
 Glass[0]VS
 GlassTintFS
-GLiTK6L7jWc95b1dbkikwdyy7HJP6ACZi5KVwyrgMwqfetfTDkBhszTRcY3y0dG
 GlobalAdvancedSettings
 GlobalAdvancedSettingsItem
 GlobalAlloc
@@ -11134,6 +11136,9 @@ GlobalMemoryStatusEx
 GlobalSettings
 GlobalSettings_13.xml
 GlobalShadows
+GlobalSign
+GlobalSign0
+GlobalSign1
 GlobalThrottleFirstBackoffMilliseconds
 GlobalThrottleMaxBackoffMilliseconds
 GlobalThrottleThreshold
@@ -11956,7 +11961,6 @@ IDocHostUIHandlerDispatch
 Idotaccent
 Idotaccent.a
 IDraftsServiceHost
-IDS4wwjxdQsbg3BD3NIVo2NSkCAwEAAQ
 IdsOrRanges
 IEAA_NPEBXAEBW4EFbxType
 IEAAPEA_WXZ
@@ -12017,6 +12021,7 @@ IID_IVPVBIConfig
 IID_IVPVBINotify
 IID_IVPVBIObject
 IIMAEBVInstanceIdentifier
+IjfOVfVsvvTnIx
 IKCollisionsMode
 IkDragCollisionsMode
 IkDraggerAnchorMode
@@ -12682,6 +12687,7 @@ JIRA_RIDE_785
 JJJBBB\\\xx
 JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
 JKLMNOPQRSTU
+JN6yZFAnX6ZRwvXh
 JoinBlobInvalidateCountThresholdPercent
 JoinBlobInvalidateThresholdPercent
 JoinCommand
@@ -12775,7 +12781,6 @@ K_Key_dn.png
 KaiTi_GB2312
 KAXPEBDHAEAPEAVQChar
 KBytesPerSec
-KDBeR1Flu4PlPa4AOPlXXM
 KeepAliveTimeout
 KeepPositionOnInsert
 KERNEL32.dll
@@ -12828,15 +12833,12 @@ KeywordFilterType
 KfaO3j5BbG6ijHHxFy22YNNJwxKTT
 KfE9k0uDfE9k
 KFKPKXK`KhK
-KGaLdzqaEDyCm9tI9yX6ibWJHbFAnwYNdqpWqjfy
 KickByDatacenter_
 KiDszBCYB0gyp03Pc
 KillPtClicked
-KIOWQESBQZNR
 KKKKKKKKKK
 KKKKKKKKKKKK
 KKKKKKKKKKKKKKKKKKKKKK
-Knbzd5fJxq5UQoS5juGpgOQH91gYBVATPi7vLhgLMgkK4niIQQnuLCvs2f2Tfxgk
 KnownHeaders
 KnownPrefixIndex
 KodchiangUPC
@@ -13411,7 +13413,7 @@ LowQMaterialFS
 LowQMaterialWangFallbackFS
 LowQMaterialWangFS
 LowResolution
-LqInBGuIhIY0Dwi6A4r5rB7rR2gw
+LpRjT84esGjSsw8W7bA9JordgfAirqauaAWFk3g8j8
 Lslashsmall
 LSPManager
 LSPObservable
@@ -13532,7 +13534,6 @@ LuauCheckRecursionLimit
 LuauEnableAsKeyword
 LuauExtraAccurateRobloxTypes
 LuauMagicFormat
-LuauNonstrictArgumentCounts
 LuauOsTimeUTC
 LuauParserEnableTypeGroup
 LuauParserNoFatArrow
@@ -14201,7 +14202,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAvDgrUP19fD4yuFdmpTKdX
+MIICCgKCAgEA1WrAVFHZG5yT7Zd7Syi4R8KhE
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14547,7 +14548,6 @@ MultTransposeMatrixd
 MultTransposeMatrixf
 MusicalInstruments
 MutexLifetime
-MVyYLN3nGFAt1HCVsoICAKmk5anzYnT2gOEFpiS2JUK06t5Vg5dIKdKvmHTlpE
 MW4PartMaterial
 MyModelsAction
 MyWatchTreeWidget
@@ -14640,6 +14640,7 @@ NCONF_get_string
 NCONF_load
 NCONF_load_bio
 NCONF_load_fp
+NDcdtd809Goj1rkmwnvA
 NdnuScpeLkclOiiaVruaSilaKgnjRicyLiraCidyLmahCanaLtvaTtsvApygErmaSusiLumaBavaJietMimrAbraSitrPilhPhkrOihtKktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTzzzZssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
 NE9F0uHE9F4uBE9F8u
 NearIntensity
@@ -14654,13 +14655,14 @@ NegateSelection
 NegativePart
 Negotiation
 NeighborSleepThresholdMult
+NEK2kPakKjnViqlst0A
 NETSCAPE_CERT_SEQUENCE
 NETSCAPE_SPKAC
 NETSCAPE_SPKI
 NETSCAPE_SPKI_b64_decode
 NETSCAPE_SPKI_b64_encode
 NETSCAPE2.0
-Network1B0
+Network100.
 NetworkAccessManager
 NetworkAudit
 NetworkCache
@@ -14796,9 +14798,9 @@ NextSelectionUp
 NextSpawnLocation
 NextTabPage
 NfXf`fhfzf
-NgS2fgyzg66z6SdvR
 NHVVariant
 NinjaMask.mesh
+NKXkZPW8409OTgyj
 NNNNNNNNNNNNNNNNNNNNNN
 NNNNNNNSSSSSSSSSSSSSSSSSSSSSS
 NNW4SizeMode
@@ -14952,7 +14954,6 @@ NVWorkspace
 NW4FileSystemDir
 NW4PenStyle
 NW4UserInputType
-NXEmViatdVZzp6q2m5EBFXTkigjCFiidqEDBhem1owZVuLb1Z9LqmYfXdVdvis1
 Oacutesmall
 OAEPEncryptionSET
 OAUTHBEARER
@@ -15243,7 +15244,6 @@ OrderFunction
 OrderFunctionMenu
 OrFirstTier
 Organization
-Organization1
 OrganizationDomain
 OrganizationName
 Organizations
@@ -15258,7 +15258,6 @@ OriginalPosition
 OriginalSize
 OrIncrementCounterForOutputText
 OrProvinceName
-ORQ2pgH40bhZXTfIYkk6
 OS.Authentication.LuaLoginAndSignup4
 OscillateMotor
 Oscillator
@@ -15634,7 +15633,6 @@ PCertReqData
 PCertResTBS
 PCStudioApp
 PCStudioAppCJV
-PDXzFlzHXDxzx
 PE_MAX_NB_SUBFR
 PEA_NAEBV2
 PEA_NPEAVQDialog
@@ -17173,7 +17171,6 @@ PROXY_CERT_INFO_EXTENSION
 PROXY_POLICY
 ProxyAction
 PSPECIFIED
-Ptfg5i7u43CLo9AFNmWieGvdT
 PUBKEY_get0
 PUBKEY_set
 PublicationInfo
@@ -17220,10 +17217,8 @@ PushPixels
 PVAdornment
 PVInstance
 PVK_header
-PVo64hWkIj1nUKisa
 PxnhPiraCmahCilaKcpeLicyLidyLkclOgnjRruaSdnuSiiaVtsvAumaBpygEimrAilhPitrPavaJihtKusiLietMbraShkrOrmaSanaLtvaTktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
 PyJlf7IHZQpFHohBe
-PyzVJ0W7xCoxDKi
 QAbstractAnimation
 QAbstractButton
 QAbstractConcatenable
@@ -17707,6 +17702,7 @@ QEBAXPEAVFbxScene
 QEBAXPEAVQPainter
 QEBAXPEBDZZ
 QEBVQStyleOptionGraphicsItem
+QEI8Yvbi1xE5pSlWjgIpPSLSiL
 QElapsedTimer
 QEntityIconInternal
 QEntityIconLoaded
@@ -17874,6 +17870,7 @@ Qt5WebKit.dll
 Qt5WebKitWidgets.dll
 Qt5Widgets.dll
 Qt5Xml.dll
+QT7ifIgXIMPgy7SHaZzHy2PDaAMe3
 QTableView
 QTableWidget
 QTableWidgetItem
@@ -18039,7 +18036,6 @@ QWheelEvent
 QWidgetAction
 QWidgetPluginGui
 QWidgetWindow
-Qxi1GyqjzJ8nPIJZV0rfrfhA9gOjVk4QI8nHPYYLRX3anKvOGRL9vIBqZTvDdLk3
 RadialBlurFS
 RagdollBallSocketConstraint
 RagdollDefaultTimerTenthSecond
@@ -19391,7 +19387,7 @@ RowsToRemove
 RowStretch
 RowVisibilityChanged
 RPCServers
-RR6HjSCnIa3H0pdZjsLFlA3QIgxvsOSC3M3vb2KUVI4t
+RrMUJHcDbGxnoSKADsO4Z5YHVFoVrrQxlebQrZf9evEMqprGqpFHdU
 RRReceiptFail
 RRReceiptTotal
 RRRRRRRRzzzzzzzzzzzzzzzzzz
@@ -19471,9 +19467,7 @@ RunUpdateCycle.
 RVideoInternal
 RVideoMemLogging
 RVideoTrace
-RXNccAmb6RN56tnkAgdr4Vizgb2hb6i
 RxRlReport
-RzY1Q50HY6EVB
 S_Key_dn.png
 SA_KPEAPEBV123
 SA_KPEAPEBVfacet
@@ -19485,7 +19479,6 @@ SA_NPEAVQTranslator
 SA_NPEBUAbstractConverterFunction
 SafeZoneOffsetsChanged
 SafeZoneOffsetsInputWidget
-SAgIoskrakVuyjgg6ypv
 SAHAEBVQByteArray
 SAHAEBVQString
 SAHPEAVQWidget
@@ -23216,6 +23209,7 @@ StudioPackagePublish_Failure
 StudioPackages
 StudioPaidPlugins
 StudioPartSizeCameraDistRatio
+StudioPassCaptchaToken
 StudioPercentScaleRepeatCount
 StudioPermissionsServiceEnabled
 StudioPersistPlayerCameraPositionSaveDelay
@@ -23531,7 +23525,6 @@ SupportSkinnedMesh2
 SupportsPresent
 SupportSwitchingDefaultAudioDevice
 SupportYouTubeInAppDataModelIfRbxCdnAllowed
-SuQkCAwEAAQ
 SurfaceAction
 SurfaceAppearance
 SurfaceAppearance.
@@ -24903,7 +24896,6 @@ TypeOutboundSubtotal
 Typesetter
 TypeToImport
 Typewriter
-TYq5AC1XeWVva5YYMAE
 U_ContinuationTaskHandleBase
 U_ExceptionHolder
 U_Key_dn.png
@@ -24939,7 +24931,6 @@ UBlockGroup
 UBlockMore
 UBulkImporterJob
 UBulkIngestionInfo
-UbwplC1MRLL6lENJIam
 UCachedBitstream
 UCachedContent
 UCachedLuaWebServiceInfo
@@ -26249,6 +26240,7 @@ VHeartbeatTask
 VHeightfieldBuilder
 VHingeConstraint
 VHingeTool
+Vhn8NBSlTD5Er6aUdufJ4Nt8urbc4x0xoAuYN
 VHopperBin
 Vhttp_network_handler
 Vhttp_pipeline
@@ -26415,7 +26407,6 @@ VisuallyMoved
 VisuallySleeping
 VisualStyle
 VisualTrussStyle
-VjGnGUm8jax689TELAcksXVCW0
 VJointInstance
 VJointsService
 VK_EXT_debug_report
@@ -26961,6 +26952,7 @@ VWXYZ[\]^_`a
 VXmlElement
 VYieldFunctions
 VYieldFunctionStateObject
+Vziaoo3a0MrfUzXrIXUHpfWqxi
 W_Key_dn.png
 WaistAccessory
 WaistBack_Att
@@ -27262,7 +27254,6 @@ WM_ATLGETCONTROL
 WM_ATLGETHOST
 WMCreateProfileManager
 WMCreateSyncReader
-WMM02CjA1yWFvkATqT0RVCohDS3VjL
 Wmvcore.dll
 WoodPlanks
 WordWrapMode
@@ -27411,7 +27402,6 @@ XQColorDialog
 Xregex_error
 XResolution
 Xtime_get_ticks
-XttvunYwaCmzFItUdp
 XUnegotiation_response
 XUNetworkResult
 XvAAuY44YuAAvX4
@@ -27507,7 +27497,6 @@ XW4websocket_close_status
 XW4WebSocketEventType
 XwhvcEikuIaqb7nHhEJ
 XXXXXXXXXXXXXXXXuuuuuuuuuuuuuuuuppppppppppppppppppppppp
-XZOnpXruRFzhj7GWxK
 XZP8CoreGuiService
 XZP8CRenderSettingsItem
 XZP8GuiObject
@@ -27577,6 +27566,5 @@ ZPEAVRBXMessageBox
 ZRZZZbZt[.[
 ZVspecial_equipped_signal
 ZVTouchedSignal
-ZyTq8CmYtlMHY
 ZZZZZZZZZZZZZZZ
 ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
