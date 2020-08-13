@@ -7,8 +7,6 @@ local FFlagTerrainToolsBrushUseIsKeyDown = game:GetFastFlag("TerrainToolsBrushUs
 
 local FFlagTerrainToolsRaycastUpdate = game:GetFastFlag("TerrainToolsRaycastUpdate")
 
-local FFlagTerrainToolsRaycastUpdate = game:GetFastFlag("TerrainToolsRaycastUpdate")
-
 local Plugin = script.Parent.Parent.Parent
 
 local Framework = Plugin.Packages.Framework
