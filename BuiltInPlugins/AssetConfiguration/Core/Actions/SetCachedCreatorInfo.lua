@@ -8,10 +8,10 @@ local CreatorInfoHelper = require(Util.CreatorInfoHelper)
 
 local t = require(Libs.Framework.Util.Typecheck.t)
 
-local FFlagStudioFixGroupCreatorInfo2 = game:GetFastFlag("StudioFixGroupCreatorInfo2")
+local FFlagStudioFixGroupCreatorInfo3 = game:GetFastFlag("StudioFixGroupCreatorInfo3")
 
 return Action(script.Name, function(creatorInfo)
-	if FFlagStudioFixGroupCreatorInfo2 then
+	if FFlagStudioFixGroupCreatorInfo3 then
 		assert(t.union(
 			t.strictInterface({}),
 			t.interface({
