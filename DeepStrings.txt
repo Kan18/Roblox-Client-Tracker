@@ -393,7 +393,6 @@ AEF9EAAED11E38B9D871882A8E559
 AEF9FAAED11E38B9D871882A8E559
 AEFA2AAED11E38B9D871882A8E559
 AEFA3AAED11E38B9D871882A8E559
-AekgRyGiosYymoU1i9k2DgkCAwEAAQ
 AesSettingsCipherMode
 AF1224888D11E18561866242201959
 Affiliation
@@ -806,7 +805,6 @@ AppStorageService
 AppsUseLightTheme
 AppVersion
 APSToggleClientServerFTUE
-AQbP39odEVNGjpfm9Nsg
 AQJsonArray
 AQJsonObject
 ArcadeStick
@@ -2005,6 +2003,7 @@ AVCylinder
 AVCylinderHandleAdornment
 AVCylinderMesh
 AVCylindricalConstraint
+AVd4ydpfG5kYYMfAxY0cVC
 AVDataModel
 AVDataModelJob
 AVDataModelMesh
@@ -4003,6 +4002,7 @@ AW4VRTouchpadMode
 AW4XAlignment
 AW4YAlignment
 AW4ZIndexBehavior
+Aw8CXl2sVKdpBMLk0
 AwardBadge
 AwardPoints
 AwareCompare
@@ -4038,6 +4038,7 @@ AXPEAVDataModel
 AXPEAVdtNavMesh
 AXPEAVselect_reactor
 AXPEBVPropertyDescriptor
+AxtuuvnIMEmj3Q61DfIHc2Zrlbix6E3jlz8YEQTQ7ZYzEk0ddC0vj
 AXVBinaryString
 AXVBrickColor
 AXVContentId
@@ -4278,7 +4279,6 @@ BFLuaDraggersRoleSet
 BFontSizePadding
 BFSupportPluginDebuggingRoleSet
 BFTableOutputViewRoleSet
-BGarSK7hUQfAYvBpSaYe2U2UbJz0SS4y72wjvY9xu
 BgUpdateRedirectsDisable
 BgUpdateRedirectsHttpErrInfluxHundredthsPercentage
 BgUpdateRedirectsRejectInfluxHundredthsPercentage
@@ -4585,7 +4585,6 @@ BrowserWindowWillNavigate
 BrushStyle
 BtnBackground.png
 BtYovqVKoHMDMoDd0u9Mc5CIyRqyu0IGS99A0jeEXRj7aofQ
-BtzdSl5DrDszHtHUQZiaN
 BU_Simplex1to4
 BubbleChat
 BubbleChatEnabled
@@ -4672,7 +4671,6 @@ ButtonStyle
 ButtonText
 BuyDeveloperProduct
 BuyDeveloperProduct_AutoAccepted
-Bv9zXc51rtFWwA6Yq1Uhgmqg6qDk8GAdHzGMJpN3j
 BvBvBvBvBvBvBvBv
 BVCoordinateFrame
 BVQItemSelection
@@ -4694,7 +4692,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409977
+ByVersion_0.444.0.409979
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -5901,6 +5899,7 @@ CoFreeUnusedLibraries
 CoGetClassObject
 CoInitialize
 CoInitializeEx
+CoKGbxtiv7ab
 CollabEdit
 CollabEditVersionHistory
 CollabEditVersionHistoryEnabled
@@ -7052,6 +7051,7 @@ CustomSort
 CustomStatusAdded
 CustomStatusRemoved
 CustomToolButton
+CvLfh6c49LSM7saL4OFgsCAwEAAQ
 CWindowImpl
 CWindowImplBaseT
 CWindowImplRoot
@@ -7983,7 +7983,6 @@ DF42709311E28987EB530EBA4742
 DFbxAMatrix
 DFbxMatrix
 DfNfXfbftf
-DFVsd5L4XVWEMvIcI9ce
 DGHASH_ASM
 DgNg`ghgpgxg
 DgNgXgbglgvg
@@ -7999,7 +7998,6 @@ DH_new_method
 DHBasedMac
 DHParameters
 DHparams_print_fp
-DhRXQcfZoqDK2HeFimdV0IfUaiWJY
 DhufyEeFO7U33Tv7vk
 Diagnostic
 Diagnostics
@@ -8907,6 +8905,7 @@ EnableDiscussionsApiService
 EnableDoubleClickSupport
 EnabledSignal
 EnabledState
+EnableDynamicDraggerToolIcons
 EnableExtendedDomains
 EnableExtension
 EnableFastFlagEditorWithInternalPermission
@@ -11601,7 +11600,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\DellBackupandRecovery
 HKEY_PERFORMANCE_DATA
 HKEY_PERFORMANCE_NLSTEXT
 HKEY_PERFORMANCE_TEXT
-HlhFrbdcyv4psJAUFCA1LbT3cEkUC0VW7
+HkopBapH9h8CzDSNBFtbFI8hpLGYmY9gBzjCym
 HMACGostR3411
 HomePageLoaded
 HopperPanel.png
@@ -12025,11 +12024,11 @@ IID_IVPVBIConfig
 IID_IVPVBINotify
 IID_IVPVBIObject
 IIMAEBVInstanceIdentifier
-IjjVOd3yyOnuhVhy
 IKCollisionsMode
 IkDragCollisionsMode
 IkDraggerAnchorMode
 IkDraggerSolveIterations
+IkgJvhiv17UMcA0pRXzDDVTmSnfa
 IllegalTeleport
 ILoggedInUser
 ILoginManager
@@ -12063,6 +12062,7 @@ ImageToClipboard
 ImageTransparency
 ImageWidth
 IMDIManagerHost
+IMhhljoAuZZhhAOe8fDUm70Uyc
 IMMEDIATE_PRIORITY
 ImmHandlerFixJapaneseAndKorean2
 Implementation
@@ -12506,7 +12506,6 @@ IRobloxDoc
 IRobloxDocManager
 IRobloxIDEDoc
 IRobloxMainWindow
-IRrmxjUbni728jfiNtv
 Is30FpsThrottleEnabled
 IsActivated
 IsActivatedWithExclusiveMouse
@@ -12763,6 +12762,7 @@ JsonFormat
 JSONObject
 JSONOverflowAbort
 JSONOverflowDepth
+JUGOU3i1AL2ohK7JPr1EZXWoMTOYj1e4d9eSTXHpnmgVlo21
 JUGroupRolesRequestRecord
 JumpAnimation
 JumpHeight
@@ -12837,21 +12837,20 @@ KeywordFilterType
 KfaO3j5BbG6ijHHxFy22YNNJwxKTT
 KfE9k0uDfE9k
 KFKPKXK`KhK
-KhSDRpHDFH
 KickByDatacenter_
 KiDszBCYB0gyp03Pc
 KillPtClicked
 KKKKKKKKKK
 KKKKKKKKKKKK
 KKKKKKKKKKKKKKKKKKKKKK
-KKv9UwrqkEEKgtAfklw
-KLgHyv8vacHg
 KnownHeaders
 KnownPrefixIndex
 KodchiangUPC
+KozrPuolZHvMLFplBPtq3qMBTa709f
 KPEAVICHull
 KPEIBX_K_KPEIAU_iobuf
 KSocialService
+Ktg4iMpXVHMCIqP1a
 KVScriptContext
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
 LabelArray
@@ -13557,8 +13556,8 @@ LuauUseClassesForRobloxApi
 LuauWatchdog
 LuaVersion
 LuaWebService
-LvEXeOJSHV9ziwyZL8scOIwdJQhXoAf0nvToMMqD0
 LVvuOx39]O
+LZQazW3rrzjaR6
 M_NVWeakFunctionRef
 MacGamepadUseGCController
 MachineAddress
@@ -14212,7 +14211,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAnZLfLp0uwZb3EmHw93Zh4K40i2ppc
+MIICCgKCAgEA1Avfw9lVLilya
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14444,6 +14443,7 @@ MouseWheelBackwardConnectionCount
 MouseWheelEventSinkingPropagatesToGUI
 MouseWheelForward
 MouseWheelForwardConnectionCount
+Move_Green.png
 MoveAlternateName
 MoveButtonClicked
 MoveCaCertPemToUserDirectory
@@ -14559,6 +14559,7 @@ MultTransposeMatrixf
 MusicalInstruments
 MutexLifetime
 MW4PartMaterial
+MxdbyG8IpHR5DHTQm
 MyModelsAction
 MyWatchTreeWidget
 NAEAVHttpResponse
@@ -14650,6 +14651,7 @@ NCONF_get_string
 NCONF_load
 NCONF_load_bio
 NCONF_load_fp
+NDjqGSInEf
 NdnuScpeLkclOiiaVruaSilaKgnjRicyLiraCidyLmahCanaLtvaTtsvApygErmaSusiLumaBavaJietMimrAbraSitrPilhPhkrOihtKktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTzzzZssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
 NE9F0uHE9F4uBE9F8u
 NearIntensity
@@ -14961,6 +14963,7 @@ NVWorkspace
 NW4FileSystemDir
 NW4PenStyle
 NW4UserInputType
+Nyhh0mZrP4kGjM2T8C4U
 Oacutesmall
 OAEPEncryptionSET
 OAUTHBEARER
@@ -16421,6 +16424,7 @@ PIN_CATEGORY_VIDEOPORT_VBI
 PingInterval
 PInitResData
 PirateHat.mesh
+PiRREvMAYSTC
 PitchShiftSoundEffect
 PIUnsignedTBE
 PivotEditor.rbxm
@@ -17788,7 +17792,6 @@ QNPPPPPPPPPPPPPPPPPPPNOP
 QObjectData
 QObjectShared
 QOgreWidget
-QOud4RWzneKqGQzkrNVF4W2sgLieSvTZ
 QPaintDevice
 QPainterPath
 QParallelAnimationGroup
@@ -19022,6 +19025,7 @@ ResetPlaceFilteredVariables
 ResetPlaceFilters
 ResetPlayerGuiOnSpawn
 ResetWaypoints
+Resize.png
 ResizeableFaces
 ResizeBasedOnEmulatedDevice
 ResizeCanvas
@@ -19369,6 +19373,8 @@ RootPriority
 RootRigAttachment
 RopeConstraint
 RopeConstraintAction
+Rotate.png
+Rotate_Green.png
 RotateAction
 RotateAxis
 RotateCameraForRightPart
@@ -19474,6 +19480,7 @@ RVideoInternal
 RVideoMemLogging
 RVideoTrace
 RxRlReport
+RY5peqIowPevCdUnjqhKD21RINQ8NlWJUCTOZxyC6a4Vu4
 S_Key_dn.png
 SA_KPEAPEBV123
 SA_KPEAPEBVfacet
@@ -19557,6 +19564,7 @@ SAXPEAUData
 SAXPEAVQObject
 SAXPEAVQStyle
 SAXPEBDP6AXAEAVQDataStream
+Scale_Green.png
 ScaleButton.png
 ScaleButton_dn.png
 ScaleCompensation
@@ -19850,6 +19858,7 @@ SecurityObject
 SecurityPolicy
 SecurityViolation
 SeenFirstTimePopup
+Select_Green.png
 Selectable
 SelectAfterInsertChecked
 SelectAllButtonPressed
@@ -24764,6 +24773,7 @@ TransformedCFrame
 TransformedWorldCFrame
 TransformFeedbackVaryings
 Transition
+Translate.png
 TranslateAction
 TranslateBy
 TranslatedEntries
@@ -25329,7 +25339,6 @@ UntranslatedStringsHeader
 UntranslatedStringsHeaderAction
 Unull_deleter
 Unverified
-UOJKMjjx3CcJT3CvW7LiJ23ZyHpa5qnWPGkXxpTjYpf7gatzR1VHWjYdsAd
 Up_key.png
 Up_key_dn.png
 UPackageAssetData
@@ -25695,6 +25704,7 @@ UUID_UdriTagTables
 UUID_WMDRMTagTables
 Uunspecified
 UUntranslatedSourceContexts
+UuqStrANa4
 UUserAgreementData
 UUserIdResponseHandler
 UUUUUUUUUUUa
@@ -25843,7 +25853,6 @@ VBufferD3D11
 VBufferedEmitter
 VBufferVulkan
 VBulkImportService
-VBy9uBhkijra8ugh22Op
 VCacheableContentProvider
 VCachedItem
 VCachedRecord
@@ -26445,6 +26454,7 @@ VLegacyCharacterAppearance
 VLegacyLock
 Vlength_error
 VLexUpdateObserver
+VLh3KUdAPncronmh8XnNbYYQ1
 VLineForce
 VLineHandleAdornment
 VLinkedSourceInstance
@@ -26964,7 +26974,6 @@ VXmlElement
 VYieldFunctions
 VYieldFunctionStateObject
 W_Key_dn.png
-Wa2bj4vyiszOAc
 WaistAccessory
 WaistBack_Att
 WaistBackAttachment
@@ -27329,6 +27338,7 @@ WTHelperProvDataFromStateData
 WWWWWWWWWW
 WWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWW
+WyG3DO6lnVp
 X_JW4AssetType
 XA^A]A\_][
 XA_A]A\_^[
@@ -27554,10 +27564,10 @@ YffYZefYDNNDCOO
 YieldEvent
 YieldFuncDesc
 YieldFunction
-Yk7lvP6YFKeHhwUFWDLdqdKyuUrRQM
 YQByteArray
 YResolution
 YwBBvY55YvBBwY5
+YwDWtTX4YcCjqNgJxI9zRPaXDL3m1oFo2HuiO1uxITXK9Xzzh1
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
 Zcaronsmall
