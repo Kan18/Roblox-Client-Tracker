@@ -427,7 +427,6 @@ AggregateInfo.Time.toFixed
 AggregateInfo.TotalFrames
 AggrFrames
 Agravesmall
-AgRNnhuY3B1PKJZxPeyOn
 AHPEAU_iobuf
 AHPEAX1PEAPEAX
 AHW4DataStoreRequestType
@@ -931,6 +930,7 @@ AssemblyHistoryDeviationTolerance
 AssemblyHistorySkipSize
 AssemblyMovedFromStep
 AssemblySetPhase
+Assertion_Failure_Release
 AssetFetchMediator
 AssetFetchStatus
 AssetFolder
@@ -4001,6 +4001,7 @@ AW4VRTouchpadMode
 AW4XAlignment
 AW4YAlignment
 AW4ZIndexBehavior
+AWAB6YriuFLjCZVhqtO3w9cJK2UUrVYafRbsGXXUCvAuVvDRpqe4N8aPv5gEyJ
 AwardBadge
 AwardPoints
 AwareCompare
@@ -4688,7 +4689,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409889
+ByVersion_0.444.0.409898
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -5040,7 +5041,6 @@ CFrame.new
 CFrameDecal
 CFrameOnly
 CFrameValue
-CGWjAjwi4UeqOqBmg4WiYj2uNpv35whvJGxEX8AGcPhR2PbFmuh1UGJAWjaWrCOo
 ChainCAFile
 ChainCAPath
 Chalkboard
@@ -7244,7 +7244,6 @@ DB33D6AAF011E38B9D871882A8E559
 DB33D7AAF011E38B9D871882A8E559
 DBD856014A660
 DBSAES_ASM
-DbWndYhnDIsYB7CVYujLodciXz7nJLqpMjZDIZTOf
 Dconst_iterator
 DD11E2898E9FB8E4A9E79B
 DD4669DB402E11E3A29DA4266180AE0C
@@ -8432,7 +8431,6 @@ DSO_up_ref
 Dst.Thread
 Dst.YBegin
 DSVideoCaptureEngine
-DT4RxWnojEPREgIl3MJv
 DTLS_RECORD_LAYER_new
 DTLSv1_listen
 DumbSpatialHash2
@@ -9145,6 +9143,7 @@ ErrorWindow
 ErrOutOfRetries
 ESDHwith3DES
 ESDHwithRC2
+ESej88zIiKVSeX93E61o5Zgx
 ESessionCrypto
 ESGamePerfMonitor
 ESGamePerfMonitorDelayBeforeFirstReportInSeconds
@@ -9560,6 +9559,7 @@ FieldOfView
 Figueiredo
 FIGURE_WIDTH
 FiiiJOOWFF
+FIKbIBJlvJEu5fd3Mr
 FileAction
 FileButtonLabel
 FileChanged
@@ -12640,7 +12640,6 @@ ItemWasSet
 ItemWidget
 Iterations
 ITRedirect
-IuNeGq5eZfEYhXg7T2B8Nqydo5wK1FQSES
 IUpdateUIManager
 IUserDataStoreServiceBase
 IVRApplications_006
@@ -12671,9 +12670,7 @@ Jcircumflex
 JDJNJXJbJlJvJ
 JHJRJ\JfJpJxJ
 JHW4MembershipType
-JI8Z2vwlhNsOAhwfkM5M89ReRWNU4IAfhfjXABodD3L3GKTsz7X3UZdU1rJmQFhS
 JIIIIIIIKI
-JIPruVEhjGr
 JIRA_RIDE_1135
 JIRA_RIDE_192
 JIRA_RIDE_630
@@ -12827,12 +12824,15 @@ KeywordFilterType
 KfaO3j5BbG6ijHHxFy22YNNJwxKTT
 KfE9k0uDfE9k
 KFKPKXK`KhK
+KGaLdzqaEDyCm9tI9yX6ibWJHbFAnwYNdqpWqjfy
 KickByDatacenter_
 KiDszBCYB0gyp03Pc
 KillPtClicked
+KIOWQESBQZNR
 KKKKKKKKKK
 KKKKKKKKKKKK
 KKKKKKKKKKKKKKKKKKKKKK
+Knbzd5fJxq5UQoS5juGpgOQH91gYBVATPi7vLhgLMgkK4niIQQnuLCvs2f2Tfxgk
 KnownHeaders
 KnownPrefixIndex
 KodchiangUPC
@@ -13169,7 +13169,6 @@ LiveCoding
 LiveScript
 LiveThreadRef
 LivingRoom
-LkQWX7kJZEiV
 LLEo6Soxvx2
 LLLLLLLLLLLLLLLL]]]]]]]]]]]]]]]]]]]]
 LOAD_CERT_CTRL
@@ -13408,6 +13407,7 @@ LowQMaterialFS
 LowQMaterialWangFallbackFS
 LowQMaterialWangFS
 LowResolution
+LqInBGuIhIY0Dwi6A4r5rB7rR2gw
 Lslashsmall
 LSPManager
 LSPObservable
@@ -13485,7 +13485,6 @@ LuaDebuggerBreakOnError
 LuaDebuggerEnabled
 LuaDebuggerEnabledAtStartup
 LuaDialogCallbackSignal
-LuaDiscussions
 LuaDragDropped
 LuaDragEntered
 LuaDragger
@@ -14198,7 +14197,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAomSFk1u9Pq0yzXr37KDp5A1XHu8S
+MIICCgKCAgEAvDgrUP19fD4yuFdmpTKdX
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14471,7 +14470,6 @@ MQModelIndex
 MQStandardItem
 MQTableWidgetItem
 MQTreeWidgetItem
-Mr4hWJGaNO40E
 MRSMessageSize
 MRSTopicNameLength
 MRULocalFilesChanged
@@ -14793,6 +14791,7 @@ NextSelectionUp
 NextSpawnLocation
 NextTabPage
 NfXf`fhfzf
+NgS2fgyzg66z6SdvR
 NHVVariant
 NinjaMask.mesh
 NNNNNNNNNNNNNNNNNNNNNN
@@ -14948,6 +14947,7 @@ NVWorkspace
 NW4FileSystemDir
 NW4PenStyle
 NW4UserInputType
+NXEmViatdVZzp6q2m5EBFXTkigjCFiidqEDBhem1owZVuLb1Z9LqmYfXdVdvis1
 Oacutesmall
 OAEPEncryptionSET
 OAUTHBEARER
@@ -15252,6 +15252,7 @@ OriginalPosition
 OriginalSize
 OrIncrementCounterForOutputText
 OrProvinceName
+ORQ2pgH40bhZXTfIYkk6
 OS.Authentication.LuaLoginAndSignup4
 OscillateMotor
 Oscillator
@@ -16280,7 +16281,6 @@ PersistentEditor
 PersistentFifoComboBox
 PerThreadTimer
 PerThreadTimerTotal
-PgaLZs2Qfxi0
 PGSAlign2AxesCorrectionDamping
 PGSAlign2AxesPStageFrictionConstant
 PGSAlign2AxesVStageFrictionConstant
@@ -16519,11 +16519,9 @@ PKEY_USAGE_PERIOD
 PKIMessage
 PKIResponse
 PL_TeleportBackoffBaseMs
-PL_TeleportCounter
 PL_TeleportMaxBackoffMs
 PL_TeleportMaxElapsedTimeMs
 PL_TeleportPlaceLauncherExpBackoffRollout
-PL_TeleportPlaceLauncherStateCounter
 Place_Prims_PercDynamicAssemblies
 PlaceAction
 PlaceAfterLogin
@@ -17168,6 +17166,7 @@ PROXY_CERT_INFO_EXTENSION
 PROXY_POLICY
 ProxyAction
 PSPECIFIED
+Ptfg5i7u43CLo9AFNmWieGvdT
 PUBKEY_get0
 PUBKEY_set
 PublicationInfo
@@ -17214,8 +17213,10 @@ PushPixels
 PVAdornment
 PVInstance
 PVK_header
+PVo64hWkIj1nUKisa
 PxnhPiraCmahCilaKcpeLicyLidyLkclOgnjRruaSdnuSiiaVtsvAumaBpygEimrAilhPitrPavaJihtKusiLietMbraShkrOrmaSanaLtvaTktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
 PyJlf7IHZQpFHohBe
+PyzVJ0W7xCoxDKi
 QAbstractAnimation
 QAbstractButton
 QAbstractConcatenable
@@ -17242,7 +17243,6 @@ QAWNcgRdAzOKj8pi5wAlnsdoumgAtB1J7d
 QBoxLayout
 QButtonGroup
 QByteArray
-QcEQVp7Srp
 QChildEvent
 QClipboard
 QColorDialog
@@ -17739,7 +17739,6 @@ QItemDelegate
 QItemSelection
 QItemSelectionModel
 QItemSelectionRange
-QiyL73K4c2CTBK2
 QJsonArray
 QJsonDocument
 QJsonObject
@@ -18033,6 +18032,7 @@ QWheelEvent
 QWidgetAction
 QWidgetPluginGui
 QWidgetWindow
+Qxi1GyqjzJ8nPIJZV0rfrfhA9gOjVk4QI8nHPYYLRX3anKvOGRL9vIBqZTvDdLk3
 RadialBlurFS
 RagdollBallSocketConstraint
 RagdollDefaultTimerTenthSecond
@@ -19384,6 +19384,7 @@ RowsToRemove
 RowStretch
 RowVisibilityChanged
 RPCServers
+RR6HjSCnIa3H0pdZjsLFlA3QIgxvsOSC3M3vb2KUVI4t
 RRReceiptFail
 RRReceiptTotal
 RRRRRRRRzzzzzzzzzzzzzzzzzz
@@ -19463,6 +19464,7 @@ RunUpdateCycle.
 RVideoInternal
 RVideoMemLogging
 RVideoTrace
+RXNccAmb6RN56tnkAgdr4Vizgb2hb6i
 RxRlReport
 S_Key_dn.png
 SA_KPEAPEBV123
@@ -21194,7 +21196,6 @@ StringsInstanceCounters
 StringSyntax
 StringValue
 StringView
-Stroke.png
 StrokeWidth
 Studio.App
 Studio.App.
@@ -21472,6 +21473,7 @@ Studio.App.FBXMeshImporter.MeshHasNoVertices
 Studio.App.FBXMeshImporter.MeshHasTooManyTriangles2
 Studio.App.FBXMeshImporter.MultipleMeshes
 Studio.App.FBXMeshImporter.MultipleTextures
+Studio.App.FBXMeshImporter.UnexpectedFileType
 Studio.App.FBXRigBuilder.CantFindDataModel
 Studio.App.FBXRigBuilder.CantFindWorkspace
 Studio.App.FBXRigBuilder.CantFindWorkspaceLong
@@ -23105,6 +23107,7 @@ StudioLocalizeCommandLineErrors
 StudioLocalizeMeshImportErrors
 StudioLocalizePropertyItems
 StudioLocalizeUnauthorizedToConfigureGame
+StudioLocalizeUnexpectedFBXTypeError
 StudioLocalSaveMD5HashOutput
 StudioLocationType_Debugger
 StudioLocationType_DocType
@@ -23426,6 +23429,7 @@ StudioUserNotificationPath
 StudioUserNotificationReconnectTimerIncrementMs
 StudioUserNotificationTopSubdomain
 StudioUserPreferences
+StudioUseStudioAssert
 StudioUseStudioHttpRequestInUserDataStoreService
 StudioUtilities
 StudioVerbInvocation
@@ -23518,6 +23522,7 @@ SupportSkinnedMesh2
 SupportsPresent
 SupportSwitchingDefaultAudioDevice
 SupportYouTubeInAppDataModelIfRbxCdnAllowed
+SuQkCAwEAAQ
 SurfaceAction
 SurfaceAppearance
 SurfaceAppearance.
@@ -23590,7 +23595,6 @@ SwitchToFiber
 SwitchWindow
 Sword128.png
 SwordTexture.png
-SXfdfvsBD6bAF06A3nun5dfMg
 SXNET_add_id_asc
 SXNET_add_id_INTEGER
 SXNET_add_id_ulong
@@ -24832,7 +24836,6 @@ TSMk2ThrottleStreamJob
 TTTTTTTTTT
 TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
 TTUUEDDsss
-TuR1sYLJVBKrlpSPfoDPDVwuv0I2Bl
 TurboBuildersClub
 TurnOffAction
 TurnOnButtonClicked
@@ -24926,6 +24929,7 @@ UBlockGroup
 UBlockMore
 UBulkImporterJob
 UBulkIngestionInfo
+UbwplC1MRLL6lENJIam
 UCachedBitstream
 UCachedContent
 UCachedLuaWebServiceInfo
@@ -27023,7 +27027,6 @@ WaterWaveSpeed
 WaypointIdx
 WCharArray
 Wcircumflex
-WDNml4brSSPtYylwnohTJqnPmSoEkmYq
 WDU_Mbstatet
 WeakFunctionRef
 WeakThreadRef
@@ -27309,8 +27312,6 @@ WSAStartup
 WSAStringToAddressW
 WTHelperGetProvSignerFromChain
 WTHelperProvDataFromStateData
-WUSsw7toYd32H
-WWAwwCdRx6
 WWWWWWWWWW
 WWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWW
@@ -27344,7 +27345,6 @@ XAEBVQString
 XAEBVvalue
 XAEBVwebsocket_incoming_message
 XAlignment
-XayNCeDJWIiLYQgoJSXCZ4KBbNSILkd
 Xbad_alloc
 Xbad_function_call
 XbbXXbbXGSSGGSS
@@ -27372,7 +27372,6 @@ XInputGetCapabilities
 XInputGetState
 XInputSetState
 Xinvalid_argument
-XiyFampWrJytPlvBIkJCUC
 Xlength_error
 Xout_of_range
 XP6AXAEBUTextFilterResult
@@ -27400,6 +27399,7 @@ XQColorDialog
 Xregex_error
 XResolution
 Xtime_get_ticks
+XttvunYwaCmzFItUdp
 XUnegotiation_response
 XUNetworkResult
 XvAAuY44YuAAvX4
@@ -27542,14 +27542,12 @@ YieldEvent
 YieldFuncDesc
 YieldFunction
 YQByteArray
-YqulHX2qVaySpesE5p06grl
 YResolution
 YwBBvY55YvBBwY5
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
 Zcaronsmall
 Zdotaccent
-ZG18JgY7Yyts9tPcC58Fptiqhe4z28CAwEAAQ
 ZgnhKhWhci
 ZhniZzzzZbarAnmrAgneBlryCaveDroeGkerGrjuGuruGgnaHinaHrbeHariHadnKanaKooaLntaLmylMayrOlmaTuleTiahTtbiTopoBiarBsnaCrehCihtErmhKgnoMrmyMmagOrnuRhniScrySaahTiiiYtrsDhtoGlatIdhuBonaHglgTbgaTtrpCbmiLbniLamsOwahSelaTragUiguBtpoCgalGrahKulaToepXolySgnfTilaBxusXookNga
 ZIndexBehavior
