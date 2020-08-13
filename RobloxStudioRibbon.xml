@@ -312,9 +312,12 @@
         <addaction name="collisionGroupsEditorAction" type="plugin" style="textundericon" text="Studio.App.RobloxRibbonMainWindow.CollisionGroups" tooltip="Studio.App.RobloxRibbonMainWindow.EditCollisionGroups"/>
         <addaction name="executeScriptAction" style="textundericon" text="Studio.App.RobloxRibbonMainWindow.RunScript" icon=":/RibbonBar/images/RibbonIcons/Test/Run-Script.png" tooltip="Studio.App.RobloxRibbonMainWindow.ExecuteLuaCodeFromAFile" width="32" height="32" />
         <ActionGroup name="insertBasicObject" style="textbesideicon" ischeckable="false">
-          <addaction name="ScriptLargeAction" text="Script" value="Script" tooltip="Studio.App.RobloxRibbonMainWindow.InsertAScript" icon=":/RibbonBar/images/RibbonIcons/Insert/Script.png" width="32" height="32" />
-          <addaction name="LocalScriptLargeAction" text="LocalScript" value="LocalScript" tooltip="Studio.App.RobloxRibbonMainWindow.InsertALocalScript" icon=":/RibbonBar/images/RibbonIcons/Insert/LocalScript.png" width="32" height="32" />
-          <addaction name="ModuleScriptLargeAction" text="ModuleScript" value="ModuleScript" tooltip="Studio.App.RobloxRibbonMainWindow.InsertAModuleScript" icon=":/RibbonBar/images/RibbonIcons/Insert/ModuleScript.png" width="32" height="32" />
+          <addaction fflag="StudioAddingIconsToLocalAndServerScripts" name="ScriptLargeAction" text="Script" value="Script" tooltip="Studio.App.RobloxRibbonMainWindow.InsertAScript" icon=":/images/server_script.png" width="32" height="32" />
+          <addaction fflag="StudioAddingIconsToLocalAndServerScripts" name="LocalScriptLargeAction" text="LocalScript" value="LocalScript" tooltip="Studio.App.RobloxRibbonMainWindow.InsertALocalScript" icon=":/images/local_script.png" width="32" height="32" />
+          <addaction fflag="StudioAddingIconsToLocalAndServerScripts" name="ModuleScriptLargeAction" text="ModuleScript" value="ModuleScript" tooltip="Studio.App.RobloxRibbonMainWindow.InsertAModuleScript" icon=":/images/module_script.png" width="32" height="32" />
+          <addaction fflag="!StudioAddingIconsToLocalAndServerScripts" name="ScriptLargeAction" text="Script" value="Script" tooltip="Studio.App.RobloxRibbonMainWindow.InsertAScript" icon=":/RibbonBar/images/RibbonIcons/Insert/Script.png" width="32" height="32" />
+          <addaction fflag="!StudioAddingIconsToLocalAndServerScripts" name="LocalScriptLargeAction" text="LocalScript" value="LocalScript" tooltip="Studio.App.RobloxRibbonMainWindow.InsertALocalScript" icon=":/RibbonBar/images/RibbonIcons/Insert/LocalScript.png" width="32" height="32" />
+          <addaction fflag="!StudioAddingIconsToLocalAndServerScripts" name="ModuleScriptLargeAction" text="ModuleScript" value="ModuleScript" tooltip="Studio.App.RobloxRibbonMainWindow.InsertAModuleScript" icon=":/RibbonBar/images/RibbonIcons/Insert/ModuleScript.png" width="32" height="32" />
         </ActionGroup>
       </Group>
     </TabPage>

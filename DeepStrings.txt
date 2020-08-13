@@ -396,6 +396,7 @@ AEFA3AAED11E38B9D871882A8E559
 AesSettingsCipherMode
 AF1224888D11E18561866242201959
 Affiliation
+AfrNkw29bmarpAQpnLe9
 AfterBufferedHandling
 AfterDisconnectChecks
 AfterInsert
@@ -2003,7 +2004,6 @@ AVCylinder
 AVCylinderHandleAdornment
 AVCylinderMesh
 AVCylindricalConstraint
-AVd4ydpfG5kYYMfAxY0cVC
 AVDataModel
 AVDataModelJob
 AVDataModelMesh
@@ -4002,7 +4002,6 @@ AW4VRTouchpadMode
 AW4XAlignment
 AW4YAlignment
 AW4ZIndexBehavior
-Aw8CXl2sVKdpBMLk0
 AwardBadge
 AwardPoints
 AwareCompare
@@ -4038,7 +4037,6 @@ AXPEAVDataModel
 AXPEAVdtNavMesh
 AXPEAVselect_reactor
 AXPEBVPropertyDescriptor
-AxtuuvnIMEmj3Q61DfIHc2Zrlbix6E3jlz8YEQTQ7ZYzEk0ddC0vj
 AXVBinaryString
 AXVBrickColor
 AXVContentId
@@ -4692,7 +4690,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409979
+ByVersion_0.444.0.409983
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -5899,7 +5897,6 @@ CoFreeUnusedLibraries
 CoGetClassObject
 CoInitialize
 CoInitializeEx
-CoKGbxtiv7ab
 CollabEdit
 CollabEditVersionHistory
 CollabEditVersionHistoryEnabled
@@ -7051,7 +7048,6 @@ CustomSort
 CustomStatusAdded
 CustomStatusRemoved
 CustomToolButton
-CvLfh6c49LSM7saL4OFgsCAwEAAQ
 CWindowImpl
 CWindowImplBaseT
 CWindowImplRoot
@@ -9105,6 +9101,7 @@ EnvironmentDiffuseScale
 EnvironmentSpecularScale
 EnviroSpeed
 EoOoZoaozo
+EPf3Eh6cSPehdGx6FTxDH8UfSXcROtVzh8xIIVNdsUOkZENRr
 EphemeralCounter
 EphemeralCounterInfluxReportingEnabled
 EphemeralCounterInfluxReportingPriorityHundredthsPercent
@@ -9158,6 +9155,7 @@ ESGamePerfMonitorReportDetails
 ESGamePerfMonitorReportTimerInSeconds
 ESGamePerfMonitorUseRandomSelection
 Estrangelo
+ESYEUts7jt8pWnUqThtuBgGPojdrNMGhIxAURKI7pC
 ETCEffortLevel
 ETerrainReplicationUseLargerChunks
 EThrottleType
@@ -9405,6 +9403,7 @@ FA9E4BAAEC11E38B9D871882A8E559
 FAAEB11E38B9D871882A8E559
 FAAED11E38B9D871882A8E559
 FAAF011E38B9D871882A8E559
+FabNXmEN9avPXsMDL7DFA
 FaceAccessory
 FacebookShareUrl
 FaceCamera
@@ -11104,6 +11103,7 @@ GfxPartInvalidationLimitToTime2
 GGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GgVTVWDFKhkXpjemQMYGeAmBeFMwxNIvRVBH7ovwa5Iiwzk9OhLSqOdhPIc3gTH
 GIM_ShapeRetriever
 GImpactCollisionAlgorithm
 GImpactCompound
@@ -11235,6 +11235,7 @@ GridMaterialAction
 GridViewWithHeader
 GridViewWithHeader.pageNumber
 GripForward
+GrlW75RAQ04BhR269yAksCkEtmdlsvb6
 Group.average
 Group.average.toFixed
 Group.FrameAverage.toFixed
@@ -11600,7 +11601,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\DellBackupandRecovery
 HKEY_PERFORMANCE_DATA
 HKEY_PERFORMANCE_NLSTEXT
 HKEY_PERFORMANCE_TEXT
-HkopBapH9h8CzDSNBFtbFI8hpLGYmY9gBzjCym
 HMACGostR3411
 HomePageLoaded
 HopperPanel.png
@@ -12028,7 +12028,6 @@ IKCollisionsMode
 IkDragCollisionsMode
 IkDraggerAnchorMode
 IkDraggerSolveIterations
-IkgJvhiv17UMcA0pRXzDDVTmSnfa
 IllegalTeleport
 ILoggedInUser
 ILoginManager
@@ -12062,7 +12061,6 @@ ImageToClipboard
 ImageTransparency
 ImageWidth
 IMDIManagerHost
-IMhhljoAuZZhhAOe8fDUm70Uyc
 IMMEDIATE_PRIORITY
 ImmHandlerFixJapaneseAndKorean2
 Implementation
@@ -12688,6 +12686,7 @@ JIRA_RIDE_192
 JIRA_RIDE_630
 JIRA_RIDE_711_V2
 JIRA_RIDE_785
+JJIcNIPozuvTQmfWjwfUdxoW
 JJJBBB\\\xx
 JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
 JKLMNOPQRSTU
@@ -12762,7 +12761,6 @@ JsonFormat
 JSONObject
 JSONOverflowAbort
 JSONOverflowDepth
-JUGOU3i1AL2ohK7JPr1EZXWoMTOYj1e4d9eSTXHpnmgVlo21
 JUGroupRolesRequestRecord
 JumpAnimation
 JumpHeight
@@ -12846,11 +12844,9 @@ KKKKKKKKKKKKKKKKKKKKKK
 KnownHeaders
 KnownPrefixIndex
 KodchiangUPC
-KozrPuolZHvMLFplBPtq3qMBTa709f
 KPEAVICHull
 KPEIBX_K_KPEIAU_iobuf
 KSocialService
-Ktg4iMpXVHMCIqP1a
 KVScriptContext
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
 LabelArray
@@ -13112,6 +13108,7 @@ LevelItemCount
 LevelOfDetail
 LevelOfDetailSetting
 LevelQuality
+LFZqVsj87jmWCiyCHy3nWW0JZ5Qowu96W69tghsp
 Liberation
 LIBOVR_DLL_DIR
 LibsodiumDRG
@@ -13557,7 +13554,6 @@ LuauWatchdog
 LuaVersion
 LuaWebService
 LVvuOx39]O
-LZQazW3rrzjaR6
 M_NVWeakFunctionRef
 MacGamepadUseGCController
 MachineAddress
@@ -14211,7 +14207,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEA1Avfw9lVLilya
+MIICCgKCAgEAwS1C0BCBSgIprwZCf7RNNlEs3DlPL
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14474,6 +14470,7 @@ MovingNoPhysicsBase
 MovingPrimitives
 MovingPrimitivesCount
 MP8PartInstance
+MPBHSuMevR8hnyfvGh7v0HpWN63
 MpCehiHzreSzNTczkc9d
 MPEAVAdorn
 MpsRateLimit
@@ -14559,7 +14556,6 @@ MultTransposeMatrixf
 MusicalInstruments
 MutexLifetime
 MW4PartMaterial
-MxdbyG8IpHR5DHTQm
 MyModelsAction
 MyWatchTreeWidget
 NAEAVHttpResponse
@@ -14651,7 +14647,6 @@ NCONF_get_string
 NCONF_load
 NCONF_load_bio
 NCONF_load_fp
-NDjqGSInEf
 NdnuScpeLkclOiiaVruaSilaKgnjRicyLiraCidyLmahCanaLtvaTtsvApygErmaSusiLumaBavaJietMimrAbraSitrPilhPhkrOihtKktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTzzzZssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
 NE9F0uHE9F4uBE9F8u
 NearIntensity
@@ -14963,7 +14958,6 @@ NVWorkspace
 NW4FileSystemDir
 NW4PenStyle
 NW4UserInputType
-Nyhh0mZrP4kGjM2T8C4U
 Oacutesmall
 OAEPEncryptionSET
 OAUTHBEARER
@@ -16424,7 +16418,6 @@ PIN_CATEGORY_VIDEOPORT_VBI
 PingInterval
 PInitResData
 PirateHat.mesh
-PiRREvMAYSTC
 PitchShiftSoundEffect
 PIUnsignedTBE
 PivotEditor.rbxm
@@ -17256,6 +17249,7 @@ QAWNcgRdAzOKj8pi5wAlnsdoumgAtB1J7d
 QBoxLayout
 QButtonGroup
 QByteArray
+QCATms33ayi8
 QChildEvent
 QClipboard
 QColorDialog
@@ -17746,6 +17740,7 @@ QHBoxLayout
 QHeaderView
 QHostAddress
 QHoverEvent
+QhruheVVwN5FrHVLXw7c1m8LrjZSNPz
 QInputDialog
 QIntValidator
 QItemDelegate
@@ -19480,7 +19475,6 @@ RVideoInternal
 RVideoMemLogging
 RVideoTrace
 RxRlReport
-RY5peqIowPevCdUnjqhKD21RINQ8NlWJUCTOZxyC6a4Vu4
 S_Key_dn.png
 SA_KPEAPEBV123
 SA_KPEAPEBVfacet
@@ -22899,6 +22893,7 @@ StudioABTests
 StudioAccessToApisAllowed
 StudioActivateWindowOnTabClose
 StudioAddDistTypeToUserAgent
+StudioAddingIconsToLocalAndServerScripts
 StudioAddInstanceDefaultEditor
 StudioAddIsPackageAtTheEndOfRequestURL
 StudioAddMonetizationToGameSettings
@@ -25704,7 +25699,6 @@ UUID_UdriTagTables
 UUID_WMDRMTagTables
 Uunspecified
 UUntranslatedSourceContexts
-UuqStrANa4
 UUserAgreementData
 UUserIdResponseHandler
 UUUUUUUUUUUa
@@ -26454,7 +26448,6 @@ VLegacyCharacterAppearance
 VLegacyLock
 Vlength_error
 VLexUpdateObserver
-VLh3KUdAPncronmh8XnNbYYQ1
 VLineForce
 VLineHandleAdornment
 VLinkedSourceInstance
@@ -26921,6 +26914,7 @@ VValueBase
 Vvariable_value
 VVariablesItem
 VVariantRowData
+VVDh2mFSIgFuXBf5OgTvbSjA
 VVector2int16
 VVector3int16
 VVectorForce
@@ -26970,6 +26964,7 @@ VWorldRoot
 Vwspp_callback_client
 VWSUATAUAVAW
 VWXYZ[\]^_`a
+Vx4Ce9VAIE8PeC0uaXhQbre9fCPn13xnLf07jQFdPvurygoECAwEAAQ
 VXmlElement
 VYieldFunctions
 VYieldFunctionStateObject
@@ -27338,7 +27333,6 @@ WTHelperProvDataFromStateData
 WWWWWWWWWW
 WWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWW
-WyG3DO6lnVp
 X_JW4AssetType
 XA^A]A\_][
 XA_A]A\_^[
@@ -27396,7 +27390,9 @@ XInputGetCapabilities
 XInputGetState
 XInputSetState
 Xinvalid_argument
+XjPy6qOMQtrqGrf1slTHq7Db4Ln9CgfC4J1UbJUN9onKxlkxxOkPwEc0JpLCwr
 Xlength_error
+XOgxxLtJDTZ1wL
 Xout_of_range
 XP6AXAEBUTextFilterResult
 XP6AXAEBVQString
@@ -27419,6 +27415,7 @@ XPEAVFileSyncItem
 XPEAVICHull
 XPEAVQNetworkReply
 XPEAVRobloxScriptDiffDoc
+XprSfmzLx2
 XQColorDialog
 Xregex_error
 XResolution
@@ -27567,7 +27564,6 @@ YieldFunction
 YQByteArray
 YResolution
 YwBBvY55YvBBwY5
-YwDWtTX4YcCjqNgJxI9zRPaXDL3m1oFo2HuiO1uxITXK9Xzzh1
 YYYYYYYYYYYYYYYYYYYYYYYYY
 Z_KPEIBX_K_KPEIAU1
 Zcaronsmall
@@ -27588,5 +27584,7 @@ ZPEAVRBXMessageBox
 ZRZZZbZt[.[
 ZVspecial_equipped_signal
 ZVTouchedSignal
+ZWcfHCWwPMdKAoP
+ZX1OAtpRSYGh25EWJAk
 ZZZZZZZZZZZZZZZ
 ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
