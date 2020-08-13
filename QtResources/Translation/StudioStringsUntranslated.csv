@@ -586,6 +586,10 @@ Details: ""%1"""
 Studio.App.IdeDoc.Start,Roblox IDE Doc (Starting servers),Start,Start
 Studio.App.IdeDoc.StartServer,Roblox IDE Doc,Start Server,Start Server
 Studio.App.IdeDoc.StartServerAndPlayers,Roblox IDE Doc,Start Server and Players,Start Server and Players
+Studio.App.IdeDoc.StatusInitializing,Roblox IDE Doc,Initializing...,Initializing...
+Studio.App.IdeDoc.StatusLoading,Roblox IDE Doc,Loading test...,Loading test...
+Studio.App.IdeDoc.StatusSaving,Roblox IDE Doc,Saving world...,Saving world...
+Studio.App.IdeDoc.StatusSettingUp,Roblox IDE Doc,Setting up...,Setting up...
 Studio.App.IdeDoc.SuccessfullyDownloadedCopyTo1,Roblox IDE Doc,Successfully downloaded a copy to '%1',Successfully downloaded a copy to '%1'
 Studio.App.IdeDoc.TeamCreateSessionCancelledByUser,Roblox IDE Doc,Team Create session was cancelled by user,Team Create session was cancelled by user
 Studio.App.IdeDoc.TeamTest,Roblox IDE Doc,Team Test,Team Test
@@ -869,6 +873,7 @@ Studio.App.MyGamesPage.GroupGames,,Group Games,Group Games
 Studio.App.MyGamesPage.SharedWithMe,,Shared With Me,Shared With Me
 Studio.App.MyWatchTreeWidget.DeleteAll,,Delete All,Delete All
 Studio.App.MyWatchTreeWidget.DeleteWatch,,Delete Watch,Delete Watch
+Studio.App.OSVersionWarning.MacOS1010,,Beginning in October 2020 we will be discontinuing support for MacOS 10.10. Please upgrade to MacOS 10.11+ to continue to use Roblox Studio.,Beginning in October 2020 we will be discontinuing support for MacOS 10.10. Please upgrade to MacOS 10.11+ to continue to use Roblox Studio.
 Studio.App.OSVersionWarning.MacOS109,,Beginning in November 2019 we will be discontinuing support for MacOS 10.9. Please upgrade to MacOS 10.10+ to continue to use Roblox Studio.,Beginning in November 2019 we will be discontinuing support for MacOS 10.9. Please upgrade to MacOS 10.10+ to continue to use Roblox Studio.
 Studio.App.OnPublishDialog.BasicSettings,,Basic Settings,Basic Settings
 Studio.App.OnPublishDialog.Description,,Description:,Description:

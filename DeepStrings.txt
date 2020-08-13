@@ -393,6 +393,7 @@ AEF9EAAED11E38B9D871882A8E559
 AEF9FAAED11E38B9D871882A8E559
 AEFA2AAED11E38B9D871882A8E559
 AEFA3AAED11E38B9D871882A8E559
+AekgRyGiosYymoU1i9k2DgkCAwEAAQ
 AesSettingsCipherMode
 AF1224888D11E18561866242201959
 Affiliation
@@ -431,7 +432,6 @@ AHPEAU_iobuf
 AHPEAX1PEAPEAX
 AHW4DataStoreRequestType
 AHW4UserInputType
-AIHSdsKko0F
 Algorithms
 AliasRequestResult
 ALIGN_TYPE
@@ -806,6 +806,7 @@ AppStorageService
 AppsUseLightTheme
 AppVersion
 APSToggleClientServerFTUE
+AQbP39odEVNGjpfm9Nsg
 AQJsonArray
 AQJsonObject
 ArcadeStick
@@ -4017,7 +4018,6 @@ AXAEBVVariant
 AXAEBVVector2
 AXAEBVVector3
 AXAEBVwebsocket_incoming_message
-AxEN5O6gNWxvXOt3ZJgdCoVX0zBbOaiO9QLHVC5j
 AXHHHW4CellMaterial
 AXHHHW4WaterCellForce
 AXHVVector3
@@ -4106,6 +4106,7 @@ BackingAssetId
 BackpackItem
 BackParamA
 BackParamB
+BackPressureThrottling
 BackPressureThrottlingEnabled
 BackSurface
 BackSurfaceInput
@@ -4208,7 +4209,6 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBB
 BBCA91111E2B410EF351327957B
 BbEcJYG[I[NYVP\B]
 BBFA91111E2B410EF351327957B
-BbqtyAmUkfHeJYm3mcOUw2wlttF7K7ct5cKbhlHlJyq1Ae3B7FrSYEhCcwqtB
 BBxZ55ZxBBx[5D
 BC0A91111E2B410EF351327957B
 BC0DAEAAF011E38B9D871882A8E559
@@ -4233,7 +4233,6 @@ BCIDistributionTBS
 BConnection
 BCryptGenRandom
 BE20681180838E23F0DC6224
-BE3oGqt33pQrHg2lv6CEt6KI
 BE42889BE20681180838E23F0DC6224
 BEA91211E2B410EF351327957B
 BeforeConnected
@@ -4279,6 +4278,7 @@ BFLuaDraggersRoleSet
 BFontSizePadding
 BFSupportPluginDebuggingRoleSet
 BFTableOutputViewRoleSet
+BGarSK7hUQfAYvBpSaYe2U2UbJz0SS4y72wjvY9xu
 BgUpdateRedirectsDisable
 BgUpdateRedirectsHttpErrInfluxHundredthsPercentage
 BgUpdateRedirectsRejectInfluxHundredthsPercentage
@@ -4496,7 +4496,6 @@ BoxContainer
 BoxHandleAdornment
 BoxMappedMeshLODFix_v2
 BoxSelectCommand
-BOzKOkHPfwp
 BPEAUIUnknown
 BPuVfD9B`uOfD9BpuH
 BQByteArray
@@ -4584,10 +4583,9 @@ BrowserWindow
 BrowserWindowClosed
 BrowserWindowWillNavigate
 BrushStyle
-BsNKJx8mNeXsAVTg01Z3s8S6e
-BssB751UreV4Wh
 BtnBackground.png
 BtYovqVKoHMDMoDd0u9Mc5CIyRqyu0IGS99A0jeEXRj7aofQ
+BtzdSl5DrDszHtHUQZiaN
 BU_Simplex1to4
 BubbleChat
 BubbleChatEnabled
@@ -4674,6 +4672,7 @@ ButtonStyle
 ButtonText
 BuyDeveloperProduct
 BuyDeveloperProduct_AutoAccepted
+Bv9zXc51rtFWwA6Yq1Uhgmqg6qDk8GAdHzGMJpN3j
 BvBvBvBvBvBvBvBv
 BVCoordinateFrame
 BVQItemSelection
@@ -4695,7 +4694,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409961
+ByVersion_0.444.0.409977
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -7984,6 +7983,7 @@ DF42709311E28987EB530EBA4742
 DFbxAMatrix
 DFbxMatrix
 DfNfXfbftf
+DFVsd5L4XVWEMvIcI9ce
 DGHASH_ASM
 DgNg`ghgpgxg
 DgNgXgbglgvg
@@ -7999,6 +7999,7 @@ DH_new_method
 DHBasedMac
 DHParameters
 DHparams_print_fp
+DhRXQcfZoqDK2HeFimdV0IfUaiWJY
 DhufyEeFO7U33Tv7vk
 Diagnostic
 Diagnostics
@@ -8105,7 +8106,7 @@ DisableModelLodVulkan
 DisablePlayerOsPropertyReplication
 DisablePlugin
 DisableRotateGridVerb
-DisableRotateJointFromJoinToOutsiders
+DisableRotateJointFromJoinToOutsiders2
 DisableSignalrHundredthsPercentage
 DisableSignalrHundredthsPercentageWindows
 DisableSpecialShapeInMeshPart
@@ -9150,7 +9151,6 @@ ErrorWindow
 ErrOutOfRetries
 ESDHwith3DES
 ESDHwithRC2
-ESessionCrypto
 ESGamePerfMonitor
 ESGamePerfMonitorDelayBeforeFirstReportInSeconds
 ESGamePerfMonitorEnabled
@@ -9160,6 +9160,7 @@ ESGamePerfMonitorReportTimerInSeconds
 ESGamePerfMonitorUseRandomSelection
 Estrangelo
 ETCEffortLevel
+ETerrainReplicationUseLargerChunks
 EThrottleType
 EucrosiaUPC
 EulerAnglesXYZ
@@ -9277,7 +9278,6 @@ EVRConfig_ForceBob
 EVRConfig_ForceHalfInterlace
 EVRConfig_ForceScaling
 EVRConfig_ForceThrottle
-EwnXeBdjlgYz5xGcECJyDC2N2TWHYlIumTErK
 ExactMatch
 ExceptionAddress
 ExceptionCode
@@ -10339,7 +10339,6 @@ GCNotAlwaysMemory
 GCReducesQuota2
 GCReducesQuotaCriticalPercent
 GCReducesQuotaPercent
-GdnRhD3HAMWECAwEAAQ
 Gdotaccent
 GE_package.png
 GE_packagefolder.png
@@ -11602,6 +11601,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\DellBackupandRecovery
 HKEY_PERFORMANCE_DATA
 HKEY_PERFORMANCE_NLSTEXT
 HKEY_PERFORMANCE_TEXT
+HlhFrbdcyv4psJAUFCA1LbT3cEkUC0VW7
 HMACGostR3411
 HomePageLoaded
 HopperPanel.png
@@ -11728,6 +11728,7 @@ HttpInfluxClientExceptionStatusCode
 HttpInfluxDatabase
 HttpInfluxHundredthsPercentage
 HTTPLocalThrottledRequests
+HttpLocalThrottling
 HttpLogRedirects
 HttpManualRedirect
 HttpMarkExternalRequests
@@ -11814,6 +11815,7 @@ HttpServiceBetterUserAgent
 HttpServiceBlacklist
 HttpServiceErrorCapLimit
 HttpServiceErrorRateLimit
+HttpServiceFailed
 HttpServiceLogPluginDomains
 HttpServiceNeverCache
 HttpServicePermyriad
@@ -11828,6 +11830,8 @@ HttpServiceRatePassProbePass
 HttpServiceReportUrl
 HttpServiceReportUrlBlacklistedHundredthsPercentage
 HttpServiceReportUrlHundredthsPercentage
+HttpServiceResultMetrics
+HttpServiceSuccess
 HttpServiceTlsProbe
 HttpServiceTlsProbeInfluxHundrethsPercentage
 HttpServiceTransportError
@@ -12021,7 +12025,7 @@ IID_IVPVBIConfig
 IID_IVPVBINotify
 IID_IVPVBIObject
 IIMAEBVInstanceIdentifier
-IjfOVfVsvvTnIx
+IjjVOd3yyOnuhVhy
 IKCollisionsMode
 IkDragCollisionsMode
 IkDraggerAnchorMode
@@ -12502,6 +12506,7 @@ IRobloxDoc
 IRobloxDocManager
 IRobloxIDEDoc
 IRobloxMainWindow
+IRrmxjUbni728jfiNtv
 Is30FpsThrottleEnabled
 IsActivated
 IsActivatedWithExclusiveMouse
@@ -12687,7 +12692,6 @@ JIRA_RIDE_785
 JJJBBB\\\xx
 JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
 JKLMNOPQRSTU
-JN6yZFAnX6ZRwvXh
 JoinBlobInvalidateCountThresholdPercent
 JoinBlobInvalidateThresholdPercent
 JoinCommand
@@ -12833,12 +12837,15 @@ KeywordFilterType
 KfaO3j5BbG6ijHHxFy22YNNJwxKTT
 KfE9k0uDfE9k
 KFKPKXK`KhK
+KhSDRpHDFH
 KickByDatacenter_
 KiDszBCYB0gyp03Pc
 KillPtClicked
 KKKKKKKKKK
 KKKKKKKKKKKK
 KKKKKKKKKKKKKKKKKKKKKK
+KKv9UwrqkEEKgtAfklw
+KLgHyv8vacHg
 KnownHeaders
 KnownPrefixIndex
 KodchiangUPC
@@ -13306,6 +13313,8 @@ LocalSpaceAction
 LocalSpaceSetting
 LocalStorage
 LocalStorageService
+LocalThrottlingHundredthsPercentage
+LocalThrottlingPerDomainMetrics
 LocalThrottlingReportStatistics
 LocalToolEquipped
 LocalToolUnequipped
@@ -13413,7 +13422,6 @@ LowQMaterialFS
 LowQMaterialWangFallbackFS
 LowQMaterialWangFS
 LowResolution
-LpRjT84esGjSsw8W7bA9JordgfAirqauaAWFk3g8j8
 Lslashsmall
 LSPManager
 LSPObservable
@@ -13534,6 +13542,7 @@ LuauCheckRecursionLimit
 LuauEnableAsKeyword
 LuauExtraAccurateRobloxTypes
 LuauMagicFormat
+LuauNonstrictArgumentCounts
 LuauOsTimeUTC
 LuauParserEnableTypeGroup
 LuauParserNoFatArrow
@@ -13548,6 +13557,7 @@ LuauUseClassesForRobloxApi
 LuauWatchdog
 LuaVersion
 LuaWebService
+LvEXeOJSHV9ziwyZL8scOIwdJQhXoAf0nvToMMqD0
 LVvuOx39]O
 M_NVWeakFunctionRef
 MacGamepadUseGCController
@@ -14202,7 +14212,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEA1WrAVFHZG5yT7Zd7Syi4R8KhE
+MIICCgKCAgEAnZLfLp0uwZb3EmHw93Zh4K40i2ppc
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14640,7 +14650,6 @@ NCONF_get_string
 NCONF_load
 NCONF_load_bio
 NCONF_load_fp
-NDcdtd809Goj1rkmwnvA
 NdnuScpeLkclOiiaVruaSilaKgnjRicyLiraCidyLmahCanaLtvaTtsvApygErmaSusiLumaBavaJietMimrAbraSitrPilhPhkrOihtKktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTzzzZssaBbhgAlpuDablEnarGjohKdniSaniLjhaMinaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgn
 NE9F0uHE9F4uBE9F8u
 NearIntensity
@@ -14655,7 +14664,6 @@ NegateSelection
 NegativePart
 Negotiation
 NeighborSleepThresholdMult
-NEK2kPakKjnViqlst0A
 NETSCAPE_CERT_SEQUENCE
 NETSCAPE_SPKAC
 NETSCAPE_SPKI
@@ -14800,7 +14808,6 @@ NextTabPage
 NfXf`fhfzf
 NHVVariant
 NinjaMask.mesh
-NKXkZPW8409OTgyj
 NNNNNNNNNNNNNNNNNNNNNN
 NNNNNNNSSSSSSSSSSSSSSSSSSSSSS
 NNW4SizeMode
@@ -17702,7 +17709,6 @@ QEBAXPEAVFbxScene
 QEBAXPEAVQPainter
 QEBAXPEBDZZ
 QEBVQStyleOptionGraphicsItem
-QEI8Yvbi1xE5pSlWjgIpPSLSiL
 QElapsedTimer
 QEntityIconInternal
 QEntityIconLoaded
@@ -17782,6 +17788,7 @@ QNPPPPPPPPPPPPPPPPPPPNOP
 QObjectData
 QObjectShared
 QOgreWidget
+QOud4RWzneKqGQzkrNVF4W2sgLieSvTZ
 QPaintDevice
 QPainterPath
 QParallelAnimationGroup
@@ -17870,7 +17877,6 @@ Qt5WebKit.dll
 Qt5WebKitWidgets.dll
 Qt5Widgets.dll
 Qt5Xml.dll
-QT7ifIgXIMPgy7SHaZzHy2PDaAMe3
 QTableView
 QTableWidget
 QTableWidgetItem
@@ -18975,6 +18981,7 @@ RequestServerOutputSignal
 RequestServerStats
 RequestShowToolTip
 RequestStartPlayer_
+RequestStartTime
 RequestStreamAroundAsync
 RequestStreamAroundCompleteSignal
 RequestTeamCreateImmediateSave
@@ -19387,7 +19394,6 @@ RowsToRemove
 RowStretch
 RowVisibilityChanged
 RPCServers
-RrMUJHcDbGxnoSKADsO4Z5YHVFoVrrQxlebQrZf9evEMqprGqpFHdU
 RRReceiptFail
 RRReceiptTotal
 RRRRRRRRzzzzzzzzzzzzzzzzzz
@@ -20391,6 +20397,7 @@ ShowDevelopmentGui
 ShowDiffsAgainstBase
 ShowDiffsAgainstServer
 ShowedObsoleteOsWarning
+ShowedObsoleteOsWarningForVersion
 ShowFilterInput
 ShowFlashMessage
 ShowGameNotPublicDialog
@@ -21636,6 +21643,10 @@ Studio.App.IdeDoc.SavingServerPlaceFailed1
 Studio.App.IdeDoc.Server
 Studio.App.IdeDoc.SorryPublishedPlaceCannotBeLoaded1
 Studio.App.IdeDoc.StartServer
+Studio.App.IdeDoc.StatusInitializing
+Studio.App.IdeDoc.StatusLoading
+Studio.App.IdeDoc.StatusSaving
+Studio.App.IdeDoc.StatusSettingUp
 Studio.App.IdeDoc.SuccessfullyDownloadedCopyTo1
 Studio.App.IdeDoc.TeamCreateSessionCancelledByUser
 Studio.App.IdeDoc.TeamTest
@@ -23358,6 +23369,7 @@ StudioStringsUntranslated.csv
 StudioStyleGuideColor
 StudioStyleGuideModifier
 StudioSuccessCloseDialogInMs
+StudioSunsetMac1010
 StudioSurfaceErrorDetail
 StudioSwitchQNetworkToHttp
 StudioSyncPluginSource
@@ -23612,7 +23624,6 @@ SyncTimePosition
 SyntaxCategories
 Syserror_map
 SystemAddress
-SystemAddressIsPeerId2
 SystemButton
 SystemCursors
 SystemDefault
@@ -23882,7 +23893,6 @@ TerrainRaycastsRespectCollisionGroups
 TerrainRegion
 TerrainReplicationMaxMasks
 TerrainReplicationSendMasks
-TerrainReplicationUseLargerChunks
 TerrainSolid
 TerrainTightBoxes2
 TerrainTools
@@ -25319,6 +25329,7 @@ UntranslatedStringsHeader
 UntranslatedStringsHeaderAction
 Unull_deleter
 Unverified
+UOJKMjjx3CcJT3CvW7LiJ23ZyHpa5qnWPGkXxpTjYpf7gatzR1VHWjYdsAd
 Up_key.png
 Up_key_dn.png
 UPackageAssetData
@@ -25832,6 +25843,7 @@ VBufferD3D11
 VBufferedEmitter
 VBufferVulkan
 VBulkImportService
+VBy9uBhkijra8ugh22Op
 VCacheableContentProvider
 VCachedItem
 VCachedRecord
@@ -26240,7 +26252,6 @@ VHeartbeatTask
 VHeightfieldBuilder
 VHingeConstraint
 VHingeTool
-Vhn8NBSlTD5Er6aUdufJ4Nt8urbc4x0xoAuYN
 VHopperBin
 Vhttp_network_handler
 Vhttp_pipeline
@@ -26952,8 +26963,8 @@ VWXYZ[\]^_`a
 VXmlElement
 VYieldFunctions
 VYieldFunctionStateObject
-Vziaoo3a0MrfUzXrIXUHpfWqxi
 W_Key_dn.png
+Wa2bj4vyiszOAc
 WaistAccessory
 WaistBack_Att
 WaistBackAttachment
@@ -27543,6 +27554,7 @@ YffYZefYDNNDCOO
 YieldEvent
 YieldFuncDesc
 YieldFunction
+Yk7lvP6YFKeHhwUFWDLdqdKyuUrRQM
 YQByteArray
 YResolution
 YwBBvY55YvBBwY5
