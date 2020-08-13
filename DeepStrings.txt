@@ -396,7 +396,6 @@ AEFA3AAED11E38B9D871882A8E559
 AesSettingsCipherMode
 AF1224888D11E18561866242201959
 Affiliation
-AfrNkw29bmarpAQpnLe9
 AfterBufferedHandling
 AfterDisconnectChecks
 AfterInsert
@@ -4017,6 +4016,7 @@ AXAEBVVariant
 AXAEBVVector2
 AXAEBVVector3
 AXAEBVwebsocket_incoming_message
+AXEXo4L9i2LGaae4cAMFsLz6Ab8
 AXHHHW4CellMaterial
 AXHHHW4WaterCellForce
 AXHVVector3
@@ -4690,7 +4690,7 @@ BytesReceivedAndIgnoredPerSec
 BytesReceivedPerSec
 BytesRecvAndIgnored
 BytesWritten
-ByVersion_0.444.0.409983
+ByVersion_0.444.0.409987
 ByVersionForPlatform_
 C_specific_handler
 CA_NPEAVQObject
@@ -6880,6 +6880,7 @@ CtrlResistRightCollar
 CtrlResistRightElbow
 CtrlResistRightKnee
 CtrlSpineStiffness
+CtzhR6Bw0gtWDHz5Cu7UezR
 CubeFramebuffer
 CubeMipGen
 CullByDistanceToPOI
@@ -9101,7 +9102,6 @@ EnvironmentDiffuseScale
 EnvironmentSpecularScale
 EnviroSpeed
 EoOoZoaozo
-EPf3Eh6cSPehdGx6FTxDH8UfSXcROtVzh8xIIVNdsUOkZENRr
 EphemeralCounter
 EphemeralCounterInfluxReportingEnabled
 EphemeralCounterInfluxReportingPriorityHundredthsPercent
@@ -9155,7 +9155,6 @@ ESGamePerfMonitorReportDetails
 ESGamePerfMonitorReportTimerInSeconds
 ESGamePerfMonitorUseRandomSelection
 Estrangelo
-ESYEUts7jt8pWnUqThtuBgGPojdrNMGhIxAURKI7pC
 ETCEffortLevel
 ETerrainReplicationUseLargerChunks
 EThrottleType
@@ -9403,7 +9402,6 @@ FA9E4BAAEC11E38B9D871882A8E559
 FAAEB11E38B9D871882A8E559
 FAAED11E38B9D871882A8E559
 FAAF011E38B9D871882A8E559
-FabNXmEN9avPXsMDL7DFA
 FaceAccessory
 FacebookShareUrl
 FaceCamera
@@ -9996,6 +9994,7 @@ FoundItems
 FoundThread
 FpFramebuffer
 FpsVariance
+Fr5ZawvvQ979JKCGbd7KXiJwz
 Fractional
 Frame_.LogEnd[nLog]
 Frame_.LogStart[nLog]
@@ -10330,6 +10329,7 @@ GAThrottlingEventThresholdHundredthCat2
 GAThrottlingEventThresholdHundredthCat3
 GazeSelectionEnabled
 GCDistance
+GCDTHRQKE6sxBJD5fzQ1QicoXjrZWqf
 GCHappened
 Gcircumflex
 GCMinimumDeletionRateForNonZeroClientInstanceQuota
@@ -11103,7 +11103,6 @@ GfxPartInvalidationLimitToTime2
 GGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGG
 GGGGGGGGGGGGGGGGGGGGGGGGGGGGG
-GgVTVWDFKhkXpjemQMYGeAmBeFMwxNIvRVBH7ovwa5Iiwzk9OhLSqOdhPIc3gTH
 GIM_ShapeRetriever
 GImpactCollisionAlgorithm
 GImpactCompound
@@ -11235,7 +11234,6 @@ GridMaterialAction
 GridViewWithHeader
 GridViewWithHeader.pageNumber
 GripForward
-GrlW75RAQ04BhR269yAksCkEtmdlsvb6
 Group.average
 Group.average.toFixed
 Group.FrameAverage.toFixed
@@ -11361,6 +11359,7 @@ GuiVertices
 GunCursor.png
 GunWaitCursor.png
 GvEphfEUiHHoD6hYFI4xWGpAnIHcklKQCxrf46kAhDGeZnqIgeGszlGdWafunGE8
+GvFtwChrKx
 GVKUTS[BXIWH\KbHi
 GXGfGkGpGuG
 GxI9Gpu2E2
@@ -11656,6 +11655,7 @@ HQFSShadowed
 HQFSShadowedFSM
 HQVSShadowed
 HQVSShadowedFSM
+HR6zmygCA273RzdyTz9joDuez
 HtmlEscaped
 Http_Failed
 HTTPAccumulatedBytes
@@ -12686,7 +12686,6 @@ JIRA_RIDE_192
 JIRA_RIDE_630
 JIRA_RIDE_711_V2
 JIRA_RIDE_785
-JJIcNIPozuvTQmfWjwfUdxoW
 JJJBBB\\\xx
 JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
 JKLMNOPQRSTU
@@ -12762,6 +12761,7 @@ JSONObject
 JSONOverflowAbort
 JSONOverflowDepth
 JUGroupRolesRequestRecord
+JUJbZIrjXU7gQ1Q5ogbrb
 JumpAnimation
 JumpHeight
 JumpPowerInstantControllerMultiplierPercent
@@ -12783,6 +12783,7 @@ K_Key_dn.png
 KaiTi_GB2312
 KAXPEBDHAEAPEAVQChar
 KBytesPerSec
+KDm8zlVUuFHlSK6c1I
 KeepAliveTimeout
 KeepPositionOnInsert
 KERNEL32.dll
@@ -13108,7 +13109,6 @@ LevelItemCount
 LevelOfDetail
 LevelOfDetailSetting
 LevelQuality
-LFZqVsj87jmWCiyCHy3nWW0JZ5Qowu96W69tghsp
 Liberation
 LIBOVR_DLL_DIR
 LibsodiumDRG
@@ -13180,6 +13180,7 @@ LiveThreadRef
 LivingRoom
 LLEo6Soxvx2
 LLLLLLLLLLLLLLLL]]]]]]]]]]]]]]]]]]]]
+LmZ0oDSGzCK57uzZWmLHQ60q6rrr2b
 LOAD_CERT_CTRL
 LoadAnimation
 LoadAssetVersion
@@ -14207,7 +14208,7 @@ MigrateTriangleMeshData3
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsI9zRp2OSccqdFx2
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupANB3EbN9hFHHUj0eA
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjPRQo9jc
-MIICCgKCAgEAwS1C0BCBSgIprwZCf7RNNlEs3DlPL
+MIICCgKCAgEAvKa1g74Q
 Millisecond
 MillisecondsBeforeHandlingReconnect
 MimeDataFromSelection
@@ -14470,7 +14471,6 @@ MovingNoPhysicsBase
 MovingPrimitives
 MovingPrimitivesCount
 MP8PartInstance
-MPBHSuMevR8hnyfvGh7v0HpWN63
 MpCehiHzreSzNTczkc9d
 MPEAVAdorn
 MpsRateLimit
@@ -14805,6 +14805,7 @@ NextTabPage
 NfXf`fhfzf
 NHVVariant
 NinjaMask.mesh
+NmarlLFX3kokp7uEn04YImTZLBVF06KmeKkRmrwwjmIEkEAYlOPh0CAwEAAQ
 NNNNNNNNNNNNNNNNNNNNNN
 NNNNNNNSSSSSSSSSSSSSSSSSSSSSS
 NNW4SizeMode
@@ -17249,7 +17250,6 @@ QAWNcgRdAzOKj8pi5wAlnsdoumgAtB1J7d
 QBoxLayout
 QButtonGroup
 QByteArray
-QCATms33ayi8
 QChildEvent
 QClipboard
 QColorDialog
@@ -17740,7 +17740,6 @@ QHBoxLayout
 QHeaderView
 QHostAddress
 QHoverEvent
-QhruheVVwN5FrHVLXw7c1m8LrjZSNPz
 QInputDialog
 QIntValidator
 QItemDelegate
@@ -17770,6 +17769,7 @@ Qml2Imports
 QModelIndex
 QMouseEvent
 QMutexLocker
+QN5sAc6UtRpNwRdU
 QNetworkAccessManager
 QNetworkAddressEntry
 QNetworkCookie
@@ -18024,6 +18024,7 @@ QuitDialog
 QUnhandledException
 QuotedDouble
 QUrlTwoFlags
+Qv49FueujweYjzSpuKacJetFEUwsRq0scY9k4M0YMqGpVjSGttJ
 QValidator
 QVariantAnimation
 QVBoxLayout
@@ -18040,6 +18041,7 @@ QWheelEvent
 QWidgetAction
 QWidgetPluginGui
 QWidgetWindow
+RA07mTGmSjpfokKEZirRlvxJ2Lj7W9l2m0dHYQUaKmNGsRu2XnYGCQn
 RadialBlurFS
 RagdollBallSocketConstraint
 RagdollDefaultTimerTenthSecond
@@ -18708,6 +18710,7 @@ RenderPriority
 RenderQualitySetting
 RenderQueue
 RenderRequest
+RenderSanityCheckInstancedCluster2
 RenderSceneUpdaterRefactor1
 RenderScheduler
 RenderScreenshotFB
@@ -21092,6 +21095,7 @@ StopPlayersTraverseForPhysics
 StopRecording
 StopRenderingForBackgroundMode
 StopRestreamInstancesWithoutParent
+StopRoundingGlyphRect
 StopStudioSingletons
 StopSupportingUnsupportedVariants
 StopTextScraper
@@ -24850,6 +24854,7 @@ TS_TST_INFO_set_time
 TS_TST_INFO_set_tsa
 TS_VERIFY_CTX_new
 TSMk2ThrottleStreamJob
+TtR0XicTOuPdc8kSdXt
 TTTTTTTTTT
 TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
 TTUUEDDsss
@@ -24892,6 +24897,7 @@ TwoStepVerificationWidgetShown
 TxtArray.length
 TxtArray[j]
 TXtComment
+TYc0lNr6DAf
 TypeArray.length
 TypeArray.push
 TypeArray[glob
@@ -24946,6 +24952,7 @@ UBlockGroup
 UBlockMore
 UBulkImporterJob
 UBulkIngestionInfo
+UbZdN87XMvANjvcNXRZ2ngFumy0Z3R0DVMzZ5GMOXOdPrkF
 UCachedBitstream
 UCachedContent
 UCachedLuaWebServiceInfo
@@ -26914,7 +26921,6 @@ VValueBase
 Vvariable_value
 VVariablesItem
 VVariantRowData
-VVDh2mFSIgFuXBf5OgTvbSjA
 VVector2int16
 VVector3int16
 VVectorForce
@@ -26964,7 +26970,6 @@ VWorldRoot
 Vwspp_callback_client
 VWSUATAUAVAW
 VWXYZ[\]^_`a
-Vx4Ce9VAIE8PeC0uaXhQbre9fCPn13xnLf07jQFdPvurygoECAwEAAQ
 VXmlElement
 VYieldFunctions
 VYieldFunctionStateObject
@@ -27390,9 +27395,7 @@ XInputGetCapabilities
 XInputGetState
 XInputSetState
 Xinvalid_argument
-XjPy6qOMQtrqGrf1slTHq7Db4Ln9CgfC4J1UbJUN9onKxlkxxOkPwEc0JpLCwr
 Xlength_error
-XOgxxLtJDTZ1wL
 Xout_of_range
 XP6AXAEBUTextFilterResult
 XP6AXAEBVQString
@@ -27415,7 +27418,6 @@ XPEAVFileSyncItem
 XPEAVICHull
 XPEAVQNetworkReply
 XPEAVRobloxScriptDiffDoc
-XprSfmzLx2
 XQColorDialog
 Xregex_error
 XResolution
@@ -27542,6 +27544,7 @@ YAPEAVQObject
 YAPEAVsgCGroup
 YAPEAVsgCObject
 YAPEBXPEBVsgCObject
+YapFjZeR0yeVl8GrvX84E0YJqnRKrE
 YAXAEBVerror_code
 YAXP6APEAX_K
 YAXP6APEAX_K0
@@ -27584,7 +27587,6 @@ ZPEAVRBXMessageBox
 ZRZZZbZt[.[
 ZVspecial_equipped_signal
 ZVTouchedSignal
-ZWcfHCWwPMdKAoP
-ZX1OAtpRSYGh25EWJAk
+ZYVrdw98j6pnTgVV4fwLOP20bp0z92
 ZZZZZZZZZZZZZZZ
 ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
